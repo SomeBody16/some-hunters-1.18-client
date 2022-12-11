@@ -15,7 +15,7 @@
         {
           "type": "patchouli:crafting",
           "recipe": "the_vault:vault_rock",
-          "text": "Combine $(l)Chipped Vault Rocks$() together with $(l)Raw Chromatic Iron$() in a Crafting Table to obtain a $(l)Vault Rock$()"
+          "text": "Combine $(l)Chipped Vault Rocks$() together with $(l)Chromatic Iron$() in a Crafting Table to obtain a $(l)Vault Rock$()"
         }
     ]
 
