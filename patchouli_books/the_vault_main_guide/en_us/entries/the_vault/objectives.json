@@ -9,6 +9,14 @@
           "type": "patchouli:text",
           "text": "Blank Vault Crystals can roll several objectives of the Vault. Apply a seal to force the objective of a Vault. New objectives may be added on later."
         },
+
+        {
+          "type": "patchouli:spotlight",
+          "item": "the_vault:monolith",
+          "title": "Monolith Vault",
+          "text": "Light the required $(l)Monoliths$(). $(br2)Once all have been lit, exit the vault through the portal to complete the objective. $(br2)This objective appears commonly below Vault Level $(l)10$() $(br2)A $(l)Monolith Crate$() is rewarded when this Vault is succesfully completed."
+        },
+
         {
           "type": "patchouli:spotlight",
           "item": "the_vault:crystal_seal_executioner",

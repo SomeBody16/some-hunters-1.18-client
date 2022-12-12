@@ -35,7 +35,9 @@
     ],
     "Mekanism QIO": [
       {"value": {"id": "mekanism:pellet_polonium", "amountMin": 1, "amountMax": 1}, "weight": 3},
-      {"value": {"id": "mekanism:lead_ingot", "amountMin": 8, "amountMax": 32}, "weight": 30}
+      {"value": {"id": "mekanism:lead_ingot", "amountMin": 8, "amountMax": 32}, "weight": 30},
+      {"value": {"id": "mekanism:qio_drive_base", "amountMin": 1, "amountMax": 1}, "weight": 2},
+      {"value": {"id": "mekanism:qio_drive_array", "amountMin": 1, "amountMax": 1}, "weight": 1}
     ],
     "Refined Storage": [
       {"value": {"id": "refinedstorage:1k_storage_disk", "amountMin": 1, "amountMax": 1}, "weight": 100},
@@ -174,9 +176,7 @@
       {"value": {"id": "mekanism:basic_energy_cube", "amountMin": 1, "amountMax": 1}, "weight": 8},
       {"value": {"id": "mekanism:advanced_energy_cube", "amountMin": 1, "amountMax": 1}, "weight": 2},
       {"value": {"id": "mekanism:basic_universal_cable", "amountMin": 16, "amountMax": 32}, "weight": 10},
-      {"value": {"id": "mekanism:advanced_universal_cable", "amountMin": 16, "amountMax": 32}, "weight": 6},
-      {"value": {"id": "mekanism:qio_drive_base", "amountMin": 1, "amountMax": 1}, "weight": 2},
-      {"value": {"id": "mekanism:qio_drive_array", "amountMin": 1, "amountMax": 1}, "weight": 1}
+      {"value": {"id": "mekanism:advanced_universal_cable", "amountMin": 16, "amountMax": 32}, "weight": 6}
     ],
     "Botania": [
       {"value": {"id": "botania:manasteel_ingot", "amountMin": 2, "amountMax": 8}, "weight": 24},

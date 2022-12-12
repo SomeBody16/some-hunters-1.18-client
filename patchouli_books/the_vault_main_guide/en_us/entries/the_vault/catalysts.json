@@ -14,7 +14,7 @@
         {
           "type": "patchouli:crafting",
           "recipe": "the_vault:catalyst_infusion_table",
-          "text": "Before you can apply a Catalyst to a Crystal, it needs to be infused. Place Catalysts inside a $(l)Catalyst Infusion Table$() together with $(l)Mystical Powder$() and the Catalyst automatically gets infused with a random set of modifiers."
+          "text": "Before you can apply a Catalyst to a Crystal, it needs to be infused. Place Catalysts inside a $(l)Catalyst Infusion Table$() together with $(l)Mystical Essence$() and the Catalyst automatically gets infused with a random set of modifiers."
         },
         {
           "type": "patchouli:text",
