@@ -1,9 +1,6 @@
 
-#General settings
 [general]
-	#Range: > 0
 	modpackProjectID = 0
 	modpackName = "Some Vault Hunters"
-	modpackVersion = "alpha-0.0.3-1"
+	modpackVersion = "4.0"
 	useMetadata = false
-
