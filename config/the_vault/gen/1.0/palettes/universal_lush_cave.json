@@ -292,8 +292,7 @@
             "target": "minecraft:oak_trapdoor",
             "output": {
                 "mcwtrpdoors:oak_cottage_trapdoor": 40,
-                "everycomp:mct/twigs/bamboo_cottage_trapdoor": 40,
-                "everycomp:mct/twigs/bamboo_barred_trapdoor": 20
+                "twigs:stripped_bamboo_trapdoor": 60
             }
         },
         {

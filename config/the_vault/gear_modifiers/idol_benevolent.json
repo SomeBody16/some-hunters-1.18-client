@@ -1,24 +1,68 @@
 {
   "modifierGroup": {
     "IMPLICIT": [
-      { "attribute": "the_vault:effect_immunity",
-          "group": "BaseImmunity",
-          "identifier": "the_vault:base_immunity",
+      { "attribute": "the_vault:velara_affinity",
+          "group": "BaseAffinity",
+          "identifier": "the_vault:base_affinity",
           "tiers": [
             {
               "minLevel": 0,
               "maxLevel": -1,
               "weight": 10,
               "value": {
-                "registryKey": "minecraft:hunger"
+                "min": 0.01,
+                "max": 0.05,
+                "step": 0.01
               }
             },
             {
-              "minLevel": 0,
+              "minLevel": 21,
               "maxLevel": -1,
               "weight": 10,
               "value": {
-                "registryKey": "minecraft:poison"
+                "min": 0.06,
+                "max": 0.1,
+                "step": 0.01
+              }
+            },
+            {
+              "minLevel": 43,
+              "maxLevel": -1,
+              "weight": 10,
+              "value": {
+                "min": 0.11,
+                "max": 0.15,
+                "step": 0.01
+              }
+            },
+            {
+              "minLevel": 66,
+              "maxLevel": -1,
+              "weight": 10,
+              "value": {
+                "min": 0.16,
+                "max": 0.2,
+                "step": 0.01
+              }
+            },
+            {
+              "minLevel": 85,
+              "maxLevel": -1,
+              "weight": 10,
+              "value": {
+                "min": 0.21,
+                "max": 0.25,
+                "step": 0.01
+              }
+            },
+            {
+              "minLevel": 100,
+              "maxLevel": -1,
+              "weight": 10,
+              "value": {
+                "min": 0.26,
+                "max": 0.35,
+                "step": 0.01
               }
             }
           ]
@@ -1368,6 +1412,68 @@
           
           
         ]
+      },
+      { "attribute": "the_vault:effect_immunity",
+          "group": "modImmunity",
+          "identifier": "the_vault:mod_immunity",
+          "tiers": [
+            {
+              "minLevel": 0,
+              "maxLevel": -1,
+              "weight": 10,
+              "value": {
+                "registryKey": "minecraft:weakness"
+              }
+            },
+            {
+              "minLevel": 0,
+              "maxLevel": -1,
+              "weight": 10,
+              "value": {
+                "registryKey": "minecraft:wither"
+              }
+            },
+            {
+              "minLevel": 0,
+              "maxLevel": -1,
+              "weight": 10,
+              "value": {
+                "registryKey": "minecraft:hunger"
+              }
+            },
+            {
+              "minLevel": 0,
+              "maxLevel": -1,
+              "weight": 10,
+              "value": {
+                "registryKey": "minecraft:slowness"
+              }
+            },
+            {
+              "minLevel": 0,
+              "maxLevel": -1,
+              "weight": 10,
+              "value": {
+                "registryKey": "minecraft:mining_fatigue"
+              }
+            },
+            {
+              "minLevel": 0,
+              "maxLevel": -1,
+              "weight": 10,
+              "value": {
+                "registryKey": "minecraft:poison"
+              }
+            },
+            {
+              "minLevel": 0,
+              "maxLevel": -1,
+              "weight": 2,
+              "value": {
+                "registryKey": "the_vault:time_acceleration"
+              }
+            }
+          ]
       }
     ]
   }

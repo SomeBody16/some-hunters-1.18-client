@@ -5,7 +5,7 @@ for Iskall85's Vaulthunters */
 
 <recipetype:create:crushing>.addRecipe("crushed_vaultstone_to_rock", [<item:the_vault:chipped_vault_rock> % 50, <item:the_vault:vault_cobblestone>], <item:the_vault:vault_stone>, 350);
 
-<recipetype:create:crushing>.addRecipe("chromatic_ore_to_dust", [<item:the_vault:chromatic_iron_dust> *2], <item:the_vault:chromatic_iron_ore>, 350);
+<recipetype:create:crushing>.addRecipe("chromatic_ore_to_dust", [<item:the_vault:chromatic_iron_dust> *2], <item:the_vault:raw_chromatic_iron>, 350);
 <recipetype:create:crushing>.addRecipe("raw_chromatic_ore_to_dust", [<item:the_vault:chromatic_iron_dust> *9], <item:the_vault:raw_chromatic_iron_block>, 2350);
 
 <recipetype:create:cutting>.addRecipe("crushed", [<item:create:shaft> *2],
@@ -123,9 +123,9 @@ craftingTable.addShaped("create_smart_chute", <item:create:smart_chute>, [
 ]);
 
 craftingTable.addShaped("create_waterwheel", <item:create:water_wheel>, [
-    [<item:the_vault:vault_diamond>, <item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:vault_diamond>],
-    [<item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:infinite_water_bucket>, <item:the_vault:black_chromatic_steel_ingot>],
-    [<item:the_vault:vault_diamond>, <item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:vault_diamond>]
+    [<item:the_vault:driftwood>, <item:the_vault:driftwood>, <item:the_vault:driftwood>],
+    [<item:the_vault:chromatic_steel_ingot>, <item:minecraft:water_bucket>, <item:the_vault:chromatic_steel_ingot>],
+    [<item:the_vault:driftwood>, <item:the_vault:driftwood>, <item:the_vault:driftwood>]
 ]);
 
 craftingTable.addShaped("create_basin", <item:create:basin>, [
@@ -214,10 +214,10 @@ craftingTable.addShaped("create_steam_engine", <item:create:steam_engine>, [
     [<item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:gem_pog>, <item:the_vault:black_chromatic_steel_ingot>]
 ]);
 
-craftingTable.addShaped("create_vault", <item:create:item_vault>, [
-    [<item:minecraft:air>, <item:the_vault:perfect_larimar>, <item:minecraft:air>],
-    [<item:create:iron_sheet>, <item:minecraft:barrel>, <item:create:iron_sheet>],
-    [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:chromatic_steel_ingot>, <item:the_vault:chromatic_steel_ingot>]
+craftingTable.addShaped("create_vault", <item:create:item_vault> *3, [
+    [<item:the_vault:vault_essence>, <item:the_vault:chromatic_steel_ingot>, <item:the_vault:vault_essence>],
+    [<item:the_vault:chromatic_steel_ingot>, <item:create:andesite_casing>, <item:the_vault:chromatic_steel_ingot>],
+    [<item:the_vault:vault_essence>, <item:the_vault:chromatic_steel_ingot>, <item:the_vault:vault_essence>]
 ]);
 
 <recipetype:create:mixing>.addRecipe("mixing_healing_potion", <constant:create:heat_condition:heated>, [<fluid:create:potion>.withTag({Potion: "minecraft:healing", Bottle:"REGULAR"}) *1000], [
@@ -225,3 +225,23 @@ craftingTable.addShaped("create_vault", <item:create:item_vault>, [
 
 <recipetype:create:mixing>.addRecipe("mixing_healing_potion_2", <constant:create:heat_condition:heated>, [<fluid:create:potion>.withTag({Potion: "minecraft:strong_healing", Bottle:"REGULAR"}) *1000], [
     <item:minecraft:glowstone_dust>,], [<fluid:create:potion>.withTag({Potion: "minecraft:healing", Bottle:"REGULAR"}) *1000], 100);
+
+craftingTable.addShapeless("create_veridium_shapeless", <item:create:veridium> *2, [
+    <item:create:copper_nugget>, <item:minecraft:warped_planks>, <item:minecraft:cobbled_deepslate>,
+]);
+ 
+craftingTable.addShapeless("create_crimsite_shapeless", <item:create:crimsite> *2, [
+    <item:minecraft:iron_nugget>, <item:minecraft:crimson_planks>, <item:minecraft:cobbled_deepslate>,
+]);
+ 
+craftingTable.addShapeless("create_ochrum_shapeless", <item:create:ochrum> *2, [
+    <item:minecraft:gold_nugget>, <item:ecologics:coconut_planks>, <item:minecraft:cobbled_deepslate>,
+]);
+ 
+craftingTable.addShapeless("create_asurine_shapeless", <item:create:asurine> *2, [
+    <item:create:zinc_nugget>, <item:architects_palette:twisted_planks>, <item:minecraft:cobbled_deepslate>,
+]);
+ 
+craftingTable.addShapeless("create_limestone_shapeless", <item:create:limestone> *2, [
+    <item:architects_palette:algal_blend>, <item:minecraft:birch_planks>, <item:minecraft:stone>,
+]);

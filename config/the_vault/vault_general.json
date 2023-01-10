@@ -20,6 +20,7 @@
 	  "minecraft:dark_oak_boat",
 	  "minecraft:egg",
 	  "minecraft:turtle_egg",
+	  "supplementaries:slingshot",
 	  "byg:aspen_boat",
 	  "modularrouters:*",
 	  "fluxnetworks:*",
@@ -128,11 +129,17 @@
 	  "refinedstorage:portable_grid",
 	  "cfm:*_mail_box",
 	  "cfm:post_box",
-	  "the_vault:bounty_block"
+	  "the_vault:bounty_block",
+	  "dummmmmmy:target_dummy_placer",
+      "easy_piglins:piglin",
+	  "minecraft:ender_pearl"
 	],
 	"BLOCK_BLACKLIST": [
 	  "refinedstorage:portable_grid",
 	  "darkutils:vector_plate",
+	  "ae2:*",
+	  "dummmmmmy:target_dummy_placer",
+	  "refinedstorage:*",
 	  "rftoolsbuilder:*",
 	  "cfm:*_mail_box",
 	  "cfm:post_box",
@@ -253,7 +260,8 @@
 	  "rftoolsstorage:dimensional_tablet",
 	  "mekanism:portable_qio_dashboard",
 	  "mekanism:quantum_entangloporter",
-	  "the_vault:bounty_block"
+	  "the_vault:bounty_block",
+	  "dummmmmmy:target_dummy_placer"
 	],
 	"VAULT_EXIT_TNL_MIN": 0.5,
 	"VAULT_EXIT_TNL_MAX": 1.0,

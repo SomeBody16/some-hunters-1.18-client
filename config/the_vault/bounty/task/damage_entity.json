@@ -3,6 +3,7 @@
     "0": {
       "pool": [
         {
+          "rewardPool": "common",
           "value": {
             "value": "minecraft:skeleton",
             "amount": {
@@ -18,6 +19,7 @@
           "weight": 3
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "minecraft:zombie",
             "amount": {
@@ -33,6 +35,7 @@
           "weight": 3
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "minecraft:creeper",
             "amount": {
@@ -53,6 +56,7 @@
     "20": {
       "pool": [
         {
+          "rewardPool": "common",
           "value": {
             "value": "minecraft:skeleton",
             "amount": {
@@ -68,6 +72,7 @@
           "weight": 3
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "minecraft:zombie",
             "amount": {
@@ -83,6 +88,7 @@
           "weight": 3
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "minecraft:creeper",
             "amount": {
@@ -103,6 +109,7 @@
     "10": {
       "pool": [
         {
+          "rewardPool": "common",
           "value": {
             "value": "minecraft:skeleton",
             "amount": {
@@ -118,6 +125,7 @@
           "weight": 3
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "minecraft:zombie",
             "amount": {
@@ -133,6 +141,7 @@
           "weight": 3
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "minecraft:creeper",
             "amount": {

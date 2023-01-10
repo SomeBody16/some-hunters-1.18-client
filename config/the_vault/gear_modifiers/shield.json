@@ -637,7 +637,7 @@
           {
             "minLevel": 45,
             "maxLevel": -1,
-            "weight": 10,
+            "weight": 100,
             "value": {
               "effectKey": "minecraft:poison",
               "minChance": 0.35,
@@ -648,11 +648,11 @@
           {
             "minLevel": 101,
             "maxLevel": -1,
-            "weight": 10,
+            "weight": 100,
             "value": {
               "effectKey": "minecraft:poison",
               "minChance": 0.66,
-              "maxChance": 0.1,
+              "maxChance": 1.0,
               "step": 0.01
             }
           }
@@ -665,7 +665,7 @@
           {
             "minLevel": 45,
             "maxLevel": -1,
-            "weight": 10,
+            "weight": 100,
             "value": {
               "effectKey": "minecraft:wither",
               "minChance": 0.35,
@@ -676,11 +676,11 @@
           {
             "minLevel": 101,
             "maxLevel": -1,
-            "weight": 10,
+            "weight": 100,
             "value": {
               "effectKey": "minecraft:wither",
               "minChance": 0.66,
-              "maxChance": 0.1,
+              "maxChance": 1.0,
               "step": 0.01
             }
           }
@@ -693,7 +693,7 @@
           {
             "minLevel": 45,
             "maxLevel": -1,
-            "weight": 10,
+            "weight": 100,
             "value": {
               "effectKey": "minecraft:slowness",
               "minChance": 0.35,
@@ -704,11 +704,11 @@
           {
             "minLevel": 101,
             "maxLevel": -1,
-            "weight": 10,
+            "weight": 100,
             "value": {
               "effectKey": "minecraft:slowness",
               "minChance": 0.66,
-              "maxChance": 0.1,
+              "maxChance": 1.0,
               "step": 0.01
             }
           }

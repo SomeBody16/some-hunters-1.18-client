@@ -12,7 +12,7 @@
         },
         {
           "type": "patchouli:text",
-          "text": "Vault Trinkets are recycled for $(l)Trinket Scrap$() that can be used to create new Trinkets in the $(l)Vault Forge$(). $(br2)Recycling Vault Gear will reward pieces of $(l)Vault Scrap$() are rewarded together with a chance for any $(l)Focus$() and an additional chance for a $(l)Painite Ingot.$()$(br2)If the Trinket or Vault Gear has been used, it will result in less rewards when recycled."
+          "text": "Vault Trinkets are recycled for $(l)Trinket Scrap$() that can be used to create new Trinkets in the $(l)Vault Forge$(). $(br2)Recycling Vault Gear will reward pieces of $(l)Vault Scrap$() are rewarded together with a chance for any $(l)Focus$() and an additional chance for a $(l)Painite Gem.$()$(br2)If the Trinket or Vault Gear has been used, it will result in less rewards when recycled."
         }
 
 

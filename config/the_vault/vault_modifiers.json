@@ -31,7 +31,7 @@
     "the_vault:modifier_type/chance_chest_trap": {
       "the_vault:looters_dream": {
         "properties": {
-          "chance": 0.0
+          "chance": -100.0
         },
         "display": {
           "name": "Looter's Dream",
@@ -42,7 +42,7 @@
       },
       "the_vault:trapped": {
         "properties": {
-          "chance": 1.1
+          "chance": 0.1
         },
         "display": {
           "name": "Trapped",
@@ -54,7 +54,7 @@
       },
       "the_vault:minefield": {
         "properties": {
-          "chance": 1.4
+          "chance": 0.4
         },
         "display": {
           "name": "Minefield",
@@ -63,19 +63,49 @@
           "descriptionFormatted": "+%d%% Chest Trap Chance",
           "icon": "the_vault:gui/modifiers/trapped"
         }
+      },
+      "the_vault:tenos_favour_3": {
+        "properties": {
+          "chance": -0.01,
+          "reputation": {
+            "addendPerLevel": -0.01
+          }
+        },
+        "display": {
+          "name": "Tenos' Favour",
+          "color": "#55FFFF",
+          "description": "-1% Chest Trap Chance",
+          "descriptionFormatted": "-%d%% Chest Trap Chance",
+          "icon": "the_vault:gui/modifiers/tenos"
+        }
       }
     },
     "the_vault:modifier_type/chance_soul_shard": {
       "the_vault:haunted": {
         "properties": {
-          "chance": 0.25
+          "chance": 0.5
         },
         "display": {
           "name": "Haunted",
           "color": "#6410A1",
-          "description": "+25% Soul Shard Drop Rate",
+          "description": "+50% Soul Shard Drop Rate",
           "descriptionFormatted": "+%d%% Soul Shards",
           "icon": "the_vault:gui/modifiers/haunted"
+        }
+      },
+      "the_vault:idona_favour_2": {
+        "properties": {
+          "chance": 0.01,
+          "reputation": {
+            "addendPerLevel": 0.01
+          }
+        },
+        "display": {
+          "name": "Idona's Favour",
+          "color": "#FF5555",
+          "description": "+1% Soul Shard Drop Rate",
+          "descriptionFormatted": "+%d%% Soul Shards",
+          "icon": "the_vault:gui/modifiers/idona"
         }
       }
     },
@@ -83,7 +113,7 @@
       "the_vault:coin_pile": {
         "properties": {
           "output": "the_vault:placeholder[type=coin_stacks]",
-          "attemptsPerChunk": 16,
+          "attemptsPerChunk": 12,
           "requireConditions": true
         },
         "display": {
@@ -96,7 +126,7 @@
       "the_vault:gilded": {
         "properties": {
           "output": "the_vault:placeholder[type=gilded_chest]",
-          "attemptsPerChunk": 10,
+          "attemptsPerChunk": 8,
           "requireConditions": true
         },
         "display": {
@@ -109,7 +139,7 @@
       "the_vault:living": {
         "properties": {
           "output": "the_vault:placeholder[type=living_chest]",
-          "attemptsPerChunk": 10,
+          "attemptsPerChunk": 8,
           "requireConditions": true
         },
         "display": {
@@ -122,7 +152,7 @@
       "the_vault:ornate": {
         "properties": {
           "output": "the_vault:placeholder[type=ornate_chest]",
-          "attemptsPerChunk": 10,
+          "attemptsPerChunk": 8,
           "requireConditions": true
         },
         "display": {
@@ -215,6 +245,21 @@
           "descriptionFormatted": "+%d%% Item Quantity",
           "icon": "the_vault:gui/modifiers/opulent"
         }
+      },
+      "the_vault:tenos_favour_2": {
+        "properties": {
+          "percentage": 0.01,
+          "reputation": {
+            "addendPerLevel": 0.01
+          }
+        },
+        "display": {
+          "name": "Tenos' Favour",
+          "color": "#55FFFF",
+          "description": "+1% Item Quantity",
+          "descriptionFormatted": "+%d%% Item Quantity",
+          "icon": "the_vault:gui/modifiers/tenos"
+        }
       }
     },
     "the_vault:modifier_type/loot_item_rarity": {
@@ -228,6 +273,21 @@
           "description": "+5% Item Rarity",
           "descriptionFormatted": "+%d%% Item Rarity",
           "icon": "the_vault:gui/modifiers/lucky"
+        }
+      },
+      "the_vault:tenos_favour_1": {
+        "properties": {
+          "percentage": 0.01,
+          "reputation": {
+            "addendPerLevel": 0.01
+          }
+        },
+        "display": {
+          "name": "Tenos' Favour",
+          "color": "#55FFFF",
+          "description": "+1% Item Rarity",
+          "descriptionFormatted": "+%d%% Item Rarity",
+          "icon": "the_vault:gui/modifiers/tenos"
         }
       }
     },
@@ -263,13 +323,13 @@
       "the_vault:infuriated_mobs": {
         "properties": {
           "type": "speed_additive_percentile",
-          "amount": 0.05,
+          "amount": 0.2,
           "attributeStackingStrategy": "STACK"
         },
         "display": {
           "name": "Infuriated",
           "color": "#f66868",
-          "description": "+5% Mob Speed",
+          "description": "+20% Mob Speed",
           "descriptionFormatted": "+%d%% Mob Speed",
           "icon": "the_vault:gui/modifiers/speedy_mobs"
         }
@@ -450,6 +510,74 @@
           "descriptionFormatted": "-%d%% Mana Regeneration",
           "icon": "the_vault:gui/modifiers/draining"
         }
+      },
+      "the_vault:idona_favour_1": {
+        "properties": {
+          "type": "attack_damage_additive_percentile",
+          "amount": 0.01,
+          "attributeStackingStrategy": "STACK",
+          "reputation": {
+            "addendPerLevel": 0.01
+          }
+        },
+        "display": {
+          "name": "Idona's Favour",
+          "color": "#FF5555",
+          "description": "+1% Attack Damage",
+          "descriptionFormatted": "+%d%% Attack Damage",
+          "icon": "the_vault:gui/modifiers/idona"
+        }
+      },
+      "the_vault:velara_favour_3": {
+        "properties": {
+          "type": "max_health_additive_percentile",
+          "amount": 0.01,
+          "attributeStackingStrategy": "STACK",
+          "reputation": {
+            "addendPerLevel": 0.01
+          }
+        },
+        "display": {
+          "name": "Velara's Favour",
+          "color": "#FF5555",
+          "description": "+1% Max Health",
+          "descriptionFormatted": "+%d%% Max Health",
+          "icon": "the_vault:gui/modifiers/velara"
+        }
+      },
+      "the_vault:wendarr_favour_1": {
+        "properties": {
+          "type": "mana_regen_additive_percentile",
+          "amount": 0.01,
+          "attributeStackingStrategy": "STACK",
+          "reputation": {
+            "addendPerLevel": 0.01
+          }
+        },
+        "display": {
+          "name": "Wendarr's Favour",
+          "color": "#FFAA00",
+          "description": "+1% Mana Regeneration",
+          "descriptionFormatted": "+%d%% Mana Regeneration",
+          "icon": "the_vault:gui/modifiers/wendarr"
+        }
+      },
+      "the_vault:wendarr_favour_2": {
+        "properties": {
+          "type": "mana_max_additive_percentile",
+          "amount": 0.01,
+          "attributeStackingStrategy": "STACK",
+          "reputation": {
+            "addendPerLevel": 0.01
+          }
+        },
+        "display": {
+          "name": "Wendarr's Favour",
+          "color": "#FFAA00",
+          "description": "+1% Max Mana",
+          "descriptionFormatted": "+%d%% Max Mana",
+          "icon": "the_vault:gui/modifiers/wendarr"
+        }
       }
     },
     "the_vault:modifier_type/player_durability_damage": {
@@ -524,6 +652,21 @@
           "icon": "the_vault:gui/modifiers/slowed"
         }
       },
+      "the_vault:slowed_t2": {
+        "properties": {
+          "effect": "minecraft:slowness",
+          "effectAmplifier": 2,
+          "operator": "add",
+          "type": "icon_only"
+        },
+        "display": {
+          "name": "Slowed T2",
+          "color": "#4C6786",
+          "description": "+2 Slowness",
+          "descriptionFormatted": "+%d Slowness",
+          "icon": "the_vault:gui/modifiers/slowed"
+        }
+      },
       "the_vault:speedy": {
         "properties": {
           "effect": "minecraft:speed",
@@ -562,9 +705,24 @@
           "type": "icon_only"
         },
         "display": {
-          "name": "Tired",
+          "name": "Mining Fatigue",
           "color": "#E8E9E1",
           "description": "+1 Mining Fatigue",
+          "descriptionFormatted": "+%d Mining Fatigue",
+          "icon": "the_vault:gui/modifiers/tired"
+        }
+      },
+      "the_vault:tired_t2": {
+        "properties": {
+          "effect": "minecraft:mining_fatigue",
+          "effectAmplifier": 3,
+          "operator": "add",
+          "type": "icon_only"
+        },
+        "display": {
+          "name": "Mining Fatigue T2",
+          "color": "#E8E9E1",
+          "description": "+3 Mining Fatigue",
           "descriptionFormatted": "+%d Mining Fatigue",
           "icon": "the_vault:gui/modifiers/tired"
         }
@@ -597,6 +755,54 @@
           "description": "+1 Weakness",
           "descriptionFormatted": "+%d Weakness",
           "icon": "the_vault:gui/modifiers/weakness"
+        }
+      },
+      "the_vault:weakened_t2": {
+        "properties": {
+          "effect": "minecraft:weakness",
+          "effectAmplifier": 3,
+          "operator": "add",
+          "type": "icon_only"
+        },
+        "display": {
+          "name": "Weakened T2",
+          "color": "#9F5300",
+          "description": "+3 Weakness",
+          "descriptionFormatted": "+%d Weakness",
+          "icon": "the_vault:gui/modifiers/weakness"
+        }
+      },
+      "the_vault:weakened_t3": {
+        "properties": {
+          "effect": "minecraft:weakness",
+          "effectAmplifier": 6,
+          "operator": "add",
+          "type": "icon_only"
+        },
+        "display": {
+          "name": "Weakened T3",
+          "color": "#9F5300",
+          "description": "+6 Weakness",
+          "descriptionFormatted": "+%d Weakness",
+          "icon": "the_vault:gui/modifiers/weakness"
+        }
+      },
+      "the_vault:velara_favour_1": {
+        "properties": {
+          "effect": "minecraft:regeneration",
+          "effectAmplifier": 1,
+          "operator": "add",
+          "type": "icon_only",
+          "reputation": {
+            "addendPerLevel": 0.02
+          }
+        },
+        "display": {
+          "name": "Velara's Favour",
+          "color": "#55FF55",
+          "description": "+1 Regeneration",
+          "descriptionFormatted": "+%d Regeneration",
+          "icon": "the_vault:gui/modifiers/velara"
         }
       }
     },
@@ -676,40 +882,88 @@
       "the_vault:clumsy": {
         "properties": {
           "stat": "block_chance",
-          "multiplier": 0.9
+          "addend": -0.1
         },
         "display": {
           "name": "Clumsy",
           "color": "#CB866D",
           "description": "-10% Parry",
-          "descriptionFormatted": "-%d%% Parry",
+          "descriptionFormatted": "%d%% Parry",
           "icon": "the_vault:gui/modifiers/clumsy"
         }
       },
       "the_vault:inert": {
         "properties": {
           "stat": "cooldown_reduction",
-          "multiplier": 0.9
+          "addend": -0.1
         },
         "display": {
           "name": "Inert",
           "color": "#6DACB5",
           "description": "-10% Cooldown Reduction",
-          "descriptionFormatted": "-%d%% Cooldown Reduction",
+          "descriptionFormatted": "%d%% Cooldown Reduction",
           "icon": "the_vault:gui/modifiers/inert"
         }
       },
       "the_vault:vulnerable": {
         "properties": {
           "stat": "resistance",
-          "multiplier": 0.9
+          "addend": -0.1
         },
         "display": {
           "name": "Vulnerable",
           "color": "#CA9A5B",
           "description": "-10% Resistance",
-          "descriptionFormatted": "-%d%% Resistance",
+          "descriptionFormatted": "%d%% Resistance",
           "icon": "the_vault:gui/modifiers/vulnerable"
+        }
+      },
+      "the_vault:idona_favour_3": {
+        "properties": {
+          "stat": "leech",
+          "addend": 0.005,
+          "reputation": {
+            "addendPerLevel": 0.0002
+          }
+        },
+        "display": {
+          "name": "Idona's Favour",
+          "color": "#FF5555",
+          "description": "+0.5% Leech",
+          "descriptionFormatted": "+%d%% Leech",
+          "icon": "the_vault:gui/modifiers/idona"
+        }
+      },
+      "the_vault:velara_favour_2": {
+        "properties": {
+          "stat": "healing_effectiveness",
+          "addend": 0.01,
+          "reputation": {
+            "addendPerLevel": 0.01
+          }
+        },
+        "display": {
+          "name": "Velara's Favour",
+          "color": "#FF5555",
+          "description": "+1% Healing Effectiveness",
+          "descriptionFormatted": "+%f%% Healing Effectiveness",
+          "icon": "the_vault:gui/modifiers/velara"
+        }
+      },
+      "the_vault:wendarr_favour_3": {
+        "properties": {
+          "stat": "cooldown_reduction",
+          "addend": 0.005,
+          "reputation": {
+            "addendPerLevel": 0.005
+          }
+        },
+        "display": {
+          "name": "Wendarr's Favour",
+          "color": "#FF5555",
+          "description": "+0.5% Cooldown Reduction",
+          "descriptionFormatted": "+%f%% Cooldown Reduction",
+          "icon": "the_vault:gui/modifiers/wendarr"
         }
       }
     },

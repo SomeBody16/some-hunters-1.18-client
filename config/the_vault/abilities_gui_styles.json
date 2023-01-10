@@ -3,7 +3,14 @@
     "Stonefall": {
       "x": 532,
       "y": 0,
-      "specializationStyles": {},
+      "specializationStyles": {
+        "Stonefall_Snow": {
+          "icon": "the_vault:gui/abilities/stonefall_snow"
+        },
+        "Stonefall_Cold": {
+          "icon": "the_vault:gui/abilities/stonefall_cold"
+        }
+      },
       "icon": "the_vault:gui/abilities/stonefall"
     },
     "Hunter": {
@@ -12,6 +19,21 @@
       "specializationStyles": {
         "Hunter_Blocks": {
           "icon": "the_vault:gui/abilities/hunter_blocks"
+        },
+        "Hunter_Wooden": {
+          "icon": "the_vault:gui/abilities/hunter_wooden"
+        },
+        "Hunter_Gilded": {
+          "icon": "the_vault:gui/abilities/hunter_gilded"
+        },
+        "Hunter_Living": {
+          "icon": "the_vault:gui/abilities/hunter_living"
+        },
+        "Hunter_Ornate": {
+          "icon": "the_vault:gui/abilities/hunter_ornate"
+        },
+        "Hunter_Coins": {
+          "icon": "the_vault:gui/abilities/hunter_coins"
         }
       },
       "icon": "the_vault:gui/abilities/hunter"

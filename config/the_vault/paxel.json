@@ -1,4 +1,5 @@
 {
+  "MAX_HARDNESS_ABOVE_TARGET": 5,
   "PULVERIZING_MAP": {
     "minecraft:cobblestone": {
       "item": {

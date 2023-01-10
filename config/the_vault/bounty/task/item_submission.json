@@ -3,6 +3,7 @@
     "0": {
       "pool": [
         {
+          "rewardPool": "common",
           "value": {
             "value": "minecraft:diamond",
             "amount": {
@@ -16,6 +17,7 @@
           "weight": 3
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "minecraft:netherite_ingot",
             "amount": {
@@ -29,6 +31,7 @@
           "weight": 1
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "the_vault:vault_essence",
             "amount": {
@@ -42,6 +45,7 @@
           "weight": 1
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "the_vault:chromatic_iron_ingot",
             "amount": {
@@ -55,6 +59,7 @@
           "weight": 4
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "the_vault:polished_vault_stone",
             "amount": {
@@ -68,6 +73,7 @@
           "weight": 3
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "the_vault:vault_apple",
             "amount": {
@@ -81,6 +87,7 @@
           "weight": 3
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "quark:soul_bead",
             "amount": {
@@ -98,6 +105,7 @@
     "20": {
       "pool": [
         {
+          "rewardPool": "common",
           "value": {
             "value": "minecraft:diamond",
             "amount": {
@@ -111,6 +119,7 @@
           "weight": 5
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "minecraft:netherite_ingot",
             "amount": {
@@ -124,6 +133,7 @@
           "weight": 1
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "the_vault:vault_essence",
             "amount": {
@@ -137,6 +147,7 @@
           "weight": 1
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "the_vault:chromatic_iron_ingot",
             "amount": {
@@ -150,6 +161,7 @@
           "weight": 6
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "the_vault:polished_vault_stone",
             "amount": {
@@ -163,6 +175,7 @@
           "weight": 3
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "the_vault:vault_apple",
             "amount": {
@@ -176,6 +189,7 @@
           "weight": 3
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "quark:soul_bead",
             "amount": {

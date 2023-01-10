@@ -75,7 +75,7 @@ craftingTable.addShaped("thermal_redstone_servo", <item:thermal:redstone_servo>,
 craftingTable.addShaped("thermal_machine_frame", <item:thermal:machine_frame>, [
     [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:chromatic_steel_ingot>, <item:the_vault:chromatic_steel_ingot>],
     [<item:minecraft:redstone_block>, <item:the_vault:perfect_larimar>, <item:minecraft:redstone_block>],
-    [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:vault_diamond>, <item:the_vault:chromatic_steel_ingot>]
+    [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:vault_diamond_block>, <item:the_vault:chromatic_steel_ingot>]
 ]);
 
 craftingTable.addShaped("thermal_fluid_cell_frame", <item:thermal:fluid_cell_frame>, [
@@ -178,6 +178,12 @@ craftingTable.addShaped("thermal_aqueous_accumulator", <item:thermal:device_wate
     [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:chromatic_steel_ingot>, <item:the_vault:chromatic_steel_ingot>],
     [<item:minecraft:tinted_glass>, <item:the_vault:infinite_water_bucket>, <item:minecraft:tinted_glass>],
     [<item:the_vault:chromatic_steel_ingot>, <item:thermal:redstone_servo>, <item:the_vault:chromatic_steel_ingot>]
+]);
+
+craftingTable.addShaped("thermal_satchel", <item:thermal:satchel>, [
+    [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:magic_silk_block>, <item:the_vault:chromatic_steel_ingot>],
+    [<item:the_vault:magic_silk_block>, <tag:items:minecraft:wool>, <item:the_vault:magic_silk_block>],
+    [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:magic_silk_block>, <item:the_vault:chromatic_steel_ingot>]
 ]);
 
 <recipetype:thermal:brewer>.addRecipe("healing_pot", <fluid:cofh_core:potion>.withTag({Potion: "minecraft:healing"}) * 1000,

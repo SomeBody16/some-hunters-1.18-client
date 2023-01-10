@@ -13,20 +13,20 @@
         {
           "type": "patchouli:spotlight",
           "item": "the_vault:sweet_kiwi",
-          "text": "A $(l)Sweet Kiwi$() grants 5 additional seconds to the Vault Timer with no penalty."
+          "text": "A $(l)Sweet Kiwi$() grants $(l)10 additional seconds$() to the Vault Timer while reducing the players health with 10% of maximum health."
         },
 
 
         {
           "type": "patchouli:spotlight",
           "item": "the_vault:bitter_lemon",
-          "text": "A $(l)Bitter Lemon$() grants 30 additional seconds to the Vault Timer at the cost of 3 hearts."
+          "text": "A $(l)Bitter Lemon$() grants $(l)30 additional seconds$() to the Vault Timer while reducing the players health with 10% of maximum health."
         },
 
         {
           "type": "patchouli:spotlight",
           "item": "the_vault:mystic_pear",
-          "text": "A $(l)Mystic Pear$() grants 5 additional minutes to the Vault Timer, at the cost of 5-10 hearts and wither effect or poison effect."
+          "text": "A $(l)Mystic Pear$() grants $(l)5 additional minutes$() to the Vault Timer, while reducing the players health with 10% of maximum health with also applying wither effect or poison effect."
         }
 
     ]

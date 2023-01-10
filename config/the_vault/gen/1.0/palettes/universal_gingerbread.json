@@ -624,65 +624,6 @@
       "output": {
         "the_vault:treasure_chest[variant=present]": 1
       }
-    },
-    {
-      "type": "leveled",
-      "levels": [
-        {
-            "level": 0,
-            "type": "weighted_target",
-            "target": "the_vault:xp_altar",
-            "output": {
-                "the_vault:xp_altar{Replacement: \"the_vault:altar_chest[variant=present]{LootTable:\\\"the_vault:altar_chest_lvl0_v2\\\"}\"}": 1
-            }
-        }
-      ]
-    },
-    {
-      "type": "leveled",
-      "levels": [
-        {
-            "level": 0,
-            "type": "weighted_target",
-            "target": "the_vault:blood_altar",
-            "output": {
-              "the_vault:blood_altar{Replacement: \"the_vault:altar_chest[variant=present]{LootTable:\\\"the_vault:altar_chest_lvl0_v2\\\"}\"}": 1
-            }
-        }
-      ]
-    },
-    {
-      "type": "leveled",
-      "levels": [
-        {
-            "level": 0,
-            "type": "weighted_target",
-            "target": "the_vault:time_altar",
-            "output": {
-              "the_vault:time_altar{Replacement: \"the_vault:altar_chest[variant=present]{LootTable:\\\"the_vault:altar_chest_lvl0_v2\\\"}\"}": 1
-            }
-        }
-      ]
-    },
-    {
-      "type": "leveled",
-      "levels": [
-        {
-            "level": 0,
-            "type": "weighted_target",
-            "target": "the_vault:soul_altar",
-            "output": {
-              "the_vault:soul_altar{Replacement: \"the_vault:altar_chest[variant=present]{LootTable:\\\"the_vault:altar_chest_lvl0_v2\\\"}\"}": 1
-            }
-        }
-      ]
-    },
-    {
-      "type": "weighted_target",
-      "target": "the_vault:treasure_door",
-      "output": {
-        "the_vault:treasure_door{Pool:\"the_vault:vault/treasure_rooms/treasure_rooms\", Target: \"the_vault:treasure_room\", Palettes: [\"the_vault:treasure_rooms/festive_treasure_rooms\"] }": 1
-      }
     }
   ],
   "entity_processors": [],
