@@ -1,9 +1,9 @@
 {
   "RARITY_DISTRIBUTION": {
     "COMMON": 1.0,
-    "RARE": 0.4,
-    "EPIC": 0.2,
-    "OMEGA": 0.05
+    "RARE": 0.3,
+    "EPIC": 0.1,
+    "OMEGA": 0.03
   },
   "MOB_TRAP_EFFECTS": [
     {

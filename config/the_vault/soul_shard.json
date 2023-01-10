@@ -1080,6 +1080,18 @@
         "maxPrice": 160
       },
       "weight": 40
+    },
+    {
+      "value": {
+        "item": {
+          "ITEM": "the_vault:carbon",
+          "AMOUNT": 4, 
+          "NBT": "{}"
+        },
+        "minPrice": 10,
+        "maxPrice": 40
+      },
+      "weight": 64
     }
   ],
   "defaultShardDrops": {
@@ -1093,7 +1105,17 @@
       "max": 2,
       "chance": 0.2
     },
+    "the_vault:t1_zombie": {
+      "min": 1,
+      "max": 2,
+      "chance": 0.2
+    },
     "minecraft:husk": {
+      "min": 1,
+      "max": 2,
+      "chance": 0.2
+    },
+    "the_vault:t1_husk": {
       "min": 1,
       "max": 2,
       "chance": 0.2
@@ -1114,6 +1136,11 @@
       "chance": 0.4
     },
     "minecraft:skeleton": {
+      "min": 1,
+      "max": 2,
+      "chance": 0.4
+    },
+    "the_vault:t1_skeleton": {
       "min": 1,
       "max": 2,
       "chance": 0.4

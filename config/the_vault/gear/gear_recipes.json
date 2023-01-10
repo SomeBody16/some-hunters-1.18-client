@@ -226,8 +226,8 @@
       },
       "inputs": [
         {
-          "AMOUNT": 9,
-          "ITEM": "the_vault:vault_alloy",
+          "AMOUNT": 4,
+          "ITEM": "the_vault:god_blessing",
           "NBT": "{}"
         },
         {

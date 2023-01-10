@@ -141,9 +141,9 @@ craftingTable.addShaped("ae2_annihilation_core", <item:ae2:annihilation_core>, [
 ]);
 
 craftingTable.addShaped("ae2_molecular_assembler", <item:ae2:molecular_assembler>, [
-    [<item:the_vault:black_chromatic_steel_block>, <item:the_vault:gem_pog>, <item:the_vault:black_chromatic_steel_block>],
+    [<item:the_vault:chromatic_iron_ingot>, <item:the_vault:gem_pog>, <item:the_vault:chromatic_iron_ingot>],
     [<item:ae2:formation_core>, <item:ae2:crafting_terminal>, <item:ae2:annihilation_core>],
-    [<item:the_vault:black_chromatic_steel_block>, <item:the_vault:gem_pog>, <item:the_vault:black_chromatic_steel_block>]
+    [<item:the_vault:chromatic_iron_ingot>, <item:the_vault:gem_pog>, <item:the_vault:chromatic_iron_ingot>]
 ]);
 
 craftingTable.addShaped("ae2_interface", <item:ae2:interface>, [
@@ -181,7 +181,7 @@ craftingTable.addShapeless("ae2_shapeless_crafting_terminal", <item:ae2:crafting
 
 craftingTable.addShapeless("ae2_shapeless_pattern_encoding_terminal", <item:ae2:pattern_encoding_terminal>, [
     <item:ae2:crafting_terminal>, <item:ae2:engineering_processor>,
-    <item:the_vault:omega_pog>
+    <item:ae2:blank_pattern>, <item:the_vault:omega_pog>
 ]);
 
 craftingTable.addShaped("ae2_charger", <item:ae2:charger>, [
@@ -191,24 +191,30 @@ craftingTable.addShaped("ae2_charger", <item:ae2:charger>, [
 ]);
 
 craftingTable.addShapeless("ae2_cable_anchor", <item:ae2:cable_anchor> *3, [
-<item:the_vault:chromatic_iron_ingot>, <tag:items:ae2:knife>
+<item:the_vault:chromatic_iron_ingot>, <tag:items:ae2:knife>.asIIngredient().anyDamage().transformDamage(10)
 ]);
 
 craftingTable.addShaped("ae2_basic_card", <item:ae2:basic_card>, [
-    [<item:minecraft:gold_block>, <item:the_vault:chromatic_steel_ingot>, <item:minecraft:air>],
-    [<item:minecraft:redstone_block>, <item:ae2:calculation_processor>, <item:the_vault:chromatic_steel_ingot>],
-    [<item:minecraft:gold_block>, <item:the_vault:chromatic_steel_ingot>, <item:minecraft:air>]
+    [<item:minecraft:gold_block>, <item:the_vault:chromatic_iron_ingot>, <item:minecraft:air>],
+    [<item:minecraft:redstone_block>, <item:ae2:calculation_processor>, <item:the_vault:chromatic_iron_ingot>],
+    [<item:minecraft:gold_block>, <item:the_vault:chromatic_iron_ingot>, <item:minecraft:air>]
 ]);
 
 craftingTable.addShaped("ae2_advanced_card", <item:ae2:advanced_card>, [
-    [<item:minecraft:diamond_block>, <item:the_vault:chromatic_steel_ingot>, <item:minecraft:air>],
-    [<item:minecraft:redstone_block>, <item:ae2:basic_card>, <item:the_vault:chromatic_steel_ingot>],
-    [<item:minecraft:diamond_block>, <item:the_vault:chromatic_steel_ingot>, <item:minecraft:air>]
+    [<item:the_vault:gem_larimar>, <item:the_vault:chromatic_iron_ingot>, <item:minecraft:air>],
+    [<item:the_vault:gem_larimar>, <item:ae2:basic_card>, <item:the_vault:chromatic_iron_ingot>],
+    [<item:the_vault:gem_larimar>, <item:the_vault:chromatic_iron_ingot>, <item:minecraft:air>]
 ]);
 
-craftingTable.addShapeless("ae2_shapeless_acceleration_card", <item:ae2:speed_card>, [
-    <item:ae2:advanced_card>, <tag:items:forge:gems/fluix>,
-    <item:the_vault:black_chromatic_steel_ingot>
+craftingTable.addShaped("ae2_shapeless_acceleration_card", <item:ae2:speed_card>, [
+    [<item:the_vault:chromatic_iron_ingot>, <item:the_vault:gem_larimar>, <item:the_vault:chromatic_iron_ingot>],
+    [<item:the_vault:vault_essence>, <item:ae2:advanced_card>, <item:the_vault:vault_essence>],
+    [<item:the_vault:chromatic_iron_ingot>, <item:the_vault:gem_larimar>, <item:the_vault:chromatic_iron_ingot>]
+]);
+
+craftingTable.addShapeless("ae2_shapeless_crafting_card", <item:ae2:crafting_card>, [
+    <item:ae2:basic_card>, <item:minecraft:crafting_table>,
+    <item:the_vault:gem_pog>
 ]);
 
 craftingTable.addShaped("ae2_energy_cell", <item:ae2:energy_cell>, [
@@ -218,9 +224,9 @@ craftingTable.addShaped("ae2_energy_cell", <item:ae2:energy_cell>, [
 ]);
 
 craftingTable.addShaped("ae2_crafting_unit", <item:ae2:crafting_unit>, [
-    [<item:the_vault:chromatic_steel_block>, <item:ae2:calculation_processor>, <item:the_vault:chromatic_steel_block>],
+    [<item:the_vault:chromatic_iron_ingot>, <item:ae2:calculation_processor>, <item:the_vault:chromatic_iron_ingot>],
     [<tag:items:ae2:smart_cable>, <item:ae2:logic_processor>, <tag:items:ae2:smart_cable>],
-    [<item:the_vault:chromatic_steel_block>, <item:ae2:calculation_processor>, <item:the_vault:chromatic_steel_block>]
+    [<item:the_vault:chromatic_iron_ingot>, <item:ae2:calculation_processor>, <item:the_vault:chromatic_iron_ingot>]
 ]);
 
 craftingTable.addShaped("ae2_wireless_crafting_terminal", <item:ae2:wireless_crafting_terminal>, [
@@ -259,4 +265,22 @@ craftingTable.addShaped("ae2_quartz_growth_accelerator", <item:ae2:quartz_growth
     [<item:the_vault:perfect_larimar>, <item:ae2:fluix_glass_cable>, <item:the_vault:perfect_larimar>],
     [<item:ae2:quartz_vibrant_glass>, <item:ae2:fluix_block>, <item:ae2:quartz_vibrant_glass>],
     [<item:the_vault:chromatic_steel_ingot>, <item:ae2:fluix_glass_cable>, <item:the_vault:chromatic_steel_ingot>]
+]);
+
+craftingTable.addShaped("ae2_network_wireless_booster", <item:ae2:wireless_booster>, [
+    [<item:the_vault:gem_larimar>, <item:the_vault:perfect_larimar>, <item:the_vault:gem_larimar>], 
+    [<tag:items:forge:dusts/fluix>, <tag:items:ae2:all_certus_quartz>, <tag:items:forge:dusts/ender_pearl>],
+    [<item:the_vault:chromatic_iron_block>, <item:the_vault:chromatic_steel_ingot>, <item:the_vault:chromatic_iron_block>]
+]);
+
+craftingTable.addShaped("ae2_pattern_provider", <item:ae2:pattern_provider>, [
+    [<item:the_vault:chromatic_iron_ingot>, <item:the_vault:gem_pog>, <item:the_vault:chromatic_iron_ingot>], 
+    [<item:ae2:formation_core>, <item:minecraft:crafting_table>, <item:ae2:annihilation_core>],
+    [<item:the_vault:chromatic_iron_ingot>, <item:the_vault:gem_pog>, <item:the_vault:chromatic_iron_ingot>]
+]);
+
+craftingTable.addShaped("ae2_pattern", <item:ae2:blank_pattern>, [
+    [<item:the_vault:magic_silk>, <item:the_vault:magic_silk>, <item:the_vault:magic_silk>],
+    [<item:the_vault:driftwood>, <tag:items:forge:gems/certus_quartz>, <item:the_vault:driftwood>],
+    [<item:the_vault:chromatic_iron_ingot>,<item:the_vault:chromatic_iron_ingot>, <item:the_vault:chromatic_iron_ingot>]
 ]);

@@ -543,6 +543,211 @@
         "radius"
       ]
     },
+    "Hunter_Wooden": {
+      "description": [
+        {
+          "text": "Changes Hunter to instead display Wooden chests within a ",
+          "color": "$text"
+        },
+        {
+          "text": "radius",
+          "color": "$radius"
+        },
+        {
+          "text": " for a ",
+          "color": "$text"
+        },
+        {
+          "text": "duration of time",
+          "color": "$duration"
+        },
+        {
+          "text": ".\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u2734 Cast Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "duration",
+        "radius"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "duration",
+        "radius"
+      ]
+    },
+    "Hunter_Gilded": {
+      "description": [
+        {
+          "text": "Changes Hunter to instead display Gilded chests within a ",
+          "color": "$text"
+        },
+        {
+          "text": "radius",
+          "color": "$radius"
+        },
+        {
+          "text": " for a ",
+          "color": "$text"
+        },
+        {
+          "text": "duration of time",
+          "color": "$duration"
+        },
+        {
+          "text": ".\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u2734 Cast Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "duration",
+        "radius"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "duration",
+        "radius"
+      ]
+    },
+    "Hunter_Living": {
+      "description": [
+        {
+          "text": "Changes Hunter to instead display Living chests within a ",
+          "color": "$text"
+        },
+        {
+          "text": "radius",
+          "color": "$radius"
+        },
+        {
+          "text": " for a ",
+          "color": "$text"
+        },
+        {
+          "text": "duration of time",
+          "color": "$duration"
+        },
+        {
+          "text": ".\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u2734 Cast Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "duration",
+        "radius"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "duration",
+        "radius"
+      ]
+    },
+    "Hunter_Ornate": {
+      "description": [
+        {
+          "text": "Changes Hunter to instead display Ornate chests within a ",
+          "color": "$text"
+        },
+        {
+          "text": "radius",
+          "color": "$radius"
+        },
+        {
+          "text": " for a ",
+          "color": "$text"
+        },
+        {
+          "text": "duration of time",
+          "color": "$duration"
+        },
+        {
+          "text": ".\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u2734 Cast Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "duration",
+        "radius"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "duration",
+        "radius"
+      ]
+    },
+    "Hunter_Coins": {
+      "description": [
+        {
+          "text": "Changes Hunter to instead display Coin Piles within a ",
+          "color": "$text"
+        },
+        {
+          "text": "radius",
+          "color": "$radius"
+        },
+        {
+          "text": " for a ",
+          "color": "$text"
+        },
+        {
+          "text": "duration of time",
+          "color": "$duration"
+        },
+        {
+          "text": ".\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u2734 Cast Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "duration",
+        "radius"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "duration",
+        "radius"
+      ]
+    },
     "Mana Shield": {
       "description": [
         {
@@ -573,13 +778,15 @@
       "current": [
         "cooldown",
         "manaCostPerSecond",
-        "absorb"
+        "absorb",
+        "manaPerDamage"
       ],
       "next": [
         "level",
         "cooldown",
         "manaCostPerSecond",
-        "absorb"
+        "absorb",
+        "manaPerDamage"
       ]
     },
     "Mega Jump": {
@@ -778,7 +985,7 @@
           "color": "$duration"
         },
         {
-          "text": " but wont be unable to attack you.\n\n",
+          "text": " but will still able to attack you.\n\n",
           "color": "$text"
         },
         {
@@ -912,8 +1119,12 @@
           "color": "$duration"
         },
         {
-          "text": ".",
+          "text": ".\n\n",
           "color": "$text"
+        },
+        {
+          "text": "\u2734 Cast Ability ",
+          "color": "$castType"
         }
       ],
       "current": [
@@ -926,6 +1137,68 @@
         "cooldown",
         "manaCost",
         "duration"
+      ]
+    },
+    "Stonefall_Cold": {
+      "description": [
+        {
+          "text": "Changes Stonefall to instead grant you fire immunity for a ",
+          "color": "$text"
+        },
+        {
+          "text": "duration",
+          "color": "$duration"
+        },
+        {
+          "text": ".\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u2734 Cast Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "duration"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "duration"
+      ]
+    },
+    "Stonefall_Snow": {
+      "description": [
+        {
+          "text": "Changes Stonefall to instead destroy powdered snow in a ",
+          "color": "$text"
+        },
+        {
+          "text": "radius",
+          "color": "$radius"
+        },
+        {
+          "text": " around you.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u2734 Cast Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "radius"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "radius"
       ]
     },
     "Summon Eternal": {
@@ -980,7 +1253,7 @@
           "color": "$resistance"
         },
         {
-          "text": " stacks lasts for a ",
+          "text": " stacks and lasts for a ",
           "color": "$text"
         },
         {
@@ -1152,7 +1425,7 @@
     "Taunt_Repel": {
       "description": [
         {
-          "text": "Instead of taunting you now fear the mobs around you in a ",
+          "text": "Instead of taunting, you now fear the mobs around you in a ",
           "color": "$text"
         },
         {
@@ -1160,7 +1433,7 @@
           "color": "$radius"
         },
         {
-          "text": ". A feared mob will get  ",
+          "text": ". A feared mob will get ",
           "color": "$text"
         },
         {
@@ -1238,7 +1511,7 @@
           "color": "$unbreaking"
         },
         {
-          "text": " while using it to mine blocks. However, the amount of ",
+          "text": " while using it to mine blocks. However, the amount of",
           "color": "$text"
         },
         {
@@ -1275,7 +1548,7 @@
           "color": "$fortune"
         },
         {
-          "text": " while using it to mine blocks. However, the amount of ",
+          "text": " while using it to mine blocks. However, the amount of",
           "color": "$text"
         },
         {

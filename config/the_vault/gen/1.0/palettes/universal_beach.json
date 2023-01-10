@@ -181,7 +181,7 @@
             "type": "weighted_target",
             "target": "minecraft:grass",
             "output": {
-                "ecologics:coconut_husk": 1,
+                "ecologics:coconut_seedling": 1,
                 "minecraft:grass": 2,
                 "minecraft:air": 3
             }
@@ -526,7 +526,7 @@
             "type": "weighted_target",
             "target": "minecraft:potted_oak_sapling",
             "output": {
-                "ecologics:potted_coconut_husk": 1
+                "ecologics:potted_coconut_seedling": 1
             }
         },
         {

@@ -7,7 +7,7 @@
 
         {
           "type": "patchouli:text",
-          "text": "Each type of Vault Gear can roll a different $(l)rarity$(). The $(l)better$() the $(l)rarity$(), the more $(l)implicits$(), $(l)prefixes$() and $(l)suffixes$() the gear rolls. $(br2)The $(l)higher$() the $(l)level$() of Vault Gear, which scales with Vault Level when it was found or crafted, the better the $(l)tiers$() of the $(l)implicits$(), $(l)prefixes$() and $(l)suffixes$()."
+          "text": "Each type of Vault Gear can roll a different $(l)rarity$(). The $(l)better$() the $(l)rarity$(), the more $(l)implicits$(), $(l)prefixes$() and $(l)suffixes$() the gear rolls. $(br2)The $(l)higher$() the $(l)level$() of Vault Gear, which scales with Vault Level when it was found or crafted, the better the $(l)tiers$() of the $(l)implicits$(), $(l)prefixes$() and $(l)suffixes$(). Gear Level can be lowered when combined with a $(l)Banished Soul$() in an anvil."
         },
 
         {

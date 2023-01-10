@@ -36,10 +36,10 @@ furnace.addJsonRecipe("recipe_name", {
 <recipetype:mekanism:purifying>.addRecipe("ore_to_clump", ItemStackIngredient.from(<item:the_vault:chromatic_iron_ore>), GasStackIngredient.from(<gas:mekanism:oxygen>), <item:the_vault:chromatic_iron_clump> *3);
 <recipetype:mekanism:purifying>.addRecipe("shard_to_clump", ItemStackIngredient.from(<item:the_vault:chromatic_iron_shard>), GasStackIngredient.from(<gas:mekanism:oxygen>), <item:the_vault:chromatic_iron_clump>);
 
-<recipetype:mekanism:injecting>.addRecipe("raw_block_to_shard", ItemStackIngredient.from(<item:the_vault:raw_chromatic_iron_block>), GasStackIngredient.from(<gas:mekanism:hydrogen_chloride>, 400), <item:the_vault:chromatic_iron_shard> *24);
-<recipetype:mekanism:injecting>.addRecipe("raw_to_shard", ItemStackIngredient.from(<item:the_vault:raw_chromatic_iron> *3), GasStackIngredient.from(<gas:mekanism:hydrogen_chloride>, 200), <item:the_vault:chromatic_iron_shard> *8);
-<recipetype:mekanism:injecting>.addRecipe("ore_to_shard", ItemStackIngredient.from(<item:the_vault:chromatic_iron_ore>), GasStackIngredient.from(<gas:mekanism:hydrogen_chloride>, 200), <item:the_vault:chromatic_iron_shard> *4);
-<recipetype:mekanism:injecting>.addRecipe("crystal_to_shard", ItemStackIngredient.from(<item:the_vault:chromatic_iron_crystal>), GasStackIngredient.from(<gas:mekanism:hydrogen_chloride>, 200), <item:the_vault:chromatic_iron_shard>);
+<recipetype:mekanism:injecting>.addRecipe("raw_block_to_shard", ItemStackIngredient.from(<item:the_vault:raw_chromatic_iron_block>), GasStackIngredient.from(<gas:mekanism:hydrogen_chloride>, 4), <item:the_vault:chromatic_iron_shard> *24);
+<recipetype:mekanism:injecting>.addRecipe("raw_to_shard", ItemStackIngredient.from(<item:the_vault:raw_chromatic_iron> *3), GasStackIngredient.from(<gas:mekanism:hydrogen_chloride>, 2), <item:the_vault:chromatic_iron_shard> *8);
+<recipetype:mekanism:injecting>.addRecipe("ore_to_shard", ItemStackIngredient.from(<item:the_vault:chromatic_iron_ore>), GasStackIngredient.from(<gas:mekanism:hydrogen_chloride>, 2), <item:the_vault:chromatic_iron_shard> *4);
+<recipetype:mekanism:injecting>.addRecipe("crystal_to_shard", ItemStackIngredient.from(<item:the_vault:chromatic_iron_crystal>), GasStackIngredient.from(<gas:mekanism:hydrogen_chloride>, 2), <item:the_vault:chromatic_iron_shard>);
 
 <recipetype:mekanism:crystallizing>.addRecipe("slurry_to_crystal", SlurryStackIngredient.from(<slurry:crafttweaker:the_vault_clean_chromatic_iron_slurry> * 200), <item:the_vault:chromatic_iron_crystal>);
 
@@ -110,13 +110,13 @@ craftingTable.addShaped("mekanism_advanced_tier_installer", <item:mekanism:advan
 ]);
 
 craftingTable.addShaped("mekanism_elite_tier_installer", <item:mekanism:elite_tier_installer>, [
-    [<item:mekanism:alloy_reinforced>, <item:mekanism:elite_control_circuit>, <item:mekanism:alloy_reinforced>],
+    [<item:mekanism:alloy_reinforced>, <item:the_vault:gem_pog>, <item:mekanism:alloy_reinforced>],
     [<tag:items:forge:storage_blocks/gold>, <item:mekanism:advanced_tier_installer>, <tag:items:forge:storage_blocks/gold>],
     [<item:mekanism:alloy_reinforced>, <item:mekanism:elite_control_circuit>, <item:mekanism:alloy_reinforced>]
 ]);
 
 craftingTable.addShaped("mekanism_ultimate_tier_installer", <item:mekanism:ultimate_tier_installer>, [
-    [<item:mekanism:alloy_atomic>, <item:mekanism:ultimate_control_circuit>, <item:mekanism:alloy_atomic>],
+    [<item:mekanism:alloy_atomic>, <item:the_vault:omega_pog>, <item:mekanism:alloy_atomic>],
     [<tag:items:forge:storage_blocks/diamond>, <item:mekanism:elite_tier_installer>, <tag:items:forge:storage_blocks/diamond>],
     [<item:mekanism:alloy_atomic>, <item:mekanism:ultimate_control_circuit>, <item:mekanism:alloy_atomic>]
 ]);
@@ -170,7 +170,9 @@ craftingTable.addShaped("mekanism_basic_energy_cube", <item:mekanism:basic_energ
 ]);
 
 craftingTable.addShaped("mekanism_steel_casing", <item:mekanism:steel_casing>, [
-    [<item:mekanism:block_steel>, <item:mekanism:block_osmium>]
+    [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:perfect_larimar>, <item:the_vault:chromatic_steel_ingot>],
+    [<item:mekanism:block_steel>, <item:mekanism:block_osmium>, <item:mekanism:block_steel>],
+    [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:perfect_larimar>, <item:the_vault:chromatic_steel_ingot>]
 ]);
 
 craftingTable.addShaped("mekanism_basic_tank", <item:mekanism:basic_fluid_tank>, [

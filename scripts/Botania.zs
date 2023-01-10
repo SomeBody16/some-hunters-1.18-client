@@ -45,6 +45,9 @@ craftingTable.addShaped("botania_mana_pool", <item:botania:mana_pool>, [
 craftingTable.addShaped("botania_runic_altar", <item:botania:runic_altar>, [
     [<item:botania:mana_diamond>, <item:botania:mana_pool>]
 ]);
+craftingTable.addShapeless("botania_bifrost_glass", <item:botania:bifrost_perm>, [
+   <item:botania:elf_glass>
+]);
 
 <recipetype:botania:runic_altar>.addRecipe("rune_water", <item:botania:rune_water>, 10000,
  <item:minecraft:fishing_rod>, <item:botania:blue_petal>, <item:botania:manasteel_ingot>, <item:botania:mana_powder>, <item:the_vault:perfect_larimar>);
@@ -63,31 +66,31 @@ craftingTable.addShaped("botania_runic_altar", <item:botania:runic_altar>, [
 
 craftingTable.addShaped("botania_manasteel_block", <item:botania:manasteel_block>, [
     [<item:botania:manasteel_ingot>, <item:botania:manasteel_ingot>, <item:botania:manasteel_ingot>],
-    [<item:botania:manasteel_ingot>, <item:the_vault:black_chromatic_steel_ingot>, <item:botania:manasteel_ingot>],
+    [<item:botania:manasteel_ingot>, <item:botania:manasteel_ingot>, <item:botania:manasteel_ingot>],
     [<item:botania:manasteel_ingot>, <item:botania:manasteel_ingot>, <item:botania:manasteel_ingot>]
 ]);
 
 craftingTable.addShaped("botania_terrasteel_block", <item:botania:terrasteel_block>, [
     [<item:botania:terrasteel_ingot>, <item:botania:terrasteel_ingot>, <item:botania:terrasteel_ingot>],
-    [<item:botania:terrasteel_ingot>, <item:the_vault:black_chromatic_steel_ingot>, <item:botania:terrasteel_ingot>],
+    [<item:botania:terrasteel_ingot>, <item:botania:terrasteel_ingot>, <item:botania:terrasteel_ingot>],
     [<item:botania:terrasteel_ingot>, <item:botania:terrasteel_ingot>, <item:botania:terrasteel_ingot>]
 ]);
 
 craftingTable.addShaped("botania_elementium_block", <item:botania:elementium_block>, [
     [<item:botania:elementium_ingot>, <item:botania:elementium_ingot>, <item:botania:elementium_ingot>],
-    [<item:botania:elementium_ingot>, <item:the_vault:black_chromatic_steel_ingot>, <item:botania:elementium_ingot>],
+    [<item:botania:elementium_ingot>, <item:botania:elementium_ingot>, <item:botania:elementium_ingot>],
     [<item:botania:elementium_ingot>, <item:botania:elementium_ingot>, <item:botania:elementium_ingot>]
 ]);
 
 craftingTable.addShaped("botania_mana_diamond_block", <item:botania:mana_diamond_block>, [
     [<item:botania:mana_diamond>, <item:botania:mana_diamond>, <item:botania:mana_diamond>],
-    [<item:botania:mana_diamond>, <item:the_vault:black_chromatic_steel_ingot>, <item:botania:mana_diamond>],
+    [<item:botania:mana_diamond>, <item:botania:mana_diamond>, <item:botania:mana_diamond>],
     [<item:botania:mana_diamond>, <item:botania:mana_diamond>, <item:botania:mana_diamond>]
 ]);
 
 craftingTable.addShaped("botania_dragonstone_block", <item:botania:dragonstone_block>, [
     [<item:botania:dragonstone>, <item:botania:dragonstone>, <item:botania:dragonstone>],
-    [<item:botania:dragonstone>, <item:the_vault:black_chromatic_steel_ingot>, <item:botania:dragonstone>],
+    [<item:botania:dragonstone>, <item:botania:dragonstone>, <item:botania:dragonstone>],
     [<item:botania:dragonstone>, <item:botania:dragonstone>, <item:botania:dragonstone>]
 ]);
 

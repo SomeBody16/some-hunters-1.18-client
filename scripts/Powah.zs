@@ -23,6 +23,7 @@ for Iskall85's Vaulthunters */
   "ingredients": [
 	{"tag": "forge:storage_blocks/emerald"},
     {"item": "the_vault:chromatic_steel_ingot"},
+	{"item": "the_vault:echo_pog"},
    	{"item": "the_vault:extraordinary_larimar"}
   ],
   "energy": 5000000,
@@ -36,6 +37,7 @@ for Iskall85's Vaulthunters */
   "ingredients": [
 	{"tag": "forge:storage_blocks/diamond"},
     {"item": "the_vault:chromatic_steel_ingot"},
+	{"item": "the_vault:gem_pog"},
    	{"item": "the_vault:extraordinary_larimar"}
   ],
   "energy": 1200000,
@@ -56,7 +58,7 @@ for Iskall85's Vaulthunters */
   "energy": 270000,
   "result": {
 	"item": "powah:crystal_blazing",
-	"count": 1
+	"count": 3
   }
 });
 
@@ -68,7 +70,7 @@ for Iskall85's Vaulthunters */
   "energy": 480000,
   "result": {
 	"item": "powah:crystal_blazing",
-	"count": 1
+	"count": 3
   }
 });
 
@@ -170,9 +172,9 @@ craftingTable.addShaped("powah_dielectric_rod_horizontal", <item:powah:dielectri
 ]);
 
 craftingTable.addShaped("powah_dielectric_casing", <item:powah:dielectric_casing>, [
-	[<tag:items:forge:storage_blocks/iron>, <item:powah:dielectric_rod_horizontal>, <tag:items:forge:storage_blocks/iron>],
+	[<item:the_vault:chromatic_iron_ingot>, <item:powah:dielectric_rod_horizontal>, <item:the_vault:chromatic_iron_ingot>],
 	[<item:powah:dielectric_rod>, <item:the_vault:chromatic_steel_ingot>, <item:powah:dielectric_rod>],
-	[<tag:items:forge:storage_blocks/iron>, <item:powah:dielectric_rod_horizontal>, <tag:items:forge:storage_blocks/iron>]
+	[<item:the_vault:chromatic_iron_ingot>, <item:powah:dielectric_rod_horizontal>, <item:the_vault:chromatic_iron_ingot>]
 ]);
 
 craftingTable.addShaped("powah_solar_panel_starter", <item:powah:solar_panel_starter>, [

@@ -657,8 +657,13 @@
     },
     {
       "id": "the_vault:raw/chromatic_caves/base",
-      "name": "Base",
+      "name": "Chromatic Caves Base",
       "1.0": "config/the_vault/gen/1.0/palettes/raw/chromatic_caves/base.json"
+    },
+    {
+      "id": "the_vault:raw/chromatic_caves/base_regular",
+      "name": "Chromatic Caves Non-Raw Base",
+      "1.0": "config/the_vault/gen/1.0/palettes/raw/chromatic_caves/base_regular.json"
     },
     {
       "id": "the_vault:raw/chromatic_caves/spawner_settings",

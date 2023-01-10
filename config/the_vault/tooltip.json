@@ -1,6 +1,10 @@
 {
   "tooltips": [
     {
+      "item": "minecraft:totem_of_undying",
+      "value": "Does not function inside a vault!"
+    },
+    {
       "item": "the_vault:vault_compass",
       "value": "Points to the home portal in a Vault"
     },
@@ -118,6 +122,14 @@
     },
     {
       "item": "the_vault:gem_puffium",
+      "value": "A unique vault gem"
+    },
+    {
+      "item": "the_vault:gem_xenium",
+      "value": "A unique vault gem"
+    },
+    {
+      "item": "the_vault:gem_petzanite",
       "value": "A unique vault gem"
     },
     {
@@ -378,7 +390,7 @@
     },
     {
       "item": "the_vault:blank_key",
-      "value": "Combine with a gem Cluster in a Key Anvil to create a Treasure Key"
+      "value": "Combine with a gem Cluster in an Anvil to create a Treasure Key"
     },
     {
       "item": "the_vault:netherite_cluster",
@@ -549,6 +561,14 @@
       "value": "Epic Crafting ingredient"
     },
     {
+      "item": "the_vault:chunk_petzanite",
+      "value": "Epic Crafting ingredient"
+    },
+    {
+      "item": "the_vault:chunk_xenium",
+      "value": "Epic Crafting ingredient"
+    },
+    {
       "item": "the_vault:omega_pog",
       "value": "Used as a crafting ingredient for end game creations\nCan also be combined with an artifact in an anvil to re-roll it"
     },
@@ -662,7 +682,7 @@
     },
     {
       "item": "the_vault:shard_pouch",
-      "value": "Required in inventory for soul shards to drop\nCan store unlimited amount of soul shards"
+      "value": "\nStores unlimited amount of soul shards. Soul shards picked up will go directly into the pouch."
     },
     {
       "item": "the_vault:vault_paxel",
@@ -811,10 +831,6 @@
     {
       "item": "the_vault:cryo_chamber",
       "value": "Used to create Eternals\nInsert a eternal soul in to the cryo-chamber by\nRight-clicking the trader core on it\nWhen enough trader cores have been inserted it will generate and\nhost an eternal\n\nRight-click a Cryo Chamber with an eternal to upgrade and modify the eternal"
-    },
-    {
-      "item": "the_vault:key_press",
-      "value": "Used to craft Treasure Keys"
     },
     {
       "item": "the_vault:vault_diamond_block",

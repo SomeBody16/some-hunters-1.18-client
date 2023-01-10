@@ -3,6 +3,7 @@
     "0": {
       "pool": [
         {
+          "rewardPool": "common",
           "value": {
             "value": "minecraft:skeleton",
             "amount": {
@@ -16,6 +17,7 @@
           "weight": 3
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "minecraft:stray",
             "amount": {
@@ -29,6 +31,7 @@
           "weight": 1
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "minecraft:zombie",
             "amount": {
@@ -42,6 +45,7 @@
           "weight": 5
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "minecraft:husk",
             "amount": {
@@ -55,6 +59,7 @@
           "weight": 5
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "minecraft:drowned",
             "amount": {
@@ -68,6 +73,7 @@
           "weight": 2
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "quark:wraith",
             "amount": {
@@ -81,6 +87,7 @@
           "weight": 4
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "the_vault:vault_fighter",
             "amount": {
@@ -94,6 +101,7 @@
           "weight": 5
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "the_vault:vault_spider",
             "amount": {
@@ -111,6 +119,7 @@
     "10": {
       "pool": [
         {
+          "rewardPool": "common",
           "value": {
             "value": "minecraft:skeleton",
             "amount": {
@@ -124,6 +133,7 @@
           "weight": 3
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "minecraft:stray",
             "amount": {
@@ -137,6 +147,7 @@
           "weight": 1
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "minecraft:zombie",
             "amount": {
@@ -150,6 +161,7 @@
           "weight": 5
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "minecraft:husk",
             "amount": {
@@ -163,6 +175,7 @@
           "weight": 5
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "minecraft:drowned",
             "amount": {
@@ -176,6 +189,7 @@
           "weight": 2
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "quark:wraith",
             "amount": {
@@ -189,6 +203,7 @@
           "weight": 4
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "the_vault:vault_fighter",
             "amount": {
@@ -202,6 +217,7 @@
           "weight": 5
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "the_vault:vault_spider",
             "amount": {
@@ -219,6 +235,7 @@
     "20": {
       "pool": [
         {
+          "rewardPool": "common",
           "value": {
             "value": "minecraft:skeleton",
             "amount": {
@@ -232,6 +249,7 @@
           "weight": 3
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "minecraft:piglin",
             "amount": {
@@ -245,6 +263,7 @@
           "weight": 1
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "minecraft:stray",
             "amount": {
@@ -258,6 +277,7 @@
           "weight": 1
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "minecraft:zombie",
             "amount": {
@@ -271,6 +291,7 @@
           "weight": 5
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "minecraft:husk",
             "amount": {
@@ -284,6 +305,7 @@
           "weight": 5
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "minecraft:drowned",
             "amount": {
@@ -297,6 +319,7 @@
           "weight": 2
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "quark:wraith",
             "amount": {
@@ -310,6 +333,7 @@
           "weight": 4
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "the_vault:vault_fighter",
             "amount": {
@@ -323,6 +347,7 @@
           "weight": 5
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "the_vault:vault_spider",
             "amount": {

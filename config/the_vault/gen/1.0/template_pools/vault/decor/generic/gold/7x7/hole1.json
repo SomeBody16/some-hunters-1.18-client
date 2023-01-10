@@ -14,7 +14,7 @@
         "pool": [
           {
             "weight": 1,
-            "reference": "the_vault:vault/decor/generic/common/5x5/hole1"
+            "reference": "the_vault:vault/decor/generic/common/5x5/standing1"
           }
         ]
       },

@@ -3,6 +3,7 @@
     "0": {
       "pool": [
         {
+          "rewardPool": "common",
           "value": {
             "value": "vault",
             "amount": {
@@ -17,10 +18,10 @@
         }
       ]
     },
-    
     "10": {
       "pool": [
         {
+          "rewardPool": "common",
           "value": {
             "value": "vault",
             "amount": {
@@ -38,6 +39,7 @@
     "20": {
       "pool": [
         {
+          "rewardPool": "common",
           "value": {
             "value": "vault",
             "amount": {
@@ -51,6 +53,7 @@
           "weight": 10
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "cake",
             "amount": {
@@ -64,6 +67,7 @@
           "weight": 1
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "scavenger",
             "amount": {
@@ -77,6 +81,7 @@
           "weight": 3
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "boss",
             "amount": {
@@ -94,6 +99,7 @@
     "40": {
       "pool": [
         {
+          "rewardPool": "common",
           "value": {
             "value": "vault",
             "amount": {
@@ -107,6 +113,7 @@
           "weight": 4
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "cake",
             "amount": {
@@ -120,6 +127,7 @@
           "weight": 1
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "scavenger",
             "amount": {
@@ -133,6 +141,7 @@
           "weight": 6
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "boss",
             "amount": {

@@ -24,7 +24,7 @@
 
         {
             "type": "patchouli:text",
-            "text": "The level of The Vault Crystal is scaled to your Vault Level when the crystal was created. To $(l)downgrade$() the Vault's level, infuse it with a diamond in an anvil. "
+            "text": "The level of The Vault Crystal is scaled to your Vault Level when the crystal was created. To $(l)downgrade$() the Vault's level, infuse it with a $(l)Banished Soul$() in an anvil. "
         }
 
 

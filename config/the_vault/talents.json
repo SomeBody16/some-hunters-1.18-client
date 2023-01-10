@@ -5,7 +5,7 @@
       {
         "effect": "minecraft:haste",
         "amplifier": 1,
-        "cost": 2,
+        "cost": 3,
         "regretCost": 2,
         "levelRequirement": 0,
         "type": "icon_only"
@@ -13,7 +13,7 @@
       {
         "effect": "minecraft:haste",
         "amplifier": 2,
-        "cost": 4,
+        "cost": 6,
         "regretCost": 2,
         "levelRequirement": 25,
         "type": "icon_only"
@@ -21,7 +21,7 @@
       {
         "effect": "minecraft:haste",
         "amplifier": 3,
-        "cost": 10,
+        "cost": 16,
         "regretCost": 8,
         "levelRequirement": 70,
         "type": "icon_only"
@@ -71,7 +71,7 @@
       {
         "effect": "minecraft:speed",
         "amplifier": 2,
-        "cost": 4,
+        "cost": 6,
         "regretCost": 2,
         "levelRequirement": 10,
         "type": "icon_only"
@@ -97,8 +97,8 @@
           "amount": 1.0,
           "operation": 0
         },
-        "cost": 2,
-        "regretCost": 2,
+        "cost": 6,
+        "regretCost": 4,
         "levelRequirement": 10
       },
       {
@@ -109,9 +109,9 @@
           "amount": 2.0,
           "operation": 0
         },
-        "cost": 4,
-        "regretCost": 2,
-        "levelRequirement": 20
+        "cost": 8,
+        "regretCost": 4,
+        "levelRequirement": 50
       },
       {
         "attribute": "forge:reach_distance",
@@ -121,9 +121,9 @@
           "amount": 3.0,
           "operation": 0
         },
-        "cost": 6,
-        "regretCost": 2,
-        "levelRequirement": 30
+        "cost": 10,
+        "regretCost": 4,
+        "levelRequirement": 75
       }
     ]
   },
@@ -137,7 +137,7 @@
             "value": 0.07
           }
         ],
-        "cost": 4,
+        "cost": 8,
         "regretCost": 2,
         "levelRequirement": 20
       },
@@ -148,9 +148,9 @@
             "value": 0.14
           }
         ],
-        "cost": 4,
+        "cost": 8,
         "regretCost": 2,
-        "levelRequirement": 20
+        "levelRequirement": 40
       },
       {
         "attributes": [
@@ -159,9 +159,9 @@
             "value": 0.21
           }
         ],
-        "cost": 4,
+        "cost": 8,
         "regretCost": 2,
-        "levelRequirement": 20
+        "levelRequirement": 60
       },
       {
         "attributes": [
@@ -170,9 +170,9 @@
             "value": 0.28
           }
         ],
-        "cost": 4,
+        "cost": 8,
         "regretCost": 2,
-        "levelRequirement": 20
+        "levelRequirement": 80
       }
     ]
   },
@@ -199,7 +199,7 @@
           "amount": 0.2,
           "operation": 0
         },
-        "cost": 3,
+        "cost": 2,
         "regretCost": 1,
         "levelRequirement": 5
       },
@@ -211,7 +211,7 @@
           "amount": 0.3,
           "operation": 0
         },
-        "cost": 3,
+        "cost": 2,
         "regretCost": 1,
         "levelRequirement": 10
       },
@@ -223,7 +223,7 @@
           "amount": 0.4,
           "operation": 0
         },
-        "cost": 3,
+        "cost": 2,
         "regretCost": 1,
         "levelRequirement": 20
       }
@@ -239,9 +239,9 @@
             "value": 0.25
           }
         ],
-        "cost": 1,
-        "regretCost": 1,
-        "levelRequirement": 0
+        "cost": 8,
+        "regretCost": 4,
+        "levelRequirement": 25
       },
       {
         "attributes": [
@@ -250,9 +250,9 @@
             "value": 0.5
           }
         ],
-        "cost": 2,
-        "regretCost": 1,
-        "levelRequirement": 0
+        "cost": 8,
+        "regretCost": 4,
+        "levelRequirement": 50
       },
       {
         "attributes": [
@@ -261,9 +261,9 @@
             "value": 0.75
           }
         ],
-        "cost": 3,
-        "regretCost": 1,
-        "levelRequirement": 0
+        "cost": 8,
+        "regretCost": 4,
+        "levelRequirement": 75
       },
       {
         "attributes": [
@@ -272,9 +272,9 @@
             "value": 1.0
           }
         ],
-        "cost": 4,
-        "regretCost": 1,
-        "levelRequirement": 0
+        "cost": 16,
+        "regretCost": 4,
+        "levelRequirement": 100
       }
     ]
   },
@@ -288,7 +288,7 @@
             "value": 0.03
           }
         ],
-        "cost": 3,
+        "cost": 5,
         "regretCost": 1,
         "levelRequirement": 25
       },
@@ -299,7 +299,7 @@
             "value": 0.06
           }
         ],
-        "cost": 3,
+        "cost": 5,
         "regretCost": 1,
         "levelRequirement": 25
       },
@@ -310,7 +310,7 @@
             "value": 0.09
           }
         ],
-        "cost": 3,
+        "cost": 5,
         "regretCost": 1,
         "levelRequirement": 25
       },
@@ -321,7 +321,7 @@
             "value": 0.12
           }
         ],
-        "cost": 3,
+        "cost": 5,
         "regretCost": 1,
         "levelRequirement": 25
       }
@@ -337,7 +337,7 @@
             "value": 1.0
           }
         ],
-        "cost": 4,
+        "cost": 5,
         "regretCost": 1,
         "levelRequirement": 25
       },
@@ -348,7 +348,7 @@
             "value": 1.25
           }
         ],
-        "cost": 4,
+        "cost": 5,
         "regretCost": 1,
         "levelRequirement": 25
       },
@@ -359,7 +359,7 @@
             "value": 1.5
           }
         ],
-        "cost": 4,
+        "cost": 5,
         "regretCost": 1,
         "levelRequirement": 25
       },
@@ -370,7 +370,7 @@
             "value": 1.75
           }
         ],
-        "cost": 4,
+        "cost": 5,
         "regretCost": 1,
         "levelRequirement": 25
       }
@@ -386,7 +386,7 @@
             "value": 0.03
           }
         ],
-        "cost": 3,
+        "cost": 5,
         "regretCost": 1,
         "levelRequirement": 25
       },
@@ -397,7 +397,7 @@
             "value": 0.06
           }
         ],
-        "cost": 3,
+        "cost": 5,
         "regretCost": 1,
         "levelRequirement": 25
       },
@@ -408,7 +408,7 @@
             "value": 0.09
           }
         ],
-        "cost": 3,
+        "cost": 5,
         "regretCost": 1,
         "levelRequirement": 25
       },
@@ -419,7 +419,7 @@
             "value": 0.12
           }
         ],
-        "cost": 3,
+        "cost": 5,
         "regretCost": 1,
         "levelRequirement": 25
       }
@@ -435,7 +435,7 @@
             "value": 0.1
           }
         ],
-        "cost": 3,
+        "cost": 5,
         "regretCost": 1,
         "levelRequirement": 25
       },
@@ -446,7 +446,7 @@
             "value": 0.2
           }
         ],
-        "cost": 3,
+        "cost": 5,
         "regretCost": 1,
         "levelRequirement": 25
       },
@@ -457,7 +457,7 @@
             "value": 0.3
           }
         ],
-        "cost": 3,
+        "cost": 5,
         "regretCost": 1,
         "levelRequirement": 25
       },
@@ -468,7 +468,7 @@
             "value": 0.4
           }
         ],
-        "cost": 3,
+        "cost": 5,
         "regretCost": 1,
         "levelRequirement": 25
       }
@@ -484,9 +484,9 @@
             "value": 0.1
           }
         ],
-        "cost": 4,
+        "cost": 8,
         "regretCost": 2,
-        "levelRequirement": 20
+        "levelRequirement": 50
       },
       {
         "attributes": [
@@ -495,9 +495,9 @@
             "value": 0.2
           }
         ],
-        "cost": 4,
+        "cost": 8,
         "regretCost": 2,
-        "levelRequirement": 20
+        "levelRequirement": 50
       },
       {
         "attributes": [
@@ -506,9 +506,9 @@
             "value": 0.3
           }
         ],
-        "cost": 4,
+        "cost": 8,
         "regretCost": 2,
-        "levelRequirement": 20
+        "levelRequirement": 50
       },
       {
         "attributes": [
@@ -517,9 +517,9 @@
             "value": 0.4
           }
         ],
-        "cost": 4,
+        "cost": 8,
         "regretCost": 2,
-        "levelRequirement": 20
+        "levelRequirement": 50
       },
       {
         "attributes": [
@@ -528,9 +528,9 @@
             "value": 0.5
           }
         ],
-        "cost": 4,
+        "cost": 8,
         "regretCost": 2,
-        "levelRequirement": 20
+        "levelRequirement": 50
       }
     ]
   },
@@ -546,7 +546,7 @@
         ],
         "cost": 4,
         "regretCost": 2,
-        "levelRequirement": 20
+        "levelRequirement": 50
       },
       {
         "attributes": [
@@ -557,7 +557,7 @@
         ],
         "cost": 4,
         "regretCost": 2,
-        "levelRequirement": 20
+        "levelRequirement": 50
       },
       {
         "attributes": [
@@ -568,7 +568,7 @@
         ],
         "cost": 4,
         "regretCost": 2,
-        "levelRequirement": 20
+        "levelRequirement": 50
       },
       {
         "attributes": [
@@ -579,7 +579,7 @@
         ],
         "cost": 4,
         "regretCost": 2,
-        "levelRequirement": 20
+        "levelRequirement": 50
       },
       {
         "attributes": [
@@ -590,7 +590,7 @@
         ],
         "cost": 4,
         "regretCost": 2,
-        "levelRequirement": 20
+        "levelRequirement": 50
       }
     ]
   },
@@ -604,9 +604,9 @@
             "value": 0.1
           }
         ],
-        "cost": 4,
+        "cost": 8,
         "regretCost": 2,
-        "levelRequirement": 20
+        "levelRequirement": 50
       },
       {
         "attributes": [
@@ -615,9 +615,9 @@
             "value": 0.2
           }
         ],
-        "cost": 4,
+        "cost": 8,
         "regretCost": 2,
-        "levelRequirement": 20
+        "levelRequirement": 50
       },
       {
         "attributes": [
@@ -626,9 +626,9 @@
             "value": 0.3
           }
         ],
-        "cost": 4,
+        "cost": 8,
         "regretCost": 2,
-        "levelRequirement": 20
+        "levelRequirement": 50
       },
       {
         "attributes": [
@@ -637,9 +637,9 @@
             "value": 0.4
           }
         ],
-        "cost": 4,
+        "cost": 8,
         "regretCost": 2,
-        "levelRequirement": 20
+        "levelRequirement": 50
       },
       {
         "attributes": [
@@ -648,9 +648,9 @@
             "value": 0.5
           }
         ],
-        "cost": 4,
+        "cost": 8,
         "regretCost": 2,
-        "levelRequirement": 20
+        "levelRequirement": 50
       }
     ]
   },
@@ -658,7 +658,7 @@
     "name": "Angel",
     "levels": [
       {
-        "cost": 100,
+        "cost": 500,
         "regretCost": 1,
         "levelRequirement": 0
       }
@@ -669,61 +669,61 @@
     "levels": [
       {
         "increasedExpPercentage": 0.5,
-        "cost": 1,
+        "cost": 2,
         "regretCost": 1,
         "levelRequirement": 0
       },
       {
         "increasedExpPercentage": 1.0,
-        "cost": 1,
+        "cost": 2,
         "regretCost": 1,
         "levelRequirement": 0
       },
       {
         "increasedExpPercentage": 1.5,
-        "cost": 1,
+        "cost": 2,
         "regretCost": 1,
         "levelRequirement": 0
       },
       {
         "increasedExpPercentage": 2.0,
-        "cost": 1,
+        "cost": 2,
         "regretCost": 1,
         "levelRequirement": 0
       },
       {
         "increasedExpPercentage": 3.0,
-        "cost": 2,
+        "cost": 4,
         "regretCost": 1,
         "levelRequirement": 0
       },
       {
         "increasedExpPercentage": 4.0,
-        "cost": 2,
+        "cost": 4,
         "regretCost": 1,
         "levelRequirement": 0
       },
       {
         "increasedExpPercentage": 5.0,
-        "cost": 2,
+        "cost": 4,
         "regretCost": 1,
         "levelRequirement": 0
       },
       {
         "increasedExpPercentage": 6.0,
-        "cost": 2,
+        "cost": 4,
         "regretCost": 2,
         "levelRequirement": 0
       },
       {
         "increasedExpPercentage": 12.0,
-        "cost": 8,
+        "cost": 12,
         "regretCost": 2,
         "levelRequirement": 0
       },
       {
         "increasedExpPercentage": 18.0,
-        "cost": 8,
+        "cost": 12,
         "regretCost": 2,
         "levelRequirement": 0
       }
@@ -734,33 +734,33 @@
     "levels": [
       {
         "luckyAltarChance": 0.1,
-        "cost": 4,
-        "regretCost": 8,
-        "levelRequirement": 50
-      },
-      {
-        "luckyAltarChance": 0.15,
-        "cost": 4,
-        "regretCost": 16,
-        "levelRequirement": 50
-      },
-      {
-        "luckyAltarChance": 0.2,
-        "cost": 4,
-        "regretCost": 24,
-        "levelRequirement": 50
-      },
-      {
-        "luckyAltarChance": 0.25,
-        "cost": 4,
+        "cost": 12,
         "regretCost": 32,
         "levelRequirement": 50
       },
       {
-        "luckyAltarChance": 0.3,
-        "cost": 4,
-        "regretCost": 40,
+        "luckyAltarChance": 0.15,
+        "cost": 12,
+        "regretCost": 32,
         "levelRequirement": 50
+      },
+      {
+        "luckyAltarChance": 0.2,
+        "cost": 16,
+        "regretCost": 32,
+        "levelRequirement": 50
+      },
+      {
+        "luckyAltarChance": 0.25,
+        "cost": 16,
+        "regretCost": 64,
+        "levelRequirement": 90
+      },
+      {
+        "luckyAltarChance": 0.3,
+        "cost": 24,
+        "regretCost": 64,
+        "levelRequirement": 100
       }
     ]
   },
@@ -903,13 +903,13 @@
     "levels": [
       {
         "chanceToNotConsumePotential": 0.1,
-        "cost": 3,
+        "cost": 5,
         "regretCost": 4,
         "levelRequirement": 15
       },
       {
         "chanceToNotConsumePotential": 0.15,
-        "cost": 3,
+        "cost": 4,
         "regretCost": 4,
         "levelRequirement": 15
       },

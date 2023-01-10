@@ -37,7 +37,7 @@
     "the_vault:on_hit_stun": "",
     "the_vault:reach": "The blocks you can reach from standing",
     "the_vault:resistance": "Your percentage to ",
-    "the_vault:soul_chance": "",
+    "the_vault:soul_chance": "Your added chance for a Soul Shard to drop from a mob when killed inside a vault.\nAny value above 100% increases the chance of extra Soul Shards dropping from the same mob.",
     "the_vault:soulbound": "If you have a soulbound item equipped",
     "the_vault:sweeping_hit_chance": "Your chance to land a sweeping hit",
     "the_vault:thorns_chance": "Your chance to trigger thorns",

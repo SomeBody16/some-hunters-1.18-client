@@ -1514,6 +1514,11 @@
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw/chromatic_caves.json"
     },
     {
+      "id": "the_vault:vault/rooms/raw/chromatic_caves_regular",
+      "name": "Chromatic Caves Non-Raw",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw/chromatic_caves_regular.json"
+    },
+    {
       "id": "the_vault:vault/rooms/gingerbread_common_rooms",
       "name": "Gingerbread Common Rooms",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/gingerbread_common_rooms.json"

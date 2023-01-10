@@ -211,6 +211,7 @@ craftingTable.remove(<item:snad:snad>);
 <recipetype:ae2:inscriber>.remove(<item:ae2:printed_engineering_processor>);
 craftingTable.remove(<item:ae2:controller>);
 craftingTable.remove(<item:ae2:matter_cannon>);
+craftingTable.remove(<item:ae2:crafting_card>);
 craftingTable.remove(<item:ae2:cell_component_1k>);
 craftingTable.remove(<item:ae2:item_storage_cell_1k>);
 craftingTable.remove(<item:ae2:cell_component_4k>);
@@ -245,6 +246,9 @@ craftingTable.remove(<item:ae2:energy_acceptor>);
 craftingTable.remove(<item:ae2:wireless_access_point>);
 craftingTable.remove(<item:ae2:wireless_receiver>);
 craftingTable.remove(<item:ae2:quartz_growth_accelerator>);
+craftingTable.remove(<item:ae2:wireless_booster>);
+craftingTable.remove(<item:ae2:pattern_provider>);
+craftingTable.remove(<item:ae2:blank_pattern>);
 
 // Twigs
 craftingTable.remove(<item:twigs:stripped_bamboo_planks>);
@@ -275,6 +279,8 @@ for ring in rings {
 <recipetype:botania:mana_infusion>.remove(<item:botania:mana_diamond_block>);
 <recipetype:botania:mana_infusion>.remove(<item:botania:mana_cookie>);
 <recipetype:botania:mana_infusion>.remove(<item:botania:manasteel_ingot>);
+<recipetype:botania:mana_infusion>.remove(<item:botania:manasteel_block>);
+<recipetype:botania:mana_infusion>.remove(<item:botania:mana_bottle>);
 <recipetype:botania:runic_altar>.remove(<item:botania:rune_water>);
 <recipetype:botania:runic_altar>.remove(<item:botania:rune_fire>);
 <recipetype:botania:runic_altar>.remove(<item:botania:rune_earth>);
@@ -282,6 +288,7 @@ for ring in rings {
 <recipetype:botania:runic_altar>.remove(<item:botania:rune_mana>);
 <recipetype:botania:petal_apothecary>.remove(<item:botania:hopperhock>);
 craftingTable.remove(<item:botania:spark>);
+craftingTable.remove(<item:botania:keep_ivy>);
 craftingTable.remove(<item:botania:livingwood_twig>);
 craftingTable.remove(<item:botania:dreamwood_twig>);
 craftingTable.remove(<item:botania:twig_wand>);
@@ -375,6 +382,7 @@ craftingTable.remove(<item:botania:terrasteel_block>);
 craftingTable.remove(<item:botania:elementium_block>);
 craftingTable.remove(<item:botania:mana_diamond_block>);
 craftingTable.remove(<item:botania:dragonstone_block>);
+craftingTable.remove(<item:botania:bifrost_perm>);
 
 //Drawers
 for logId, logName in logs {
@@ -401,6 +409,7 @@ craftingTable.remove(<item:storagedrawers:diamond_storage_upgrade>);
 craftingTable.remove(<item:storagedrawers:emerald_storage_upgrade>);
 craftingTable.remove(<item:storagedrawers:void_upgrade>);
 craftingTable.remove(<item:storagedrawers:compacting_drawers_3>);
+craftingTable.removeByName("storagedrawers:add_upgrade");
 
 // Cagerium
 // craftingTable.remove(<item:cagerium:capacity_upgrade>);
@@ -513,10 +522,15 @@ craftingTable.remove(<tag:items:refinedstorage:detector>);
 craftingTable.remove(<item:refinedstorage:wireless_transmitter>);
 craftingTable.remove(<item:refinedstorage:external_storage>);
 craftingTable.remove(<item:refinedstorage:speed_upgrade>);
+craftingTable.remove(<item:refinedstorage:crafting_upgrade>);
 craftingTable.remove(<item:refinedstorage:stack_upgrade>);
 craftingTable.remove(<item:refinedstorage:wireless_grid>);
 craftingTable.remove(<item:refinedstorageaddons:wireless_crafting_grid>);
 craftingTable.remove(<tag:items:refinedstorage:controller>);
+craftingTable.remove(<item:refinedstorage:pattern_grid>);
+craftingTable.remove(<item:refinedstorage:crafter>);
+craftingTable.remove(<item:refinedstorage:crafter_manager>);
+craftingTable.remove(<item:refinedstorage:pattern>);
 
 // Weirding Gadget
 craftingTable.remove(<item:weirdinggadget:weirding_gadget>);
@@ -601,6 +615,7 @@ craftingTable.remove(<item:thermal:machine_pulverizer>);
 craftingTable.remove(<item:thermal:device_collector>);
 craftingTable.remove(<item:thermal:device_rock_gen>);
 craftingTable.remove(<item:thermal:device_water_gen>);
+craftingTable.remove(<item:thermal:satchel>);
 <recipetype:thermal:press>.remove(<item:thermal:lead_gear>);
 <recipetype:thermal:press>.remove(<item:thermal:tin_gear>);
 <recipetype:thermal:press>.remove(<item:thermal:bronze_gear>);
@@ -627,6 +642,11 @@ craftingTable.remove(<item:easy_villagers:iron_farm>);
 craftingTable.remove(<item:minecraft:shield>);
 craftingTable.remove(<item:minecraft:golden_apple>);
 craftingTable.remove(<item:minecraft:bundle>);
+brewing.removeRecipe(<item:minecraft:potion>.withTag({Potion: "alexsmobs:strong_knockback_resistance"}), <item:minecraft:glowstone_dust>, <item:minecraft:potion>.withTag({Potion: "alexsmobs:knockback_resistance"}));
+brewing.removeRecipe(<item:minecraft:potion>.withTag({Potion: "alexsmobs:strong_soulsteal"}), <item:minecraft:glowstone_dust>, <item:minecraft:potion>.withTag({Potion: "alexsmobs:soulsteal"}));
+brewing.removeRecipe(<potion:alexsmobs:strong_knockback_resistance>, <item:minecraft:glowstone_dust>, <potion:alexsmobs:knockback_resistance>);
+brewing.removeRecipe(<potion:alexsmobs:strong_soulsteal>, <item:minecraft:glowstone_dust>, <potion:alexsmobs:soulsteal>);
+brewing.removeRecipeByOutputPotion(<potion:alexsmobs:strong_soulsteal>);
 brewing.removeRecipeByOutputPotion(<potion:minecraft:healing>);
 brewing.removeRecipeByOutputPotion(<potion:minecraft:regeneration>);
 brewing.removeRecipeByOutputPotion(<potion:minecraft:turtle_master>);
@@ -692,6 +712,7 @@ craftingTable.remove(<item:xnet:wireless_router>);
 craftingTable.remove(<item:xnet:antenna>);
 craftingTable.remove(<item:xnet:antenna_base>);
 craftingTable.remove(<item:xnet:antenna_dish>);
+craftingTable.remove(<item:xnet:connector_upgrade>);
 
 // Quark
 <recipetype:minecraft:smithing>.remove(<item:quark:flamerang>);
@@ -719,7 +740,7 @@ for materialId, materialName in materials {
 }
 
 // Macaw
-craftingTable.remove(<item:mcwbridges:most1>);
+craftingTable.remove(<item:mcwbridges:iron_bridge>);
 
 // Create
 craftingTable.remove(<item:create:item_vault>);
@@ -739,8 +760,6 @@ craftingTable.remove(<item:create:chute>);
 craftingTable.remove(<item:create:smart_chute>);
 craftingTable.remove(<item:create:water_wheel>);
 craftingTable.remove(<item:create:basin>);
-craftingTable.remove(<item:create:schematicannon>);
-craftingTable.remove(<item:create:schematic_table>);
 craftingTable.remove(<item:create:linear_chassis>);
 craftingTable.remove(<item:create:radial_chassis>);
 craftingTable.remove(<item:create:mechanical_bearing>);
@@ -755,10 +774,16 @@ craftingTable.remove(<item:create:windmill_bearing>);
 craftingTable.remove(<item:create:track_signal>);
 craftingTable.remove(<item:create:track_station>);
 craftingTable.remove(<item:create:crafting_blueprint>);
-craftingTable.remove(<item:create:empty_schematic>);
-craftingTable.remove(<item:create:schematic_and_quill>);
 craftingTable.remove(<item:create:gantry_carriage>);
 craftingTable.remove(<item:create:steam_engine>);
+<recipetype:create:crushing>.removeByName("create:crushing/veridium_recycling");
+<recipetype:create:crushing>.removeByName("create:crushing/veridium");
+<recipetype:create:crushing>.removeByName("create:crushing/crimsite_recycling");
+<recipetype:create:crushing>.removeByName("create:crushing/crimsite");
+<recipetype:create:crushing>.removeByName("create:crushing/ochrum_recycling");
+<recipetype:create:crushing>.removeByName("create:crushing/ochrum");
+<recipetype:create:crushing>.removeByName("create:crushing/asurine_recycling");
+<recipetype:create:crushing>.removeByName("create:crushing/asurine");
 <recipetype:create:mechanical_crafting>.remove(<item:create:wand_of_symmetry>);
 <recipetype:create:mechanical_crafting>.remove(<item:create:extendo_grip>);
 <recipetype:create:mixing>.remove(<item:create:andesite_alloy>);
@@ -1082,13 +1107,16 @@ JEI.hideIngredient(<item:mekanism:module_gravitational_modulating_unit>);
 JEI.hideIngredient(<item:mekanism:module_fortune_unit>);
 JEI.hideIngredient(<item:mekanism:module_blasting_unit>);
 JEI.hideIngredient(<item:mekanism:module_electrolytic_breathing_unit>);
+JEI.hideIngredient(<item:mekanism:basic_bin>);
+JEI.hideIngredient(<item:mekanism:advanced_bin>);
+JEI.hideIngredient(<item:mekanism:elite_bin>);
+JEI.hideIngredient(<item:mekanism:ultimate_bin>);
+JEI.hideIngredient(<item:mekanism:creative_bin>);
 // Create
 JEI.hideIngredient(<item:create:extendo_grip>);
 JEI.hideIngredient(<item:create:potato_cannon>);
 JEI.hideIngredient(<item:create:wand_of_symmetry>);
 JEI.hideIngredient(<item:create:crafting_blueprint>);
-JEI.hideIngredient(<item:create:empty_schematic>);
-JEI.hideIngredient(<item:create:schematic_and_quill>);
 // Thermal
 for coin in coins{
     JEI.hideIngredient(<item:thermal:${coin}_coin>);

@@ -192,7 +192,7 @@
             {
               "weight": 8,
               "item": {
-              "id": "the_vault:gem_funsoide",
+              "id": "the_vault:gem_petzanite",
               "count": {
                 "type": "uniform",
                 "min": 1,

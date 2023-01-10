@@ -23,6 +23,7 @@
       "levelHi": "#00FF00",
       "levelLo": "#C23627",
       "manaCost": "#0353d7",
+      "manaPerDamage": "#0353d7",
       "name": "#FCF5C5",
       "projectileDamageTaken": "#CFB174",
       "radius": "#33ff6d",

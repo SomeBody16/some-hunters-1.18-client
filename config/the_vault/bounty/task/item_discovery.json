@@ -3,6 +3,7 @@
     "0": {
       "pool": [
         {
+          "rewardPool": "common",
           "value": {
             "value": "the_vault:vault_diamond",
             "amount": {
@@ -16,6 +17,7 @@
           "weight": 4
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "the_vault:vault_meat",
             "amount": {
@@ -29,6 +31,7 @@
           "weight": 6
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "minecraft:shulker_shell",
             "amount": {
@@ -42,6 +45,7 @@
           "weight": 2
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "the_vault:vault_essence",
             "amount": {
@@ -55,6 +59,7 @@
           "weight": 6
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "the_vault:knowledge_star_essence",
             "amount": {
@@ -68,6 +73,7 @@
           "weight": 8
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "the_vault:skill_essence",
             "amount": {
@@ -81,6 +87,7 @@
           "weight": 8
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "the_vault:scavenger_red_scroll",
             "amount": {
@@ -94,6 +101,7 @@
           "weight": 6
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "the_vault:scavenger_drowned_hide",
             "amount": {
@@ -107,6 +115,7 @@
           "weight": 6
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "the_vault:scavenger_zombie_hide",
             "amount": {
@@ -120,6 +129,7 @@
           "weight": 6
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "the_vault:scavenger_ripped_page",
             "amount": {
@@ -133,6 +143,7 @@
           "weight": 8
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "the_vault:scavenger_pottery_shard",
             "amount": {
@@ -146,6 +157,7 @@
           "weight": 4
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "the_vault:silver_scrap",
             "amount": {
@@ -159,6 +171,7 @@
           "weight": 6
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "the_vault:hunter_eye",
             "amount": {
@@ -172,6 +185,7 @@
           "weight": 2
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "the_vault:vault_apple",
             "amount": {
@@ -189,6 +203,7 @@
     "20": {
       "pool": [
         {
+          "rewardPool": "common",
           "value": {
             "value": "the_vault:vault_diamond",
             "amount": {
@@ -202,6 +217,7 @@
           "weight": 4
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "the_vault:vault_meat",
             "amount": {
@@ -215,6 +231,7 @@
           "weight": 6
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "minecraft:shulker_shell",
             "amount": {
@@ -228,6 +245,7 @@
           "weight": 2
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "the_vault:vault_essence",
             "amount": {
@@ -241,6 +259,7 @@
           "weight": 6
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "the_vault:knowledge_star_essence",
             "amount": {
@@ -254,6 +273,7 @@
           "weight": 8
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "the_vault:skill_essence",
             "amount": {
@@ -267,6 +287,7 @@
           "weight": 8
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "the_vault:scavenger_red_scroll",
             "amount": {
@@ -280,6 +301,7 @@
           "weight": 6
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "the_vault:scavenger_drowned_hide",
             "amount": {
@@ -293,6 +315,7 @@
           "weight": 6
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "the_vault:scavenger_zombie_hide",
             "amount": {
@@ -306,6 +329,7 @@
           "weight": 6
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "the_vault:scavenger_ripped_page",
             "amount": {
@@ -319,6 +343,7 @@
           "weight": 8
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "the_vault:scavenger_pottery_shard",
             "amount": {
@@ -332,6 +357,7 @@
           "weight": 4
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "the_vault:silver_scrap",
             "amount": {
@@ -345,6 +371,7 @@
           "weight": 6
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "the_vault:hunter_eye",
             "amount": {
@@ -358,6 +385,7 @@
           "weight": 2
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "the_vault:vault_apple",
             "amount": {
@@ -371,6 +399,7 @@
           "weight": 6
         },
         {
+          "rewardPool": "common",
           "value": {
             "value": "the_vault:scavenger_empty_jar",
             "amount": {
