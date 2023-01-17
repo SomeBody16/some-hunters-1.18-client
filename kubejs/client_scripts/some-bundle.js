@@ -10,33 +10,23 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./kubejs/client/CompressedSoulShard.ts":
+/*!**********************************************!*\
+  !*** ./kubejs/client/CompressedSoulShard.ts ***!
+  \**********************************************/
+/***/ (() => {
+
+eval("\r\nonEvent('item.tooltip', function (tooltip) {\r\n    var soulShardTooltip = function (value, color) {\r\n        return \"\\u00A7fValue of \".concat(color).concat(value, \" \\u00A7fsoul shards\");\r\n    };\r\n    var soulShardTooltipSummary = function (value, summary, color) {\r\n        return \"\\u00A7fValue of \".concat(color).concat(value, \" [\").concat(summary, \"] \\u00A7fsoul shards\");\r\n    };\r\n    var advancedTooltip = function (power, color) {\r\n        return function (item, advanced, text) {\r\n            var value = Math.pow(9, power);\r\n            var summary = value * item.count;\r\n            if (!tooltip.shift) {\r\n                text.add(1, \"\\u00A7fValue of \".concat(color).concat(value, \" \\u00A7fsoul shards\"));\r\n            }\r\n            else {\r\n                text.add(1, \"\\u00A7fValue of \".concat(color).concat(value, \" [\").concat(summary, \"] \\u00A7fsoul shards\"));\r\n            }\r\n        };\r\n    };\r\n    tooltip.addAdvanced('kubejs:compressed_soul_shard_x1', advancedTooltip(1, '§b'));\r\n    tooltip.addAdvanced('kubejs:compressed_soul_shard_x2', advancedTooltip(2, '§e'));\r\n    tooltip.addAdvanced('kubejs:compressed_soul_shard_x3', advancedTooltip(3, '§d'));\r\n    tooltip.addAdvanced('kubejs:compressed_soul_shard_x4', advancedTooltip(4, '§a'));\r\n});\r\n\n\n//# sourceURL=webpack://kubejs-dev/./kubejs/client/CompressedSoulShard.ts?");
+
+/***/ }),
+
 /***/ "./kubejs/client/index.ts":
 /*!********************************!*\
   !*** ./kubejs/client/index.ts ***!
   \********************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-eval("\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\n__webpack_require__(/*! ./vault-ability-event */ \"./kubejs/client/vault-ability-event.ts\");\r\n\n\n//# sourceURL=webpack://kubejs-dev/./kubejs/client/index.ts?");
-
-/***/ }),
-
-/***/ "./kubejs/client/vault-ability-event.ts":
-/*!**********************************************!*\
-  !*** ./kubejs/client/vault-ability-event.ts ***!
-  \**********************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-eval("\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nvar custom_packet_1 = __webpack_require__(/*! ../core/custom-packet */ \"./kubejs/core/custom-packet.ts\");\r\nvar KeyMapping = java('net.minecraft.client.KeyMapping');\r\nvar keyMappings = [\r\n    'key.the_vault.ability_key',\r\n    'key.the_vault.quickselect.heal',\r\n    'key.the_vault.quickselect.farmer',\r\n    'key.the_vault.quickselect.mana_shield',\r\n    'key.the_vault.quickselect.nova',\r\n    'key.the_vault.quickselect.taunt',\r\n    'key.the_vault.quickselect.dash',\r\n    'key.the_vault.quickselect.execute',\r\n    'key.the_vault.quickselect.ghost_walk',\r\n    'key.the_vault.quickselect.mega_jump',\r\n    'key.the_vault.quickselect.rampage',\r\n    'key.the_vault.quickselect.summon_eternal',\r\n    'key.the_vault.quickselect.tank',\r\n    'key.the_vault.quickselect.vein_miner',\r\n    'key.the_vault.quickselect.hunter',\r\n    'key.the_vault.quickselect.stonefall',\r\n].map(function (keyMap) { return new KeyMapping(keyMap, -1, 'key.category.the_vault'); });\r\nvar isKeyDown = {};\r\nonEvent('client.tick', function (event) {\r\n    keyMappings.forEach(function (mapping) {\r\n        var key = mapping.getName();\r\n        if (mapping.isDown() && !isKeyDown[key]) {\r\n            isKeyDown[key] = true;\r\n            (0, custom_packet_1.sendCustomPacket)(event.player, 'vault_ability', { key: key });\r\n        }\r\n        else {\r\n            isKeyDown[key] = false;\r\n        }\r\n    });\r\n});\r\n\n\n//# sourceURL=webpack://kubejs-dev/./kubejs/client/vault-ability-event.ts?");
-
-/***/ }),
-
-/***/ "./kubejs/core/custom-packet.ts":
-/*!**************************************!*\
-  !*** ./kubejs/core/custom-packet.ts ***!
-  \**************************************/
-/***/ ((__unused_webpack_module, exports) => {
-
-eval("\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.onCustomPacket = exports.sendCustomPacket = void 0;\r\nvar sendCustomPacket = function (player, channel, data) {\r\n    player.sendData(channel, data);\r\n};\r\nexports.sendCustomPacket = sendCustomPacket;\r\nvar onCustomPacket = function (channel, listener) {\r\n    onEvent(\"player.data_from_client.\".concat(channel), listener);\r\n};\r\nexports.onCustomPacket = onCustomPacket;\r\n\n\n//# sourceURL=webpack://kubejs-dev/./kubejs/core/custom-packet.ts?");
+eval("\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\n__webpack_require__(/*! ./CompressedSoulShard */ \"./kubejs/client/CompressedSoulShard.ts\");\r\n\n\n//# sourceURL=webpack://kubejs-dev/./kubejs/client/index.ts?");
 
 /***/ })
 
