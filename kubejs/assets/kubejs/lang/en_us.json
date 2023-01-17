@@ -1,0 +1,14 @@
+{
+	"item.kubejs.cc_antenna": "Antenna",
+	"item.kubejs.cc_display": "Display",
+	"item.kubejs.cc_lense": "Lense",
+	"item.kubejs.cc_magnetic_coated_disk": "Magnetic coated disk",
+	"item.kubejs.cc_metal_plate": "Metal plate",
+	"item.kubejs.cc_metal_wire": "Metal wire",
+	"item.kubejs.cc_wooden_board": "Wooden board",
+	
+	"item.kubejs.compressed_soul_shard_x1": "Common soul shard",
+	"item.kubejs.compressed_soul_shard_x2": "Rare soul shard",
+	"item.kubejs.compressed_soul_shard_x3": "Epic soul shard",
+	"item.kubejs.compressed_soul_shard_x4": "Omega soul shard"
+}

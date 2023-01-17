@@ -10,13 +10,23 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./kubejs/startup/CCItems.ts":
+/*!***********************************!*\
+  !*** ./kubejs/startup/CCItems.ts ***!
+  \***********************************/
+/***/ (() => {
+
+eval("\r\nonEvent('item.registry', function (event) {\r\n    event.create('cc_antenna');\r\n    event.create('cc_display');\r\n    event.create('cc_lense');\r\n    event.create('cc_magnetic_coated_disk');\r\n    event.create('cc_metal_plate');\r\n    event.create('cc_metal_wire');\r\n    event.create('cc_wooden_board');\r\n});\r\n\n\n//# sourceURL=webpack://kubejs-dev/./kubejs/startup/CCItems.ts?");
+
+/***/ }),
+
 /***/ "./kubejs/startup/CompressedSoulShard.ts":
 /*!***********************************************!*\
   !*** ./kubejs/startup/CompressedSoulShard.ts ***!
   \***********************************************/
 /***/ (() => {
 
-eval("\r\nonEvent('item.registry', function (event) {\r\n    var tooltip = function (value, color) {\r\n        return Component.join(Component.string(' '), [\r\n            Component.string('Value of').white(),\r\n            Component.string(value.toString()).withStyle(color),\r\n            Component.string('soul shards'),\r\n        ]);\r\n    };\r\n    event.create('compressed_soul_shard_x1').tooltip(tooltip(9, Internal.ChatFormatting.AQUA));\r\n    event.create('compressed_soul_shard_x2').tooltip(tooltip(9 * 9, Internal.ChatFormatting.YELLOW));\r\n    event\r\n        .create('compressed_soul_shard_x3')\r\n        .tooltip(tooltip(9 * 9 * 9, Internal.ChatFormatting.LIGHT_PURPLE));\r\n    event\r\n        .create('compressed_soul_shard_x4')\r\n        .tooltip(tooltip(9 * 9 * 9 * 9, Internal.ChatFormatting.GREEN));\r\n});\r\n\n\n//# sourceURL=webpack://kubejs-dev/./kubejs/startup/CompressedSoulShard.ts?");
+eval("\r\nonEvent('item.registry', function (event) {\r\n    event.create('compressed_soul_shard_x1');\r\n    event.create('compressed_soul_shard_x2');\r\n    event.create('compressed_soul_shard_x3');\r\n    event.create('compressed_soul_shard_x4');\r\n});\r\n\n\n//# sourceURL=webpack://kubejs-dev/./kubejs/startup/CompressedSoulShard.ts?");
 
 /***/ }),
 
@@ -26,7 +36,7 @@ eval("\r\nonEvent('item.registry', function (event) {\r\n    var tooltip = funct
   \*********************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-eval("\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\n__webpack_require__(/*! ./CompressedSoulShard */ \"./kubejs/startup/CompressedSoulShard.ts\");\r\nconsole.log('HELLO STARTUP SCRIPT');\r\n\n\n//# sourceURL=webpack://kubejs-dev/./kubejs/startup/index.ts?");
+eval("\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\n__webpack_require__(/*! ./CCItems */ \"./kubejs/startup/CCItems.ts\");\r\n__webpack_require__(/*! ./CompressedSoulShard */ \"./kubejs/startup/CompressedSoulShard.ts\");\r\nconsole.log('HELLO STARTUP SCRIPT');\r\n\n\n//# sourceURL=webpack://kubejs-dev/./kubejs/startup/index.ts?");
 
 /***/ })
 
