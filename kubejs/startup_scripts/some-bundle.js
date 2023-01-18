@@ -26,7 +26,7 @@ eval("\r\nonEvent('item.registry', function (event) {\r\n    event.create('cc_an
   \***********************************************/
 /***/ (() => {
 
-eval("\r\nonEvent('item.registry', function (event) {\r\n    event.create('compressed_soul_shard_x1').displayName('Common soul shard');\r\n    event.create('compressed_soul_shard_x2').displayName('Rare soul shard');\r\n    event.create('compressed_soul_shard_x3').displayName('Epic soul shard');\r\n    event.create('compressed_soul_shard_x4').displayName('Omega soul shard');\r\n});\r\n\n\n//# sourceURL=webpack://kubejs-dev/./kubejs/startup/CompressedSoulShard.ts?");
+eval("\r\nonEvent('item.registry', function (event) {\r\n    event.create('compressed_soul_shard_x1').displayName('§bCommon soul shard');\r\n    event.create('compressed_soul_shard_x2').displayName('§eRare soul shard');\r\n    event.create('compressed_soul_shard_x3').displayName('§dEpic soul shard');\r\n    event.create('compressed_soul_shard_x4').displayName('§aOmega soul shard');\r\n});\r\n\n\n//# sourceURL=webpack://kubejs-dev/./kubejs/startup/CompressedSoulShard.ts?");
 
 /***/ }),
 
