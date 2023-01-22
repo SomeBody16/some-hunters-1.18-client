@@ -9,6 +9,29 @@ import mods.botania.recipe.manager.ManaInfusionRecipeManager;
 import mods.botania.recipe.manager.PetalApothecaryRecipeManager;
 import mods.botania.recipe.manager.TerraPlateRecipeManager;
 
+var apothecary = {
+  "default": <item:minecraft:cobblestone>,
+  "forest": <item:botania:metamorphic_forest_cobblestone>,
+  "plains": <item:botania:metamorphic_plains_cobblestone>,
+  "mountain": <item:botania:metamorphic_mountain_cobblestone>,
+  "fungal": <item:botania:metamorphic_fungal_cobblestone>,
+  "swamp": <item:botania:metamorphic_swamp_cobblestone>,
+  "desert": <item:botania:metamorphic_desert_cobblestone>,
+  "taiga": <item:botania:metamorphic_taiga_cobblestone>,
+  "mesa": <item:botania:metamorphic_mesa_cobblestone>,
+  "mossy": <item:minecraft:mossy_cobblestone>,
+};
+
+for biome, stoneType in apothecary {
+  craftingTable.remove(<item:botania:apothecary_${biome}>);
+
+  craftingTable.addShaped("botania_" + biome + "apothecary", <item:botania:apothecary_${biome}>, [
+    [stoneType, <tag:items:botania:petals>, stoneType],
+    [<item:minecraft:air>, <item:the_vault:perfect_larimar>, <item:minecraft:air>],
+    [stoneType, stoneType, stoneType]
+]);
+}
+
 <recipetype:botania:mana_infusion>.addRecipe("mana_diamond", <item:botania:mana_diamond>,
  <item:the_vault:vault_diamond>, 37500);
 
@@ -123,6 +146,16 @@ craftingTable.addShaped("botania_spark", <item:botania:spark>, [
     [<item:quark:blaze_lantern>, <item:minecraft:gold_block>, <item:quark:blaze_lantern>],
     [<item:the_vault:gem_larimar>, <tag:items:botania:petals>, <item:the_vault:gem_larimar>]
 ]);
+
+craftingTable.addShaped("botania_fancy_pool", <item:botania:fabulous_pool>, [
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:botania:bifrost_perm>, <item:botania:mana_pool>, <item:botania:bifrost_perm>],
+    [<item:botania:bifrost_perm>, <item:botania:bifrost_perm>, <item:botania:bifrost_perm>]
+]);
+
+craftingTable.addShaped("botania_mana_spreader", <item:botania:mana_spreader>, [[<tag:items:botania:livingwood_logs>, <tag:items:botania:livingwood_logs>, <tag:items:botania:livingwood_logs>], [<item:the_vault:perfect_larimar>, <tag:items:botania:petals>,<item:minecraft:air>], [<tag:items:botania:livingwood_logs>, <tag:items:botania:livingwood_logs>, <tag:items:botania:livingwood_logs>]]);
+
+craftingTable.addShaped("botania_alchemy_catalyst", <item:botania:alchemy_catalyst>, [[<item:botania:livingrock>, <item:the_vault:vault_essence>, <item:botania:livingrock>], [<item:minecraft:brewing_stand>, <item:botania:mana_pearl>, <item:minecraft:brewing_stand>], [<item:botania:livingrock>, <item:the_vault:vault_essence>, <item:botania:livingrock>]]);
 
 // <recipetype:botania:mana_infusion>.addRecipe("mana_infusion_vault_stone",  <item:the_vault:chipped_vault_rock>,
 //  <item:the_vault:vault_stone> *2, 10000, <block:botania:alchemy_catalyst>);

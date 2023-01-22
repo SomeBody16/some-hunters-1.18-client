@@ -16,13 +16,7 @@
 
         {
           "type": "patchouli:text",
-          "text": "A teamplayer can leave the vault early without failing the objective, but they cannot rejoin once left. When a teamplayer dies, others players are able to safe the player's items by locating the spirit, picking it up and throwing it through the portal. $(br2)$(l)Note this mechanic does not work when playing in Casual Mode or when a crystal has a Soul Flame applied.$()"
-        },
-
-        {
-          "type": "patchouli:crafting",
-          "recipe": "the_vault:spirit_extractor",
-          "text": "Place the spirit, that appears in the portal in the Overworld, on the $(l)Spirit Extractor$() to buy the items back the player had on them when dying, with the use of $(l)Vault Currency$(), Bronze or Gold."
+          "text": "A teamplayer can leave the vault early without failing the objective, but they cannot rejoin once left. When a teamplayer dies, others players are able to safe the player's items by locating the spirit, picking it up and throwing it through the portal. $(br2)More on the spirit mechanic is found in the $(l:patchouli:game_mechanics/spirit_system)spirit retrieval chapter."
         }
 
     ]

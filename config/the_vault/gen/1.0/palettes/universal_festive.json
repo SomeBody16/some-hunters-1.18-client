@@ -106,13 +106,6 @@
     },
     {
       "type": "weighted_target",
-      "target": "minecraft:lava",
-      "output": {
-        "minecraft:lava": 1
-      }
-    },
-    {
-      "type": "weighted_target",
       "target": "minecraft:birch_log",
       "output": {
         "minecraft:air": 1
@@ -431,6 +424,20 @@
       "output": {
         "minecraft:red_mushroom_block": 2,
         "auxiliaryblocks:candy_cane_block": 3
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:magma_block",
+      "output": {
+        "minecraft:magma_block": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:lava",
+      "output": {
+        "minecraft:lava": 1
       }
     },
     {

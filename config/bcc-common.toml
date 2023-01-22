@@ -2,5 +2,5 @@
 [general]
 	modpackProjectID = 0
 	modpackName = "Some Vault Hunters"
-	modpackVersion = "5-3"
+	modpackVersion = "6-0"
 	useMetadata = false

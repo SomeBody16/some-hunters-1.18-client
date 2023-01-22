@@ -365,6 +365,77 @@
         }
       }
     ],
+    "the_vault:vault_fighter_2": [
+      {
+        "minLevel": 0,
+        "slots": {
+          "HEAD": [
+            {
+              "value": {
+                "ITEM": ""
+              },
+              "weight": 10
+            },
+            {
+              "value": {
+                "ITEM": "the_vault:helmet",
+                "NBT": "{\"the_vault:gear_model\":\"random\",\"the_vault:state\":2}"
+              },
+              "weight": 2
+            }
+          ],
+          "CHEST": [
+            {
+              "value": {
+                "ITEM": "the_vault:chestplate",
+                "NBT": "{\"the_vault:gear_model\":\"random\",\"the_vault:state\":2}"
+              },
+              "weight": 2
+            },
+            {
+              "value": {
+                "ITEM": ""
+              },
+              "weight": 10
+            }
+
+          ],
+          "LEGS": [
+            {
+              "value": {
+                "ITEM": "the_vault:leggings",
+                "NBT": "{\"the_vault:gear_model\":\"random\",\"the_vault:state\":2}"
+              },
+              "weight": 2
+            },
+            {
+              "value": {
+                "ITEM": ""
+              },
+              "weight": 10
+            }
+          ],
+          "FEET": [
+            {
+            "value": {
+              "ITEM": "the_vault:boots",
+              "NBT": "{\"the_vault:gear_model\":\"random\",\"the_vault:state\":2}"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "ITEM": ""
+            },
+            "weight": 10
+          }
+          ],
+          "MAINHAND": [
+          ],
+          "OFFHAND": []
+        }
+      }
+    ],
     "minecraft:stray": [
       {
         "minLevel": 0,
@@ -425,7 +496,247 @@
         }
       }
     ],
+    "the_vault:t1_stray": [
+      {
+        "minLevel": 0,
+        "slots": {
+          "HEAD": [
+          ],
+          "CHEST": [
+          ],
+          "LEGS": [],
+          "FEET": [],
+          "MAINHAND": [
+            {
+              "value": {
+                "ITEM": "minecraft:bow",
+                "NBT": ""
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:iron_sword",
+                "NBT": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
+              },
+              "weight": 12
+            }
+
+          ],
+          "OFFHAND": []
+        }
+      },
+      {
+        "minLevel": 10,
+        "slots": {
+          "HEAD": [
+          ],
+          "CHEST": [
+          ],
+          "LEGS": [],
+          "FEET": [],
+          "MAINHAND": [
+            {
+              "value": {
+                "ITEM": "minecraft:bow",
+                "NBT": ""
+              },
+              "weight": 2
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:iron_sword",
+                "NBT": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
+              },
+              "weight": 10
+            }
+
+          ],
+          "OFFHAND": []
+        }
+      }
+    ],
+    "the_vault:t2_stray": [
+      {
+        "minLevel": 0,
+        "slots": {
+          "HEAD": [
+          ],
+          "CHEST": [
+          ],
+          "LEGS": [],
+          "FEET": [],
+          "MAINHAND": [
+            {
+              "value": {
+                "ITEM": "minecraft:bow",
+                "NBT": ""
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:iron_sword",
+                "NBT": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
+              },
+              "weight": 12
+            }
+
+          ],
+          "OFFHAND": []
+        }
+      },
+      {
+        "minLevel": 10,
+        "slots": {
+          "HEAD": [
+          ],
+          "CHEST": [
+          ],
+          "LEGS": [],
+          "FEET": [],
+          "MAINHAND": [
+            {
+              "value": {
+                "ITEM": "minecraft:bow",
+                "NBT": ""
+              },
+              "weight": 2
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:iron_sword",
+                "NBT": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
+              },
+              "weight": 10
+            }
+
+          ],
+          "OFFHAND": []
+        }
+      }
+    ],
     "minecraft:skeleton": [
+      {
+        "minLevel": 0,
+        "slots": {
+          "HEAD": [
+          ],
+          "CHEST": [
+          ],
+          "LEGS": [],
+          "FEET": [],
+          "MAINHAND": [
+            {
+              "value": {
+                "ITEM": "minecraft:bow",
+                "NBT": ""
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:iron_sword",
+                "NBT": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
+              },
+              "weight": 12
+            }
+
+          ],
+          "OFFHAND": []
+        }
+      },
+      {
+        "minLevel": 10,
+        "slots": {
+          "HEAD": [
+          ],
+          "CHEST": [
+          ],
+          "LEGS": [],
+          "FEET": [],
+          "MAINHAND": [
+            {
+              "value": {
+                "ITEM": "minecraft:bow",
+                "NBT": ""
+              },
+              "weight": 2
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:iron_sword",
+                "NBT": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
+              },
+              "weight": 10
+            }
+
+          ],
+          "OFFHAND": []
+        }
+      }
+    ],
+    "the_vault:t1_skeleton": [
+      {
+        "minLevel": 0,
+        "slots": {
+          "HEAD": [
+          ],
+          "CHEST": [
+          ],
+          "LEGS": [],
+          "FEET": [],
+          "MAINHAND": [
+            {
+              "value": {
+                "ITEM": "minecraft:bow",
+                "NBT": ""
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:iron_sword",
+                "NBT": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
+              },
+              "weight": 12
+            }
+
+          ],
+          "OFFHAND": []
+        }
+      },
+      {
+        "minLevel": 10,
+        "slots": {
+          "HEAD": [
+          ],
+          "CHEST": [
+          ],
+          "LEGS": [],
+          "FEET": [],
+          "MAINHAND": [
+            {
+              "value": {
+                "ITEM": "minecraft:bow",
+                "NBT": ""
+              },
+              "weight": 2
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:iron_sword",
+                "NBT": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
+              },
+              "weight": 10
+            }
+
+          ],
+          "OFFHAND": []
+        }
+      }
+    ],
+    "the_vault:t2_skeleton": [
       {
         "minLevel": 0,
         "slots": {

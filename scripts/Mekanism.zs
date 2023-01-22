@@ -116,7 +116,7 @@ craftingTable.addShaped("mekanism_elite_tier_installer", <item:mekanism:elite_ti
 ]);
 
 craftingTable.addShaped("mekanism_ultimate_tier_installer", <item:mekanism:ultimate_tier_installer>, [
-    [<item:mekanism:alloy_atomic>, <item:the_vault:omega_pog>, <item:mekanism:alloy_atomic>],
+    [<item:mekanism:alloy_atomic>, <tag:items:forge:storage_blocks/diamond>, <item:mekanism:alloy_atomic>],
     [<tag:items:forge:storage_blocks/diamond>, <item:mekanism:elite_tier_installer>, <tag:items:forge:storage_blocks/diamond>],
     [<item:mekanism:alloy_atomic>, <item:mekanism:ultimate_control_circuit>, <item:mekanism:alloy_atomic>]
 ]);
@@ -179,4 +179,10 @@ craftingTable.addShaped("mekanism_basic_tank", <item:mekanism:basic_fluid_tank>,
     [<item:mekanism:ingot_steel>, <item:mekanism:ingot_steel>, <item:mekanism:ingot_steel>],
     [<item:minecraft:tinted_glass>, <item:minecraft:air>, <item:minecraft:tinted_glass>],
     [<item:mekanism:ingot_steel>, <item:mekanism:ingot_steel>, <item:mekanism:ingot_steel>]
+]);
+
+craftingTable.addShaped("mekanismgenerators_generatorgas_burning", <item:mekanismgenerators:gas_burning_generator>, [
+    [<item:the_vault:gem_pog>, <tag:items:mekanism:alloys/infused>, <item:the_vault:gem_pog>], 
+    [<item:mekanism:steel_casing>, <item:mekanism:electrolytic_core>, <item:mekanism:steel_casing>], 
+    [<item:the_vault:gem_pog>, <tag:items:mekanism:alloys/infused>, <item:the_vault:gem_pog>]
 ]);

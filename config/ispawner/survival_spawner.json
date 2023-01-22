@@ -2,7 +2,7 @@
   "defaultCharges": 10,
   "defaultSettings": {
     "attempts": 4,
-    "spawnDelay": 500,
+    "spawnDelay": 50,
     "mode": "REDSTONE_ON",
     "checkRadius": 16,
     "playerRadius": 16,

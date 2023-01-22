@@ -152,6 +152,27 @@
             "weight": 2
           }
         ]
+      },
+      {
+        "level": 50,
+        "rollTypeOutcomes": [
+          {
+            "value": "Scrappy+",
+            "weight": 40
+          },
+          {
+            "value": "Common+",
+            "weight": 40
+          },
+          {
+            "value": "Rare+",
+            "weight": 10
+          },
+          {
+            "value": "Epic+",
+            "weight": 4
+          }
+        ]
       }
     ],
     "altar": [
@@ -183,19 +204,19 @@
         "rollTypeOutcomes": [
           {
             "value": "Scrappy+",
-            "weight": 40
+            "weight": 20
           },
           {
             "value": "Common+",
-            "weight": 40
+            "weight": 50
           },
           {
             "value": "Rare+",
-            "weight": 13
+            "weight": 20
           },
           {
             "value": "Epic+",
-            "weight": 7
+            "weight": 10
           }
         ]
       }

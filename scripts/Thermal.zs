@@ -54,8 +54,8 @@ for gemId, gemName in gems {
 ]);
 }
 
-<recipetype:thermal:pulverizer>.addRecipe("ore_to_dust", [<item:the_vault:chromatic_iron_dust> *2], <item:the_vault:chromatic_iron_ore>, 3, 4000);
-<recipetype:thermal:pulverizer>.addRecipe("raw_to_dust", [<item:the_vault:chromatic_iron_dust>], <item:the_vault:raw_chromatic_iron>, 3, 4000);
+<recipetype:thermal:pulverizer>.addRecipe("ore_to_dust", [<item:the_vault:chromatic_iron_dust> *4], <item:the_vault:chromatic_iron_ore>, 3, 4000);
+<recipetype:thermal:pulverizer>.addRecipe("raw_to_dust", [<item:the_vault:chromatic_iron_dust> *2], <item:the_vault:raw_chromatic_iron>, 3, 4000);
 <recipetype:thermal:pulverizer>.addRecipe("ingot_to_dust", [<item:the_vault:chromatic_iron_dust>], <item:the_vault:chromatic_iron_ingot>, 3, 2000);
 
 <recipetype:thermal:pulverizer>.addRecipe("vaultstone_to_rock", [<item:the_vault:vault_cobblestone> % 100, <item:the_vault:chipped_vault_rock> % 50], <item:the_vault:vault_stone>, 3, 2000);
@@ -75,7 +75,7 @@ craftingTable.addShaped("thermal_redstone_servo", <item:thermal:redstone_servo>,
 craftingTable.addShaped("thermal_machine_frame", <item:thermal:machine_frame>, [
     [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:chromatic_steel_ingot>, <item:the_vault:chromatic_steel_ingot>],
     [<item:minecraft:redstone_block>, <item:the_vault:perfect_larimar>, <item:minecraft:redstone_block>],
-    [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:vault_diamond_block>, <item:the_vault:chromatic_steel_ingot>]
+    [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:vault_diamond>, <item:the_vault:chromatic_steel_ingot>]
 ]);
 
 craftingTable.addShaped("thermal_fluid_cell_frame", <item:thermal:fluid_cell_frame>, [
@@ -176,7 +176,7 @@ craftingTable.addShaped("thermal_igneous_extruder", <item:thermal:device_rock_ge
 
 craftingTable.addShaped("thermal_aqueous_accumulator", <item:thermal:device_water_gen>, [
     [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:chromatic_steel_ingot>, <item:the_vault:chromatic_steel_ingot>],
-    [<item:minecraft:tinted_glass>, <item:the_vault:infinite_water_bucket>, <item:minecraft:tinted_glass>],
+    [<item:minecraft:tinted_glass>, <item:the_vault:infinite_water_bucket>.transformReplace(<item:minecraft:air>), <item:minecraft:tinted_glass>],
     [<item:the_vault:chromatic_steel_ingot>, <item:thermal:redstone_servo>, <item:the_vault:chromatic_steel_ingot>]
 ]);
 

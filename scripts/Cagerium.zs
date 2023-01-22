@@ -15,9 +15,9 @@ craftingTable.addShaped("cage_piece", <item:ispawner:cage_piece>, [
 ]);
 
 craftingTable.addShaped("survival_spawner", <item:ispawner:survival_spawner>, [
-    [<item:the_vault:wutodic_mass>, <item:ispawner:cage_piece>, <item:the_vault:wutodic_mass>],
+    [<item:the_vault:chromatic_steel_block>, <item:ispawner:cage_piece>, <item:the_vault:chromatic_steel_block>],
     [<item:ispawner:cage_piece>, <item:the_vault:echo_pog>, <item:ispawner:cage_piece>],
-    [<item:the_vault:wutodic_mass>, <item:ispawner:cage_piece>, <item:the_vault:wutodic_mass>]
+    [<item:the_vault:chromatic_steel_block>, <item:ispawner:cage_piece>, <item:the_vault:chromatic_steel_block>]
 ]);
 
 craftingTable.addShaped("cagerium_cage", <item:cagerium:cage>, [

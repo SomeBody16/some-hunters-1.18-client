@@ -96,13 +96,6 @@
         },
         {
             "type": "weighted_target",
-            "target": "minecraft:lava",
-            "output": {
-                "minecraft:lava": 1
-            }
-        },
-        {
-            "type": "weighted_target",
             "target": "minecraft:birch_log",
             "output": {
                 "minecraft:air": 1
@@ -294,6 +287,21 @@
         },
         {
             "type": "weighted_target",
+            "target": "minecraft:oak_fence_gate",
+            "output": {
+                "minecraft:warped_fence_gate": 1
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "minecraft:oak_door",
+            "output": {
+                "minecraft:warped_door": 2,
+                "mcwdoors:warped_nether_door": 1
+            }
+        },
+        {
+            "type": "weighted_target",
             "target": "minecraft:stone_bricks",
             "output": {
                 "minecraft:nether_bricks": 7,
@@ -386,6 +394,20 @@
             "target": "minecraft:green_concrete",
             "output": {
                 "minecraft:nether_wart_block": 2
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "minecraft:magma_block",
+            "output": {
+                "minecraft:magma_block": 1
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "minecraft:lava",
+            "output": {
+                "minecraft:lava": 1
             }
         },
         {

@@ -725,11 +725,16 @@
         {
           "value": {
             "type": "boss",
-            "objective_probability": 0.15,
+            "objective_probability": 0.35,
             "target": {
               "type": "uniform",
               "min": 3,
               "max": 6
+            },
+            "wave": {
+              "type": "uniform",
+              "min": 2,
+              "max": 5
             }
           },
           "weight": 1
@@ -737,7 +742,7 @@
         {
           "value": {
             "type": "scavenger",
-            "objective_probability": 0.25
+            "objective_probability": 0.3
           },
           "weight": 1
         }
@@ -749,8 +754,13 @@
         {
           "value": {
             "type": "boss",
-            "objective_probability": 0.15,
+            "objective_probability": 0.35,
             "target": {
+              "type": "uniform",
+              "min": 3,
+              "max": 6
+            },
+            "wave": {
               "type": "uniform",
               "min": 3,
               "max": 6
@@ -761,7 +771,89 @@
         {
           "value": {
             "type": "scavenger",
-            "objective_probability": 0.2
+            "objective_probability": 0.3
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "type": "monolith",
+            "objective_probability": 0.15,
+            "target": {
+              "type": "uniform",
+              "min": 2,
+              "max": 4
+            }
+          },
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "minLevel": 40,
+      "pool": [
+        {
+          "value": {
+            "type": "boss",
+            "objective_probability": 0.3,
+            "target": {
+              "type": "uniform",
+              "min": 3,
+              "max": 6
+            },
+            "wave": {
+              "type": "uniform",
+              "min": 4,
+              "max": 8
+            }
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "type": "scavenger",
+            "objective_probability": 0.3
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "type": "monolith",
+            "objective_probability": 0.15,
+            "target": {
+              "type": "uniform",
+              "min": 2,
+              "max": 4
+            }
+          },
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "minLevel": 60,
+      "pool": [
+        {
+          "value": {
+            "type": "boss",
+            "objective_probability": 0.25,
+            "target": {
+              "type": "uniform",
+              "min": 3,
+              "max": 6
+            },
+            "wave": {
+              "type": "uniform",
+              "min": 5,
+              "max": 10
+            }
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "type": "scavenger",
+            "objective_probability": 0.25
           },
           "weight": 4
         },
@@ -789,16 +881,177 @@
         ],
         "objective": {
           "type": "boss",
-          "objective_probability": 0.15,
+          "objective_probability": 0.25,
           "target": {
+            "type": "uniform",
+            "min": 3,
+            "max": 6
+          },
+          "wave": {
+            "type": "uniform",
+            "min": 2,
+            "max": 5
+          }
+        },
+        "layout": {
+          "type": "polygon",
+          "tunnel_span": 1,
+          "vertices": [
+            {
+              "x": -10,
+              "z": 0
+            },
+            {
+              "x": 0,
+              "z": 10
+            },
+            {
+              "x": 10,
+              "z": 0
+            },
+            {
+              "x": 0,
+              "z": -10
+            }
+          ]
+        },
+        "theme": {
+          "type": "pool",
+          "id": "the_vault:default"
+        }
+      },
+      {
+        "level": 10,
+        "input": [
+          "the_vault:vault_crystal"
+        ],
+        "objective": {
+          "type": "boss",
+          "objective_probability": 0.25,
+          "target": {
+            "type": "uniform",
+            "min": 3,
+            "max": 6
+          },
+          "wave": {
             "type": "uniform",
             "min": 3,
             "max": 6
           }
         },
         "layout": {
-          "type": "infinite",
-          "tunnel_span": 1
+          "type": "polygon",
+          "tunnel_span": 1,
+          "vertices": [
+            {
+              "x": -10,
+              "z": 0
+            },
+            {
+              "x": 0,
+              "z": 10
+            },
+            {
+              "x": 10,
+              "z": 0
+            },
+            {
+              "x": 0,
+              "z": -10
+            }
+          ]
+        },
+        "theme": {
+          "type": "pool",
+          "id": "the_vault:default"
+        }
+      },
+      {
+        "level": 40,
+        "input": [
+          "the_vault:vault_crystal"
+        ],
+        "objective": {
+          "type": "boss",
+          "objective_probability": 0.25,
+          "target": {
+            "type": "uniform",
+            "min": 3,
+            "max": 6
+          },
+          "wave": {
+            "type": "uniform",
+            "min": 4,
+            "max": 8
+          }
+        },
+        "layout": {
+          "type": "polygon",
+          "tunnel_span": 1,
+          "vertices": [
+            {
+              "x": -10,
+              "z": 0
+            },
+            {
+              "x": 0,
+              "z": 10
+            },
+            {
+              "x": 10,
+              "z": 0
+            },
+            {
+              "x": 0,
+              "z": -10
+            }
+          ]
+        },
+        "theme": {
+          "type": "pool",
+          "id": "the_vault:default"
+        }
+      },
+      {
+        "level": 60,
+        "input": [
+          "the_vault:vault_crystal"
+        ],
+        "objective": {
+          "type": "boss",
+          "objective_probability": 0.25,
+          "target": {
+            "type": "uniform",
+            "min": 3,
+            "max": 6
+          },
+          "wave": {
+            "type": "uniform",
+            "min": 5,
+            "max": 10
+          }
+        },
+        "layout": {
+          "type": "polygon",
+          "tunnel_span": 1,
+          "vertices": [
+            {
+              "x": -10,
+              "z": 0
+            },
+            {
+              "x": 0,
+              "z": 10
+            },
+            {
+              "x": 10,
+              "z": 0
+            },
+            {
+              "x": 0,
+              "z": -10
+            }
+          ]
         },
         "theme": {
           "type": "pool",
@@ -814,7 +1067,7 @@
         ],
         "objective": {
           "type": "scavenger",
-          "objective_probability": 0.3
+          "objective_probability": 0.25
         },
         "theme": {
           "type": "pool",

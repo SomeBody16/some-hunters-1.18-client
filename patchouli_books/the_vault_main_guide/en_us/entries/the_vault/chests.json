@@ -7,7 +7,7 @@
 
         {
           "type": "patchouli:text",
-          "text": "Scattered around the Vault Rooms are different types of chests, each containing a different varienty of loot. $(br2)Each type of chest has different loot tiers, $(l)Common, Rare and Omega$()"
+          "text": "Scattered around the Vault Rooms are different types of chests, each containing a different varienty of loot. $(br2)Each type of chest has different loot tiers, $(l)Common, Rare, Epic and Omega$()"
         },
         {
           "type": "patchouli:spotlight",

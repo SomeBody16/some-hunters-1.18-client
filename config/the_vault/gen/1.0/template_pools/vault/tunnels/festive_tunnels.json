@@ -4,7 +4,8 @@
     "value": {
       "template": "the_vault:vault/tunnels/tunnel1",
       "palettes": [
-        "the_vault:universal_festive"
+        "the_vault:universal_festive",
+        "the_vault:generic/air_to_cave_air"
       ]
     }
   },
@@ -13,7 +14,8 @@
     "value": {
       "template": "the_vault:vault/tunnels/tunnel2",
       "palettes": [
-        "the_vault:universal_festive"
+        "the_vault:universal_festive",
+        "the_vault:generic/air_to_cave_air"
       ]
     }
   },
@@ -22,7 +24,8 @@
     "value": {
       "template": "the_vault:vault/tunnels/tunnel3",
       "palettes": [
-        "the_vault:universal_festive"
+        "the_vault:universal_festive",
+        "the_vault:generic/air_to_cave_air"
       ]
     }
   },
@@ -31,7 +34,8 @@
     "value": {
       "template": "the_vault:vault/tunnels/tunnel4",
       "palettes": [
-        "the_vault:universal_festive"
+        "the_vault:universal_festive",
+        "the_vault:generic/air_to_cave_air"
       ]
     }
   },
@@ -40,7 +44,8 @@
     "value": {
       "template": "the_vault:vault/tunnels/tunnel5",
       "palettes": [
-        "the_vault:universal_festive"
+        "the_vault:universal_festive",
+        "the_vault:generic/air_to_cave_air"
       ]
     }
   },
@@ -49,7 +54,8 @@
     "value": {
       "template": "the_vault:vault/tunnels/tunnel6",
       "palettes": [
-        "the_vault:universal_festive"
+        "the_vault:universal_festive",
+        "the_vault:generic/air_to_cave_air"
       ]
     }
   }

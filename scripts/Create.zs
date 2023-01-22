@@ -6,7 +6,7 @@ for Iskall85's Vaulthunters */
 <recipetype:create:crushing>.addRecipe("crushed_vaultstone_to_rock", [<item:the_vault:chipped_vault_rock> % 50, <item:the_vault:vault_cobblestone>], <item:the_vault:vault_stone>, 350);
 
 <recipetype:create:crushing>.addRecipe("chromatic_ore_to_dust", [<item:the_vault:chromatic_iron_dust> *2], <item:the_vault:raw_chromatic_iron>, 350);
-<recipetype:create:crushing>.addRecipe("raw_chromatic_ore_to_dust", [<item:the_vault:chromatic_iron_dust> *9], <item:the_vault:raw_chromatic_iron_block>, 2350);
+<recipetype:create:crushing>.addRecipe("raw_chromatic_ore_to_dust", [<item:the_vault:chromatic_iron_dust> *18], <item:the_vault:raw_chromatic_iron_block>, 2350);
 
 <recipetype:create:cutting>.addRecipe("crushed", [<item:create:shaft> *2],
 <item:create:andesite_alloy>, 450);
@@ -245,3 +245,17 @@ craftingTable.addShapeless("create_asurine_shapeless", <item:create:asurine> *2,
 craftingTable.addShapeless("create_limestone_shapeless", <item:create:limestone> *2, [
     <item:architects_palette:algal_blend>, <item:minecraft:birch_planks>, <item:minecraft:stone>,
 ]);
+
+craftingTable.addShaped("create_schematicannon", <item:create:schematicannon>, [
+    [<item:minecraft:air>, <item:the_vault:chromatic_iron_block>, <item:minecraft:air>], 
+    [<item:the_vault:driftwood>, <item:the_vault:chromatic_iron_block>, <item:the_vault:driftwood>], 
+    [<item:minecraft:smooth_stone>, <item:the_vault:vault_essence>, <item:minecraft:smooth_stone>]
+]);
+
+craftingTable.addShaped("create_schematic_table", <item:create:schematic_table>, [
+    [<item:the_vault:driftwood>, <item:the_vault:driftwood>, <item:the_vault:driftwood>], 
+    [<item:minecraft:air>, <item:minecraft:smooth_stone>, <item:minecraft:air>], 
+    [<item:minecraft:air>, <item:minecraft:smooth_stone>, <item:minecraft:air>]
+]);
+
+craftingTable.addShapeless("create_empty_schematic", <item:create:empty_schematic>, [<item:the_vault:magic_silk>, <tag:items:forge:dyes/light_blue>]);

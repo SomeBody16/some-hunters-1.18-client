@@ -286,5 +286,41 @@
         "the_vault:raw/universal_raw_cave"
       ]
     }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/rooms/common/ore1",
+      "palettes": [
+        "the_vault:raw/universal_raw_cave"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/rooms/common/ore2",
+      "palettes": [
+        "the_vault:raw/universal_raw_cave"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/rooms/common/ore3",
+      "palettes": [
+        "the_vault:raw/universal_raw_cave"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/rooms/common/ore4",
+      "palettes": [
+        "the_vault:raw/universal_raw_cave"
+      ]
+    }
   }
 ]

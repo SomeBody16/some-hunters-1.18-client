@@ -141,6 +141,11 @@
       "1.0": "config/the_vault/gen/1.0/palettes/generic/ore_placeholder.json"
     },
     {
+      "id": "the_vault:generic/pylon_placeholder",
+      "name": "Pylon Placeholder",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/pylon_placeholder.json"
+    },
+    {
       "id": "the_vault:generic/room_base",
       "name": "Room Base",
       "1.0": "config/the_vault/gen/1.0/palettes/generic/room_base.json"
@@ -656,6 +661,11 @@
       "1.0": "config/the_vault/gen/1.0/palettes/raw/chromatic_ore_placeholder.json"
     },
     {
+      "id": "the_vault:raw/modded_ore_placeholder",
+      "name": "Modded Ore Placeholder",
+      "1.0": "config/the_vault/gen/1.0/palettes/raw/modded_ore_placeholder.json"
+    },
+    {
       "id": "the_vault:raw/chromatic_caves/base",
       "name": "Chromatic Caves Base",
       "1.0": "config/the_vault/gen/1.0/palettes/raw/chromatic_caves/base.json"
@@ -664,6 +674,11 @@
       "id": "the_vault:raw/chromatic_caves/base_regular",
       "name": "Chromatic Caves Non-Raw Base",
       "1.0": "config/the_vault/gen/1.0/palettes/raw/chromatic_caves/base_regular.json"
+    },
+    {
+      "id": "the_vault:raw/chromatic_caves/base_modded",
+      "name": "Modded Caves Base",
+      "1.0": "config/the_vault/gen/1.0/palettes/raw/chromatic_caves/base_modded.json"
     },
     {
       "id": "the_vault:raw/chromatic_caves/spawner_settings",
@@ -679,6 +694,26 @@
       "id": "the_vault:festive/base",
       "name": "Base",
       "1.0": "config/the_vault/gen/1.0/palettes/festive/base.json"
+    },
+    {
+      "id": "the_vault:generic/ore_placeholder_alternate",
+      "name": "Ore Placeholder Alternate",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/ore_placeholder_alternate.json"
+    },
+    {
+      "id": "the_vault:generic/ore_placeholder_alternate_nether",
+      "name": "Ore Placeholder Alternate Nether",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/ore_placeholder_alternate_nether.json"
+    },
+    {
+      "id": "the_vault:generic/ore_placeholder_alternate_void",
+      "name": "Ore Placeholder Alternate Void",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/ore_placeholder_alternate_void.json"
+    },
+    {
+      "id": "the_vault:generic/air_to_cave_air",
+      "name": "Air to Cave Air",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/air_to_cave_air.json"
     }
   ]
 }

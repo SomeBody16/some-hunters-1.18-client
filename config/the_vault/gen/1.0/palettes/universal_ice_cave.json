@@ -126,13 +126,6 @@
     },
     {
       "type": "weighted_target",
-      "target": "minecraft:lava",
-      "output": {
-        "minecraft:lava": 1
-      }
-    },
-    {
-      "type": "weighted_target",
       "target": "minecraft:birch_log",
       "output": {
         "minecraft:air": 1
@@ -332,6 +325,21 @@
     },
     {
       "type": "weighted_target",
+      "target": "minecraft:oak_fence_gate",
+      "output": {
+          "minecraft:spruce_fence_gate": 1
+      }
+  },
+  {
+      "type": "weighted_target",
+      "target": "minecraft:oak_door",
+      "output": {
+          "minecraft:spruce_door": 2,
+          "mcwdoors:spruce_barn_door": 1
+      }
+  },
+    {
+      "type": "weighted_target",
       "target": "minecraft:stone_bricks",
       "output": {
         "ecologics:ice_bricks": 1
@@ -437,6 +445,20 @@
       "target": "minecraft:green_concrete",
       "output": {
         "minecraft:snow_block": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:magma_block",
+      "output": {
+        "minecraft:magma_block": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:lava",
+      "output": {
+        "minecraft:lava": 1
       }
     },
     {

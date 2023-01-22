@@ -183,3 +183,9 @@ craftingTable.addShaped("sophisticatedbackpacks_advanced_deposit_upgrade", <item
     [<item:minecraft:gold_block>, <item:sophisticatedbackpacks:deposit_upgrade>, <item:minecraft:gold_block>],
     [<item:minecraft:redstone_block>, <item:the_vault:vault_diamond>, <item:minecraft:redstone_block>]
 ]);
+
+craftingTable.addShaped("sophisticatedbackpacks_advanced_refill_upgrade", <item:sophisticatedbackpacks:advanced_refill_upgrade>, [
+    [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:vault_diamond_block>, <item:the_vault:chromatic_steel_ingot>],
+    [<item:sophisticatedbackpacks:refill_upgrade>, <item:the_vault:gem_pog>, <item:sophisticatedbackpacks:refill_upgrade>],
+    [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:chromatic_steel_ingot>, <item:the_vault:chromatic_steel_ingot>]
+]);

@@ -60,7 +60,7 @@
             "type": "weighted_target",
             "target": "the_vault:xp_altar",
             "output": {
-                "the_vault:xp_altar{MaxProgress: 12}": 1
+                "the_vault:xp_altar{MaxProgress: 8}": 1
             }
         },
         {
@@ -68,7 +68,7 @@
           "type": "weighted_target",
           "target": "the_vault:xp_altar",
           "output": {
-              "the_vault:xp_altar{MaxProgress: 22}": 1
+              "the_vault:xp_altar{MaxProgress: 14}": 1
           }
       },
         {
@@ -76,7 +76,7 @@
           "type": "weighted_target",
           "target": "the_vault:xp_altar",
           "output": {
-              "the_vault:xp_altar{MaxProgress: 32}": 1
+              "the_vault:xp_altar{MaxProgress: 20}": 1
           }
         },
         {
@@ -84,7 +84,7 @@
           "type": "weighted_target",
           "target": "the_vault:xp_altar",
           "output": {
-              "the_vault:xp_altar{MaxProgress: 42}": 1
+              "the_vault:xp_altar{MaxProgress: 22}": 1
           }
         },
         {
@@ -92,7 +92,7 @@
           "type": "weighted_target",
           "target": "the_vault:xp_altar",
           "output": {
-              "the_vault:xp_altar{MaxProgress: 52}": 1
+              "the_vault:xp_altar{MaxProgress: 24}": 1
           }
         },
         {
@@ -100,7 +100,7 @@
           "type": "weighted_target",
           "target": "the_vault:xp_altar",
           "output": {
-              "the_vault:xp_altar{MaxProgress: 62}": 1
+              "the_vault:xp_altar{MaxProgress: 26}": 1
           }
         },
         {
@@ -108,7 +108,7 @@
           "type": "weighted_target",
           "target": "the_vault:xp_altar",
           "output": {
-              "the_vault:xp_altar{MaxProgress: 72}": 1
+              "the_vault:xp_altar{MaxProgress: 27}": 1
           }
         },
         {
@@ -116,7 +116,7 @@
           "type": "weighted_target",
           "target": "the_vault:xp_altar",
           "output": {
-              "the_vault:xp_altar{MaxProgress: 82}": 1
+              "the_vault:xp_altar{MaxProgress: 28}": 1
           }
         },
         {
@@ -124,7 +124,7 @@
           "type": "weighted_target",
           "target": "the_vault:xp_altar",
           "output": {
-              "the_vault:xp_altar{MaxProgress: 92}": 1
+              "the_vault:xp_altar{MaxProgress: 29}": 1
           }
         },
         {
@@ -132,7 +132,7 @@
           "type": "weighted_target",
           "target": "the_vault:xp_altar",
           "output": {
-              "the_vault:xp_altar{MaxProgress: 102}": 1
+              "the_vault:xp_altar{MaxProgress: 30}": 1
           }
         },
         {
@@ -140,7 +140,7 @@
           "type": "weighted_target",
           "target": "the_vault:xp_altar",
           "output": {
-              "the_vault:xp_altar{MaxProgress: 112}": 1
+              "the_vault:xp_altar{MaxProgress: 31}": 1
           }
         }
       ]
@@ -153,7 +153,7 @@
             "type": "weighted_target",
             "target": "the_vault:blood_altar",
             "output": {
-              "the_vault:blood_altar{MaxProgress: 3}": 1
+              "the_vault:blood_altar{MaxProgress: 2}": 1
             }
         },
         {
@@ -161,7 +161,7 @@
           "type": "weighted_target",
           "target": "the_vault:blood_altar",
           "output": {
-            "the_vault:blood_altar{MaxProgress: 6}": 1
+            "the_vault:blood_altar{MaxProgress: 3}": 1
           }
         },
         {
@@ -169,7 +169,7 @@
           "type": "weighted_target",
           "target": "the_vault:blood_altar",
           "output": {
-            "the_vault:blood_altar{MaxProgress: 9}": 1
+            "the_vault:blood_altar{MaxProgress: 4}": 1
           }
         },
         {
@@ -177,7 +177,7 @@
           "type": "weighted_target",
           "target": "the_vault:blood_altar",
           "output": {
-            "the_vault:blood_altar{MaxProgress: 12}": 1
+            "the_vault:blood_altar{MaxProgress: 5}": 1
           }
         },
         {
@@ -185,7 +185,7 @@
           "type": "weighted_target",
           "target": "the_vault:blood_altar",
           "output": {
-            "the_vault:blood_altar{MaxProgress: 15}": 1
+            "the_vault:blood_altar{MaxProgress: 6}": 1
           }
         },
         {
@@ -193,7 +193,7 @@
           "type": "weighted_target",
           "target": "the_vault:blood_altar",
           "output": {
-            "the_vault:blood_altar{MaxProgress: 18}": 1
+            "the_vault:blood_altar{MaxProgress: 7}": 1
           }
         },
         {
@@ -201,7 +201,7 @@
           "type": "weighted_target",
           "target": "the_vault:blood_altar",
           "output": {
-            "the_vault:blood_altar{MaxProgress: 21}": 1
+            "the_vault:blood_altar{MaxProgress: 8}": 1
           }
         },
         {
@@ -209,7 +209,7 @@
           "type": "weighted_target",
           "target": "the_vault:blood_altar",
           "output": {
-            "the_vault:blood_altar{MaxProgress: 24}": 1
+            "the_vault:blood_altar{MaxProgress: 9}": 1
           }
         },
         {
@@ -217,7 +217,7 @@
             "type": "weighted_target",
             "target": "the_vault:blood_altar",
             "output": {
-              "the_vault:blood_altar{MaxProgress: 27}": 1
+              "the_vault:blood_altar{MaxProgress: 10}": 1
             }
         },
         {
@@ -225,7 +225,7 @@
           "type": "weighted_target",
           "target": "the_vault:blood_altar",
           "output": {
-            "the_vault:blood_altar{MaxProgress: 30}": 1
+            "the_vault:blood_altar{MaxProgress: 11}": 1
           }
         },
         {
@@ -233,7 +233,7 @@
           "type": "weighted_target",
           "target": "the_vault:blood_altar",
           "output": {
-            "the_vault:blood_altar{MaxProgress: 33}": 1
+            "the_vault:blood_altar{MaxProgress: 12}": 1
           }
         }
       ]
@@ -246,15 +246,79 @@
             "type": "weighted_target",
             "target": "the_vault:time_altar",
             "output": {
-              "the_vault:time_altar{MaxProgress: 3}": 1
+              "the_vault:time_altar{MaxProgress: 20}": 1
             }
+        },
+        {
+          "level": 10,
+          "type": "weighted_target",
+          "target": "the_vault:time_altar",
+          "output": {
+            "the_vault:time_altar{MaxProgress: 25}": 1
+          }
+        },
+        {
+          "level": 20,
+          "type": "weighted_target",
+          "target": "the_vault:time_altar",
+          "output": {
+            "the_vault:time_altar{MaxProgress: 30}": 1
+          }
+        },
+        {
+          "level": 30,
+          "type": "weighted_target",
+          "target": "the_vault:time_altar",
+          "output": {
+            "the_vault:time_altar{MaxProgress: 35}": 1
+          }
+        },
+        {
+          "level": 40,
+          "type": "weighted_target",
+          "target": "the_vault:time_altar",
+          "output": {
+            "the_vault:time_altar{MaxProgress: 40}": 1
+          }
         },
         {
           "level": 50,
           "type": "weighted_target",
           "target": "the_vault:time_altar",
           "output": {
-            "the_vault:time_altar{MaxProgress: 4}": 1
+            "the_vault:time_altar{MaxProgress: 45}": 1
+          }
+        },
+        {
+          "level": 60,
+          "type": "weighted_target",
+          "target": "the_vault:time_altar",
+          "output": {
+            "the_vault:time_altar{MaxProgress: 50}": 1
+          }
+        },
+        {
+          "level": 70,
+          "type": "weighted_target",
+          "target": "the_vault:time_altar",
+          "output": {
+            "the_vault:time_altar{MaxProgress: 55}": 1
+          }
+        },
+        {
+          "level": 80,
+          "type": "weighted_target",
+          "target": "the_vault:time_altar",
+          "output": {
+            "the_vault:time_altar{MaxProgress: 60}": 1
+          }
+        },
+        {
+          "level": 90,
+          "type": "weighted_target",
+          "target": "the_vault:time_altar",
+          "output": {
+            "the_vault:time_altar{MaxProgress: 65}": 1
           }
         },
         {
@@ -262,7 +326,7 @@
           "type": "weighted_target",
           "target": "the_vault:time_altar",
           "output": {
-            "the_vault:time_altar{MaxProgress: 5}": 1
+            "the_vault:time_altar{MaxProgress: 70}": 1
           }
         }
       ]
@@ -275,7 +339,7 @@
             "type": "weighted_target",
             "target": "the_vault:soul_altar",
             "output": {
-              "the_vault:soul_altar{MaxProgress: 6}": 1
+              "the_vault:soul_altar{MaxProgress: 3}": 1
             }
         },
         {
@@ -283,7 +347,7 @@
           "type": "weighted_target",
           "target": "the_vault:soul_altar",
           "output": {
-            "the_vault:soul_altar{MaxProgress: 8}": 1
+            "the_vault:soul_altar{MaxProgress: 5}": 1
           }
         },
         {
@@ -291,7 +355,7 @@
           "type": "weighted_target",
           "target": "the_vault:soul_altar",
           "output": {
-            "the_vault:soul_altar{MaxProgress: 10}": 1
+            "the_vault:soul_altar{MaxProgress: 7}": 1
           }
         },
         {
@@ -299,7 +363,7 @@
           "type": "weighted_target",
           "target": "the_vault:soul_altar",
           "output": {
-            "the_vault:soul_altar{MaxProgress: 12}": 1
+            "the_vault:soul_altar{MaxProgress: 9}": 1
           }
         },
         {
@@ -307,7 +371,7 @@
           "type": "weighted_target",
           "target": "the_vault:soul_altar",
           "output": {
-            "the_vault:soul_altar{MaxProgress: 14}": 1
+            "the_vault:soul_altar{MaxProgress: 11}": 1
           }
         },
         {
@@ -315,7 +379,7 @@
           "type": "weighted_target",
           "target": "the_vault:soul_altar",
           "output": {
-            "the_vault:soul_altar{MaxProgress: 16}": 1
+            "the_vault:soul_altar{MaxProgress: 12}": 1
           }
         },
         {
@@ -323,7 +387,7 @@
           "type": "weighted_target",
           "target": "the_vault:soul_altar",
           "output": {
-            "the_vault:soul_altar{MaxProgress: 18}": 1
+            "the_vault:soul_altar{MaxProgress: 14}": 1
           }
         },
         {
@@ -331,7 +395,7 @@
           "type": "weighted_target",
           "target": "the_vault:soul_altar",
           "output": {
-            "the_vault:soul_altar{MaxProgress: 20}": 1
+            "the_vault:soul_altar{MaxProgress: 16}": 1
           }
         },
         {
@@ -339,7 +403,7 @@
           "type": "weighted_target",
           "target": "the_vault:soul_altar",
           "output": {
-            "the_vault:soul_altar{MaxProgress: 22}": 1
+            "the_vault:soul_altar{MaxProgress: 18}": 1
           }
         },
         {
@@ -347,7 +411,7 @@
           "type": "weighted_target",
           "target": "the_vault:soul_altar",
           "output": {
-            "the_vault:soul_altar{MaxProgress: 24}": 1
+            "the_vault:soul_altar{MaxProgress: 20}": 1
           }
         },
         {
@@ -355,7 +419,7 @@
           "type": "weighted_target",
           "target": "the_vault:soul_altar",
           "output": {
-            "the_vault:soul_altar{MaxProgress: 26}": 1
+            "the_vault:soul_altar{MaxProgress: 22}": 1
           }
         }
       ]

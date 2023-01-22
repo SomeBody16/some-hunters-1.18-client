@@ -99,11 +99,11 @@
       "pool": [
         {
           "value": "SCRAPPY",
-          "weight": 86
+          "weight": 80
         },
         {
           "value": "COMMON",
-          "weight": 12
+          "weight": 10
         },
         {
           "value": "RARE",
@@ -111,7 +111,7 @@
         },
         {
           "value": "EPIC",
-          "weight": 2
+          "weight": 3
         },
         {
           "value": "OMEGA",
@@ -124,19 +124,19 @@
       "pool": [
         {
           "value": "SCRAPPY",
-          "weight": 60
+          "weight": 74
         },
         {
           "value": "COMMON",
-          "weight": 30
+          "weight": 13
         },
         {
           "value": "RARE",
-          "weight": 7
+          "weight": 8
         },
         {
           "value": "EPIC",
-          "weight": 3
+          "weight": 4
         },
         {
           "value": "OMEGA",
@@ -149,23 +149,23 @@
       "pool": [
         {
           "value": "SCRAPPY",
-          "weight": 25
+          "weight": 69
         },
         {
           "value": "COMMON",
-          "weight": 50
+          "weight": 15
         },
         {
           "value": "RARE",
-          "weight": 20
+          "weight": 9
         },
         {
           "value": "EPIC",
-          "weight": 4
+          "weight": 5
         },
         {
           "value": "OMEGA",
-          "weight": 1
+          "weight": 2
         }
       ],
       "color": 16762241

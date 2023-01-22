@@ -61,7 +61,8 @@
       "the_vault:gear/armor/bone_dragon",
       "the_vault:gear/armor/devil",
       "the_vault:gear/armor/leprechaun",
-      "the_vault:gear/armor/paladin"
+      "the_vault:gear/armor/paladin",
+      "the_vault:gear/armor/pirate"
       
     ],
     "UNIQUE": [
@@ -89,7 +90,16 @@
       "the_vault:gear/armor/stress_flower",
       "the_vault:gear/armor/skallibomba",
       "the_vault:gear/armor/jardoon_cheese",
-      "the_vault:gear/armor/bumbo"
+      "the_vault:gear/armor/bumbo",
+      "the_vault:gear/armor/crayon_blue",
+      "the_vault:gear/armor/crayon_green",
+      "the_vault:gear/armor/crayon_red",
+      "the_vault:gear/armor/crayon_yellow",
+      "the_vault:gear/armor/torch",
+      "the_vault:gear/armor/armour_idona",
+      "the_vault:gear/armor/armour_velara",
+      "the_vault:gear/armor/armour_tenos",
+      "the_vault:gear/armor/armour_wendarr"
     ]
   },
   "SWORD_MODEL_ROLLS": {
@@ -100,17 +110,31 @@
     ],
     "COMMON": [
       "the_vault:gear/sword/sword_1",
-      "the_vault:gear/sword/sword_3"
+      "the_vault:gear/sword/sword_3",
+      "the_vault:gear/sword/gladius"
     ],
     "RARE": [
       "the_vault:gear/sword/sword_4",
-      "the_vault:gear/sword/sword_5"
+      "the_vault:gear/sword/sword_5",
+      "the_vault:gear/sword/tribal_blade",
+      "the_vault:gear/sword/plate_piercer",
+      "the_vault:gear/sword/gladius",
+      "the_vault:gear/sword/swaxe"
     ],
     "EPIC": [
-      "the_vault:gear/sword/sword_6"
+      "the_vault:gear/sword/sword_6",
+      "the_vault:gear/sword/crystallised_blade",
+      "the_vault:gear/sword/double_blade",
+      "the_vault:gear/sword/moonshine",
+      "the_vault:gear/sword/refracted_blade",
+      "the_vault:gear/sword/skallified_sword",
+      "the_vault:gear/sword/tribal_blade",
+      "the_vault:gear/sword/tarnished_blade"
     ],
     "OMEGA": [
-      "the_vault:gear/sword/sword_7"
+      "the_vault:gear/sword/sword_7",
+      "the_vault:gear/sword/douwswords_swousky",
+      "the_vault:gear/sword/kindled_blade"
     ],
     "UNIQUE": [
       "the_vault:gear/sword/chainsword",
@@ -122,7 +146,12 @@
       "the_vault:gear/sword/soul_sword_blue",
       "the_vault:gear/sword/red_katana",
       "the_vault:gear/sword/nightfall",
-      "the_vault:gear/sword/deaths_door"
+      "the_vault:gear/sword/velaras_greatsword",
+      "the_vault:gear/sword/wendarrs_greatsword",
+      "the_vault:gear/sword/deaths_door",
+      "the_vault:gear/sword/ring_blade",
+      "the_vault:gear/sword/idonas_sword"
+      
     ]
   },
   "AXE_MODEL_ROLLS": {
@@ -157,7 +186,12 @@
       "the_vault:gear/axe/janitors_broom",
       "the_vault:gear/axe/big_choppa",
       "the_vault:gear/axe/blood_chopper",
-      "the_vault:gear/axe/blood_cleaver"
+      "the_vault:gear/axe/wendarrs_clockaxe",
+      "the_vault:gear/axe/velaras_hammer",
+      "the_vault:gear/axe/tenos_staff",
+      "the_vault:gear/axe/idonas_scythe",
+      "the_vault:gear/axe/blood_cleaver",
+      "the_vault:gear/axe/last_sight"
     ]
   },
   "SHIELD_MODEL_ROLLS": {
@@ -187,6 +221,8 @@
     ],
     "UNIQUE": [
       "the_vault:gear/shield/bell",
+      "the_vault:gear/shield/nou",
+      "the_vault:gear/shield/absolutebinner",
       "the_vault:gear/shield/turtle"
     ]
   }
