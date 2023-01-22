@@ -95,13 +95,6 @@
         },
         {
             "type": "weighted_target",
-            "target": "minecraft:lava",
-            "output": {
-                "minecraft:lava": 1
-            }
-        },
-        {
-            "type": "weighted_target",
             "target": "minecraft:birch_log",
             "output": {
                 "minecraft:air": 1
@@ -302,6 +295,22 @@
         },
         {
             "type": "weighted_target",
+            "target": "minecraft:oak_fence_gate",
+            "output": {
+                "minecraft:spruce_fence_gate": 1,
+                "ecologics:walnut_fence_gate": 3
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "minecraft:oak_door",
+            "output": {
+                "mcwdoors:spruce_tropical_door": 1,
+                "everycomp:mcd/ecologics/walnut_tropical_door": 3
+            }
+        },
+        {
+            "type": "weighted_target",
             "target": "minecraft:stone_bricks",
             "output": {
                 "minecraft:stone_bricks": 7,
@@ -385,6 +394,20 @@
             "target": "minecraft:mossy_cobblestone",
             "output": {
                 "auxiliaryblocks:cobbled_sandstone": 1
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "minecraft:magma_block",
+            "output": {
+                "minecraft:magma_block": 1
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "minecraft:lava",
+            "output": {
+                "minecraft:lava": 1
             }
         },
         {

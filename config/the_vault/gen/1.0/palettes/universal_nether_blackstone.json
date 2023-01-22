@@ -97,13 +97,6 @@
         },
         {
             "type": "weighted_target",
-            "target": "minecraft:lava",
-            "output": {
-                "minecraft:lava": 1
-            }
-        },
-        {
-            "type": "weighted_target",
             "target": "minecraft:birch_log",
             "output": {
                 "minecraft:air": 1
@@ -299,6 +292,21 @@
         },
         {
             "type": "weighted_target",
+            "target": "minecraft:oak_fence_gate",
+            "output": {
+                "botania:livingwood_fence_gate": 1
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "minecraft:oak_door",
+            "output": {
+                "everycomp:mcd/botania/livingwood_mystic_door": 1,
+                "everycomp:mcd/botania/livingwood_nether_door": 1
+            }
+        },
+        {
+            "type": "weighted_target",
             "target": "minecraft:stone_bricks",
             "output": {
                 "twigs:smooth_basalt_bricks": 4,
@@ -345,7 +353,7 @@
             "type": "weighted_target",
             "target": "quark:stone_vertical_slab",
             "output": {
-                "twigs:polished_basalt_brick_vertical_slab": 3,
+                "twigs:smooth_basalt_brick_vertical_slab": 3,
                 "architects_palette:basalt_tile_vertical_slab": 1
             }
         },
@@ -391,6 +399,20 @@
                 "minecraft:shroomlight": 1,
                 "auxiliaryblocks:orange_gelatin": 2,
                 "auxiliaryblocks:orange_crystal": 2
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "minecraft:magma_block",
+            "output": {
+                "minecraft:magma_block": 1
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "minecraft:lava",
+            "output": {
+                "minecraft:lava": 1
             }
         },
         {

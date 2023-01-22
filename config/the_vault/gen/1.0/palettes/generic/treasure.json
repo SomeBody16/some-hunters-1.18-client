@@ -23,6 +23,10 @@
         {
             "type": "reference",
             "id": "the_vault:generic/ore_placeholder"
+        },
+        {
+            "type": "reference",
+            "id": "the_vault:generic/pylon_placeholder"
         }
     ]
 }

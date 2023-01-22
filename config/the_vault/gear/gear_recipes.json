@@ -226,7 +226,7 @@
       },
       "inputs": [
         {
-          "AMOUNT": 4,
+          "AMOUNT": 3,
           "ITEM": "the_vault:god_blessing",
           "NBT": "{}"
         },
@@ -241,13 +241,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 2,
-          "ITEM": "minecraft:netherite_ingot",
-          "NBT": "{}"
-        },
-        {
           "AMOUNT": 8,
-          "ITEM": "the_vault:vault_plating",
+          "ITEM": "the_vault:vault_diamond",
           "NBT": "{}"
         }
       ]
@@ -309,8 +304,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 2,
-          "ITEM": "the_vault:vault_platinum",
+          "AMOUNT": 18,
+          "ITEM": "the_vault:vault_gold",
           "NBT": "{}"
         },
         {

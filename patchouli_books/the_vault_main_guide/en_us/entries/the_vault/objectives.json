@@ -20,8 +20,8 @@
         {
           "type": "patchouli:spotlight",
           "item": "the_vault:crystal_seal_executioner",
-          "title": "Kill The Boss",
-          "text": "Find the required $(l)Obelisks$() and activate them to spawn the boss. $(br2)This objective can be forced with the use of the $(l)Seal of the Executioner.$() $(br2)A $(l)Boss Crate$() is rewarded when this Vault is succesfully completed."
+          "title": "Hunt the Guardians",
+          "text": "Find the required $(l)Obelisks$() and activate them to spawn $(l)Vault Guardians$(). This objective is completed when all obelisks have been activated and all Guardians have been killed. $(br2)This objective can be forced with the use of the $(l)Seal of the Executioner.$()"
         },
         {
           "type": "patchouli:spotlight",

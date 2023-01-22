@@ -1514,6 +1514,116 @@
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw/chromatic_caves.json"
     },
     {
+      "id": "the_vault:vault/decor/generic/ore/5x5/standing1",
+      "name": "Ore 5x5 Standing 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/ore/5x5/standing1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/ore/5x5/hole1",
+      "name": "Ore 5x5 Hole 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/ore/5x5/hole1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/ore/5x5/burrow1",
+      "name": "Ore 5x5 Burrow 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/ore/5x5/burrow1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/ore/standing1",
+      "name": "Ore Standing 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/ore/standing1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/ore/hole1",
+      "name": "Ore Hole 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/ore/hole1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/ore/7x7/burrow1",
+      "name": "Ore 7x7 Burrow 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/ore/7x7/burrow1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/ore/9x9/burrow1",
+      "name": "Ore 9x9 Burrow 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/ore/9x9/burrow1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/references/ore/5x5/standing1",
+      "name": "Reference Ore 5x5 Standing 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/references/ore/5x5/standing1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/references/ore/5x5/hole1",
+      "name": "Reference Ore 5x5 Hole 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/references/ore/5x5/hole1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/references/ore/5x5/burrow1",
+      "name": "Reference Ore 5x5 Burrow 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/references/ore/5x5/burrow1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/references/ore/7x7/standing1",
+      "name": "Reference Ore 7x7 Standing 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/references/ore/7x7/standing1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/references/ore/7x7/standing_c1",
+      "name": "Reference Ore 7x7 Standing Chest 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/references/ore/7x7/standing_c1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/references/ore/7x7/hole1",
+      "name": "Reference Ore 7x7 Hole 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/references/ore/7x7/hole1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/references/ore/7x7/hole_c1",
+      "name": "Reference Ore 7x7 Hole Chest 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/references/ore/7x7/hole_c1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/references/ore/7x7/burrow1",
+      "name": "Reference Ore 7x7 Burrow 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/references/ore/7x7/burrow1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/references/ore/7x7/burrow_c1",
+      "name": "Reference Ore 7x7 Burrow Chest 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/references/ore/7x7/burrow_c1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/references/ore/9x9/standing1",
+      "name": "Reference Ore 9x9 Standing 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/references/ore/9x9/standing1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/references/ore/9x9/standing_c1",
+      "name": "Reference Ore 9x9 Standing Chest 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/references/ore/9x9/standing_c1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/references/ore/9x9/hole1",
+      "name": "Reference Ore 9x9 Hole 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/references/ore/9x9/hole1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/references/ore/9x9/hole_c1",
+      "name": "Reference Ore 9x9 Hole Chest 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/references/ore/9x9/hole_c1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/references/ore/9x9/burrow1",
+      "name": "Reference Ore 9x9 Burrow 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/references/ore/9x9/burrow1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/references/ore/9x9/burrow_c1",
+      "name": "Reference Ore 9x9 Burrow Chest 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/references/ore/9x9/burrow_c1.json"
+    },
+    {
       "id": "the_vault:vault/rooms/raw/chromatic_caves_regular",
       "name": "Chromatic Caves Non-Raw",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw/chromatic_caves_regular.json"
@@ -1522,6 +1632,11 @@
       "id": "the_vault:vault/rooms/gingerbread_common_rooms",
       "name": "Gingerbread Common Rooms",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/gingerbread_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw/modded_caves",
+      "name": "Raw Modded Caves",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw/modded_caves.json"
     }
   ]
 }
