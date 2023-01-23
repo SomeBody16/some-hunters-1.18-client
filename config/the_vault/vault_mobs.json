@@ -3197,10 +3197,10 @@
       {
         "NAME": "minecraft:generic.attack_damage",
         "MIN": 1.0,
-        "MAX": 2.0,
+        "MAX": 1.8,
         "OPERATOR": "set",
         "ROLL_CHANCE": 1.0,
-        "SCALE_PER_LEVEL": 0.08,
+        "SCALE_PER_LEVEL": 0.07,
         "SCALE_MAX_LEVEL": -1
       },
       {
@@ -3209,13 +3209,13 @@
         "MAX": 80.0,
         "OPERATOR": "set",
         "ROLL_CHANCE": 1.0,
-        "SCALE_PER_LEVEL": 0.08,
+        "SCALE_PER_LEVEL": 0.14,
         "SCALE_MAX_LEVEL": -1
       },
       {
         "NAME": "the_vault:generic.reach",
-        "MIN": 2.4,
-        "MAX": 2.8,
+        "MIN": 2.3,
+        "MAX": 2.7,
         "OPERATOR": "set",
         "ROLL_CHANCE": 1.0,
         "SCALE_PER_LEVEL": 0.0,
@@ -3232,8 +3232,8 @@
       },
       {
         "NAME": "minecraft:generic.movement_speed",
-        "MIN": 0.45,
-        "MAX": 0.45,
+        "MIN": 0.35,
+        "MAX": 0.4,
         "OPERATOR": "set",
         "ROLL_CHANCE": 1.0,
         "SCALE_PER_LEVEL": 0.0,
@@ -3242,7 +3242,7 @@
       {
         "NAME": "the_vault:generic.thorns_chance",
         "MIN": 0.05,
-        "MAX": 0.3,
+        "MAX": 0.2,
         "OPERATOR": "set",
         "ROLL_CHANCE": 1.0,
         "SCALE_PER_LEVEL": 0.0,
@@ -3250,8 +3250,8 @@
       },
       {
         "NAME": "the_vault:generic.thorns_damage",
-        "MIN": 0.5,
-        "MAX": 1.0,
+        "MIN": 0.25,
+        "MAX": 0.5,
         "OPERATOR": "set",
         "ROLL_CHANCE": 1.0,
         "SCALE_PER_LEVEL": 0.0,
@@ -3281,7 +3281,7 @@
       {
         "NAME": "minecraft:generic.attack_damage",
         "MIN": 1.0,
-        "MAX": 1.5,
+        "MAX": 1.8,
         "OPERATOR": "set",
         "ROLL_CHANCE": 1.0,
         "SCALE_PER_LEVEL": 0.08,
@@ -3289,8 +3289,8 @@
       },
       {
         "NAME": "minecraft:generic.max_health",
-        "MIN": 24.0,
-        "MAX": 68.0,
+        "MIN": 20.0,
+        "MAX": 45.0,
         "OPERATOR": "set",
         "ROLL_CHANCE": 1.0,
         "SCALE_PER_LEVEL": 0.08,
@@ -3307,8 +3307,8 @@
       },
       {
         "NAME": "the_vault:generic.crossbow_charge_time",
-        "MIN": 40.0,
-        "MAX": 80.0,
+        "MIN": 30.0,
+        "MAX": 70.0,
         "OPERATOR": "set",
         "ROLL_CHANCE": 1.0,
         "SCALE_PER_LEVEL": 0.0,

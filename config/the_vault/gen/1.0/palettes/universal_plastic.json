@@ -51,6 +51,13 @@
         },
         {
             "type": "weighted_target",
+            "target": "the_vault:placeholder[type=pylon]",
+            "output": {
+                "minecraft:air": 1
+            }
+        },
+        {
+            "type": "weighted_target",
             "target": "the_vault:placeholder[type=treasure_door]",
             "output": {
                 "minecraft:stone": 1

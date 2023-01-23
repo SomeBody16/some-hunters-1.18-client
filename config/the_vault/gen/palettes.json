@@ -146,6 +146,11 @@
       "1.0": "config/the_vault/gen/1.0/palettes/generic/pylon_placeholder.json"
     },
     {
+      "id": "the_vault:raw/pylon_placeholder",
+      "name": "Raw Pylon Placeholder",
+      "1.0": "config/the_vault/gen/1.0/palettes/raw/pylon_placeholder.json"
+    },
+    {
       "id": "the_vault:generic/room_base",
       "name": "Room Base",
       "1.0": "config/the_vault/gen/1.0/palettes/generic/room_base.json"
