@@ -26,6 +26,10 @@
         },
         {
             "type": "reference",
+            "id": "the_vault:raw/pylon_placeholder"
+        },
+        {
+            "type": "reference",
             "id": "the_vault:generic/spawner_base"
         }
     ]

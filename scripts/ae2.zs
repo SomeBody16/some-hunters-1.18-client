@@ -92,7 +92,7 @@ craftingTable.addShapeless("ae2_storage_cell_16k_shapeless", <item:ae2:item_stor
 
 craftingTable.addShaped("ae2_64k_component", <item:ae2:cell_component_64k>, [
     [<item:the_vault:black_chromatic_steel_ingot>, <item:ae2:calculation_processor>, <item:the_vault:black_chromatic_steel_ingot>],
-    [<item:ae2:cell_component_16k>, <item:the_vault:gem_pog>, <item:ae2:cell_component_16k>],
+    [<item:ae2:cell_component_16k>, <item:the_vault:echo_pog>, <item:ae2:cell_component_16k>],
     [<item:the_vault:black_chromatic_steel_ingot>, <item:ae2:cell_component_16k>, <item:the_vault:black_chromatic_steel_ingot>]
 ]);
 
