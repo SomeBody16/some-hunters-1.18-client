@@ -506,7 +506,7 @@
         }
       },
       "name": "Botany Pots",
-      "cost": 2,
+      "cost": 420,
       "usesKnowledge": true,
       "discoversModels": [
         "the_vault:gear/armor/fairy/helmet",
@@ -953,7 +953,6 @@
         "the_vault:gear/armor/dank/boots"
       ]
     },
-    
     {
       "itemRestrictions": {
         "sophisticatedbackpacks:backpack": {
