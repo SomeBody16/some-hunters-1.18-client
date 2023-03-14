@@ -12,7 +12,7 @@
 
         {
           "type": "patchouli:text",
-          "text": "$(l)Elite Mobs$() are stronger versions of the base mob with a different look that have a different special ability when fought or killed. Killing Elite Mobs yield more Vault exp. $(br2)Another common Vault Mob is the $(l)Vault Dweller$(). Be aware that the Vault Dweller, in regards to other mobs, can jump! $(br2)$(l)Bosses$() appear when all obelisks are activated in the 'Kill the Boss' objective."
+          "text": "$(l)Elite Mobs$() are stronger versions of the base mob with a different look that have a different special ability when fought or killed. Killing Elite Mobs yield more Vault exp. $(br2)Another common Vault Mob is the $(l)Vault Dweller$(). Be aware that the Vault Dweller, in regards to other mobs, can jump! $(br2)$(l)Bosses$() appear when all obelisks are activated in the 'Kill the Boss' objective $(l)(Currently Disabled)."
         },
 
         {

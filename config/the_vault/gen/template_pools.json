@@ -1329,14 +1329,14 @@
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw_cave_common_rooms.json"
     },
     {
-      "id": "the_vault:vault/rooms/raw_cave_rooms",
-      "name": "Raw Cave Rooms",
-      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw_cave_rooms.json"
+      "id": "the_vault:vault/rooms/raw_cave_rooms_lvl0",
+      "name": "Raw Cave Rooms LVL 0",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw_cave_rooms_lvl0.json"
     },
     {
-      "id": "the_vault:vault/rooms/raw/resources",
-      "name": "Resources",
-      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw/resources.json"
+      "id": "the_vault:vault/rooms/raw/resources_lvl0",
+      "name": "Resources LVL 0",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw/resources_lvl0.json"
     },
     {
       "id": "the_vault:vault/starts/raw_cave_starts",
@@ -1722,6 +1722,101 @@
       "id": "the_vault:vault/decor/highlighter/mustard4/structure3",
       "name": "Highlighter Mustard4 Structure 3",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/mustard4/structure3.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/omega/library",
+      "name": "Library",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/omega/library.json"
+    },
+    {
+      "id": "the_vault:vault/decor/raw/chromatic_caves/spawner_tree1",
+      "name": "Spawner Tree 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/raw/chromatic_caves/spawner_tree1.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/lush_cave_resource_rooms",
+      "name": "Lush Cave Resource Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/lush_cave_resource_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw/diamond_caves",
+      "name": "Raw Diamond Caves",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw/diamond_caves.json"
+    },
+    {
+      "id": "the_vault:vault/decor/raw/end/island_structure",
+      "name": "Raw End Island Structure",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/raw/end/island_structure.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw/end",
+      "name": "Raw End",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw/end.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw_cave_rooms_lvl10",
+      "name": "Raw Cave Rooms LVL 10",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw_cave_rooms_lvl10.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw/resources_lvl10",
+      "name": "Resources LVL 10",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw/resources_lvl10.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw_cave_rooms_lvl20",
+      "name": "Raw Cave Rooms LVL 20",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw_cave_rooms_lvl20.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw/resources_lvl20",
+      "name": "Resources LVL 20",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw/resources_lvl20.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw_cave_rooms_lvl30",
+      "name": "Raw Cave Rooms LVL 30",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw_cave_rooms_lvl30.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw/resources_lvl30",
+      "name": "Resources LVL 30",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw/resources_lvl30.json"
+    },
+    {
+      "id": "the_vault:vault/decor/raw/farm/cave1",
+      "name": "Raw Farm Cave 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/raw/farm/cave1.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/blank_common_rooms",
+      "name": "Blank Common Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/blank_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/blank_tunnels",
+      "name": "Blank Tunnels",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/blank_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/starts/blank_starts",
+      "name": "Blank Starts",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/blank_starts.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/omega/cove",
+      "name": "Cove",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/omega/cove.json"
+    },
+    {
+      "id": "the_vault:vault/decor/factory/bucket_loot1",
+      "name": "Bucket Loot 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/factory/bucket_loot1.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw/diamond_caves_regular",
+      "name": "Regular Diamond Caves",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw/diamond_caves_regular.json"
     }
   ]
 }

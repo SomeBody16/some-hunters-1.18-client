@@ -9,7 +9,7 @@
             "type": "patchouli:spotlight",
             "item":"the_vault:vault_rock",
             "title": "The Vault Rock",
-            "text": "To start your vault adventures, you need a $(l)Vault Rock$() to place on the Vault Altar for it to turn into a $(l)Vault Crystal$(). $(br2)Find clusters of $(l)Vault Stone$() on Y-level -5 and below. $(br2)When mining Vault Stone, there is a 10% chance for it to drop a $(l)Chipped Vault Rock$()"
+            "text": "To start your vault adventures, you need a $(l)Vault Rock$() to place on the Vault Altar for it to turn into a $(l)Vault Crystal$(). $(br2)Find clusters of $(l)Vault Stone$() between Y-level -32 and -64. $(br2)When mining Vault Stone, there is a 10% chance for it to drop a $(l)Chipped Vault Rock$()"
         },
 
         {

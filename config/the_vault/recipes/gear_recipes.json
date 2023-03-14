@@ -1,42 +1,6 @@
 {
   "gearRecipes": [
     {
-      "proficiencyType": "MAGNET",
-      "id": "the_vault:magnet",
-      "output": {
-        "AMOUNT": 1,
-        "ITEM": "the_vault:magnet",
-        "NBT": "{Damage:0}"
-      },
-      "inputs": [
-        {
-          "AMOUNT": 9,
-          "ITEM": "the_vault:magnetite_ingot",
-          "NBT": "{}"
-        },
-        {
-          "AMOUNT": 1,
-          "ITEM": "the_vault:vault_gold",
-          "NBT": "{}"
-        },
-        {
-          "AMOUNT": 5,
-          "ITEM": "minecraft:diamond",
-          "NBT": "{}"
-        },
-        {
-          "AMOUNT": 1,
-          "ITEM": "minecraft:netherite_ingot",
-          "NBT": "{}"
-        },
-        {
-          "AMOUNT": 8,
-          "ITEM": "the_vault:vault_plating",
-          "NBT": "{}"
-        }
-      ]
-    },
-    {
       "proficiencyType": "HELMET",
       "id": "the_vault:helmet",
       "output": {
@@ -51,8 +15,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 1,
-          "ITEM": "the_vault:vault_gold",
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
@@ -87,8 +51,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 1,
-          "ITEM": "the_vault:vault_gold",
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
@@ -123,8 +87,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 1,
-          "ITEM": "the_vault:vault_gold",
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
@@ -159,8 +123,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 1,
-          "ITEM": "the_vault:vault_gold",
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
@@ -195,8 +159,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 1,
-          "ITEM": "the_vault:vault_gold",
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
@@ -231,8 +195,44 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 1,
-          "ITEM": "the_vault:vault_gold",
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 5,
+          "ITEM": "minecraft:diamond",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 2,
+          "ITEM": "minecraft:netherite_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:vault_plating",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "proficiencyType": "SHIELD",
+      "id": "the_vault:shield",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:shield",
+        "NBT": "{Damage:0}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:vault_alloy",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
@@ -267,8 +267,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 1,
-          "ITEM": "the_vault:vault_gold",
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
@@ -284,22 +284,22 @@
       ]
     },
     {
-      "proficiencyType": "SHIELD",
-      "id": "the_vault:shield",
+      "proficiencyType": "MAGNET",
+      "id": "the_vault:magnet",
       "output": {
         "AMOUNT": 1,
-        "ITEM": "the_vault:shield",
+        "ITEM": "the_vault:magnet",
         "NBT": "{Damage:0}"
       },
       "inputs": [
         {
           "AMOUNT": 9,
-          "ITEM": "the_vault:vault_alloy",
+          "ITEM": "the_vault:magnetite_ingot",
           "NBT": "{}"
         },
         {
-          "AMOUNT": 1,
-          "ITEM": "the_vault:vault_gold",
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
@@ -308,7 +308,7 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 2,
+          "AMOUNT": 1,
           "ITEM": "minecraft:netherite_ingot",
           "NBT": "{}"
         },

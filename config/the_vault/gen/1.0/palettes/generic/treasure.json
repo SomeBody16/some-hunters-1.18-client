@@ -27,6 +27,10 @@
         {
             "type": "reference",
             "id": "the_vault:generic/pylon_placeholder"
+        },
+        {
+            "type": "reference",
+            "id": "the_vault:generic/dungeon_discoverable_placeholder"
         }
     ]
 }

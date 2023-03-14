@@ -1,14 +1,14 @@
 [
   {
-    "weight": 10,
+    "weight": 7,
     "reference": "the_vault:vault/rooms/omega/vendor"
   },
   {
-    "weight": 10,
+    "weight": 7,
     "reference": "the_vault:vault/rooms/omega/cube"
   },
   {
-    "weight": 2,
+    "weight": 7,
     "reference": "the_vault:vault/rooms/omega/digsite"
   },
   {
@@ -24,7 +24,15 @@
     "reference": "the_vault:vault/rooms/omega/blacksmith"
   },
   {
+    "weight": 3,
+    "reference": "the_vault:vault/rooms/omega/cove"
+  },
+  {
     "weight": 7,
     "reference": "the_vault:vault/rooms/omega/mush_room"
+  },
+  {
+    "weight": 7,
+    "reference": "the_vault:vault/rooms/omega/library"
   }
 ]

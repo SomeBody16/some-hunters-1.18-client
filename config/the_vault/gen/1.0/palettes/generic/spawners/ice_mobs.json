@@ -72,7 +72,7 @@
                     "type": "weighted_target",
                     "target": "ispawner:spawner",
                     "output": {
-                        "ispawner:spawner{ Inventory: { Stacks: [ {id: \"the_vault:winter_wolf_egg\", Count: 6}, {id: \"minecraft:polar_bear_spawn_egg\", Count: 10}, {id: \"the_vault:t1_drowned_egg\", Count: 15}, {id: \"the_vault:t1_stray_egg\", Count: 3}, {id: \"the_vault:vault_fighter_1_egg\", Count: 5}, {id: \"the_vault:t2_drowned_egg\", Count: 45}, {id: \"the_vault:t2_stray_egg\", Count: 7}, {id: \"the_vault:vault_fighter_2_egg\", Count: 15} ] } }": 1
+                        "ispawner:spawner{ Inventory: { Stacks: [ {id: \"the_vault:winter_wolf_egg\", Count: 6}, {id: \"minecraft:polar_bear_spawn_egg\", Count: 10}, {id: \"the_vault:t1_drowned_egg\", Count: 15}, {id: \"the_vault:t1_stray_egg\", Count: 3}, {id: \"the_vault:vault_fighter_1_egg\", Count: 5}, {id: \"the_vault:t2_drowned_egg\", Count: 45}, {id: \"the_vault:t2_stray_egg\", Count: 7}, {id: \"the_vault:t3_drowned_egg\", Count: 3}, {id: \"the_vault:t3_stray_egg\", Count: 1}, {id: \"the_vault:vault_fighter_2_egg\", Count: 15}, {id: \"the_vault:vault_fighter_3_egg\", Count: 5} ] } }": 1
                     }
                 },
                 {
@@ -80,7 +80,31 @@
                     "type": "weighted_target",
                     "target": "ispawner:spawner",
                     "output": {
-                        "ispawner:spawner{ Inventory: { Stacks: [ {id: \"the_vault:winter_wolf_egg\", Count: 6}, {id: \"minecraft:polar_bear_spawn_egg\", Count: 10}, {id: \"the_vault:t2_drowned_egg\", Count: 60}, {id: \"the_vault:t2_stray_egg\", Count: 10}, {id: \"the_vault:vault_fighter_2_egg\", Count: 20} ] } }": 1
+                        "ispawner:spawner{ Inventory: { Stacks: [ {id: \"the_vault:winter_wolf_egg\", Count: 6}, {id: \"minecraft:polar_bear_spawn_egg\", Count: 10}, {id: \"the_vault:t2_drowned_egg\", Count: 55}, {id: \"the_vault:t2_stray_egg\", Count: 9}, {id: \"the_vault:t3_drowned_egg\", Count: 3}, {id: \"the_vault:t3_stray_egg\", Count: 1}, {id: \"the_vault:vault_fighter_2_egg\", Count: 20}, {id: \"the_vault:vault_fighter_3_egg\", Count: 10}, {id: \"the_vault:t3_piglin_egg\", Count: 1} ] } }": 1
+                    }
+                },
+                {
+                    "level": 80,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Inventory: { Stacks: [ {id: \"the_vault:winter_wolf_egg\", Count: 6}, {id: \"minecraft:polar_bear_spawn_egg\", Count: 10}, {id: \"the_vault:t2_drowned_egg\", Count: 50}, {id: \"the_vault:t2_stray_egg\", Count: 8}, {id: \"the_vault:t3_drowned_egg\", Count: 3}, {id: \"the_vault:t3_stray_egg\", Count: 1}, {id: \"the_vault:vault_fighter_2_egg\", Count: 20}, {id: \"the_vault:vault_fighter_3_egg\", Count: 20}, {id: \"the_vault:t3_piglin_egg\", Count: 2} ] } }": 1
+                    }
+                },
+                {
+                    "level": 90,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Inventory: { Stacks: [ {id: \"the_vault:winter_wolf_egg\", Count: 6}, {id: \"minecraft:polar_bear_spawn_egg\", Count: 10}, {id: \"the_vault:t2_drowned_egg\", Count: 50}, {id: \"the_vault:t2_stray_egg\", Count: 8}, {id: \"the_vault:t3_drowned_egg\", Count: 3}, {id: \"the_vault:t3_stray_egg\", Count: 1}, {id: \"the_vault:vault_fighter_2_egg\", Count: 10}, {id: \"the_vault:vault_fighter_3_egg\", Count: 20}, {id: \"the_vault:t3_piglin_egg\", Count: 3} ] } }": 1
+                    }
+                },
+                {
+                    "level": 100,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Inventory: { Stacks: [ {id: \"the_vault:winter_wolf_egg\", Count: 6}, {id: \"minecraft:polar_bear_spawn_egg\", Count: 10}, {id: \"the_vault:t2_drowned_egg\", Count: 50}, {id: \"the_vault:t2_stray_egg\", Count: 8}, {id: \"the_vault:t3_drowned_egg\", Count: 3}, {id: \"the_vault:t3_stray_egg\", Count: 1}, {id: \"the_vault:vault_fighter_3_egg\", Count: 20}, {id: \"the_vault:t3_piglin_egg\", Count: 4} ] } }": 1
                     }
                 }
             ]

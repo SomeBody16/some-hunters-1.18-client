@@ -37,7 +37,8 @@ var materials = {
   "light_blue_glazed_terracotta": "light_blue_glazed",
   "brown_glazed_terracotta": "brown_glazed",
   "pink_glazed_terracotta": "pink_glazed",
-  "green_glazed_terracotta": "magenta_glazed",
+  "green_glazed_terracotta": "green_glazed",
+  "magenta_glazed_terracotta": "magenta_glazed",
 // concrete
   "white_concrete": "white_concrete",
   "red_concrete": "red_concrete",

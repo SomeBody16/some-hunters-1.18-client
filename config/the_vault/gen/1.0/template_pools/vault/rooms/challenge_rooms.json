@@ -20,10 +20,6 @@
         "reference": "the_vault:vault/rooms/challenge/factory"
       },
       {
-        "weight": 1,
-        "reference": "the_vault:vault/rooms/challenge/digsite"
-      },
-      {
         "weight": 10,
         "reference": "the_vault:vault/rooms/challenge/x-mark"
       }

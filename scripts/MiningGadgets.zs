@@ -65,7 +65,7 @@ craftingTable.addShaped("mininggadgets_efficiency5_upgrade", <item:mininggadgets
 
 craftingTable.addShaped("mininggadgets_void_upgrade", <item:mininggadgets:upgrade_void_junk>, [
     [<item:the_vault:perfect_larimar>, <item:the_vault:vault_diamond>, <item:the_vault:perfect_larimar>],
-    [<item:the_vault:void_liquid_bucket>, <item:mininggadgets:upgrade_empty>, <item:the_vault:void_liquid_bucket>],
+    [<item:the_vault:carbon>, <item:mininggadgets:upgrade_empty>, <item:the_vault:carbon>],
     [<item:the_vault:chromatic_iron_block>, <item:the_vault:chromatic_steel_block>, <item:the_vault:chromatic_iron_block>]
 ]);
 

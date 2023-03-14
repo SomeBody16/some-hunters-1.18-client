@@ -3,12 +3,12 @@
     "0": {
       "pool": [
         {
-          "rewardPool": "common",
+          "rewardPool": "submission",
           "value": {
             "value": "minecraft:diamond",
             "amount": {
-              "min": 16,
-              "max": 64
+              "min": 12,
+              "max": 36
             },
             "floorToNearestTen": false,
             "validDimensions": [],
@@ -22,7 +22,7 @@
             "value": "minecraft:ancient_debris",
             "amount": {
               "min": 2,
-              "max": 8
+              "max": 6
             },
             "floorToNearestTen": false,
             "validDimensions": [],
@@ -36,7 +36,7 @@
             "value": "minecraft:netherite_ingot",
             "amount": {
               "min": 2,
-              "max": 8
+              "max": 6
             },
             "floorToNearestTen": false,
             "validDimensions": [],
@@ -45,26 +45,26 @@
           "weight": 1
         },
         {
-          "rewardPool": "common",
-          "value": {
-            "value": "the_vault:vault_essence",
-            "amount": {
-              "min": 4,
-              "max": 17
-            },
-            "floorToNearestTen": false,
-            "validDimensions": [],
-            "vaultOnly": false
-          },
-          "weight": 1
-        },
-        {
-          "rewardPool": "common",
+          "rewardPool": "submission",
           "value": {
             "value": "the_vault:chromatic_iron_ingot",
             "amount": {
-              "min": 64,
+              "min": 48,
               "max": 128
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 6
+        },
+        {
+          "rewardPool": "submission",
+          "value": {
+            "value": "the_vault:polished_vault_stone",
+            "amount": {
+              "min": 64,
+              "max": 416
             },
             "floorToNearestTen": false,
             "validDimensions": [],
@@ -73,12 +73,240 @@
           "weight": 4
         },
         {
+          "rewardPool": "submission",
+          "value": {
+            "value": "minecraft:amethyst_block",
+            "amount": {
+              "min": 16,
+              "max": 64
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 4
+        },
+        {
+          "rewardPool": "submission",
+          "value": {
+            "value": "minecraft:trident",
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 1
+        },
+        {
+          "rewardPool": "submission",
+          "value": {
+            "value": "minecraft:nautilus_shell",
+            "amount": {
+              "min": 1,
+              "max": 5
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 1
+        },
+        {
+          "rewardPool": "submission",
+          "value": {
+            "value": "minecraft:golden_horse_armor",
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 2
+        },
+        {
+          "rewardPool": "submission",
+          "value": {
+            "value": "minecraft:iron_horse_armor",
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 1
+        },
+        {
+          "rewardPool": "submission",
+          "value": {
+            "value": "minecraft:diamond_horse_armor",
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 1
+        },
+        {
           "rewardPool": "common",
+          "value": {
+            "value": "minecraft:heart_of_the_sea",
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 1
+        },
+        {
+          "rewardPool": "submission",
+          "value": {
+            "value": "minecraft:bell",
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 4
+        },
+        {
+          "rewardPool": "submission",
+          "value": {
+            "value": "minecraft:crying_obsidian",
+            "amount": {
+              "min": 8,
+              "max": 20
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 2
+        },
+        {
+          "rewardPool": "common",
+          "value": {
+            "value": "minecraft:gilded_blackstone",
+            "amount": {
+              "min": 2,
+              "max": 12
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 2
+        },
+        {
+          "rewardPool": "submission",
+          "value": {
+            "value": "minecraft:warped_stem",
+            "amount": {
+              "min": 16,
+              "max": 64
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 4
+        },
+        {
+          "rewardPool": "submission",
+          "value": {
+            "value": "minecraft:crimson_stem",
+            "amount": {
+              "min": 16,
+              "max": 64
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 4
+        }
+      ]
+    },
+    "10": {
+      "pool": [
+        {
+          "rewardPool": "submission",
+          "value": {
+            "value": "minecraft:diamond",
+            "amount": {
+              "min": 16,
+              "max": 96
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 5
+        },
+        {
+          "rewardPool": "common",
+          "value": {
+            "value": "minecraft:netherite_ingot",
+            "amount": {
+              "min": 2,
+              "max": 12
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 1
+        },
+        {
+          "rewardPool": "submission",
+          "value": {
+            "value": "the_vault:vault_essence",
+            "amount": {
+              "min": 4,
+              "max": 24
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 1
+        },
+        {
+          "rewardPool": "submission",
+          "value": {
+            "value": "the_vault:chromatic_iron_ingot",
+            "amount": {
+              "min": 64,
+              "max": 152
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 6
+        },
+        {
+          "rewardPool": "submission",
           "value": {
             "value": "the_vault:polished_vault_stone",
             "amount": {
-              "min": 64,
-              "max": 512
+              "min": 96,
+              "max": 448
             },
             "floorToNearestTen": false,
             "validDimensions": [],
@@ -87,7 +315,7 @@
           "weight": 3
         },
         {
-          "rewardPool": "common",
+          "rewardPool": "submission",
           "value": {
             "value": "the_vault:vault_apple",
             "amount": {
@@ -101,30 +329,72 @@
           "weight": 3
         },
         {
-          "rewardPool": "common",
+          "rewardPool": "submission",
           "value": {
-            "value": "quark:soul_bead",
+            "value": "minecraft:gold_ingot",
             "amount": {
-              "min": 8,
-              "max": 32
+              "min": 48,
+              "max": 192
             },
             "floorToNearestTen": false,
             "validDimensions": [],
             "vaultOnly": false
           },
           "weight": 3
+        },
+        {
+          "rewardPool": "common",
+          "value": {
+            "value": "the_vault:vault_scrap",
+            "amount": {
+              "min": 5,
+              "max": 12
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 2
+        },
+        {
+          "rewardPool": "submission",
+          "value": {
+            "value": "minecraft:iron_ingot",
+            "amount": {
+              "min": 48,
+              "max": 196
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 3
+        },
+        {
+          "rewardPool": "common",
+          "value": {
+            "value": "minecraft:ancient_debris",
+            "amount": {
+              "min": 4,
+              "max": 16
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 2
         }
       ]
     },
     "20": {
       "pool": [
         {
-          "rewardPool": "common",
+          "rewardPool": "submission",
           "value": {
             "value": "minecraft:diamond",
             "amount": {
               "min": 32,
-              "max": 196
+              "max": 128
             },
             "floorToNearestTen": false,
             "validDimensions": [],
@@ -147,7 +417,7 @@
           "weight": 1
         },
         {
-          "rewardPool": "common",
+          "rewardPool": "submission",
           "value": {
             "value": "the_vault:vault_essence",
             "amount": {
@@ -161,7 +431,7 @@
           "weight": 1
         },
         {
-          "rewardPool": "common",
+          "rewardPool": "submission",
           "value": {
             "value": "the_vault:chromatic_iron_ingot",
             "amount": {
@@ -175,7 +445,7 @@
           "weight": 6
         },
         {
-          "rewardPool": "common",
+          "rewardPool": "submission",
           "value": {
             "value": "the_vault:polished_vault_stone",
             "amount": {
@@ -189,12 +459,26 @@
           "weight": 3
         },
         {
-          "rewardPool": "common",
+          "rewardPool": "submission",
           "value": {
             "value": "the_vault:vault_apple",
             "amount": {
-              "min": 16,
-              "max": 96
+              "min": 24,
+              "max": 80
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 3
+        },
+        {
+          "rewardPool": "submission",
+          "value": {
+            "value": "minecraft:gold_ingot",
+            "amount": {
+              "min": 96,
+              "max": 256
             },
             "floorToNearestTen": false,
             "validDimensions": [],
@@ -205,10 +489,24 @@
         {
           "rewardPool": "common",
           "value": {
-            "value": "quark:soul_bead",
+            "value": "the_vault:vault_scrap",
             "amount": {
-              "min": 8,
-              "max": 32
+              "min": 12,
+              "max": 20
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 2
+        },
+        {
+          "rewardPool": "submission",
+          "value": {
+            "value": "minecraft:iron_ingot",
+            "amount": {
+              "min": 96,
+              "max": 256
             },
             "floorToNearestTen": false,
             "validDimensions": [],
@@ -229,6 +527,238 @@
             "vaultOnly": false
           },
           "weight": 2
+        }
+      ]
+    },
+    "30": {
+      "pool": [
+        {
+          "rewardPool": "submission",
+          "value": {
+            "value": "minecraft:diamond",
+            "amount": {
+              "min": 32,
+              "max": 156
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 20
+        },
+        {
+          "rewardPool": "common",
+          "value": {
+            "value": "minecraft:netherite_ingot",
+            "amount": {
+              "min": 8,
+              "max": 32
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 4
+        },
+        {
+          "rewardPool": "submission",
+          "value": {
+            "value": "the_vault:vault_essence",
+            "amount": {
+              "min": 16,
+              "max": 64
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 4
+        },
+        {
+          "rewardPool": "submission",
+          "value": {
+            "value": "the_vault:chromatic_iron_ingot",
+            "amount": {
+              "min": 128,
+              "max": 256
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 24
+        },
+        {
+          "rewardPool": "submission",
+          "value": {
+            "value": "the_vault:polished_vault_stone",
+            "amount": {
+              "min": 128,
+              "max": 512
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 12
+        },
+        {
+          "rewardPool": "submission",
+          "value": {
+            "value": "the_vault:vault_apple",
+            "amount": {
+              "min": 24,
+              "max": 96
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 12
+        },
+        {
+          "rewardPool": "common",
+          "value": {
+            "value": "minecraft:ancient_debris",
+            "amount": {
+              "min": 12,
+              "max": 24
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 8
+        },
+        {
+          "rewardPool": "common",
+          "value": {
+            "value": "the_vault:soul_shard",
+            "amount": {
+              "min": 600,
+              "max": 2400
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 1
+        }
+      ]
+    },
+    "50": {
+      "pool": [
+        {
+          "rewardPool": "submission",
+          "value": {
+            "value": "minecraft:diamond",
+            "amount": {
+              "min": 32,
+              "max": 156
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 6
+        },
+        {
+          "rewardPool": "common",
+          "value": {
+            "value": "minecraft:netherite_ingot",
+            "amount": {
+              "min": 8,
+              "max": 32
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 3
+        },
+        {
+          "rewardPool": "submission",
+          "value": {
+            "value": "the_vault:vault_essence",
+            "amount": {
+              "min": 16,
+              "max": 64
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 4
+        },
+        {
+          "rewardPool": "submission",
+          "value": {
+            "value": "the_vault:chromatic_iron_ingot",
+            "amount": {
+              "min": 128,
+              "max": 256
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 8
+        },
+        {
+          "rewardPool": "submission",
+          "value": {
+            "value": "the_vault:vault_apple",
+            "amount": {
+              "min": 48,
+              "max": 128
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 8
+        },
+        {
+          "rewardPool": "common",
+          "value": {
+            "value": "minecraft:ancient_debris",
+            "amount": {
+              "min": 12,
+              "max": 32
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 6
+        },
+        {
+          "rewardPool": "common",
+          "value": {
+            "value": "the_vault:soul_shard",
+            "amount": {
+              "min": 600,
+              "max": 2000
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 1
+        },
+        {
+          "rewardPool": "common",
+          "value": {
+            "value": "the_vault:sweet_kiwi",
+            "amount": {
+              "min": 4,
+              "max": 16
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 1
         }
       ]
     }

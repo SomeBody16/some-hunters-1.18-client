@@ -9,13 +9,18 @@
       },
       "inputs": [
         {
-          "AMOUNT": 2,
+          "AMOUNT": 1,
           "ITEM": "the_vault:gemstone",
           "NBT": "{}"
         },
         {
-          "AMOUNT": 2,
-          "ITEM": "the_vault:wutodic_silver_ingot",
+          "AMOUNT": 5,
+          "ITEM": "the_vault:gem_wutodie",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:silver_scrap",
           "NBT": "{}"
         },
         {

@@ -142,6 +142,49 @@
         ]
       }
     ],
+    "gear_completion_crate": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Scrappy+",
+            "weight": 60
+          },
+          {
+            "value": "Common+",
+            "weight": 30
+          },
+          {
+            "value": "Rare+",
+            "weight": 8
+          },
+          {
+            "value": "Epic+",
+            "weight": 2
+          }
+        ]
+      }
+    ],
+    "jewel_completion_crate": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Common",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "rollTypeOutcomes": [
+          {
+            "value": "Common",
+            "weight": 1
+          }
+        ]
+      }
+    ],
     "jewel_crafted": [
       {
         "level": 0,

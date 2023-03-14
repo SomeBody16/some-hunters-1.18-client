@@ -63,6 +63,62 @@
                 "minecraft:stone": 1
             }
         },
+        {
+            "type": "weighted_target",
+            "target": "the_vault:placeholder[type=dungeon_discoverable]",
+            "output": {
+                "minecraft:stone": 1
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "the_vault:wooden_chest",
+            "output": {
+                "minecraft:air": 1
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "the_vault:gilded_chest",
+            "output": {
+                "minecraft:air": 1
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "the_vault:living_chest",
+            "output": {
+                "minecraft:air": 1
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "the_vault:ornate_chest",
+            "output": {
+                "minecraft:air": 1
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "the_vault:coin_pile",
+            "output": {
+                "minecraft:air": 1
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "the_vault:modifier_discovery",
+            "output": {
+                "minecraft:stone": 1
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "the_vault:enhancement_altar",
+            "output": {
+                "minecraft:stone": 1
+            }
+        },
 	    {
             "type": "weighted_target",
             "target": "minecraft:cobblestone",

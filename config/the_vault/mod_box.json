@@ -58,10 +58,10 @@
     ],
     "Applied Energistics": [
       {"value": {"id": "ae2:drive", "amountMin": 1, "amountMax": 1}, "weight": 8},
-      {"value": {"id": "ae2:1k_storage_cell", "amountMin": 1, "amountMax": 1}, "weight": 100},
-      {"value": {"id": "ae2:4k_storage_cell", "amountMin": 1, "amountMax": 1}, "weight": 25},
-      {"value": {"id": "ae2:16k_storage_cell", "amountMin": 1, "amountMax": 1}, "weight": 10},
-      {"value": {"id": "ae2:64k_storage_cell", "amountMin": 1, "amountMax": 1}, "weight": 2},
+      {"value": {"id": "ae2:item_storage_cell_1k", "amountMin": 1, "amountMax": 1}, "weight": 100},
+      {"value": {"id": "ae2:item_storage_cell_4k", "amountMin": 1, "amountMax": 1}, "weight": 25},
+      {"value": {"id": "ae2:item_storage_cell_16k", "amountMin": 1, "amountMax": 1}, "weight": 10},
+      {"value": {"id": "ae2:item_storage_cell_64k", "amountMin": 1, "amountMax": 1}, "weight": 2},
       {"value": {"id": "ae2:terminal", "amountMin": 1, "amountMax": 1}, "weight": 10},
       {"value": {"id": "ae2:crafting_terminal", "amountMin": 1, "amountMax": 1}, "weight": 1},
       {"value": {"id": "ae2:controller", "amountMin": 1, "amountMax": 1}, "weight": 4},
@@ -82,21 +82,6 @@
       {"value": {"id": "minecraft:rabbit_hide", "amountMin": 2, "amountMax": 8}, "weight": 32},
       {"value": {"id": "the_vault:magic_silk", "amountMin": 1, "amountMax": 4}, "weight": 16},
       {"value": {"id": "sophisticatedbackpacks:iron_backpack", "amountMin": 1, "amountMax": 1}, "weight": 1},
-      {"value": {"id": "sophisticatedbackpacks:upgrade_base", "amountMin": 1, "amountMax": 1}, "weight": 4}
-    ],
-    "Belts": [
-      {"value": {"id": "minecraft:rabbit_hide", "amountMin": 2, "amountMax": 8}, "weight": 32},
-      {"value": {"id": "the_vault:magic_silk", "amountMin": 1, "amountMax": 4}, "weight": 16},
-      {"value": {"id": "sophisticatedbackpacks:upgrade_base", "amountMin": 1, "amountMax": 1}, "weight": 4}
-    ],
-    "Backpacks": [
-      {"value": {"id": "minecraft:rabbit_hide", "amountMin": 2, "amountMax": 8}, "weight": 32},
-      {"value": {"id": "the_vault:magic_silk", "amountMin": 1, "amountMax": 4}, "weight": 16},
-      {"value": {"id": "sophisticatedbackpacks:upgrade_base", "amountMin": 1, "amountMax": 1}, "weight": 4}
-    ],
-    "Big Backpacks": [
-      {"value": {"id": "minecraft:rabbit_hide", "amountMin": 2, "amountMax": 8}, "weight": 32},
-      {"value": {"id": "the_vault:magic_silk", "amountMin": 1, "amountMax": 4}, "weight": 16},
       {"value": {"id": "sophisticatedbackpacks:upgrade_base", "amountMin": 1, "amountMax": 1}, "weight": 4}
     ],
     "Iron Generators": [
@@ -149,7 +134,7 @@
       {"value": {"id": "modularrouters:blank_module", "amountMin": 1, "amountMax": 8}, "weight": 128},
       {"value": {"id": "modularrouters:blank_upgrade", "amountMin": 1, "amountMax": 4}, "weight": 86},
       {"value": {"id": "modularrouters:augment_core", "amountMin": 1, "amountMax": 4}, "weight": 86},
-      {"value": {"id": "modularrouters:item_router", "amountMin": 1, "amountMax": 2}, "weight": 64},
+      {"value": {"id": "modularrouters:modular_router", "amountMin": 1, "amountMax": 2}, "weight": 64},
       {"value": {"id": "modularrouters:stack_augment", "amountMin": 1, "amountMax": 1}, "weight": 32},
       {"value": {"id": "modularrouters:vacuum_module", "amountMin": 1, "amountMax": 1}, "weight": 1},
       {"value": {"id": "modularrouters:sender_module_3", "amountMin": 1, "amountMax": 1}, "weight": 1}
@@ -183,11 +168,11 @@
       {"value": {"id": "botania:rune_fire", "amountMin": 1, "amountMax": 1}, "weight": 18},
       {"value": {"id": "botania:rune_earth", "amountMin": 1, "amountMax": 1}, "weight": 18},
       {"value": {"id": "botania:rune_air", "amountMin": 1, "amountMax": 1}, "weight": 18},
-      {"value": {"id": "botania:rune_spring", "amountMin": 1, "amountMax": 1}, "weight": 12},
+      {"value": {"id": "botania:rune_spring", "amountMin": 1, "amountMax": 1}, "weight": 10},
       {"value": {"id": "botania:rune_summer", "amountMin": 1, "amountMax": 1}, "weight": 10},
       {"value": {"id": "botania:rune_autumn", "amountMin": 1, "amountMax": 1}, "weight": 10},
       {"value": {"id": "botania:rune_winter", "amountMin": 1, "amountMax": 1}, "weight": 10},
-      {"value": {"id": "botania:rune_mana", "amountMin": 1, "amountMax": 1}, "weight": 10},
+      {"value": {"id": "botania:rune_mana", "amountMin": 1, "amountMax": 1}, "weight": 12},
       {"value": {"id": "botania:black_lotus", "amountMin": 8, "amountMax": 16}, "weight": 24},
       {"value": {"id": "botania:blacker_lotus", "amountMin": 8, "amountMax": 16}, "weight": 12},
       {"value": {"id": "botania:mana_spreader", "amountMin": 1, "amountMax": 1}, "weight": 16},

@@ -243,7 +243,7 @@
           { "weight": 2,
             "pool": [
               {
-                  "weight": 12,
+                  "weight": 10,
                   "item": {
                     "id": "the_vault:vault_diamond",
                     "count": {
@@ -266,7 +266,7 @@
                 }
               },
               {
-                "weight": 3,
+                "weight": 1,
                 "item": {
                   "id": "the_vault:key_piece",
                   "count": {
@@ -286,10 +286,6 @@
                     "max": 1
                     }
                 }
-              },
-              {
-                "weight": 2,
-                "reference": "the_vault:rune_pool_0"
               }
             ]
           }

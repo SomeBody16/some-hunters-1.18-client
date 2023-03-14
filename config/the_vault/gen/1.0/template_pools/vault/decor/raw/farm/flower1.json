@@ -57,13 +57,6 @@
               "template": "the_vault:vault/decor/raw/farm/flower7",
               "palettes": []
             }
-          },
-          {
-            "weight": 1,
-            "value": {
-              "template": "the_vault:vault/decor/raw/farm/flower8",
-              "palettes": []
-            }
           }
       ]
     }

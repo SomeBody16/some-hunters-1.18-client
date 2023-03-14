@@ -3,10 +3,11 @@
     { "MIN_LEVEL": 0,
       "ALTAR": "the_vault:altar/altar_0",
       "COMPLETION_CRATE": {
-        "boss": "the_vault:completion_crate_lvl0",
-        "scavenger": "the_vault:completion_crate_lvl0",
-        "cake": "the_vault:completion_crate_lvl0",
-        "monolith": "the_vault:completion_crate_monolith"
+        "boss": "the_vault:completion_lvl0",
+        "scavenger": "the_vault:completion_lvl0",
+        "cake": "the_vault:completion_lvl0",
+        "monolith": "the_vault:completion_lvl0",
+        "elixir": "the_vault:completion_lvl0"
       },
       "GLADIATOR_CRATE": "the_vault:completion_crate_lvl0",
       "CHAMPION_CRATE": "the_vault:chest/lvl25/championbox",
@@ -16,10 +17,11 @@
     { "MIN_LEVEL": 5,
       "ALTAR": "the_vault:altar/altar_5",
       "COMPLETION_CRATE": {
-        "boss": "the_vault:completion_crate_lvl0",
-        "scavenger": "the_vault:completion_crate_lvl0",
-        "cake": "the_vault:completion_crate_lvl0",
-        "monolith": "the_vault:completion_crate_monolith"
+        "boss": "the_vault:completion_lvl0",
+        "scavenger": "the_vault:completion_lvl0",
+        "cake": "the_vault:completion_lvl0",
+        "monolith": "the_vault:completion_lvl0",
+        "elixir": "the_vault:completion_lvl0"
       },
       "GLADIATOR_CRATE": "the_vault:completion_crate_lvl0",
       "CHAMPION_CRATE": "the_vault:chest/lvl25/championbox",
@@ -29,10 +31,11 @@
     { "MIN_LEVEL": 20,
       "ALTAR": "the_vault:altar/altar_25",
       "COMPLETION_CRATE": {
-        "boss": "the_vault:completion_crate_lvl20",
-        "scavenger": "the_vault:completion_crate_lvl20",
-        "cake": "the_vault:completion_crate_lvl20",
-        "monolith": "the_vault:completion_crate_monolith"
+        "boss": "the_vault:completion_lvl27",
+        "scavenger": "the_vault:completion_lvl27",
+        "cake": "the_vault:completion_lvl27",
+        "monolith": "the_vault:completion_lvl27",
+        "elixir": "the_vault:completion_lvl27"
       },
       "GLADIATOR_CRATE": "the_vault:completion_crate_lvl0",
       "CHAMPION_CRATE": "the_vault:chest/lvl25/championbox",

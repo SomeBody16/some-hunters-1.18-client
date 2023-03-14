@@ -121,12 +121,6 @@ craftingTable.addShaped("mekanism_ultimate_tier_installer", <item:mekanism:ultim
     [<item:mekanism:alloy_atomic>, <item:mekanism:ultimate_control_circuit>, <item:mekanism:alloy_atomic>]
 ]);
 
-craftingTable.addShaped("mekanism_upgrade_anchor", <item:mekanism:upgrade_anchor>, [
-    [<item:minecraft:air>, <item:minecraft:tinted_glass>, <item:minecraft:air>],
-    [<item:mekanism:alloy_infused>, <item:weirdinggadget:weirding_gadget>, <item:mekanism:alloy_infused>],
-    [<item:minecraft:air>, <item:minecraft:tinted_glass>, <item:minecraft:air>]
-]);
-
 craftingTable.addShaped("mekanism_upgrade_speed", <item:mekanism:upgrade_speed> *2, [
     [<item:minecraft:air>, <item:minecraft:tinted_glass>, <item:minecraft:air>],
     [<item:mekanism:alloy_infused>, <item:mekanism:block_osmium>, <item:mekanism:alloy_infused>],

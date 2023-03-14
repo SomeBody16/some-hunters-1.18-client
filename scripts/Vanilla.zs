@@ -297,9 +297,3 @@ craftingTable.addShaped("pebble", <item:twigs:pebble> *4, [
     [<tag:items:forge:stone>, <item:minecraft:air>, <tag:items:forge:stone>],
     [<item:the_vault:polished_vault_stone>, <item:minecraft:air>, <item:minecraft:air>]
 ]);
-
-craftingTable.addShaped("pebble_2_troll", <item:twigs:pebble> *64, [
-    [<item:minecraft:air>, <item:the_vault:omega_pog>, <item:minecraft:air>],
-    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
-    [<item:the_vault:black_chromatic_steel_block>, <item:the_vault:pogging_jewel>, <item:the_vault:black_chromatic_steel_block>]
-]);

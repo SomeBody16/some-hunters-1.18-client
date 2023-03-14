@@ -24,7 +24,7 @@
 
         {
           "type": "patchouli:text",
-          "text": "When a player is the last to die inside a cooperative vault, their spirit will spawn at the player's spawn location in the Overworld. $(br2) Note that spirits won't appear when playing in $(l)Casual Mode$() or having an inventory restore modifier applied like $(l)Phoenix$() or $(l)Afterlife.$()"
+          "text": "When a player is the last to die inside a cooperative vault, their spirit will spawn at the player's spawn location in the Overworld. $(br2) Note that spirits won't appear when playing in $(l)Casual Mode$()."
         }
 
     ]

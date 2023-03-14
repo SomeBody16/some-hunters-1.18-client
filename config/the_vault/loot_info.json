@@ -27,7 +27,8 @@
       "lootTableKeys": {
         "the_vault:wooden_chest_lvl0_v2":  {"level": 0},
         "the_vault:wooden_chest_lvl10_v2":  {"level": 10},
-        "the_vault:wooden_chest_lvl24_v2": {"level": 24}
+        "the_vault:wooden_chest_lvl24_v2": {"level": 24},
+        "the_vault:wooden_chest_lvl30_v2": {"level": 30}
       }
     },
     "the_vault:cube_block": {
@@ -49,7 +50,9 @@
         "the_vault:living_chest_lvl14_v2": {"level": 14},
         "the_vault:living_chest_lvl21_v2": {"level": 21},
         "the_vault:living_chest_lvl30_v2": {"level": 30},
-        "the_vault:living_chest_lvl41_v2": {"level": 41}
+        "the_vault:living_chest_lvl41_v2": {"level": 41},
+        "the_vault:living_chest_lvl54_v2": {"level": 54},
+        "the_vault:living_chest_lvl75_v2": {"level": 75}
       }
     },
     "the_vault:treasure_sand": {
@@ -67,9 +70,8 @@
     "the_vault:completion_crate": {
       "display": "Completion Crates",
       "lootTableKeys": {
-        "the_vault:completion_crate_lvl0": {"level": 0},
-        "the_vault:completion_crate_lvl20": {"level": 20},
-        "the_vault:completion_crate_monolith": {"level": 0}
+        "the_vault:completion_lvl0": {"level": 0},
+        "the_vault:completion_lvl27": {"level": 20}
       }
     },
     "the_vault:ornate_chest_raw": {
@@ -87,13 +89,6 @@
         "the_vault:ornate_chest_lvl39_v2": {"level": 39},
         "the_vault:ornate_chest_lvl50_v2": {"level": 50},
         "the_vault:ornate_chest_lvl65_v2": {"level": 65}
-      }
-    },
-    "the_vault:altar_chest": {
-      "display": "Altar Chests",
-      "lootTableKeys": {
-        "the_vault:altar_chest_lvl0_v2": {"level": 0},
-        "the_vault:altar_chest_lvl20_v2": {"level": 20}
       }
     },
     "the_vault:gilded_chest": {

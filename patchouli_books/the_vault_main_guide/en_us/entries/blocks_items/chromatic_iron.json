@@ -9,7 +9,7 @@
             "type": "patchouli:spotlight",
             "item":"the_vault:chromatic_iron_ore",
             "title": "Chromatic Iron",
-            "text": "Chromatic Iron is a fairly rare ore that spawns in big veins, but it is rarely exposed to air. $(br2)When mined, it drops $(l)Raw Chromatic Iron$(). $(br)The amount of Raw Chromatic Iron dropped per ore is affected by fortune."
+            "text": "Chromatic Iron is a fairly rare ore that spawns in big veins, but it is rarely exposed to air. Find it between Y-level -30 and Y-level -64. $(br2)When mined, it drops $(l)Raw Chromatic Iron$(). $(br)The amount of Raw Chromatic Iron dropped per ore is affected by fortune."
         },
 
         {

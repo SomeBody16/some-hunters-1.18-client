@@ -7,7 +7,7 @@
         "tiers": [
           {
             "minLevel": 0,
-            "maxLevel": 50,
+            "maxLevel": 27,
             "weight": 100,
             "value": {
               "min": 3,
@@ -17,7 +17,7 @@
           },
           {
             "minLevel": 14,
-            "maxLevel": 66,
+            "maxLevel": 52,
             "weight": 100,
             "value": {
               "min": 6,
@@ -27,7 +27,7 @@
           },
           {
             "minLevel": 27,
-            "maxLevel": 85,
+            "maxLevel": 65,
             "weight": 100,
             "value": {
               "min": 8,
@@ -37,7 +37,7 @@
           },
           {
             "minLevel": 40,
-            "maxLevel": -1,
+            "maxLevel": 74,
             "weight": 100,
             "value": {
               "min": 11,
@@ -103,7 +103,7 @@
         "tiers": [
           {
             "minLevel": 0,
-            "maxLevel": 40,
+            "maxLevel": 42,
             "weight": 100,
             "value": {
               "min": 400,
@@ -113,7 +113,7 @@
           },
           {
             "minLevel": 21,
-            "maxLevel": 64,
+            "maxLevel": 63,
             "weight": 100,
             "value": {
               "min": 800,
@@ -123,7 +123,7 @@
           },
           {
             "minLevel": 42,
-            "maxLevel": -1,
+            "maxLevel": 65,
             "weight": 100,
             "value": {
               "min": 1200,
@@ -133,7 +133,7 @@
           },
           {
             "minLevel": 51,
-            "maxLevel": -1,
+            "maxLevel": 80,
             "weight": 100,
             "value": {
               "min": 1701,
@@ -142,7 +142,7 @@
             }
           },
           {
-            "minLevel": 63,
+            "minLevel": 59,
             "maxLevel": -1,
             "weight": 100,
             "value": {
@@ -152,7 +152,7 @@
             }
           },
           {
-            "minLevel": 81,
+            "minLevel": 65,
             "maxLevel": -1,
             "weight": 100,
             "value": {
@@ -162,12 +162,32 @@
             }
           },
           {
-            "minLevel": 92,
+            "minLevel": 73,
             "maxLevel": -1,
             "weight": 100,
             "value": {
               "min": 4001,
               "max": 5000,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 80,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 5001,
+              "max": 6000,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 86,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 6001,
+              "max": 7000,
               "step": 1
             }
           }
@@ -224,6 +244,10 @@
       { "attribute": "the_vault:armor",
         "group": "ModArmor",
         "identifier": "the_vault:mod_armor",
+        "tags": [
+          "focusArmor",
+          "Defensive"
+        ],
         "tiers": [
           {
             "minLevel": 0,
@@ -300,6 +324,9 @@
       { "attribute": "the_vault:health",
         "group": "ModHealth",
         "identifier": "the_vault:mod_health",
+        "tags": [
+          "focusHealth"
+        ],
         "tiers": [
           {
             "minLevel": 0,
@@ -387,29 +414,22 @@
       { "attribute": "the_vault:mana_additive",
         "group": "ModMaxMana",
         "identifier": "the_vault:mod_mana_additive",
+        "tags": [
+          "focusManaAdd"
+        ],
         "tiers": [
           {
             "minLevel": 0,
             "maxLevel": -1,
             "weight": 100,
             "value": {
-              "min": 5,
-              "max": 10,
-              "step": 1
-            }
-          },
-          {
-            "minLevel": 31,
-            "maxLevel": -1,
-            "weight": 100,
-            "value": {
-              "min": 11,
+              "min": 10,
               "max": 20,
               "step": 1
             }
           },
           {
-            "minLevel": 48,
+            "minLevel": 31,
             "maxLevel": -1,
             "weight": 100,
             "value": {
@@ -419,7 +439,7 @@
             }
           },
           {
-            "minLevel": 77,
+            "minLevel": 48,
             "maxLevel": -1,
             "weight": 100,
             "value": {
@@ -429,7 +449,7 @@
             }
           },
           {
-            "minLevel": 93,
+            "minLevel": 77,
             "maxLevel": -1,
             "weight": 100,
             "value": {
@@ -439,12 +459,22 @@
             }
           },
           {
-            "minLevel": 101,
+            "minLevel": 93,
             "maxLevel": -1,
             "weight": 100,
             "value": {
               "min": 51,
-              "max": 70,
+              "max": 60,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 101,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 61,
+              "max": 80,
               "step": 1
             }
           },
@@ -453,8 +483,8 @@
             "maxLevel": -1,
             "weight": 100,
             "value": {
-              "min": 71,
-              "max": 90,
+              "min": 81,
+              "max": 100,
               "step": 1
             }
           }
@@ -464,6 +494,9 @@
       { "attribute": "the_vault:mana_additive_percentile",
         "group": "ModMaxMana",
         "identifier": "the_vault:mod_mana_additive_percentile",
+        "tags": [
+          "focusManaPercentile"
+        ],
         "tiers": [
           {
             "minLevel": 41,
@@ -530,6 +563,9 @@
       { "attribute": "the_vault:resistance",
         "group": "ModResistance",
         "identifier": "the_vault:mod_resistance",
+        "tags": [
+          "focusResistance"
+        ],
         "tiers": [
           {
             "minLevel": 17,
@@ -596,6 +632,9 @@
       { "attribute": "the_vault:damage_increase",
         "group": "ModResistance",
         "identifier": "the_vault:mod_damage_increase",
+        "tags": [
+          "focusDamage"
+        ],
         "tiers": [
           {
             "minLevel": 6,
@@ -674,6 +713,9 @@
       { "attribute": "the_vault:critical_hit_mitigation",
         "group": "ModCritHitMitigation",
         "identifier": "the_vault:mod_critical_hit_mitigation",
+        "tags": [
+          "focusCritHitMitigation"
+        ],
         "tiers": [
           {
             "minLevel": 55,
@@ -730,6 +772,9 @@
       { "attribute": "the_vault:healing_effectiveness",
         "group": "ModHealth",
         "identifier": "the_vault:mod_healing_efficiency",
+        "tags": [
+          "focusHealingEff"
+        ],
         "tiers": [
           {
             "minLevel": 12,
@@ -814,8 +859,11 @@
         ]
       },
       { "attribute": "the_vault:block",
-        "group": "ModBlock",
-        "identifier": "the_vault:mod_block",
+        "group": "ModHealth",
+        "identifier": "the_vault:mod_block_chance",
+        "tags": [
+          "focusBlock"
+        ],
         "tiers": [
           {
             "minLevel": 40,
@@ -823,27 +871,17 @@
             "weight": 100,
             "value": {
               "min": 0.04,
-              "max": 0.05,
+              "max": 0.06,
               "step": 0.01
             }
           },
           {
-            "minLevel": 65,
+            "minLevel": 75,
             "maxLevel": -1,
             "weight": 100,
             "value": {
-              "min": 0.06,
-              "max": 0.08,
-              "step": 0.01
-            }
-          },
-          {
-            "minLevel": 88,
-            "maxLevel": -1,
-            "weight": 100,
-            "value": {
-              "min": 0.09,
-              "max": 0.10,
+              "min": 0.07,
+              "max": 0.09,
               "step": 0.01
             }
           },
@@ -852,8 +890,8 @@
             "maxLevel": -1,
             "weight": 100,
             "value": {
-              "min": 0.11,
-              "max": 0.12,
+              "min": 0.1,
+              "max": 0.1,
               "step": 0.01
             }
           },
@@ -862,8 +900,8 @@
             "maxLevel": -1,
             "weight": 100,
             "value": {
-              "min": 0.13,
-              "max": 0.14,
+              "min": 0.11,
+              "max": 0.13,
               "step": 0.01
             }
           }
@@ -874,6 +912,9 @@
       { "attribute": "the_vault:durability",
         "group": "ModDurability",
         "identifier": "the_vault:mod_durability",
+        "tags": [
+          "focusDurability"
+        ],
         "tiers": [
           {
             "minLevel": 11,
@@ -950,6 +991,9 @@
       { "attribute": "the_vault:cooldown_reduction",
         "group": "ModCooldownReduction",
         "identifier": "the_vault:mod_cooldown_reduction",
+        "tags": [
+          "focusCooldown"
+        ],
         "tiers": [
           {
             "minLevel": 20,
@@ -1036,6 +1080,9 @@
       { "attribute": "the_vault:soulbound",
         "group": "ModSoulbound",
         "identifier": "the_vault:mod_soulbound",
+        "tags": [
+          "focusSoulbound"
+        ],
         "tiers": [
           {
             "minLevel": 0,
@@ -1050,6 +1097,9 @@
       { "attribute": "the_vault:effect_avoidance",
         "group": "ModEffectAvoidance",
         "identifier": "the_vault:mod_effect_avoidance_poison",
+        "tags": [
+          "focusEffAvoidance"
+        ],
         "tiers": [
           {
             "minLevel": 45,
@@ -1082,7 +1132,7 @@
           {
             "minLevel": 45,
             "maxLevel": -1,
-            "weight": 100,
+            "weight": 0,
             "value": {
               "effectKey": "minecraft:wither",
               "minChance": 0.35,
@@ -1093,7 +1143,7 @@
           {
             "minLevel": 101,
             "maxLevel": -1,
-            "weight": 100,
+            "weight": 0,
             "value": {
               "effectKey": "minecraft:wither",
               "minChance": 0.66,
@@ -1106,11 +1156,14 @@
       { "attribute": "the_vault:effect_avoidance",
         "group": "ModEffectAvoidance",
         "identifier": "the_vault:mod_effect_avoidance_slowness",
+        "tags": [
+          "focusAvoidanceSlowness"
+        ],
         "tiers": [
           {
             "minLevel": 45,
             "maxLevel": -1,
-            "weight": 100,
+            "weight": 0,
             "value": {
               "effectKey": "minecraft:slowness",
               "minChance": 0.35,
@@ -1121,7 +1174,7 @@
           {
             "minLevel": 101,
             "maxLevel": -1,
-            "weight": 100,
+            "weight": 0,
             "value": {
               "effectKey": "minecraft:slowness",
               "minChance": 0.66,
@@ -1134,14 +1187,17 @@
       { "attribute": "the_vault:thorns_chance",
         "group": "ModThornsChance",
         "identifier": "the_vault:mod_thorns_chance",
+        "tags": [
+          "focusThornsChance"
+        ],
         "tiers": [
           {
-            "minLevel": 0,
+            "minLevel": 15,
             "maxLevel": -1,
             "weight": 100,
             "value": {
-              "min": 0.03,
-              "max": 0.06,
+              "min": 0.06,
+              "max": 0.09,
               "step": 0.01
             }
           },
@@ -1150,28 +1206,38 @@
             "maxLevel": -1,
             "weight": 100,
             "value": {
-              "min": 0.07,
-              "max": 0.09,
-              "step": 0.01
-            }
-          },
-          {
-            "minLevel": 55,
-            "maxLevel": -1,
-            "weight": 100,
-            "value": {
               "min": 0.1,
-              "max": 0.12,
+              "max": 0.13,
               "step": 0.01
             }
           },
           {
-            "minLevel": 80,
+            "minLevel": 43,
             "maxLevel": -1,
             "weight": 100,
             "value": {
-              "min": 0.13,
-              "max": 0.15,
+              "min": 0.14,
+              "max": 0.16,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 62,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.17,
+              "max": 0.18,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 75,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.19,
+              "max": 0.2,
               "step": 0.01
             }
           },
@@ -1180,8 +1246,8 @@
             "maxLevel": -1,
             "weight": 100,
             "value": {
-              "min": 0.16,
-              "max": 0.16,
+              "min": 0.21,
+              "max": 0.25,
               "step": 0.01
             }
           },
@@ -1190,8 +1256,8 @@
             "maxLevel": -1,
             "weight": 100,
             "value": {
-              "min": 0.17,
-              "max": 0.18,
+              "min": 0.26,
+              "max": 0.3,
               "step": 0.01
             }
           }
@@ -1200,6 +1266,9 @@
       { "attribute": "the_vault:item_quantity",
         "group": "ModItemQuantity",
         "identifier": "the_vault:mod_item_quantity",
+        "tags": [
+          "focusItemQuantity"
+        ],
         "tiers": [
           {
             "minLevel": 0,
@@ -1276,6 +1345,9 @@
       { "attribute": "the_vault:item_rarity",
         "group": "ModItemRarity",
         "identifier": "the_vault:mod_item_rarity",
+        "tags": [
+          "focusItemRarity"
+        ],
         "tiers": [
           {
             "minLevel": 0,
@@ -1352,6 +1424,9 @@
       { "attribute": "the_vault:trap_disarming",
         "group": "ModTrapDisarming",
         "identifier": "the_vault:mod_trap_disarming",
+        "tags": [
+          "focusTrapDisarming"
+        ],
         "tiers": [
           {
             "minLevel": 18,
@@ -1418,6 +1493,9 @@
       { "attribute": "the_vault:knockback_resistance",
         "group": "ModKnockbackResistance",
         "identifier": "the_vault:mod_knockback_resistance",
+        "tags": [
+          "focusKnockbackRes"
+        ],
         "tiers": [
           {
             "minLevel": 0,
@@ -1494,6 +1572,9 @@
       { "attribute": "the_vault:mana_regen",
         "group": "ModManaRegen",
         "identifier": "the_vault:mod_mana_regen",
+        "tags": [
+          "focusManaRegen"
+        ],
         "tiers": [
           {
             "minLevel": 10,
@@ -1590,6 +1671,9 @@
       { "attribute": "the_vault:soul_chance",
         "group": "ModSoulChance",
         "identifier": "the_vault:mod_soul_chance",
+        "tags": [
+          "focusSoulChance"
+        ],
         "tiers": [
           {
             "minLevel": 22,
@@ -1653,6 +1737,895 @@
           }
           
           
+        ]
+      }
+    ],
+    "CRAFTED_PREFIX": [
+      { "attribute": "the_vault:armor",
+        "group": "ModArmor",
+        "identifier": "the_vault:crafted_armor",
+        "tags": [
+          "focusArmor",
+          "Defensive"
+        ],
+        "tiers": [
+          {
+            "minLevel": 16,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 1,
+              "max": 2,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 38,
+            "maxLevel": -1,
+            "weight": 80,
+            "value": {
+              "min": 3,
+              "max": 4,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 62,
+            "maxLevel": -1,
+            "weight": 60,
+            "value": {
+              "min": 5,
+              "max": 6,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 88,
+            "maxLevel": -1,
+            "weight": 60,
+            "value": {
+              "min": 7,
+              "max": 8,
+              "step": 1
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:health",
+        "group": "ModHealth",
+        "identifier": "the_vault:crafted_health",
+        "tags": [
+          "focusHealth"
+        ],
+        "tiers": [
+          {
+            "minLevel": 16,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 2,
+              "max": 3,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 29,
+            "maxLevel": -1,
+            "weight": 85,
+            "value": {
+              "min": 4,
+              "max": 5,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 47,
+            "maxLevel": -1,
+            "weight": 60,
+            "value": {
+              "min": 6,
+              "max": 7,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 69,
+            "maxLevel": -1,
+            "weight": 30,
+            "value": {
+              "min": 8,
+              "max": 9,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 88,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "min": 10,
+              "max": 11,
+              "step": 1
+            }
+          }
+          
+        ]
+      },
+      { "attribute": "the_vault:mana_additive",
+        "group": "ModMaxMana",
+        "identifier": "the_vault:crafted_mana_additive",
+        "tags": [
+          "focusManaAdd"
+        ],
+        "tiers": [
+          {
+            "minLevel": 31,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 10,
+              "max": 20,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 48,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 21,
+              "max": 30,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 77,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 31,
+              "max": 40,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 93,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 41,
+              "max": 50,
+              "step": 1
+            }
+          }
+          
+        ]
+      },
+      { "attribute": "the_vault:mana_additive_percentile",
+        "group": "ModMaxMana",
+        "identifier": "the_vault:crafted_mana_additive_percentile",
+        "tags": [
+          "focusManaPercentile"
+        ],
+        "tiers": [
+          {
+            "minLevel": 41,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.1,
+              "max": 0.2,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 64,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.21,
+              "max": 0.3,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 80,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.31,
+              "max": 0.4,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 96,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.41,
+              "max": 0.5,
+              "step": 0.01
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:resistance",
+        "group": "ModResistance",
+        "identifier": "the_vault:crafted_resistance",
+        "tags": [
+          "focusResistance"
+        ],
+        "tiers": [
+          {
+            "minLevel": 36,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.04,
+              "max": 0.06,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 57,
+            "maxLevel": -1,
+            "weight": 80,
+            "value": {
+              "min": 0.07,
+              "max": 0.09,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 82,
+            "maxLevel": -1,
+            "weight": 60,
+            "value": {
+              "min": 0.1,
+              "max": 0.12,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 86,
+            "maxLevel": -1,
+            "weight": 30,
+            "value": {
+              "min": 0.13,
+              "max": 0.16,
+              "step": 0.01
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:damage_increase",
+        "group": "ModResistance",
+        "identifier": "the_vault:crafted_damage_increase",
+        "tags": [
+          "focusDamage"
+        ],
+        "tiers": [
+          {
+            "minLevel": 21,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.05,
+              "max": 0.09,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 44,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.1,
+              "max": 0.14,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 73,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.15,
+              "max": 0.21,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 90,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.22,
+              "max": 0.28,
+              "step": 0.01
+            }
+          }
+          
+          
+        ]
+      },
+      { "attribute": "the_vault:healing_effectiveness",
+        "group": "ModHealth",
+        "identifier": "the_vault:crafted_healing_efficiency",
+        "tags": [
+          "focusHealingEff"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.05,
+              "max": 0.1,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 46,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.11,
+              "max": 0.18,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 66,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.19,
+              "max": 0.26,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 82,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.27,
+              "max": 0.32,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 98,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.33,
+              "max": 0.37,
+              "step": 0.01
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:block",
+        "group": "ModHealth",
+        "identifier": "the_vault:crafted_block_chance",
+        "tags": [
+          "focusBlock"
+        ],
+        "tiers": [
+          {
+            "minLevel": 55,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.04,
+              "max": 0.06,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 82,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.07,
+              "max": 0.09,
+              "step": 0.01
+            }
+          }
+        ]
+      }
+    ],
+    "CRAFTED_SUFFIX": [
+      { "attribute": "the_vault:durability",
+        "group": "ModDurability",
+        "identifier": "the_vault:crafted_durability",
+        "tags": [
+          "focusDurability"
+        ],
+        "tiers": [
+          {
+            "minLevel": 11,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 400,
+              "max": 800,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 28,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 801,
+              "max": 1600,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 46,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 1601,
+              "max": 2400,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 67,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 2401,
+              "max": 3200,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 89,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 3201,
+              "max": 4000,
+              "step": 1
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:cooldown_reduction",
+        "group": "ModCooldownReduction",
+        "identifier": "the_vault:crafted_cooldown_reduction",
+        "tags": [
+          "focusCooldown"
+        ],
+        "tiers": [
+          {
+            "minLevel": 39,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.03,
+              "max": 0.05,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 59,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.06,
+              "max": 0.08,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 70,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.09,
+              "max": 0.11,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 85,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.12,
+              "max": 0.14,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 92,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.15,
+              "max": 0.17,
+              "step": 0.01
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:soulbound",
+        "group": "ModSoulbound",
+        "identifier": "the_vault:crafted_soulbound",
+        "tags": [
+          "focusSoulbound"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "flag": true
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:thorns_chance",
+        "group": "ModThornsChance",
+        "identifier": "the_vault:crafted_thorns_chance",
+        "tags": [
+          "focusThornsChance"
+        ],
+        "tiers": [
+          {
+            "minLevel": 18,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.06,
+              "max": 0.09,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 36,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.1,
+              "max": 0.13,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 50,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.14,
+              "max": 0.16,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 69,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.17,
+              "max": 0.18,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 81,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.19,
+              "max": 0.2,
+              "step": 0.01
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:item_quantity",
+        "group": "ModItemQuantity",
+        "identifier": "the_vault:crafted_item_quantity",
+        "tags": [
+          "focusItemQuantity"
+        ],
+        "tiers": [
+          {
+            "minLevel": 14,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.03,
+              "max": 0.05,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 36,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.06,
+              "max": 0.08,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 53,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.09,
+              "max": 0.11,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 76,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.12,
+              "max": 0.13,
+              "step": 0.01
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:item_rarity",
+        "group": "ModItemRarity",
+        "identifier": "the_vault:crafted_item_rarity",
+        "tags": [
+          "focusItemRarity"
+        ],
+        "tiers": [
+          {
+            "minLevel": 14,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.05,
+              "max": 0.08,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 39,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.09,
+              "max": 0.13,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 65,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.14,
+              "max": 0.19,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 84,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.20,
+              "max": 0.25,
+              "step": 0.01
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:trap_disarming",
+        "group": "ModTrapDisarming",
+        "identifier": "the_vault:crafted_trap_disarming",
+        "tags": [
+          "focusTrapDisarming"
+        ],
+        "tiers": [
+          {
+            "minLevel": 24,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.05,
+              "max": 0.08,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 48,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.09,
+              "max": 0.12,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 72,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.13,
+              "max": 0.16,
+              "step": 0.01
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:knockback_resistance",
+        "group": "ModKnockbackResistance",
+        "identifier": "the_vault:crafted_knockback_resistance",
+        "tags": [
+          "focusKnockbackRes"
+        ],
+        "tiers": [
+          {
+            "minLevel": 8,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.05,
+              "max": 0.1,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 23,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.11,
+              "max": 0.14,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 40,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.15,
+              "max": 0.19,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 67,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.2,
+              "max": 0.24,
+              "step": 0.01
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:mana_regen",
+        "group": "ModManaRegen",
+        "identifier": "the_vault:crafted_mana_regen",
+        "tags": [
+          "focusManaRegen"
+        ],
+        "tiers": [
+          {
+            "minLevel": 16,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.05,
+              "max": 0.12,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 32,
+            "maxLevel": -1,
+            "weight": 90,
+            "value": {
+              "min": 0.13,
+              "max": 0.2,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 43,
+            "maxLevel": -1,
+            "weight": 80,
+            "value": {
+              "min": 0.21,
+              "max": 0.28,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 52,
+            "maxLevel": -1,
+            "weight": 70,
+            "value": {
+              "min": 0.29,
+              "max": 0.36,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 65,
+            "maxLevel": -1,
+            "weight": 60,
+            "value": {
+              "min": 0.37,
+              "max": 0.46,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 80,
+            "maxLevel": -1,
+            "weight": 60,
+            "value": {
+              "min": 0.47,
+              "max": 0.55,
+              "step": 0.01
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:soul_chance",
+        "group": "ModSoulChance",
+        "identifier": "the_vault:crafted_soul_chance",
+        "tags": [
+          "focusSoulChance"
+        ],
+        "tiers": [
+          {
+            "minLevel": 33,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.25,
+              "max": 0.5,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 49,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.51,
+              "max": 1.0,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 72,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 1.01,
+              "max": 1.5,
+              "step": 0.01
+            }
+          }
         ]
       }
     ]

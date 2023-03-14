@@ -52,7 +52,8 @@
       "the_vault:gear/armor/furnace",
       "the_vault:gear/armor/jawbone",
       "the_vault:gear/armor/witch",
-      "the_vault:gear/armor/soul_eater"
+      "the_vault:gear/armor/soul_eater",
+      "the_vault:gear/armor/goat"
 
     ],
     "OMEGA": [
@@ -62,6 +63,7 @@
       "the_vault:gear/armor/devil",
       "the_vault:gear/armor/leprechaun",
       "the_vault:gear/armor/paladin",
+      "the_vault:gear/armor/bunny_guardian",
       "the_vault:gear/armor/pirate"
       
     ],
@@ -149,6 +151,7 @@
       "the_vault:gear/sword/deaths_door",
       "the_vault:gear/sword/ring_blade",
       "the_vault:gear/sword/glorem_glipsum",
+      "the_vault:gear/sword/bamboo",
       "the_vault:gear/sword/idonas_sword"
       
     ]

@@ -114,14 +114,14 @@ craftingTable.addShaped("sophisticatedbackpacks_refill_upgrade", <item:sophistic
 
 craftingTable.addShaped("sophisticatedbackpacks_void_upgrade", <item:sophisticatedbackpacks:void_upgrade>, [
     [<item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:gem_echo>, <item:the_vault:black_chromatic_steel_ingot>],
-    [<item:the_vault:void_liquid_bucket>, <item:sophisticatedbackpacks:upgrade_base>, <item:the_vault:void_liquid_bucket>],
-    [<item:the_vault:chromatic_steel_block>, <item:the_vault:void_liquid_bucket>, <item:the_vault:chromatic_steel_block>]
+    [<item:the_vault:carbon>, <item:sophisticatedbackpacks:upgrade_base>, <item:the_vault:carbon>],
+    [<item:the_vault:chromatic_steel_block>, <item:the_vault:carbon>, <item:the_vault:chromatic_steel_block>]
 ]);
 
 craftingTable.addShaped("sophisticatedbackpacks_advanced_void_upgrade", <item:sophisticatedbackpacks:advanced_void_upgrade>, [
     [<item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:gem_echo>, <item:the_vault:black_chromatic_steel_ingot>],
     [<item:the_vault:chromatic_steel_block>, <item:sophisticatedbackpacks:void_upgrade>, <item:the_vault:chromatic_steel_block>],
-    [<item:minecraft:redstone_block>, <item:the_vault:void_liquid_bucket>, <item:minecraft:redstone_block>]
+    [<item:minecraft:redstone_block>, <item:the_vault:carbon>, <item:minecraft:redstone_block>]
 ]);
 
 craftingTable.addShaped("sophisticatedbackpacks_feeding_upgrade", <item:sophisticatedbackpacks:feeding_upgrade>, [

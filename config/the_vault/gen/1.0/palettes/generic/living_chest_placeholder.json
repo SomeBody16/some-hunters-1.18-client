@@ -63,6 +63,16 @@
           "failure": {
             "minecraft:air": 1
           }
+        },
+        {
+          "level": 75,
+          "probability": 1.0,
+          "success": {
+            "the_vault:living_chest{LootTable:\"the_vault:living_chest_lvl75_v2\"}": 1
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
         }
       ]
     }

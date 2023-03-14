@@ -31,6 +31,10 @@
         {
             "type": "reference",
             "id": "the_vault:generic/spawner_base"
+        },
+        {
+            "type": "reference",
+            "id": "the_vault:raw/dungeon_discoverable_placeholder"
         }
     ]
 }

@@ -76,6 +76,22 @@
                     "output": {
                         "ispawner:spawner{ Manager: { Settings: { Attempts: 5 } } }": 1
                     }
+                },
+                {
+                    "level": 65,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Manager: { Settings: { Attempts: 6 } } }": 1
+                    }
+                },
+                {
+                    "level": 90,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Manager: { Settings: { Attempts: 7 } } }": 1
+                    }
                 }
             ]
         },
@@ -104,6 +120,10 @@
                     }
                 }
             ]
+        },
+        {
+            "type": "reference",
+            "id": "the_vault:generic/hidden_placeholder"
         }
     ]
 }
