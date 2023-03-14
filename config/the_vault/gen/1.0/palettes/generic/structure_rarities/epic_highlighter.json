@@ -14,6 +14,22 @@
           "output": {
             "ispawner:spawner{ Manager: { Settings: { Attempts: 4 } } }": 1
           }
+        },
+        {
+          "level": 65,
+          "type": "weighted_target",
+          "target": "ispawner:spawner",
+          "output": {
+            "ispawner:spawner{ Manager: { Settings: { Attempts: 5 } } }": 1
+          }
+        },
+        {
+          "level": 80,
+          "type": "weighted_target",
+          "target": "ispawner:spawner",
+          "output": {
+            "ispawner:spawner{ Manager: { Settings: { Attempts: 6 } } }": 1
+          }
         }
       ]
     },
@@ -50,40 +66,40 @@
       "type": "weighted_target",
       "target": "the_vault:placeholder[type=wooden_chest]",
       "output": {
-        "the_vault:placeholder[type=wooden_chest]": 11,
-        "minecraft:air": 9
+        "the_vault:placeholder[type=wooden_chest]": 13,
+        "minecraft:air": 7
       }
     },
     {
       "type": "weighted_target",
       "target": "the_vault:placeholder[type=ornate_chest]",
       "output": {
-        "the_vault:placeholder[type=ornate_chest]": 5,
-        "minecraft:air": 15
+        "the_vault:placeholder[type=ornate_chest]": 7,
+        "minecraft:air": 13
       }
     },
     {
       "type": "weighted_target",
       "target": "the_vault:placeholder[type=living_chest]",
       "output": {
-        "the_vault:placeholder[type=living_chest]": 5,
-        "minecraft:air": 15
+        "the_vault:placeholder[type=living_chest]": 7,
+        "minecraft:air": 13
       }
     },
     {
       "type": "weighted_target",
       "target": "the_vault:placeholder[type=gilded_chest]",
       "output": {
-        "the_vault:placeholder[type=gilded_chest]": 5,
-        "minecraft:air": 15
+        "the_vault:placeholder[type=gilded_chest]": 7,
+        "minecraft:air": 13
       }
     },
     {
       "type": "weighted_target",
       "target": "the_vault:placeholder[type=coin_stacks]",
       "output": {
-        "the_vault:placeholder[type=coin_stacks]": 7,
-        "minecraft:air": 13
+        "the_vault:placeholder[type=coin_stacks]": 9,
+        "minecraft:air": 11
       }
     }
   ]

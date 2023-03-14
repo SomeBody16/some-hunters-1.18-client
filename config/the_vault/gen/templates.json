@@ -6877,6 +6877,230 @@
         "type": "structure",
         "path": "config/the_vault/gen/1.0/structures/vault/decor/highlighter/mustard4/structure3/coin1.nbt"
       }
+    },
+    {
+      "id": "the_vault:vault/rooms/omega/library1",
+      "name": "Omega Library 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/omega/library1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/chromatic_caves/spawner_tree1",
+      "name": "Diamond Caves Spawner Tree 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/chromatic_caves/spawner_tree1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/chromatic_caves/spawner_tree2",
+      "name": "Diamond Caves Spawner Tree 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/chromatic_caves/spawner_tree2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/raw/diamond_cave1",
+      "name": "Diamond Cave 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/raw/diamond_cave1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/end/chorus1",
+      "name": "Raw End Chorus 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/end/chorus1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/end/chorus2",
+      "name": "Raw End Chorus 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/end/chorus2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/end/chorus3",
+      "name": "Raw End Chorus 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/end/chorus3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/end/chorus4",
+      "name": "Raw End Chorus 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/end/chorus4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/end/chorus5",
+      "name": "Raw End Chorus 5",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/end/chorus5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/end/chorus6",
+      "name": "Raw End Chorus 6",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/end/chorus6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/end/ship1",
+      "name": "Raw End Ship 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/end/ship1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/end/ship2",
+      "name": "Raw End Ship 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/end/ship2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/end/ship3",
+      "name": "Raw End Ship 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/end/ship3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/end/ship4",
+      "name": "Raw End Ship 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/end/ship4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/end/ship5",
+      "name": "Raw End Ship 5",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/end/ship5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/end/structure1",
+      "name": "Raw End Structure 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/end/structure1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/end/structure2",
+      "name": "Raw End Structure 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/end/structure2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/end/structure3",
+      "name": "Raw End Structure 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/end/structure3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/end/structure4",
+      "name": "Raw End Structure 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/end/structure4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/end/structure5",
+      "name": "Raw End Structure 5",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/end/structure5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/raw/end1",
+      "name": "Raw End 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/raw/end1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/farm/cave1",
+      "name": "Raw Farm Cave 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/farm/cave1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/farm/cave2",
+      "name": "Raw Farm Cave 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/farm/cave2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/farm/cave3",
+      "name": "Raw Farm Cave 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/farm/cave3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/hole2w",
+      "name": "Hole 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/hole2w.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge/s3graveyard1",
+      "name": "S 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/challenge/s3graveyard1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/omega/cove1",
+      "name": "Cove 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/omega/cove1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/factory/bucket_loot1",
+      "name": "Bucket Loot 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/factory/bucket_loot1.nbt"
+      }
     }
   ]
 }

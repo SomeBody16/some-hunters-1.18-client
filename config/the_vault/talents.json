@@ -21,9 +21,9 @@
       {
         "effect": "minecraft:haste",
         "amplifier": 3,
-        "cost": 16,
-        "regretCost": 8,
-        "levelRequirement": 70,
+        "cost": 12,
+        "regretCost": 4,
+        "levelRequirement": 50,
         "type": "icon_only"
       }
     ]
@@ -81,7 +81,15 @@
         "amplifier": 3,
         "cost": 12,
         "regretCost": 8,
-        "levelRequirement": 80,
+        "levelRequirement": 50,
+        "type": "icon_only"
+      },
+      {
+        "effect": "minecraft:speed",
+        "amplifier": 4,
+        "cost": 18,
+        "regretCost": 8,
+        "levelRequirement": 75,
         "type": "icon_only"
       }
     ]

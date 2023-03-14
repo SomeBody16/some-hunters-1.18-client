@@ -739,6 +739,71 @@
       "id": "the_vault:generic/structure_rarities/epic_highlighter",
       "name": "Structure Rarity Epic Highlighter",
       "1.0": "config/the_vault/gen/1.0/palettes/generic/structure_rarities/epic_highlighter.json"
+    },
+    {
+      "id": "the_vault:library/base",
+      "name": "Library Base",
+      "1.0": "config/the_vault/gen/1.0/palettes/library/base.json"
+    },
+    {
+      "id": "the_vault:raw/chromatic_caves/base_diamond",
+      "name": "Diamond Caves Base",
+      "1.0": "config/the_vault/gen/1.0/palettes/raw/chromatic_caves/base_diamond.json"
+    },
+    {
+      "id": "the_vault:raw/diamond_ore_placeholder",
+      "name": "Diamond Ore Placeholder",
+      "1.0": "config/the_vault/gen/1.0/palettes/raw/diamond_ore_placeholder.json"
+    },
+    {
+      "id": "the_vault:raw/shulker_spawner",
+      "name": "Shulker Spawner",
+      "1.0": "config/the_vault/gen/1.0/palettes/raw/shulker_spawner.json"
+    },
+    {
+      "id": "the_vault:generic/spawners/shulker",
+      "name": "Shulker",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/spawners/shulker.json"
+    },
+    {
+      "id": "the_vault:raw/end/base",
+      "name": "Raw End Base",
+      "1.0": "config/the_vault/gen/1.0/palettes/raw/end/base.json"
+    },
+    {
+      "id": "the_vault:universal_blank",
+      "name": "Universal Blank",
+      "1.0": "config/the_vault/gen/1.0/palettes/universal_blank.json"
+    },
+    {
+      "id": "the_vault:generic/dungeon_discoverable_placeholder",
+      "name": "Dungeon Discoverable Placeholder",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/dungeon_discoverable_placeholder.json"
+    },
+    {
+      "id": "the_vault:cove/base",
+      "name": "Base",
+      "1.0": "config/the_vault/gen/1.0/palettes/cove/base.json"
+    },
+    {
+      "id": "the_vault:factory/bucket",
+      "name": "Bucket",
+      "1.0": "config/the_vault/gen/1.0/palettes/factory/bucket.json"
+    },
+    {
+      "id": "the_vault:raw/dungeon_discoverable_placeholder",
+      "name": "Raw Dungeon Discoverable Placeholder",
+      "1.0": "config/the_vault/gen/1.0/palettes/raw/dungeon_discoverable_placeholder.json"
+    },
+    {
+      "id": "the_vault:raw/chromatic_caves/base_diamond_regular",
+      "name": "Diamond Caves Base Regular",
+      "1.0": "config/the_vault/gen/1.0/palettes/raw/chromatic_caves/base_diamond_regular.json"
+    },
+    {
+      "id": "the_vault:generic/hidden_placeholder",
+      "name": "Hidden Placeholder",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/hidden_placeholder.json"
     }
   ]
 }

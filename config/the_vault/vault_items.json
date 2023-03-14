@@ -28,12 +28,12 @@
     "maxExp": 2400
   },
   "CHEESE_BURGER_FEAST": {
-    "minExp": 3000,
-    "maxExp": 3000
-  },
-  "SPICY_HEARTY_BURGER": {
     "minExp": 5000,
     "maxExp": 5000
+  },
+  "SPICY_HEARTY_BURGER": {
+    "minExp": 20000,
+    "maxExp": 20000
   },
   "VAULT_DOLL": {
     "lootPercentageMin": 0.1,

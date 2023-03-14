@@ -14,6 +14,22 @@
             "output": {
               "ispawner:spawner{ Manager: { Settings: { Attempts: 3 } } }": 1
             }
+          },
+          {
+            "level": 65,
+            "type": "weighted_target",
+            "target": "ispawner:spawner",
+            "output": {
+              "ispawner:spawner{ Manager: { Settings: { Attempts: 4 } } }": 1
+            }
+          },
+          {
+            "level": 90,
+            "type": "weighted_target",
+            "target": "ispawner:spawner",
+            "output": {
+              "ispawner:spawner{ Manager: { Settings: { Attempts: 5 } } }": 1
+            }
           }
         ]
       },

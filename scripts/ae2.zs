@@ -250,9 +250,9 @@ craftingTable.addShapeless("ae2_shapeless_energy_acceptor", <item:ae2:energy_acc
 ]);
 
 craftingTable.addShaped("ae2_wireless_access_point", <item:ae2:wireless_access_point>, [
-    [<item:minecraft:air>, <item:ae2:wireless_receiver>, <item:minecraft:air>],
-    [<item:the_vault:black_chromatic_steel_ingot>, <item:ae2:calculation_processor>, <item:the_vault:black_chromatic_steel_ingot>],
-    [<item:minecraft:air>, <item:ae2:fluix_glass_cable>, <item:minecraft:air>]
+    [<item:the_vault:chromatic_steel_ingot>, <item:ae2:wireless_receiver>, <item:the_vault:chromatic_steel_ingot>],
+    [<item:the_vault:perfect_larimar>, <item:ae2:calculation_processor>, <item:the_vault:perfect_larimar>],
+    [<item:the_vault:chromatic_steel_ingot>, <item:ae2:fluix_glass_cable>, <item:the_vault:chromatic_steel_ingot>]
 ]);
 
 craftingTable.addShaped("ae2_wireless_receiver", <item:ae2:wireless_receiver>, [
@@ -283,4 +283,27 @@ craftingTable.addShaped("ae2_pattern", <item:ae2:blank_pattern>, [
     [<item:the_vault:magic_silk>, <item:the_vault:magic_silk>, <item:the_vault:magic_silk>],
     [<item:the_vault:driftwood>, <tag:items:forge:gems/certus_quartz>, <item:the_vault:driftwood>],
     [<item:the_vault:chromatic_iron_ingot>,<item:the_vault:chromatic_iron_ingot>, <item:the_vault:chromatic_iron_ingot>]
+]);
+
+craftingTable.addShaped("quantum_ring", <item:ae2:quantum_ring>, [
+    [<item:the_vault:chromatic_iron_ingot>,  <tag:items:ae2:smart_dense_cable>, <item:the_vault:chromatic_iron_ingot>], 
+    [ <tag:items:ae2:smart_dense_cable>, <item:the_vault:chromatic_iron_ingot>, <tag:items:ae2:smart_dense_cable>], 
+    [<item:the_vault:chromatic_iron_ingot>,  <tag:items:ae2:smart_dense_cable>, <item:the_vault:chromatic_iron_ingot>]]
+);
+
+craftingTable.addShaped("singularity", <item:ae2:singularity>, [
+    [<item:the_vault:gem_larimar>,  <item:the_vault:chromatic_iron_ingot>, <item:the_vault:gem_larimar>], 
+    [<item:the_vault:chromatic_iron_ingot>, <item:the_vault:vault_diamond>, <item:the_vault:chromatic_iron_ingot>], 
+    [<item:the_vault:gem_larimar>, <item:the_vault:chromatic_iron_ingot>, <item:the_vault:gem_larimar>]]
+);
+craftingTable.addShaped("io_port", <item:ae2:io_port>, [
+    [<item:the_vault:chromatic_steel_ingot>,  <item:the_vault:chromatic_steel_ingot>, <item:the_vault:chromatic_steel_ingot>], 
+    [<item:the_vault:vault_diamond>, <tag:items:ae2:glass_cable>, <item:the_vault:vault_diamond>], 
+    [<item:the_vault:chromatic_iron_ingot>, <item:ae2:logic_processor>, <item:the_vault:chromatic_iron_ingot>]]
+);
+
+craftingTable.addShaped("security_station", <item:ae2:security_station>, [
+    [<item:the_vault:chromatic_iron_ingot>, <item:ae2:engineering_processor>, <item:the_vault:chromatic_iron_ingot>], 
+    [<item:ae2:fluix_glass_cable>, <item:the_vault:vault_diamond>, <item:ae2:fluix_glass_cable>], 
+    [<item:the_vault:chromatic_iron_ingot>, <item:ae2:engineering_processor>, <item:the_vault:chromatic_iron_ingot>]
 ]);

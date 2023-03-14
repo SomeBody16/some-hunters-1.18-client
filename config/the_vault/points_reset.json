@@ -4,5 +4,8 @@
   "resetArchetypePoints": false,
   "skillPointsCurrentlyReset": [],
   "archetypePointsCurrentlyReset": [],
-  "knowledgePointsCurrentlyReset": []
+  "knowledgePointsCurrentlyReset": [],
+  "removedTalents": [
+    "Reach"
+  ]
 }

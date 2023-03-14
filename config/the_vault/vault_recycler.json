@@ -2,10 +2,10 @@
   "processingTickTime": 20,
   "additionalOutputRarityChances": {
     "SCRAPPY": 0.0,
-    "COMMON": 0.05,
-    "RARE": 0.1,
-    "EPIC": 0.15,
-    "OMEGA": 0.2
+    "COMMON": 0.2,
+    "RARE": 0.4,
+    "EPIC": 0.6,
+    "OMEGA": 1.0
   },
   "gearRecyclingOutput": {
     "mainOutput": {
@@ -17,7 +17,7 @@
       "maxCount": 8
     },
     "extraOutput1": {
-      "chance": 0.5,
+      "chance": 0.2,
       "stack": {
         "item": "the_vault:wild_focus"
       },
@@ -61,7 +61,7 @@
   },
   "jewelRecyclingOutput": {
     "mainOutput": {
-      "chance": 1.0,
+      "chance": 0.5,
       "stack": {
         "item": "the_vault:gemstone"
       },
@@ -74,7 +74,7 @@
         "item": "the_vault:silver_scrap"
       },
       "minCount": 1,
-      "maxCount": 10
+      "maxCount": 4
     },
     "extraOutput2": {
       "chance": 1.0,
@@ -82,7 +82,33 @@
         "item": "the_vault:gem_wutodie"
       },
       "minCount": 1,
-      "maxCount": 3
+      "maxCount": 2
+    }
+  },
+  "inscriptionRecyclingOutput": {
+    "mainOutput": {
+      "chance": 1.0,
+      "stack": {
+        "item": "the_vault:inscription_piece"
+      },
+      "minCount": 1,
+      "maxCount": 1
+    },
+    "extraOutput1": {
+      "chance": 0.5,
+      "stack": {
+        "item": "the_vault:inscription_piece"
+      },
+      "minCount": 1,
+      "maxCount": 1
+    },
+    "extraOutput2": {
+      "chance": 0.1,
+      "stack": {
+        "item": "the_vault:inscription_piece"
+      },
+      "minCount": 1,
+      "maxCount": 1
     }
   }
 }

@@ -100,15 +100,13 @@
         },
         "pool": [
           {
-            "weight": 2,
+            "weight": 1,
             "item": {
-              "id": "the_vault:chipped_vault_rock"
-            }
-          },
-          {
-            "weight": 3,
-            "item": {
-              "id": "minecraft:air"
+              "id": "minecraft:chipped_vault_rock"
+            },
+            "count": {
+              "type": "constant",
+              "count": 1
             }
           }
         ]
@@ -267,7 +265,7 @@
               "id": "minecraft:quartz",
               "count": {
                 "type": "constant",
-                "count": 1
+                "count": 2
               }
             }
           }

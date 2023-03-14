@@ -66,7 +66,7 @@ craftingTable.addShaped("modularrouters_augment_core",  <item:modularrouters:aug
 
 craftingTable.addShapeless("modularrouters_void_module", <item:modularrouters:void_module>, [
     <item:modularrouters:blank_module>, <item:the_vault:magic_silk_block>,
-    <item:the_vault:void_liquid_bucket>, <item:the_vault:chromatic_iron_block>
+    <item:the_vault:carbon>, <item:the_vault:chromatic_iron_block>
 ]);
 
 craftingTable.addShaped("modularrouters_puller_module_1", <item:modularrouters:puller_module_1>, [

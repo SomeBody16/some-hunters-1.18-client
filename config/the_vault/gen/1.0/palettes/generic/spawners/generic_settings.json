@@ -40,7 +40,39 @@
                     "type": "weighted_target",
                     "target": "ispawner:spawner",
                     "output": {
-                        "ispawner:spawner{ Manager: { Settings: { SpawnDelay: 180 } } }": 1
+                        "ispawner:spawner{ Manager: { Settings: { SpawnDelay: 200 } } }": 1
+                    }
+                },
+                {
+                    "level": 65,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Manager: { Settings: { SpawnDelay: 240 } } }": 1
+                    }
+                },
+                {
+                    "level": 80,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Manager: { Settings: { SpawnDelay: 220 } } }": 1
+                    }
+                },
+                {
+                    "level": 90,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Manager: { Settings: { SpawnDelay: 240 } } }": 1
+                    }
+                },
+                {
+                    "level": 100,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Manager: { Settings: { SpawnDelay: 220 } } }": 1
                     }
                 }
             ]

@@ -19,7 +19,7 @@
 
         {
             "type": "patchouli:text",
-            "text": "After completing the request, feed the Vault Altar a $(l)Redstone Signal$() to obtain the $(l)Vault Crystal$(). $(br2)The $(l)Objective, Theme and Layout$() of the Vault Crystal will not be revealed, but can be set using $(l)Seals, Motes and Catalysts.$() The Level of the Vault Crystal is sealed to the Vault Level when it was crafted.  "
+            "text": "After completing the request, feed the Vault Altar a $(l)Redstone Signal$() to obtain the $(l)Vault Crystal$(). $(br2)The $(l)Objective, Theme and Layout$() of the Vault Crystal will not be revealed, but can be set using $(l)Seals, Motes, Catalysts and Inscriptions.$() The Level of the Vault Crystal is bound to the player's Vault Level when it was crafted.  "
         },
 
         {

@@ -590,6 +590,20 @@
         {
             "type": "reference",
             "id": "the_vault:generic/common_elite_spawners"
+        },
+        {
+            "type": "leveled",
+            "levels": [
+                {
+                "level": 0,
+                "type": "weighted_target",
+                "target": "ispawner:spawner",
+                "output": {
+                    "ispawner:spawner{ Manager:{ UsesLeft:1, Settings: { SpawnDelay: 40 } } } }": 1,
+                    "ispawner:spawner{ Manager:{ UsesLeft:1, Settings: { SpawnDelay: 50 } } } }": 4
+                }
+                }
+            ]
         }
     ],
     "entity_processors": [],

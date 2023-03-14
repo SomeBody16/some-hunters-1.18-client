@@ -23,7 +23,7 @@
         },
         {
           "type": "patchouli:text",
-          "text": "The $(l)Proficiency$() bar for each item increases with every craft. The $(l)higher$() the Proficiency, the higher the $(l)Tier$() of the item. $(br2)Tiers progress from $(l)Novice$() to $(l)Apprentice$(), to $(l)Master$(), to $(l)Artisan$(), to $(l)Master Artisan$()"
+          "text": "The $(l)Proficiency$() bar for each item increases with every craft. The $(l)higher$() the Proficiency, the higher the $(l)Tier$() of the item. $(br2)Tiers progress from $(l)Novice$() to $(l)Apprentice$(), to $(l)Master$(), to $(l)Artisan$(), to $(l)Master Artisan$(). $(br2)It is now also possible to set the level of the crafted gear inside the Forge."
         }
 
     ]

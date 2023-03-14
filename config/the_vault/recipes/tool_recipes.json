@@ -156,8 +156,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 2,
-          "ITEM": "the_vault:vault_gold",
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
@@ -188,8 +188,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 2,
-          "ITEM": "the_vault:vault_gold",
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
@@ -220,8 +220,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 2,
-          "ITEM": "the_vault:vault_gold",
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
@@ -252,8 +252,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 2,
-          "ITEM": "the_vault:vault_gold",
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
@@ -284,8 +284,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 2,
-          "ITEM": "the_vault:vault_gold",
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
@@ -316,8 +316,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 2,
-          "ITEM": "the_vault:vault_gold",
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
@@ -348,8 +348,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 2,
-          "ITEM": "the_vault:vault_gold",
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
@@ -380,8 +380,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 2,
-          "ITEM": "the_vault:vault_gold",
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
@@ -412,8 +412,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 2,
-          "ITEM": "the_vault:vault_gold",
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
@@ -444,8 +444,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 2,
-          "ITEM": "the_vault:vault_gold",
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
@@ -481,8 +481,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 3,
-          "ITEM": "the_vault:vault_gold",
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
@@ -518,8 +518,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 3,
-          "ITEM": "the_vault:vault_gold",
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
@@ -555,8 +555,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 3,
-          "ITEM": "the_vault:vault_gold",
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
@@ -592,8 +592,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 3,
-          "ITEM": "the_vault:vault_gold",
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
@@ -629,8 +629,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 3,
-          "ITEM": "the_vault:vault_gold",
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
@@ -661,8 +661,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 4,
-          "ITEM": "the_vault:vault_gold",
+          "AMOUNT": 162,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
@@ -693,8 +693,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 4,
-          "ITEM": "the_vault:vault_gold",
+          "AMOUNT": 162,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
@@ -725,8 +725,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 4,
-          "ITEM": "the_vault:vault_gold",
+          "AMOUNT": 162,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
@@ -757,8 +757,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 4,
-          "ITEM": "the_vault:vault_gold",
+          "AMOUNT": 162,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
@@ -789,8 +789,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 4,
-          "ITEM": "the_vault:vault_gold",
+          "AMOUNT": 162,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
@@ -821,8 +821,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 1,
-          "ITEM": "the_vault:vault_platinum",
+          "AMOUNT": 256,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
@@ -853,8 +853,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 1,
-          "ITEM": "the_vault:vault_platinum",
+          "AMOUNT": 256,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
@@ -885,8 +885,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 1,
-          "ITEM": "the_vault:vault_platinum",
+          "AMOUNT": 256,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
@@ -917,8 +917,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 1,
-          "ITEM": "the_vault:vault_platinum",
+          "AMOUNT": 256,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
@@ -949,8 +949,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 1,
-          "ITEM": "the_vault:vault_platinum",
+          "AMOUNT": 256,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
@@ -986,8 +986,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 2,
-          "ITEM": "the_vault:vault_platinum",
+          "AMOUNT": 1024,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
@@ -1023,8 +1023,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 2,
-          "ITEM": "the_vault:vault_platinum",
+          "AMOUNT": 1024,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
@@ -1060,8 +1060,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 2,
-          "ITEM": "the_vault:vault_platinum",
+          "AMOUNT": 1024,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
@@ -1097,8 +1097,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 2,
-          "ITEM": "the_vault:vault_platinum",
+          "AMOUNT": 1024,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
@@ -1134,8 +1134,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 2,
-          "ITEM": "the_vault:vault_platinum",
+          "AMOUNT": 1024,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {

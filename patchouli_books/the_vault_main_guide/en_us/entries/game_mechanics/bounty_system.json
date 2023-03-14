@@ -24,7 +24,7 @@
 
         {
           "type": "patchouli:text",
-          "text": "$(li)$(l)Item Discovery$() $(li2)Find items of a type in Vault Chests$(li)$(l)Mining$() $(li2)Mine a certain number of ores in The Vault"
+          "text": "$(li)$(l)Item Discovery$() $(li2)Find items of a type in Vault Chests$(li)$(l)Mining$() $(li2)Mine a certain number of ores in The Vault. $(br2)Use a $(l)Lost Bounty$() on the Bounty Table$() to acquire a $(l)legendary bounty.$()"
         }
 
 

@@ -14,6 +14,22 @@
           "output": {
             "ispawner:spawner{ Manager: { Settings: { Attempts: 2 } } }": 1
           }
+        },
+        {
+          "level": 65,
+          "type": "weighted_target",
+          "target": "ispawner:spawner",
+          "output": {
+            "ispawner:spawner{ Manager: { Settings: { Attempts: 3 } } }": 1
+          }
+        },
+        {
+          "level": 80,
+          "type": "weighted_target",
+          "target": "ispawner:spawner",
+          "output": {
+            "ispawner:spawner{ Manager: { Settings: { Attempts: 4 } } }": 1
+          }
         }
       ]
     },
@@ -54,6 +70,28 @@
             "ispawner:spawner{ Manager:{ UsesLeft:1, Settings: { SpawnDelay: 20, Attempts: 4 } } } }": 3
 
           }
+        },
+        {
+          "level": 65,
+          "type": "weighted_target",
+          "target": "ispawner:spawner",
+          "output": {
+            "ispawner:spawner": 4,
+            "ispawner:spawner{ Manager:{ UsesLeft:1, Settings: { SpawnDelay: 20, Attempts: 4 } } } }": 3,
+            "ispawner:spawner{ Manager:{ UsesLeft:1, Settings: { SpawnDelay: 20, Attempts: 5 } } } }": 3
+
+          }
+        },
+        {
+          "level": 80,
+          "type": "weighted_target",
+          "target": "ispawner:spawner",
+          "output": {
+            "ispawner:spawner": 4,
+            "ispawner:spawner{ Manager:{ UsesLeft:1, Settings: { SpawnDelay: 20, Attempts: 5 } } } }": 3,
+            "ispawner:spawner{ Manager:{ UsesLeft:1, Settings: { SpawnDelay: 20, Attempts: 6 } } } }": 3
+
+          }
         }
       ]
     },
@@ -61,8 +99,8 @@
       "type": "weighted_target",
       "target": "the_vault:placeholder[type=wooden_chest]",
       "output": {
-        "the_vault:placeholder[type=wooden_chest]": 4,
-        "minecraft:air": 16
+        "the_vault:placeholder[type=wooden_chest]": 6,
+        "minecraft:air": 14
       }
     }
   ]

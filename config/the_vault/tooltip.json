@@ -42,7 +42,7 @@
     },
     {
       "item": "the_vault:phoenix_feather",
-      "value": "Uber Catalyst\nApply to a crystal to add the Phoenix modifier\nExhausts the crystal"
+      "value": "Uber Catalyst\nApply to a crystal to add the Phoenix modifier\nEach feather saves the player from death one time\nCan apply multiple to the same crystal"
     },
     {
       "item": "the_vault:eye_of_avarice",
@@ -146,7 +146,7 @@
     },
     {
       "item": "the_vault:echo_pog",
-      "value": "Required in higher tier crafting recipes"
+      "value": "An echo imbued pog\nRequired in higher tier crafting recipes"
     },
     {
       "item": "the_vault:key_iskallium",
@@ -194,7 +194,7 @@
     },
     {
       "item": "the_vault:relic_booster_pack",
-      "value": "Consume to either gain a relic, a mystery box\nor a tiny bit of experience"
+      "value": "Consume for a chance to gain a Relic piece"
     },
     {
       "item": "the_vault:relic_dragon_head",
@@ -386,7 +386,7 @@
     },
     {
       "item": "the_vault:skill_shard",
-      "value": "Crafting ingredient"
+      "value": "Crafting ingredient for Skill Orbs"
     },
     {
       "item": "the_vault:key_piece",
@@ -681,8 +681,12 @@
       "value": "Combine with any Vault Gear piece in an anvil to add a random modifier"
     },
     {
-      "item": "the_vault:vault_catalyst",
-      "value": "Combine with a Vault Crystal to add modifiers"
+      "item": "the_vault:vault_catalyst_infused",
+      "value": "Combine with a Vault Crystal to apply modifiers"
+    },
+    {
+      "item": "the_vault:vault_catalyst_chaos",
+      "value": "Combine with a Vault Crystal to apply 30 random modifiers"
     },
     {
       "item": "the_vault:vault_inhibitor",
@@ -698,7 +702,7 @@
     },
     {
       "item": "the_vault:shard_pouch",
-      "value": "\nStores unlimited amount of soul shards. Soul shards picked up will go directly into the pouch."
+      "value": "Stores unlimited amount of soul shards\nSoul shards picked up will go directly into the pouch."
     },
     {
       "item": "the_vault:vault_paxel",
@@ -846,7 +850,7 @@
     },
     {
       "item": "the_vault:cryo_chamber",
-      "value": "Used to create Eternals\nInsert a eternal soul in to the cryo-chamber by\nRight-clicking the trader core on it\nWhen enough trader cores have been inserted it will generate and\nhost an eternal\n\nRight-click a Cryo Chamber with an eternal to upgrade and modify the eternal"
+      "value": "Used to create Eternals\nInsert eternal souls into the cryo-chamber by\nright-clicking the souls on it\nWhen enough eternal souls have been inserted it will generate and\nhost an eternal\n\nRight click to grab the eternal\nto transport it to an Eternal Pedestal"
     },
     {
       "item": "the_vault:vault_diamond_block",
