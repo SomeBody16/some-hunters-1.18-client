@@ -50,7 +50,7 @@ JEI.hideIngredient(<item:powah:player_transmitter_starter>);
   "energy": 500000,
   "result": {
 	"item": "powah:crystal_spirited",
-	"count": 1
+	"count": 3
   }
 });
 
