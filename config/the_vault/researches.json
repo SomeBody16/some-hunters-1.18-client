@@ -506,7 +506,7 @@
         }
       },
       "name": "Botany Pots",
-      "cost": 420,
+      "cost": 2,
       "usesKnowledge": true,
       "discoversModels": [
         "the_vault:gear/armor/fairy/helmet",
