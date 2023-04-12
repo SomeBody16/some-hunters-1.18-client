@@ -124,6 +124,12 @@
       "x": 440,
       "y": 160,
       "frameType": "RECTANGULAR",
+      "icon": "ars_nouveau:item/projectile"
+    },
+    "Ars Nouveau": {
+      "x": 490,
+      "y": 160,
+      "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/vault_compass"
     },
     "Building Gadgets": {
@@ -258,9 +264,5 @@
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/iron_furnaces"
     }
-    
-    
-    
   }
-    
 }
