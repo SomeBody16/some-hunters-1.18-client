@@ -124,13 +124,13 @@
       "x": 440,
       "y": 160,
       "frameType": "RECTANGULAR",
-      "icon": "ars_nouveau:item/projectile"
+      "icon": "the_vault:gui/researches/vault_compass"
     },
     "Ars Nouveau": {
       "x": 490,
       "y": 160,
       "frameType": "RECTANGULAR",
-      "icon": "the_vault:gui/researches/vault_compass"
+      "icon": "ars_nouveau:items/projectile"
     },
     "Building Gadgets": {
       "x": 10,
