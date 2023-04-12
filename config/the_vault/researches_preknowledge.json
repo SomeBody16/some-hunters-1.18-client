@@ -208,7 +208,7 @@
         "mcwdoors",
         "enviromats",
         "platforms",
-		"cfm"
+        "cfm"
       ],
       "restrictions": {
         "restricts": {
@@ -291,7 +291,8 @@
     },
     {
       "modIds": [
-        "comforts", "rftoolsbase"
+        "comforts",
+        "rftoolsbase"
       ],
       "restrictions": {
         "restricts": {
@@ -516,7 +517,8 @@
     },
     {
       "modIds": [
-        "neoncraft", "simplylight"
+        "neoncraft",
+        "simplylight"
       ],
       "restrictions": {
         "restricts": {
@@ -651,14 +653,14 @@
             "CRAFTABILITY": true
           }
         },
-		"create:mechanical_crafter": {
+        "create:mechanical_crafter": {
           "restricts": {
             "USABILITY": true,
             "HITTABILITY": true,
             "CRAFTABILITY": true
           }
         },
-		"botania:crafty_crate": {
+        "botania:crafty_crate": {
           "restricts": {
             "USABILITY": true,
             "HITTABILITY": true,

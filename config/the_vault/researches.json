@@ -2,6 +2,24 @@
   "MOD_RESEARCHES": [
     {
       "modIds": [
+        "arsomega",
+        "ars_nouveau"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": true,
+          "BLOCK_INTERACTABILITY": true,
+          "USABILITY": true,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": true
+        }
+      },
+      "name": "Ars Nouveau",
+      "cost": 13,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
         "colossalchests"
       ],
       "restrictions": {
