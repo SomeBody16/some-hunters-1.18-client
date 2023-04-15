@@ -3,7 +3,9 @@
     {
       "modIds": [
         "arsomega",
-        "ars_nouveau"
+        "ars_nouveau",
+        "ars_creo",
+        "ars_scalaes"
       ],
       "restrictions": {
         "restricts": {
