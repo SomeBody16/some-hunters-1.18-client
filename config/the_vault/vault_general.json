@@ -168,7 +168,11 @@
 		"supplementaries:safe",
 		"framedcompactdrawers:*",
 		"storagedrawers:*",
-		"minecraft:ender_pearl"
+		"minecraft:ender_pearl",
+		"ars_nouveau:*",
+		"arsomega:*",
+		"ars_creo:*",
+		"ars_scalaes:*"
 	],
 	"BLOCK_BLACKLIST": [
 		"darkutils:*",
@@ -586,7 +590,11 @@
 		"mekanism:portable_qio_dashboard",
 		"mekanism:quantum_entangloporter",
 		"the_vault:bounty_block",
-		"dummmmmmy:target_dummy_placer"
+		"dummmmmmy:target_dummy_placer",
+		"ars_nouveau:*",
+		"arsomega:*",
+		"ars_creo:*",
+		"ars_scalaes:*"
 	],
 	"VAULT_EXIT_TNL_MIN": 0.5,
 	"VAULT_EXIT_TNL_MAX": 1.0,

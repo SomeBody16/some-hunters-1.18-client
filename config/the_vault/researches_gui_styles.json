@@ -130,7 +130,7 @@
       "x": 490,
       "y": 160,
       "frameType": "RECTANGULAR",
-      "icon": "ars_nouveau:items/projectile"
+      "icon": "ars_nouveau:gui/worn_book_bookmark"
     },
     "Building Gadgets": {
       "x": 10,
