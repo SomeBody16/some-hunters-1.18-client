@@ -172,7 +172,9 @@
 		"ars_nouveau:*",
 		"arsomega:*",
 		"ars_creo:*",
-		"ars_scalaes:*"
+		"ars_scalaes:*",
+		"farmersdelight:*",
+		"oceansdelight:*"
 	],
 	"BLOCK_BLACKLIST": [
 		"darkutils:*",
@@ -594,7 +596,9 @@
 		"ars_nouveau:*",
 		"arsomega:*",
 		"ars_creo:*",
-		"ars_scalaes:*"
+		"ars_scalaes:*",
+		"farmersdelight:*",
+		"oceansdelight:*"
 	],
 	"VAULT_EXIT_TNL_MIN": 0.5,
 	"VAULT_EXIT_TNL_MAX": 1.0,
