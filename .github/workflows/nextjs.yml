@@ -1,0 +1,60 @@
+name: Send update to discord
+
+on:
+  workflow_dispatch:
+    inputs:
+      changelog:
+        description: 'Enter the changelog message'
+        required: true
+
+jobs:
+  notify-main-discord:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Notify main discord
+      uses: smarquesjr/http-request-action@v1.0
+      with:
+        url: ${{ secrets.MAIN_DISCORD_WEBHOOK }}
+        method: 'POST'
+        body: >
+          {
+            "content": null,
+            "embeds": [
+              {
+                "description": "```diff\n${{ github.event.inputs.changelog }}\n```",
+                "color": 65280,
+                "author": {
+                  "name": "SomeBody16",
+                  "icon_url": "https://cdn.discordapp.com/avatars/326629196967313408/b35290b3cd267754fb819b9ba27e96c3.webp?size=256"
+                }
+              }
+            ],
+            "username": "Update",
+            "avatar_url": "https://i.imgur.com/6rp13.png",
+            "attachments": []
+          }
+  notify-cyculek:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Notify Cyculek
+      uses: smarquesjr/http-request-action@v1.0
+      with:
+        url: ${{ secrets.CYCULEK_WEBHOOK }}
+        method: 'POST'
+        body: >
+          {
+            "content": null,
+            "embeds": [
+              {
+                "description": "```diff\n${{ github.event.inputs.changelog }}\n```",
+                "color": 65280,
+                "author": {
+                  "name": "SomeBody16",
+                  "icon_url": "https://cdn.discordapp.com/avatars/326629196967313408/b35290b3cd267754fb819b9ba27e96c3.webp?size=256"
+                }
+              }
+            ],
+            "username": "Update",
+            "avatar_url": "https://i.imgur.com/6rp13.png",
+            "attachments": []
+          }
