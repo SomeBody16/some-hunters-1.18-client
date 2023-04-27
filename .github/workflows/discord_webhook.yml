@@ -6,7 +6,7 @@ on:
       changelog:
         description: 'Enter the changelog message'
         required: true
-        type: textarea
+        type: string
 
 jobs:
   notify-main-discord:
