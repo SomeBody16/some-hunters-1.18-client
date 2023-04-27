@@ -1,6 +1,6 @@
 {
   "general": {
-    "displayTooltip": false,
+    "displayTooltip": true,
     "displayBlocks": true,
     "displayEntities": true,
     "displayMode": "TOGGLE",
@@ -10,21 +10,21 @@
     "ttsMode": "PRESS",
     "maxHealthForRender": 40,
     "maxHeartsPerLine": 10,
-    "fluidMode": "NONE",
+    "fluidMode": "ANY",
     "reachDistance": 0.0,
     "debug": false,
-    "hintOverlayToggle": true
+    "hintOverlayToggle": false
   },
   "overlay": {
-    "overlayPosX": 0.5,
-    "overlayPosY": 1.0,
-    "overlayScale": 1.0,
-    "overlayAnchorX": 0.5,
+    "overlayPosX": 0.0,
+    "overlayPosY": 0.70289856,
+    "overlayScale": 1.0086957,
+    "overlayAnchorX": 0.0,
     "overlayAnchorY": 0.0,
     "overlaySquare": false,
     "flipMainHand": false,
     "color": {
-      "alpha": 0.7,
+      "alpha": 0.0,
       "themes": {
         "jade:waila": {
           "id": "jade:waila",

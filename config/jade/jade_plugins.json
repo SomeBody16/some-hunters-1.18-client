@@ -3,12 +3,12 @@
     "horse_inventory": true,
     "total_ench_power": true,
     "chicken_egg": true,
-    "jukebox": true,
     "horse_stat": true,
+    "jukebox": true,
     "brewing_stand": true,
     "animal_owner": false,
-    "note_block": true,
     "inventory": true,
+    "note_block": true,
     "beehive": true,
     "player_head": true,
     "lectern": true,
@@ -49,6 +49,12 @@
     "item_mod_name": false,
     "mod_name": true,
     "entity_hp": true
+  },
+  "securitycraft": {
+    "showowner": true,
+    "showmodules": true,
+    "showpasswords": true,
+    "showcustomname": true
   },
   "storagedrawers": {
     "display.stacklimit": true,
