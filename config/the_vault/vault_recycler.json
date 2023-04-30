@@ -1,10 +1,10 @@
 {
   "processingTickTime": 20,
   "additionalOutputRarityChances": {
-    "SCRAPPY": 0.0,
-    "COMMON": 0.2,
-    "RARE": 0.4,
-    "EPIC": 0.6,
+    "SCRAPPY": 0.3,
+    "COMMON": 0.3,
+    "RARE": 0.6,
+    "EPIC": 0.8,
     "OMEGA": 1.0
   },
   "gearRecyclingOutput": {
@@ -14,6 +14,32 @@
         "item": "the_vault:vault_scrap"
       },
       "minCount": 4,
+      "maxCount": 8
+    },
+    "extraOutput1": {
+      "chance": 0.2,
+      "stack": {
+        "item": "the_vault:wild_focus"
+      },
+      "minCount": 1,
+      "maxCount": 2
+    },
+    "extraOutput2": {
+      "chance": 0.1,
+      "stack": {
+        "item": "the_vault:faceted_focus"
+      },
+      "minCount": 1,
+      "maxCount": 1
+    }
+  },
+  "magnetRecyclingOutput": {
+    "mainOutput": {
+      "chance": 1.0,
+      "stack": {
+        "item": "the_vault:magnetite"
+      },
+      "minCount": 2,
       "maxCount": 8
     },
     "extraOutput1": {

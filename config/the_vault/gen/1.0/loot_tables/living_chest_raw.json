@@ -127,7 +127,9 @@
                 "weight": 10,
                 "item": {
                   "id": "minecraft:potion",
-                  "nbt": "{Potion:\"minecraft:healing\"}",
+                  "nbt": {
+                    "Potion": "minecraft:healing"
+                  },
                   "count": {
                     "type": "uniform",
                     "min": 1,

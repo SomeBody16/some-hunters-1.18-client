@@ -225,7 +225,7 @@
 	#Stack Upgrade Settings
 	[common.stackUpgrade]
 		#List of items that are not supposed to stack in storage even when stack upgrade is inserted. Item registry names are expected here.
-		nonStackableItems = ["minecraft:totem_of_undying", "supplementaries:sack", "minecraft:potion", "supplementaries:safe"]
+		nonStackableItems = ["minecraft:totem_of_undying", "supplementaries:sack", "minecraft:potion", "supplementaries:safe", "botania:brew_vial", "botania:brew_flask", "botania:bauble_box"]
 
 	#Smelting Upgrade Settings
 	[common.smeltingUpgrade]

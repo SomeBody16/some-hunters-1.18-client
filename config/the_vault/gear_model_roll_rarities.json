@@ -64,7 +64,8 @@
       "the_vault:gear/armor/leprechaun",
       "the_vault:gear/armor/paladin",
       "the_vault:gear/armor/bunny_guardian",
-      "the_vault:gear/armor/pirate"
+      "the_vault:gear/armor/pirate",
+      "the_vault:gear/armor/mushroom"
       
     ],
     "UNIQUE": [
@@ -101,7 +102,10 @@
       "the_vault:gear/armor/armour_idona",
       "the_vault:gear/armor/armour_velara",
       "the_vault:gear/armor/armour_tenos",
-      "the_vault:gear/armor/armour_wendarr"
+      "the_vault:gear/armor/armour_wendarr",
+      "the_vault:gear/armor/penguin",
+      "the_vault:gear/armor/sweetheart",
+      "the_vault:gear/armor/jester"
     ]
   },
   "SWORD_MODEL_ROLLS": {
@@ -134,7 +138,8 @@
     "OMEGA": [
       "the_vault:gear/sword/sword_7",
       "the_vault:gear/sword/douwswords_swousky",
-      "the_vault:gear/sword/kindled_blade"
+      "the_vault:gear/sword/kindled_blade",
+      "the_vault:gear/sword/cutlass"
     ],
     "UNIQUE": [
       "the_vault:gear/sword/chainsword",
@@ -225,6 +230,8 @@
       "the_vault:gear/shield/bell",
       "the_vault:gear/shield/nou",
       "the_vault:gear/shield/absolutebinner",
+      "the_vault:gear/shield/heart_chocolate",
+      "the_vault:gear/shield/heart_crystal",
       "the_vault:gear/shield/turtle"
     ]
   }
