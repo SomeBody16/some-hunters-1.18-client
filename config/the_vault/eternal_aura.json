@@ -3,7 +3,7 @@
     {
       "effect": {
         "effect": "minecraft:regeneration",
-        "amplifier": 1,
+        "amplifier": 0,
         "type": "icon_only",
         "operator": "add",
         "cost": 0,
@@ -18,7 +18,7 @@
     {
       "effect": {
         "effect": "minecraft:haste",
-        "amplifier": 1,
+        "amplifier": 0,
         "type": "icon_only",
         "operator": "add",
         "cost": 0,
@@ -33,7 +33,7 @@
     {
       "effect": {
         "effect": "minecraft:haste",
-        "amplifier": 2,
+        "amplifier": 1,
         "type": "icon_only",
         "operator": "add",
         "cost": 0,
@@ -48,7 +48,7 @@
     {
       "effect": {
         "effect": "minecraft:speed",
-        "amplifier": 1,
+        "amplifier": 0,
         "type": "icon_only",
         "operator": "add",
         "cost": 0,
@@ -63,7 +63,7 @@
     {
       "effect": {
         "effect": "minecraft:speed",
-        "amplifier": 2,
+        "amplifier": 1,
         "type": "icon_only",
         "operator": "add",
         "cost": 0,
@@ -78,7 +78,7 @@
     {
       "effect": {
         "effect": "minecraft:strength",
-        "amplifier": 1,
+        "amplifier": 0,
         "type": "icon_only",
         "operator": "add",
         "cost": 0,
@@ -146,7 +146,7 @@
   "MOB_EFFECT_AURAS": [
     {
       "effect": "minecraft:slowness",
-      "amplifier": 2,
+      "amplifier": 0,
       "name": "Mob_Slowness",
       "displayName": "Slowness",
       "description": "Applies Slowness 3 to enemies in its radius",
