@@ -213,7 +213,7 @@
     "the_vault:night_vision_goggles": {
       "weight": 20,
       "name": "Night Vision Goggles",
-      "effectText": "Grants Night Vision",
+      "effectText": "Grants Night Vision and gives vision of chests/coins in a radius of 10",
       "color": 16534066,
       "minCraftedUses": 20,
       "maxCraftedUses": 20,
@@ -222,6 +222,7 @@
       "config": {
         "effect": "minecraft:night_vision",
         "addedAmplifier": 1,
+		"radius": 10,
         "curiosSlot": "trinket"
       }
     },

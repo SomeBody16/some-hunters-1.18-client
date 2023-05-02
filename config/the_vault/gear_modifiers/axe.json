@@ -2353,7 +2353,7 @@
       },
       
       { "attribute": "the_vault:attack_speed_percent",
-        "group": "ModAttackSpeedPercent",
+        "group": "modAttackType",
         "identifier": "the_vault:crafted_attack_speed_percent",
         "tags": [
           "focusAttackSpeedPercent"
@@ -2537,7 +2537,7 @@
         ]
       },
       { "attribute": "the_vault:lucky_hit_chance",
-        "group": "ModSoulChance",
+        "group": "ModOnHitAddition",
         "identifier": "the_vault:crafted_lucky_hit_chance",
         "tags": [
           "focusLuckyHitChance"
@@ -2563,8 +2563,6 @@
               "step": 0.01
             }
           }
-          
-          
         ]
       }
     ]

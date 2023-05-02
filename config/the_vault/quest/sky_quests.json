@@ -1185,7 +1185,7 @@
         ]
       },
       "icon": "the_vault:gui/quests/diffuser",
-      "targetId": "the_vault:vault_soul_diffuser",
+      "targetId": "the_vault:vault_diffuser",
       "targetProgress": 1.0,
       "unlockedBy": "apply_catalyst",
       "reward": {
