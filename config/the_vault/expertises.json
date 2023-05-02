@@ -104,7 +104,7 @@
                 "learnPointCost": 1,
                 "regretPointCost": 0,
                 "waitingPeriodReduction": 5400,
-                "abandonedPenaltyReduction": 0.875,
+                "abandonedPenaltyReduction": 0.9376,
                 "maxActive": 1,
                 "unlockLevel": 0
               },
@@ -113,7 +113,7 @@
                 "learnPointCost": 1,
                 "regretPointCost": 0,
                 "waitingPeriodReduction": 5400,
-                "abandonedPenaltyReduction": 0.875,
+                "abandonedPenaltyReduction": 0.9376,
                 "maxActive": 2,
                 "unlockLevel": 0
               }
