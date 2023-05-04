@@ -1,7 +1,3 @@
-/* scripts made by Douwsky
-for Iskall85's Vaulthunters
-Credits to freud for this jei integration */
-
 import mods.jei.category.Custom;
 import mods.jei.JEI;
 import mods.jei.category.SimpleJeiCategory;
@@ -9,33 +5,7 @@ import mods.jei.category.JeiCategory;
 import crafttweaker.api.text.TextComponent;
 import mods.jei.component.JeiDrawable;
 import crafttweaker.api.resource.ResourceLocation;
-
-var pulveriseCat = JeiCategory.create<Custom>("pulverising", new TextComponent("Pulverising"), <item:the_vault:tool>.withTag({offset: 0 as long, vaultGearData: [-2181340464152267846, -1956453410486721351, 1514722424829605912, 4616400934536516931, 107798892737, 423054278656, -8852492746032676864, -8559560530332385260, 18372019767163027, 288230376101658624, 8589934592, 184828609003782144, 185388976097100464, 140751079104801, 34359738360, 1024, 1514722424829605888, 5770026126585140547, -8388307835, 2199023255555, -6589870164517322752, 2903310526063837840, -7620749799, 2199023255555, -8024099520067403776, 7109014069478338562, -499432952282452, 144115188076118015, 288230376151711744, 4]}), [<item:the_vault:tool>.withTag({offset: 0 as long, vaultGearData: [-2181340464152267846, -1956453410486721351, 1514722424829605912, 4616400934536516931, 107798892737, 423054278656, -8852492746032676864, -8559560530332385260, 18372019767163027, 288230376101658624, 8589934592, 184828609003782144, 185388976097100464, 140751079104801, 34359738360, 1024, 1514722424829605888, 5770026126585140547, -8388307835, 2199023255555, -6589870164517322752, 2903310526063837840, -7620749799, 2199023255555, -8024099520067403776, 7109014069478338562, -499432952282452, 144115188076118015, 288230376151711744, 4]})]) as Custom;
-pulveriseCat.background = JeiDrawable.blank(177, 53) as JeiDrawable;
-
-pulveriseCat.addDrawable(15, 9, JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 0, 18, 18) as JeiDrawable);
-pulveriseCat.addDrawable(85, 32, JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 19, 10, 42, 10) as JeiDrawable);
-pulveriseCat.addDrawable(43, 4, JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 21, 18, 14) as JeiDrawable);
-
-pulveriseCat.addSlot(0, 16, 10, true);
-pulveriseCat.addSlot(1, 48, 27, true);
-pulveriseCat.addSlot(2, 139, 27, false);
-pulveriseCat.addRecipe([<item:minecraft:gravel>], [<item:the_vault:tool>.withTag({offset: 0 as long, vaultGearData: [-2181340464152267846, -1956453410486721351, 1514722424829605912, 4616400934536516931, 107798892737, 423054278656, -8852492746032676864, -8559560530332385260, 18372019767163027, 288230376101658624, 8589934592, 184828609003782144, 185388976097100464, 140751079104801, 34359738360, 1024, 1514722424829605888, 5770026126585140547, -8388307835, 2199023255555, -6589870164517322752, 2903310526063837840, -7620749799, 2199023255555, -8024099520067403776, 7109014069478338562, -499432952282452, 144115188076118015, 288230376151711744, 4]}), <item:minecraft:cobblestone>]);
-pulveriseCat.addRecipe([<item:minecraft:sand>], [<item:the_vault:tool>.withTag({offset: 0 as long, vaultGearData: [-2181340464152267846, -1956453410486721351, 1514722424829605912, 4616400934536516931, 107798892737, 423054278656, -8852492746032676864, -8559560530332385260, 18372019767163027, 288230376101658624, 8589934592, 184828609003782144, 185388976097100464, 140751079104801, 34359738360, 1024, 1514722424829605888, 5770026126585140547, -8388307835, 2199023255555, -6589870164517322752, 2903310526063837840, -7620749799, 2199023255555, -8024099520067403776, 7109014069478338562, -499432952282452, 144115188076118015, 288230376151711744, 4]}), <item:minecraft:gravel>]);
-pulveriseCat.addRecipe([<item:minecraft:brick> * 2], [<item:the_vault:tool>.withTag({offset: 0 as long, vaultGearData: [-2181340464152267846, -1956453410486721351, 1514722424829605912, 4616400934536516931, 107798892737, 423054278656, -8852492746032676864, -8559560530332385260, 18372019767163027, 288230376101658624, 8589934592, 184828609003782144, 185388976097100464, 140751079104801, 34359738360, 1024, 1514722424829605888, 5770026126585140547, -8388307835, 2199023255555, -6589870164517322752, 2903310526063837840, -7620749799, 2199023255555, -8024099520067403776, 7109014069478338562, -499432952282452, 144115188076118015, 288230376151711744, 4]}), <item:minecraft:bricks>]);
-pulveriseCat.addRecipe([<item:minecraft:nether_brick> * 2], [<item:the_vault:tool>.withTag({offset: 0 as long, vaultGearData: [-2181340464152267846, -1956453410486721351, 1514722424829605912, 4616400934536516931, 107798892737, 423054278656, -8852492746032676864, -8559560530332385260, 18372019767163027, 288230376101658624, 8589934592, 184828609003782144, 185388976097100464, 140751079104801, 34359738360, 1024, 1514722424829605888, 5770026126585140547, -8388307835, 2199023255555, -6589870164517322752, 2903310526063837840, -7620749799, 2199023255555, -8024099520067403776, 7109014069478338562, -499432952282452, 144115188076118015, 288230376151711744, 4]}), <item:minecraft:nether_bricks>]);
-pulveriseCat.addRecipe([<item:minecraft:nether_wart> * 2], [<item:the_vault:tool>.withTag({offset: 0 as long, vaultGearData: [-2181340464152267846, -1956453410486721351, 1514722424829605912, 4616400934536516931, 107798892737, 423054278656, -8852492746032676864, -8559560530332385260, 18372019767163027, 288230376101658624, 8589934592, 184828609003782144, 185388976097100464, 140751079104801, 34359738360, 1024, 1514722424829605888, 5770026126585140547, -8388307835, 2199023255555, -6589870164517322752, 2903310526063837840, -7620749799, 2199023255555, -8024099520067403776, 7109014069478338562, -499432952282452, 144115188076118015, 288230376151711744, 4]}), <item:minecraft:nether_wart_block>]);
-pulveriseCat.addRecipe([<item:the_vault:chipped_vault_rock>], [<item:the_vault:tool>.withTag({offset: 0 as long, vaultGearData: [-2181340464152267846, -1956453410486721351, 1514722424829605912, 4616400934536516931, 107798892737, 423054278656, -8852492746032676864, -8559560530332385260, 18372019767163027, 288230376101658624, 8589934592, 184828609003782144, 185388976097100464, 140751079104801, 34359738360, 1024, 1514722424829605888, 5770026126585140547, -8388307835, 2199023255555, -6589870164517322752, 2903310526063837840, -7620749799, 2199023255555, -8024099520067403776, 7109014069478338562, -499432952282452, 144115188076118015, 288230376151711744, 4]}), <item:the_vault:vault_stone>]);
-pulveriseCat.addRecipe([<item:minecraft:sand> * 2], [<item:the_vault:tool>.withTag({offset: 0 as long, vaultGearData: [-2181340464152267846, -1956453410486721351, 1514722424829605912, 4616400934536516931, 107798892737, 423054278656, -8852492746032676864, -8559560530332385260, 18372019767163027, 288230376101658624, 8589934592, 184828609003782144, 185388976097100464, 140751079104801, 34359738360, 1024, 1514722424829605888, 5770026126585140547, -8388307835, 2199023255555, -6589870164517322752, 2903310526063837840, -7620749799, 2199023255555, -8024099520067403776, 7109014069478338562, -499432952282452, 144115188076118015, 288230376151711744, 4]}), <item:minecraft:sandstone>]);
-pulveriseCat.addRecipe([<item:minecraft:red_sand> * 2], [<item:the_vault:tool>.withTag({offset: 0 as long, vaultGearData: [-2181340464152267846, -1956453410486721351, 1514722424829605912, 4616400934536516931, 107798892737, 423054278656, -8852492746032676864, -8559560530332385260, 18372019767163027, 288230376101658624, 8589934592, 184828609003782144, 185388976097100464, 140751079104801, 34359738360, 1024, 1514722424829605888, 5770026126585140547, -8388307835, 2199023255555, -6589870164517322752, 2903310526063837840, -7620749799, 2199023255555, -8024099520067403776, 7109014069478338562, -499432952282452, 144115188076118015, 288230376151711744, 4]}), <item:minecraft:red_sandstone>]);
-pulveriseCat.addRecipe([<item:minecraft:prismarine_shard> * 2], [<item:the_vault:tool>.withTag({offset: 0 as long, vaultGearData: [-2181340464152267846, -1956453410486721351, 1514722424829605912, 4616400934536516931, 107798892737, 423054278656, -8852492746032676864, -8559560530332385260, 18372019767163027, 288230376101658624, 8589934592, 184828609003782144, 185388976097100464, 140751079104801, 34359738360, 1024, 1514722424829605888, 5770026126585140547, -8388307835, 2199023255555, -6589870164517322752, 2903310526063837840, -7620749799, 2199023255555, -8024099520067403776, 7109014069478338562, -499432952282452, 144115188076118015, 288230376151711744, 4]}), <item:minecraft:prismarine>]);
-pulveriseCat.addRecipe([<item:minecraft:prismarine_shard> * 4], [<item:the_vault:tool>.withTag({offset: 0 as long, vaultGearData: [-2181340464152267846, -1956453410486721351, 1514722424829605912, 4616400934536516931, 107798892737, 423054278656, -8852492746032676864, -8559560530332385260, 18372019767163027, 288230376101658624, 8589934592, 184828609003782144, 185388976097100464, 140751079104801, 34359738360, 1024, 1514722424829605888, 5770026126585140547, -8388307835, 2199023255555, -6589870164517322752, 2903310526063837840, -7620749799, 2199023255555, -8024099520067403776, 7109014069478338562, -499432952282452, 144115188076118015, 288230376151711744, 4]}), <item:minecraft:prismarine_bricks>]);
-pulveriseCat.addRecipe([<item:minecraft:granite>], [<item:the_vault:tool>.withTag({offset: 0 as long, vaultGearData: [-2181340464152267846, -1956453410486721351, 1514722424829605912, 4616400934536516931, 107798892737, 423054278656, -8852492746032676864, -8559560530332385260, 18372019767163027, 288230376101658624, 8589934592, 184828609003782144, 185388976097100464, 140751079104801, 34359738360, 1024, 1514722424829605888, 5770026126585140547, -8388307835, 2199023255555, -6589870164517322752, 2903310526063837840, -7620749799, 2199023255555, -8024099520067403776, 7109014069478338562, -499432952282452, 144115188076118015, 288230376151711744, 4]}), <item:minecraft:polished_granite>]);
-pulveriseCat.addRecipe([<item:minecraft:diorite>], [<item:the_vault:tool>.withTag({offset: 0 as long, vaultGearData: [-2181340464152267846, -1956453410486721351, 1514722424829605912, 4616400934536516931, 107798892737, 423054278656, -8852492746032676864, -8559560530332385260, 18372019767163027, 288230376101658624, 8589934592, 184828609003782144, 185388976097100464, 140751079104801, 34359738360, 1024, 1514722424829605888, 5770026126585140547, -8388307835, 2199023255555, -6589870164517322752, 2903310526063837840, -7620749799, 2199023255555, -8024099520067403776, 7109014069478338562, -499432952282452, 144115188076118015, 288230376151711744, 4]}), <item:minecraft:polished_diorite>]);
-pulveriseCat.addRecipe([<item:minecraft:andesite>], [<item:the_vault:tool>.withTag({offset: 0 as long, vaultGearData: [-2181340464152267846, -1956453410486721351, 1514722424829605912, 4616400934536516931, 107798892737, 423054278656, -8852492746032676864, -8559560530332385260, 18372019767163027, 288230376101658624, 8589934592, 184828609003782144, 185388976097100464, 140751079104801, 34359738360, 1024, 1514722424829605888, 5770026126585140547, -8388307835, 2199023255555, -6589870164517322752, 2903310526063837840, -7620749799, 2199023255555, -8024099520067403776, 7109014069478338562, -499432952282452, 144115188076118015, 288230376151711744, 4]}), <item:minecraft:polished_andesite>]);
-pulveriseCat.addRecipe([<item:minecraft:quartz>], [<item:the_vault:tool>.withTag({offset: 0 as long, vaultGearData: [-2181340464152267846, -1956453410486721351, 1514722424829605912, 4616400934536516931, 107798892737, 423054278656, -8852492746032676864, -8559560530332385260, 18372019767163027, 288230376101658624, 8589934592, 184828609003782144, 185388976097100464, 140751079104801, 34359738360, 1024, 1514722424829605888, 5770026126585140547, -8388307835, 2199023255555, -6589870164517322752, 2903310526063837840, -7620749799, 2199023255555, -8024099520067403776, 7109014069478338562, -499432952282452, 144115188076118015, 288230376151711744, 4]}), <item:minecraft:quartz_block>]);
-pulveriseCat.addRecipe([<item:minecraft:pointed_dripstone> * 2], [<item:the_vault:tool>.withTag({offset: 0 as long, vaultGearData: [-2181340464152267846, -1956453410486721351, 1514722424829605912, 4616400934536516931, 107798892737, 423054278656, -8852492746032676864, -8559560530332385260, 18372019767163027, 288230376101658624, 8589934592, 184828609003782144, 185388976097100464, 140751079104801, 34359738360, 1024, 1514722424829605888, 5770026126585140547, -8388307835, 2199023255555, -6589870164517322752, 2903310526063837840, -7620749799, 2199023255555, -8024099520067403776, 7109014069478338562, -499432952282452, 144115188076118015, 288230376151711744, 4]}), <item:minecraft:dripstone_block>]);
-JEI.addCategory(pulveriseCat);
+import crafttweaker.api.item.IItemStack;
 
 var armourCat = JeiCategory.create<Custom>("artisan_station", new TextComponent("Vault Forge"), <item:the_vault:vault_forge>, [<item:the_vault:vault_forge>]) as Custom;
 armourCat.background = JeiDrawable.blank(180, 30) as JeiDrawable;
@@ -219,48 +189,537 @@ inscription.addSlot(9, 47, 26, true);
 inscription.addSlot(10, 68, 26, true);
 inscription.addSlot(11, 158, 26, false);
 
+function runeItem(pool as string, color as int, model as int) as IItemStack {
+  return <item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: pool, count: 1 as int, color: color}], model: model, time: 0 as int, instability: 0.0 as float}});
+}
+
 inscription.addRecipe([<item:the_vault:inscription>.withTag({data: {completion: 0.05 as float, entries: [{count: 1 as int, color: 16777215 as int, type: 0 as int}], model: 0 as int, time: 400 as int, instability: 0.01 as float}})], [<item:the_vault:inscription_piece> * 8, <item:the_vault:vault_bronze> * 64]);
 
-inscription.addRecipe([<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/omega/mush_room" as string, count: 1 as int, color: 7012096 as int}], model: 2 as int, time: 0 as int, instability: 0.0 as float}})], [<item:the_vault:living_chest_scroll> * 5, <item:the_vault:vault_bronze> * 324, <item:the_vault:inscription_piece> * 32, <item:the_vault:gem_echo> * 4]);
-JEI.addIngredient(<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/omega/mush_room" as string, count: 1 as int, color: 7012096 as int}], model: 2 as int, time: 0 as int, instability: 0.0 as float}}));
+// Mushroom
+inscription.addRecipe([runeItem("the_vault:vault/rooms/omega/mush_room", 7012096, 2)], [<item:the_vault:living_chest_scroll> * 5, <item:the_vault:vault_bronze> * 324, <item:the_vault:inscription_piece> * 32, <item:the_vault:gem_echo> * 4]);
+JEI.addIngredient(runeItem("the_vault:vault/rooms/omega/mush_room", 7012096, 2));
 
-inscription.addRecipe([<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/omega/blacksmith" as string, count: 1 as int, color: 7012096 as int}], model: 1 as int, time: 0 as int, instability: 0.0 as float}})], [<item:the_vault:ornate_chest_scroll> * 5, <item:the_vault:vault_bronze> * 324, <item:the_vault:inscription_piece> * 32, <item:the_vault:gem_echo> * 4]);
-JEI.addIngredient(<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/omega/blacksmith" as string, count: 1 as int, color: 7012096 as int}], model: 1 as int, time: 0 as int, instability: 0.0 as float}}));
+// Blacksmith
+inscription.addRecipe([runeItem("the_vault:vault/rooms/omega/blacksmith", 7012096, 1)], [<item:the_vault:ornate_chest_scroll> * 5, <item:the_vault:vault_bronze> * 324, <item:the_vault:inscription_piece> * 32, <item:the_vault:gem_echo> * 4]);
+JEI.addIngredient(runeItem("the_vault:vault/rooms/omega/blacksmith", 7012096, 1));
 
-inscription.addRecipe([<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/omega/library" as string, count: 1 as int, color: 7012096 as int}], model: 3 as int, time: 0 as int, instability: 0.0 as float}})], [<item:the_vault:gilded_chest_scroll> * 5, <item:the_vault:vault_bronze> * 324, <item:the_vault:inscription_piece> * 32, <item:the_vault:gem_echo> * 4]);
-JEI.addIngredient(<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/omega/library" as string, count: 1 as int, color: 7012096 as int}], model: 3 as int, time: 0 as int, instability: 0.0 as float}}));
+// Library
+inscription.addRecipe([runeItem("the_vault:vault/rooms/omega/library", 7012096, 3)], [<item:the_vault:gilded_chest_scroll> * 5, <item:the_vault:vault_bronze> * 324, <item:the_vault:inscription_piece> * 32, <item:the_vault:gem_echo> * 4]);
+JEI.addIngredient(runeItem("the_vault:vault/rooms/omega/library", 7012096, 3));
 
-inscription.addRecipe([<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/omega/digsite" as string, count: 1 as int, color: 7012096 as int}], model: 6 as int, time: 0 as int, instability: 0.0 as float}})], [<item:the_vault:wooden_chest_scroll> * 5, <item:the_vault:vault_bronze> * 324, <item:the_vault:inscription_piece> * 32, <item:the_vault:gem_echo> * 4]);
-JEI.addIngredient(<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/omega/digsite" as string, count: 1 as int, color: 7012096 as int}], model: 6 as int, time: 0 as int, instability: 0.0 as float}}));
+// Digsite
+inscription.addRecipe([runeItem("the_vault:vault/rooms/omega/digsite", 7012096, 6)], [<item:the_vault:wooden_chest_scroll> * 5, <item:the_vault:vault_bronze> * 324, <item:the_vault:inscription_piece> * 32, <item:the_vault:gem_echo> * 4]);
+JEI.addIngredient(runeItem("the_vault:vault/rooms/omega/digsite", 7012096, 6));
 
-inscription.addRecipe([<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/omega/cove" as string, count: 1 as int, color: 7012096 as int}], model: 4 as int, time: 0 as int, instability: 0.0 as float}})], [<item:the_vault:bounty_pearl> * 32, <item:the_vault:vault_bronze> * 324, <item:the_vault:inscription_piece> * 32, <item:the_vault:gem_echo> * 4]);
-JEI.addIngredient(<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/omega/cove" as string, count: 1 as int, color: 7012096 as int}], model: 4 as int, time: 0 as int, instability: 0.0 as float}}));
+// Cove
+inscription.addRecipe([runeItem("the_vault:vault/rooms/omega/cove", 7012096, 4)], [<item:the_vault:bounty_pearl> * 32, <item:the_vault:vault_bronze> * 324, <item:the_vault:inscription_piece> * 32, <item:the_vault:gem_echo> * 4]);
+JEI.addIngredient(runeItem("the_vault:vault/rooms/omega/cove", 7012096, 4));
 
-inscription.addRecipe([<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/omega/mine" as string, count: 1 as int, color: 7012096 as int}], model: 9 as int, time: 0 as int, instability: 0.0 as float}})], [<item:the_vault:gem_larimar> * 256, <item:the_vault:vault_bronze> * 324, <item:the_vault:inscription_piece> * 32, <item:the_vault:gem_echo> * 8]);
-JEI.addIngredient(<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/omega/mine" as string, count: 1 as int, color: 7012096 as int}], model: 9 as int, time: 0 as int, instability: 0.0 as float}}));
+// Mine
+inscription.addRecipe([runeItem("the_vault:vault/rooms/omega/mine", 7012096, 9)], [<item:the_vault:gem_larimar> * 256, <item:the_vault:vault_bronze> * 324, <item:the_vault:inscription_piece> * 32, <item:the_vault:gem_echo> * 8]);
+JEI.addIngredient(runeItem("the_vault:vault/rooms/omega/mine", 7012096, 9));
 
-inscription.addRecipe([<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/omega/vendor" as string, count: 1 as int, color: 7012096 as int}], model: 12 as int, time: 0 as int, instability: 0.0 as float}})], [<item:the_vault:poisonous_mushroom> * 16, <item:the_vault:vault_bronze> * 324, <item:the_vault:inscription_piece> * 32, <item:the_vault:hunter_eye> * 2]);
-JEI.addIngredient(<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/omega/vendor" as string, count: 1 as int, color: 7012096 as int}], model: 12 as int, time: 0 as int, instability: 0.0 as float}}));
+// Vendor
+inscription.addRecipe([runeItem("the_vault:vault/rooms/omega/vendor", 7012096, 12)], [<item:the_vault:poisonous_mushroom> * 16, <item:the_vault:vault_bronze> * 324, <item:the_vault:inscription_piece> * 32, <item:the_vault:hunter_eye> * 2]);
+JEI.addIngredient(runeItem("the_vault:vault/rooms/omega/vendor", 7012096, 12));
 
-inscription.addRecipe([<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/omega/painting" as string, count: 1 as int, color: 7012096 as int}], model: 10 as int, time: 0 as int, instability: 0.0 as float}})], [<item:the_vault:wooden_chest_scroll> * 2, <item:the_vault:living_chest_scroll> * 2, <item:the_vault:ornate_chest_scroll> * 2, <item:the_vault:gilded_chest_scroll> * 2, <item:the_vault:vault_bronze> * 324, <item:the_vault:inscription_piece> * 32, <item:the_vault:gem_echo> * 8, <item:the_vault:bounty_pearl> * 8]);
-JEI.addIngredient(<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/omega/painting" as string, count: 1 as int, color: 7012096 as int}], model: 10 as int, time: 0 as int, instability: 0.0 as float}}));
+// Painting
+inscription.addRecipe([runeItem("the_vault:vault/rooms/omega/painting", 7012096, 10)], [<item:the_vault:wooden_chest_scroll> * 2, <item:the_vault:living_chest_scroll> * 2, <item:the_vault:ornate_chest_scroll> * 2, <item:the_vault:gilded_chest_scroll> * 2, <item:the_vault:vault_bronze> * 324, <item:the_vault:inscription_piece> * 32, <item:the_vault:gem_echo> * 8, <item:the_vault:bounty_pearl> * 8]);
+JEI.addIngredient(runeItem("the_vault:vault/rooms/omega/painting", 7012096, 10));
 
-inscription.addRecipe([<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/challenge/dragon" as string, count: 1 as int, color: 15769088 as int}], model: 7 as int, time: 0 as int, instability: 0.0 as float}})], [<item:the_vault:bounty_pearl> * 32, <item:the_vault:vault_bronze> * 192, <item:the_vault:inscription_piece> * 16]);
-JEI.addIngredient(<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/challenge/dragon" as string, count: 1 as int, color: 15769088 as int}], model: 7 as int, time: 0 as int, instability: 0.0 as float}}));
+// Dragon
+inscription.addRecipe([runeItem("the_vault:vault/rooms/challenge/dragon", 15769088, 7)], [<item:the_vault:bounty_pearl> * 32, <item:the_vault:vault_bronze> * 192, <item:the_vault:inscription_piece> * 16]);
+JEI.addIngredient(runeItem("the_vault:vault/rooms/challenge/dragon", 15769088, 7));
 
-inscription.addRecipe([<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/challenge/village" as string, count: 1 as int, color: 15769088 as int}], model: 13 as int, time: 0 as int, instability: 0.0 as float}})], [<item:the_vault:living_chest_scroll> * 2, <item:the_vault:gilded_chest_scroll> * 2, <item:the_vault:vault_bronze> * 192, <item:the_vault:inscription_piece> * 16]);
-JEI.addIngredient(<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/challenge/village" as string, count: 1 as int, color: 15769088 as int}], model: 13 as int, time: 0 as int, instability: 0.0 as float}}));
+// Village
+inscription.addRecipe([runeItem("the_vault:vault/rooms/challenge/village", 15769088, 13)], [<item:the_vault:living_chest_scroll> * 2, <item:the_vault:gilded_chest_scroll> * 2, <item:the_vault:vault_bronze> * 192, <item:the_vault:inscription_piece> * 16]);
+JEI.addIngredient(runeItem("the_vault:vault/rooms/challenge/village", 15769088, 13));
 
-inscription.addRecipe([<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/challenge/factory" as string, count: 1 as int, color: 15769088 as int}], model: 8 as int, time: 0 as int, instability: 0.0 as float}})], [<item:minecraft:netherite_block>, <item:the_vault:vault_bronze> * 192, <item:the_vault:inscription_piece> * 8]);
-JEI.addIngredient(<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/challenge/factory" as string, count: 1 as int, color: 15769088 as int}], model: 8 as int, time: 0 as int, instability: 0.0 as float}}));
+// Factory
+inscription.addRecipe([runeItem("the_vault:vault/rooms/challenge/factory", 15769088, 8)], [<item:minecraft:netherite_block>, <item:the_vault:vault_bronze> * 192, <item:the_vault:inscription_piece> * 8]);
+JEI.addIngredient(runeItem("the_vault:vault/rooms/challenge/factory", 15769088, 8));
 
-inscription.addRecipe([<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/challenge/wildwest" as string, count: 1 as int, color: 15769088 as int}], model: 14 as int, time: 0 as int, instability: 0.0 as float}})], [<item:the_vault:gilded_chest_scroll> * 2, <item:the_vault:vault_bronze> * 192, <item:the_vault:inscription_piece> * 8]);
-JEI.addIngredient(<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/challenge/wildwest" as string, count: 1 as int, color: 15769088 as int}], model: 14 as int, time: 0 as int, instability: 0.0 as float}}));
+// Wild West
+inscription.addRecipe([runeItem("the_vault:vault/rooms/challenge/wildwest", 15769088, 14)], [<item:the_vault:gilded_chest_scroll> * 2, <item:the_vault:vault_bronze> * 192, <item:the_vault:inscription_piece> * 8]);
+JEI.addIngredient(runeItem("the_vault:vault/rooms/challenge/wildwest", 15769088, 14));
 
-inscription.addRecipe([<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/challenge/x-mark" as string, count: 1 as int, color: 15769088 as int}], model: 15 as int, time: 0 as int, instability: 0.0 as float}})], [<item:the_vault:ornate_chest_scroll> * 2, <item:the_vault:vault_bronze> * 192, <item:the_vault:inscription_piece> * 8]);
-JEI.addIngredient(<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/challenge/x-mark" as string, count: 1 as int, color: 15769088 as int}], model: 15 as int, time: 0 as int, instability: 0.0 as float}}));
+// X-Mark
+inscription.addRecipe([runeItem("the_vault:vault/rooms/challenge/x-mark", 15769088, 15)], [<item:the_vault:ornate_chest_scroll> * 2, <item:the_vault:vault_bronze> * 192, <item:the_vault:inscription_piece> * 8]);
+JEI.addIngredient(runeItem("the_vault:vault/rooms/challenge/x-mark", 15769088, 15));
 
-inscription.addRecipe([<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/challenge/crystal_caves" as string, count: 1 as int, color: 15769088 as int}], model: 5 as int, time: 0 as int, instability: 0.0 as float}})], [<item:the_vault:gem_larimar> * 64, <item:the_vault:vault_bronze> * 192, <item:the_vault:inscription_piece> * 16]);
-JEI.addIngredient(<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/challenge/crystal_caves" as string, count: 1 as int, color: 15769088 as int}], model: 5 as int, time: 0 as int, instability: 0.0 as float}}));
+// Crystal Caves
+inscription.addRecipe([runeItem("the_vault:vault/rooms/challenge/crystal_caves", 15769088, 5)], [<item:the_vault:gem_larimar> * 64, <item:the_vault:vault_bronze> * 192, <item:the_vault:inscription_piece> * 16]);
+JEI.addIngredient(runeItem("the_vault:vault/rooms/challenge/crystal_caves", 15769088, 5));
 
+// Add category
 JEI.addCategory(inscription);
+
+
+// Black Market
+
+var blackMarket = JeiCategory.create<Custom>("black_market", new TextComponent("Black Market"), <item:the_vault:black_market>, [<item:the_vault:black_market>]) as Custom;
+blackMarket.background = JeiDrawable.blank(175, 180) as JeiDrawable;
+
+for i in 0 .. 8 {
+    blackMarket.addDrawable(4, 5 + (i * 21), JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 0, 18, 18) as JeiDrawable);
+    blackMarket.addDrawable(26, 5 + (i * 21), JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 0, 18, 18) as JeiDrawable);
+    blackMarket.addDrawable(47, 5 + (i * 21), JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 0, 18, 18) as JeiDrawable);
+    blackMarket.addDrawable(68, 5 + (i * 21), JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 0, 18, 18) as JeiDrawable);
+    blackMarket.addDrawable(89, 5 + (i * 21), JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 0, 18, 18) as JeiDrawable);
+    blackMarket.addDrawable(110, 5 + (i * 21), JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 0, 18, 18) as JeiDrawable);
+    blackMarket.addDrawable(131, 5 + (i * 21), JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 0, 18, 18) as JeiDrawable);
+    blackMarket.addDrawable(152, 5 + (i * 21), JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 0, 18, 18) as JeiDrawable);
+}
+
+for i in 0 .. 8 {
+    for column in 0 .. 8 {
+        blackMarket.addSlot(8 * i + column, 6 + (column * 21), 6 + (i * 21), false);
+    }
+}
+
+function blackMarketItem(item as string, minPrice as int, maxPrice as int, chance as float, quantity as int) as IItemStack {
+  return <item:${item}>.withTag({display: {Lore: ["[{\"text\":\"Min Price: " + minPrice + "\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: " + maxPrice + "\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: " + chance + "%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * quantity;
+}
+
+blackMarket.addRecipe([blackMarketItem("the_vault:blank_key", 6000, 12000, 0.24, 1),
+blackMarketItem("the_vault:unidentified_artifact", 20000, 32000, 0.12, 1),
+blackMarketItem("the_vault:knowledge_star", 2400, 4800, 1.88, 1),
+blackMarketItem("the_vault:repair_core", 600, 1200, 3.77, 1),
+blackMarketItem("the_vault:sour_orange", 2000, 4000, 0.24, 1),
+blackMarketItem("the_vault:bitter_lemon", 800, 1400, 0.94, 1),
+blackMarketItem("the_vault:vault_platinum", 400, 800, 1.88, 1),
+blackMarketItem("the_vault:regret_orb", 200, 600, 3.77, 1),
+blackMarketItem("the_vault:mod_box", 400, 800, 3.77, 1),
+blackMarketItem("the_vault:opportunistic_focus", 3200, 6000, 0.47, 1),
+blackMarketItem("the_vault:resilient_focus", 2000, 4000, 0.47, 1),
+blackMarketItem("the_vault:fundamental_focus", 800, 1600, 1.88, 1),
+blackMarketItem("the_vault:chaotic_focus", 200, 400, 3.77, 1),
+blackMarketItem("the_vault:waxing_focus", 1600, 2400, 1.18, 1),
+blackMarketItem("the_vault:waning_focus", 1600, 2400, 1.18, 1),
+blackMarketItem("the_vault:trinket", 8000, 12000, 0.24, 1),
+blackMarketItem("the_vault:trinket_scrap", 4000, 8000, 0.47, 1),
+blackMarketItem("the_vault:phoenix_feather", 1000, 1600, 0.94, 1),
+blackMarketItem("the_vault:eye_of_avarice", 2000, 4000, 0.47, 1),
+blackMarketItem("the_vault:vault_catalyst_chaos", 3000, 6000, 0.47, 1),
+blackMarketItem("the_vault:jewel", 300, 800, 7.54, 1),
+blackMarketItem("the_vault:inscription", 1200, 2400, 3.77, 1),
+blackMarketItem("the_vault:helmet", 800, 1600, 3.77, 1),
+blackMarketItem("the_vault:chestplate", 800, 1600, 3.77, 1),
+blackMarketItem("the_vault:leggings", 800, 1600, 3.77, 1),
+blackMarketItem("the_vault:boots", 800, 1600, 3.77, 1),
+blackMarketItem("the_vault:sword", 800, 1600, 3.77, 1),
+blackMarketItem("the_vault:axe", 800, 1600, 3.77, 1),
+blackMarketItem("the_vault:shield", 800, 1600, 3.77, 1),
+blackMarketItem("the_vault:idol_benevolent", 1200, 2000, 0.94, 1),
+blackMarketItem("the_vault:idol_omniscient", 1200, 2000, 0.94, 1),
+blackMarketItem("the_vault:idol_timekeeper", 1200, 2000, 0.94, 1),
+blackMarketItem("the_vault:idol_malevolence", 1200, 2000, 0.94, 1),
+blackMarketItem("the_vault:magnet", 800, 1600, 3.77, 1),
+blackMarketItem("the_vault:soul_flame", 400, 800, 3.77, 1),
+blackMarketItem("the_vault:crystal_seal_empty", 200, 600, 3.77, 1),
+blackMarketItem("the_vault:crystal_seal_cake", 400, 800, 1.88, 1),
+blackMarketItem("the_vault:mote_purity", 800, 1200, 1.88, 1),
+blackMarketItem("the_vault:mote_sanctity", 3200, 6000, 0.47, 1),
+blackMarketItem("the_vault:faceted_focus", 400, 800, 1.88, 1),
+blackMarketItem("the_vault:mystery_egg", 200, 400, 1.88, 1),
+blackMarketItem("the_vault:mystery_hostile_egg", 400, 800, 0.47, 1),
+blackMarketItem("the_vault:unidentified_relic_fragment", 400, 800, 0.94, 1),
+blackMarketItem("the_vault:artifact_fragment", 2000, 4000, 0.24, 1),
+blackMarketItem("the_vault:wooden_chest_scroll", 400, 800, 0.47, 1),
+blackMarketItem("the_vault:ornate_chest_scroll", 800, 1600, 0.47, 1),
+blackMarketItem("the_vault:living_chest_scroll", 800, 1600, 0.47, 1),
+blackMarketItem("the_vault:gilded_chest_scroll", 800, 1600, 0.47, 1),
+blackMarketItem("the_vault:bounty_pearl", 200, 400, 1.88, 1),
+blackMarketItem("the_vault:vault_catalyst_infused", 600, 1200, 0.71, 1),
+blackMarketItem("the_vault:vault_catalyst_infused", 600, 1200, 0.71, 1),
+blackMarketItem("the_vault:vault_catalyst_infused", 600, 1200, 0.82, 1),
+blackMarketItem("the_vault:vault_catalyst_infused", 600, 1200, 0.71, 1),
+blackMarketItem("the_vault:vault_catalyst_infused", 600, 1200, 0.82, 1),
+blackMarketItem("the_vault:vault_catalyst_infused", 1200, 2400, 0.35, 1),
+blackMarketItem("the_vault:vault_catalyst_infused", 1200, 2400, 0.35, 1),
+blackMarketItem("the_vault:vault_catalyst_infused", 1200, 2400, 0.35, 1),
+blackMarketItem("the_vault:vault_catalyst_infused", 1200, 2400, 0.35, 1),
+blackMarketItem("the_vault:vault_catalyst_infused", 1200, 2400, 0.47, 1)], []);
+
+JEI.addCategory(blackMarket);
+
+// Relics
+JEI.hideIngredient(<item:the_vault:vault_relic>);
+JEI.hideIngredient(<item:the_vault:vault_relic_fragment>);
+
+var relic_pedestal = JeiCategory.create<Custom>("relic_pedestal", new TextComponent("Relic Pedestal"), <item:the_vault:relic_pedestal>, [<item:the_vault:relic_pedestal>]) as Custom;
+relic_pedestal.background = JeiDrawable.blank(159, 28) as JeiDrawable;
+
+relic_pedestal.addDrawable(4, 5, JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 0, 18, 18) as JeiDrawable);
+relic_pedestal.addDrawable(25, 5, JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 0, 18, 18) as JeiDrawable);
+relic_pedestal.addDrawable(46, 5, JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 0, 18, 18) as JeiDrawable);
+relic_pedestal.addDrawable(67, 5, JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 0, 18, 18) as JeiDrawable);
+relic_pedestal.addDrawable(88, 5, JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 0, 18, 18) as JeiDrawable);
+relic_pedestal.addDrawable(136, 5, JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 0, 18, 18) as JeiDrawable);
+
+relic_pedestal.addDrawable(109, 5, JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 62, 93, 21, 15) as JeiDrawable);
+
+relic_pedestal.addSlot(0, 5, 6, true);
+relic_pedestal.addSlot(1, 26, 6, true);
+relic_pedestal.addSlot(2, 47, 6, true);
+relic_pedestal.addSlot(3, 68, 6, true);
+relic_pedestal.addSlot(4, 89, 6, true);
+relic_pedestal.addSlot(5, 137, 6, false);
+
+
+function addRelic(category as JeiCategory, relicID as string) as void {
+    for i in 1 .. 5 {
+        JEI.addIngredient(<item:the_vault:vault_relic_fragment>.withTag({VaultModelId:"the_vault:relic/" + relicID + "/frag" + i}));
+    }
+
+    category.addRecipe([<item:the_vault:vault_relic>.withTag({VaultModelId:"the_vault:relic/" + relicID + "/statue"})], 
+    [<item:the_vault:vault_relic_fragment>.withTag({VaultModelId:"the_vault:relic/" + relicID + "/frag1"}),
+    <item:the_vault:vault_relic_fragment>.withTag({VaultModelId:"the_vault:relic/" + relicID + "/frag2"}),
+    <item:the_vault:vault_relic_fragment>.withTag({VaultModelId:"the_vault:relic/" + relicID + "/frag3"}),
+    <item:the_vault:vault_relic_fragment>.withTag({VaultModelId:"the_vault:relic/" + relicID + "/frag4"}),
+    <item:the_vault:vault_relic_fragment>.withTag({VaultModelId:"the_vault:relic/" + relicID + "/frag5"})]);
+
+    JEI.addIngredient(<item:the_vault:vault_relic>.withTag({VaultModelId:"the_vault:relic/" + relicID + "/statue"}));
+}
+
+addRelic(relic_pedestal, 'cupcake');
+addRelic(relic_pedestal, 'dragon');
+addRelic(relic_pedestal, 'elemental');
+addRelic(relic_pedestal, 'miner');
+addRelic(relic_pedestal, 'nazar');
+addRelic(relic_pedestal, 'richity');
+addRelic(relic_pedestal, 'twitch');
+addRelic(relic_pedestal, 'warrior');
+
+// Add category
+JEI.addCategory(relic_pedestal);
+
+// Crystal Recipes
+var crystal = JeiCategory.create<Custom>("vault_crystal", new TextComponent("Vault Crystal"), <item:the_vault:vault_altar>, [<item:the_vault:vault_altar>]) as Custom;
+crystal.background = JeiDrawable.blank(175, 135) as JeiDrawable;
+
+for i in 0 .. 6 {
+    crystal.addDrawable(4, 5 + (i * 21), JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 0, 18, 18) as JeiDrawable);
+    crystal.addDrawable(26, 5 + (i * 21), JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 0, 18, 18) as JeiDrawable);
+    crystal.addDrawable(47, 5 + (i * 21), JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 0, 18, 18) as JeiDrawable);
+    crystal.addDrawable(68, 5 + (i * 21), JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 0, 18, 18) as JeiDrawable);
+    crystal.addDrawable(89, 5 + (i * 21), JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 0, 18, 18) as JeiDrawable);
+    crystal.addDrawable(110, 5 + (i * 21), JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 0, 18, 18) as JeiDrawable);
+    crystal.addDrawable(131, 5 + (i * 21), JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 0, 18, 18) as JeiDrawable);
+    crystal.addDrawable(152, 5 + (i * 21), JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 0, 18, 18) as JeiDrawable);
+}
+
+for i in 0 .. 6 {
+    for column in 0 .. 8 {
+        crystal.addSlot(8 * i + column, 6 + (column * 21), 6 + (i * 21), true);
+    }
+}
+
+function crystalItem(item as string, level as string, pool as string) as IItemStack {
+  return <item:${item}>.withTag({display: {Lore: ["[{\"text\":\"Level: \",\"italic\":false,\"color\":\"white\",\"bold\":true},{\"text\":\""+ level + "\",\"color\":\"white\",\"bold\":false},{\"text\":\"\",\"color\":\"dark_purple\",\"bold\":false}]" as string, "[{\"text\":\"Pool: \",\"italic\":false,\"color\":\"white\",\"bold\":true},{\"text\":\"" + pool +"\",\"color\":\"white\",\"bold\":false}]" as string]}});
+}
+
+// Farmable Items
+crystal.addRecipe([], [[crystalItem("minecraft:sugar_cane", 0, "Farmable")],
+[crystalItem("minecraft:carrot", 0, "Farmable")],
+[crystalItem("minecraft:potato", 0, "Farmable")],
+[crystalItem("minecraft:wheat_seeds", 0, "Farmable")],
+[crystalItem("minecraft:oak_leaves", 0, "Farmable"),
+crystalItem("minecraft:spruce_leaves", 0, "Farmable"),
+crystalItem("minecraft:birch_leaves", 0, "Farmable"),
+crystalItem("minecraft:jungle_leaves", 0, "Farmable"),
+crystalItem("minecraft:acacia_leaves", 0, "Farmable"),
+crystalItem("minecraft:dark_oak_leaves", 0, "Farmable"),
+crystalItem("minecraft:azalea_leaves", 0, "Farmable"),
+crystalItem("minecraft:flowering_azalea_leaves", 0, "Farmable"),
+crystalItem("ecologics:coconut_leaves", 0, "Farmable"),
+crystalItem("ecologics:walnut_leaves", 0, "Farmable")],
+[crystalItem("minecraft:kelp", 10, "Farmable")],
+[crystalItem("minecraft:cactus", 10, "Farmable")],
+[crystalItem("minecraft:bamboo", 10, "Farmable")],
+[crystalItem("minecraft:vine", 10, "Farmable")],
+[crystalItem("minecraft:beetroot", 10, "Farmable")],
+[crystalItem("minecraft:snowball", 10, "Farmable")],
+[crystalItem("minecraft:pumpkin", 10, "Farmable")],
+[crystalItem("minecraft:melon", 10, "Farmable")],
+[crystalItem("minecraft:sea_pickle", 10, "Farmable")],
+[crystalItem("minecraft:dandelion", 10, "Farmable"),
+crystalItem("minecraft:poppy", 10, "Farmable"),
+crystalItem("minecraft:blue_orchid", 10, "Farmable"),
+crystalItem("minecraft:allium", 10, "Farmable"),
+crystalItem("minecraft:azure_bluet", 10, "Farmable"),
+crystalItem("minecraft:oxeye_daisy", 10, "Farmable"),
+crystalItem("minecraft:cornflower", 10, "Farmable"),
+crystalItem("minecraft:lily_of_the_valley", 10, "Farmable")],
+[crystalItem("minecraft:beetroot_seeds", 10, "Farmable")],
+[crystalItem("minecraft:sweet_berries", 10, "Farmable")],
+[crystalItem("minecraft:apple", 10, "Farmable")],
+[crystalItem("minecraft:seagrass", 10, "Farmable")],
+[crystalItem("minecraft:brown_mushroom", 20, "Farmable")],
+[crystalItem("minecraft:red_mushroom", 20, "Farmable")],
+[crystalItem("minecraft:red_tulip", 20, "Farmable"),
+crystalItem("minecraft:orange_tulip", 20, "Farmable"),
+crystalItem("minecraft:white_tulip", 20, "Farmable"),
+crystalItem("minecraft:pink_tulip", 20, "Farmable")],
+[crystalItem("minecraft:sunflower", 20, "Farmable"),
+crystalItem("minecraft:rose_bush", 20, "Farmable"),
+crystalItem("minecraft:peony", 20, "Farmable"),
+crystalItem("minecraft:lilac", 20, "Farmable")],
+[crystalItem("minecraft:glow_lichen", 20, "Farmable")],
+[crystalItem("minecraft:clay_ball", 20, "Farmable")],
+[crystalItem("minecraft:brick", 20, "Farmable")],
+[crystalItem("minecraft:glow_berries", 20, "Farmable")],
+[crystalItem("minecraft:nether_wart", 20, "Farmable")],
+[crystalItem("minecraft:twisting_vines", 40, "Farmable")],
+[crystalItem("minecraft:weeping_vines", 40, "Farmable")],
+[crystalItem("minecraft:big_dripleaf", 40, "Farmable")],
+[crystalItem("minecraft:crimson_fungus", 40, "Farmable")],
+[crystalItem("minecraft:warped_fungus", 40, "Farmable")],
+[crystalItem("minecraft:chorus_fruit", 40, "Farmable")],
+[crystalItem("minecraft:lily_pad", 40, "Farmable")],
+[crystalItem("minecraft:wither_rose", 75, "Farmable")]]);
+
+// Resource
+crystal.addRecipe([], [[crystalItem("minecraft:cobblestone", 0, "Resource")],
+[crystalItem("minecraft:diorite", 0, "Resource")],
+[crystalItem("minecraft:andesite", 0, "Resource")],
+[crystalItem("minecraft:granite", 0, "Resource")],
+[crystalItem("minecraft:stone", 0, "Resource")],
+[crystalItem("minecraft:gravel", 0, "Resource")],
+[crystalItem("minecraft:sand", 0, "Resource"),
+crystalItem("minecraft:red_sand", 0, "Resource")],
+[crystalItem("minecraft:dirt", 0, "Resource")],
+[crystalItem("minecraft:oak_log", 0, "Resource"),
+crystalItem("minecraft:spruce_log", 0, "Resource"),
+crystalItem("minecraft:birch_log", 0, "Resource"),
+crystalItem("minecraft:jungle_log", 0, "Resource"),
+crystalItem("minecraft:acacia_log", 0, "Resource"),
+crystalItem("minecraft:dark_oak_log", 0, "Resource")],
+[crystalItem("minecraft:moss_block", 10, "Resource")],
+[crystalItem("minecraft:white_wool", 10, "Resource"),
+crystalItem("minecraft:orange_wool", 10, "Resource"),
+crystalItem("minecraft:magenta_wool", 10, "Resource"),
+crystalItem("minecraft:light_blue_wool", 10, "Resource"),
+crystalItem("minecraft:yellow_wool", 10, "Resource"),
+crystalItem("minecraft:lime_wool", 10, "Resource"),
+crystalItem("minecraft:pink_wool", 10, "Resource"),
+crystalItem("minecraft:gray_wool", 10, "Resource"),
+crystalItem("minecraft:light_gray_wool", 10, "Resource"),
+crystalItem("minecraft:cyan_wool", 10, "Resource"),
+crystalItem("minecraft:purple_wool", 10, "Resource"),
+crystalItem("minecraft:blue_wool", 10, "Resource"),
+crystalItem("minecraft:brown_wool", 10, "Resource"),
+crystalItem("minecraft:green_wool", 10, "Resource"),
+crystalItem("minecraft:red_wool", 10, "Resource"),
+crystalItem("minecraft:black_wool", 10, "Resource")],
+[crystalItem("minecraft:glass", 10, "Resource"),
+crystalItem("minecraft:white_stained_glass", 10, "Resource"),
+crystalItem("minecraft:orange_stained_glass", 10, "Resource"),
+crystalItem("minecraft:magenta_stained_glass", 10, "Resource"),
+crystalItem("minecraft:light_blue_stained_glass", 10, "Resource"),
+crystalItem("minecraft:yellow_stained_glass", 10, "Resource"),
+crystalItem("minecraft:lime_stained_glass", 10, "Resource"),
+crystalItem("minecraft:pink_stained_glass", 10, "Resource"),
+crystalItem("minecraft:gray_stained_glass", 10, "Resource"),
+crystalItem("minecraft:light_gray_stained_glass", 10, "Resource"),
+crystalItem("minecraft:cyan_stained_glass", 10, "Resource"),
+crystalItem("minecraft:purple_stained_glass", 10, "Resource"),
+crystalItem("minecraft:blue_stained_glass", 10, "Resource"),
+crystalItem("minecraft:brown_stained_glass", 10, "Resource"),
+crystalItem("minecraft:green_stained_glass", 10, "Resource"),
+crystalItem("minecraft:red_stained_glass", 10, "Resource"),
+crystalItem("minecraft:black_stained_glass", 10, "Resource")],
+[crystalItem("minecraft:smooth_stone", 10, "Resource")],
+[crystalItem("minecraft:bricks", 10, "Resource")],
+[crystalItem("minecraft:netherrack", 10, "Resource")],
+[crystalItem("minecraft:soul_sand", 10, "Resource")],
+[crystalItem("minecraft:basalt", 10, "Resource")],
+[crystalItem("minecraft:white_terracotta", 10, "Resource"),
+crystalItem("minecraft:orange_terracotta", 10, "Resource"),
+crystalItem("minecraft:magenta_terracotta", 10, "Resource"),
+crystalItem("minecraft:light_blue_terracotta", 10, "Resource"),
+crystalItem("minecraft:yellow_terracotta", 10, "Resource"),
+crystalItem("minecraft:lime_terracotta", 10, "Resource"),
+crystalItem("minecraft:pink_terracotta", 10, "Resource"),
+crystalItem("minecraft:gray_terracotta", 10, "Resource"),
+crystalItem("minecraft:light_gray_terracotta", 10, "Resource"),
+crystalItem("minecraft:cyan_terracotta", 10, "Resource"),
+crystalItem("minecraft:purple_terracotta", 10, "Resource"),
+crystalItem("minecraft:blue_terracotta", 10, "Resource"),
+crystalItem("minecraft:brown_terracotta", 10, "Resource"),
+crystalItem("minecraft:green_terracotta", 10, "Resource"),
+crystalItem("minecraft:red_terracotta", 10, "Resource"),
+crystalItem("minecraft:black_terracotta", 10, "Resource"),
+crystalItem("minecraft:terracotta", 10, "Resource")],
+[crystalItem("minecraft:deepslate", 10, "Resource"),
+crystalItem("minecraft:cobbled_deepslate", 10, "Resource")],
+[crystalItem("minecraft:tuff", 10, "Resource")],
+[crystalItem("minecraft:mossy_cobblestone", 20, "Resource")],
+[crystalItem("minecraft:obsidian", 20, "Resource")],
+[crystalItem("minecraft:ice", 20, "Resource")],
+[crystalItem("minecraft:white_concrete", 20, "Resource"),
+crystalItem("minecraft:orange_concrete", 20, "Resource"),
+crystalItem("minecraft:magenta_concrete", 20, "Resource"),
+crystalItem("minecraft:light_blue_concrete", 20, "Resource"),
+crystalItem("minecraft:yellow_concrete", 20, "Resource"),
+crystalItem("minecraft:lime_concrete", 20, "Resource"),
+crystalItem("minecraft:pink_concrete", 20, "Resource"),
+crystalItem("minecraft:gray_concrete", 20, "Resource"),
+crystalItem("minecraft:light_gray_concrete", 20, "Resource"),
+crystalItem("minecraft:cyan_concrete", 20, "Resource"),
+crystalItem("minecraft:purple_concrete", 20, "Resource"),
+crystalItem("minecraft:blue_concrete", 20, "Resource"),
+crystalItem("minecraft:brown_concrete", 20, "Resource"),
+crystalItem("minecraft:green_concrete", 20, "Resource"),
+crystalItem("minecraft:red_concrete", 20, "Resource"),
+crystalItem("minecraft:black_concrete", 20, "Resource")],
+[crystalItem("minecraft:white_concrete_powder", 20, "Resource"),
+crystalItem("minecraft:orange_concrete_powder", 20, "Resource"),
+crystalItem("minecraft:magenta_concrete_powder", 20, "Resource"),
+crystalItem("minecraft:light_blue_concrete_powder", 20, "Resource"),
+crystalItem("minecraft:yellow_concrete_powder", 20, "Resource"),
+crystalItem("minecraft:lime_concrete_powder", 20, "Resource"),
+crystalItem("minecraft:pink_concrete_powder", 20, "Resource"),
+crystalItem("minecraft:gray_concrete_powder", 20, "Resource"),
+crystalItem("minecraft:light_gray_concrete_powder", 20, "Resource"),
+crystalItem("minecraft:cyan_concrete_powder", 20, "Resource"),
+crystalItem("minecraft:purple_concrete_powder", 20, "Resource"),
+crystalItem("minecraft:blue_concrete_powder", 20, "Resource"),
+crystalItem("minecraft:brown_concrete_powder", 20, "Resource"),
+crystalItem("minecraft:green_concrete_powder", 20, "Resource"),
+crystalItem("minecraft:red_concrete_powder", 20, "Resource"),
+crystalItem("minecraft:black_concrete_powder", 20, "Resource")],
+[crystalItem("minecraft:blackstone", 20, "Resource")],
+[crystalItem("minecraft:dripstone_block", 20, "Resource")],
+[crystalItem("minecraft:prismarine", 20, "Resource")],
+[crystalItem("minecraft:soul_soil", 40, "Resource")],
+[crystalItem("minecraft:purpur_block", 40, "Resource")],
+[crystalItem("minecraft:mycelium", 40, "Resource")],
+[crystalItem("minecraft:end_stone", 40, "Resource")],
+[crystalItem("minecraft:magma_block", 40, "Resource")],
+[crystalItem("minecraft:nether_wart_block", 40, "Resource")],
+[crystalItem("minecraft:warped_wart_block", 40, "Resource")],
+[crystalItem("minecraft:shroomlight", 40, "Resource")],
+[crystalItem("minecraft:podzol", 40, "Resource")],
+[crystalItem("minecraft:blue_ice", 75, "Resource")],
+[crystalItem("minecraft:crimson_stem", 75, "Resource")],
+[crystalItem("minecraft:warped_stem", 75, "Resource")],
+[crystalItem("minecraft:crying_obsidian", 75, "Resource")],
+[crystalItem("minecraft:calcite", 75, "Resource")],
+[crystalItem("minecraft:rooted_dirt", 75, "Resource")]]);
+
+// Mob
+crystal.addRecipe([], [[crystalItem("minecraft:string", 0, "Mob")],
+[crystalItem("minecraft:rotten_flesh", 0, "Mob")],
+[crystalItem("minecraft:bone", 0, "Mob")],
+[crystalItem("minecraft:spider_eye", 0, "Mob")],
+[crystalItem("minecraft:arrow", 0, "Mob")],
+[crystalItem("minecraft:feather", 10, "Mob")],
+[crystalItem("minecraft:porkchop", 10, "Mob")],
+[crystalItem("minecraft:beef", 10, "Mob")],
+[crystalItem("minecraft:chicken", 10, "Mob")],
+[crystalItem("minecraft:rabbit", 10, "Mob")],
+[crystalItem("minecraft:slime_ball", 10, "Mob")],
+[crystalItem("minecraft:egg", 10, "Mob")],
+[crystalItem("minecraft:leather", 10, "Mob")],
+[crystalItem("minecraft:rabbit_hide", 10, "Mob")],
+[crystalItem("minecraft:white_dye", 10, "Mob"),
+crystalItem("minecraft:orange_dye", 10, "Mob"),
+crystalItem("minecraft:magenta_dye", 10, "Mob"),
+crystalItem("minecraft:light_blue_dye", 10, "Mob"),
+crystalItem("minecraft:yellow_dye", 10, "Mob"),
+crystalItem("minecraft:lime_dye", 10, "Mob"),
+crystalItem("minecraft:pink_dye", 10, "Mob"),
+crystalItem("minecraft:gray_dye", 10, "Mob"),
+crystalItem("minecraft:light_gray_dye", 10, "Mob"),
+crystalItem("minecraft:cyan_dye", 10, "Mob"),
+crystalItem("minecraft:purple_dye", 10, "Mob"),
+crystalItem("minecraft:blue_dye", 10, "Mob"),
+crystalItem("minecraft:brown_dye", 10, "Mob"),
+crystalItem("minecraft:green_dye", 10, "Mob"),
+crystalItem("minecraft:red_dye", 10, "Mob"),
+crystalItem("minecraft:black_dye", 10, "Mob")],
+[crystalItem("minecraft:poisonous_potato", 10, "Mob")],
+[crystalItem("minecraft:mutton", 10, "Mob")],
+[crystalItem("minecraft:salmon", 10, "Mob")],
+[crystalItem("minecraft:cod", 10, "Mob")],
+[crystalItem("minecraft:cocoa_beans", 10, "Mob")],
+[crystalItem("minecraft:gunpowder", 10, "Mob")],
+[crystalItem("minecraft:honey_bottle", 20, "Mob")],
+[crystalItem("minecraft:blaze_rod", 20, "Mob")],
+[crystalItem("minecraft:ender_pearl", 20, "Mob")],
+[crystalItem("minecraft:rabbit_foot", 20, "Mob")],
+[crystalItem("minecraft:honeycomb", 20, "Mob")],
+[crystalItem("minecraft:ink_sac", 20, "Mob")],
+[crystalItem("minecraft:glow_ink_sac", 20, "Mob")],
+[crystalItem("minecraft:pufferfish", 20, "Mob")],
+[crystalItem("minecraft:tropical_fish", 40, "Mob")],
+[crystalItem("minecraft:ghast_tear", 40, "Mob")],
+[crystalItem("minecraft:magma_cream", 40, "Mob")],
+[crystalItem("minecraft:nautilus_shell", 40, "Mob")],
+[crystalItem("minecraft:turtle_egg", 40, "Mob")],
+[crystalItem("minecraft:wither_skeleton_skull", 40, "Mob")],
+[crystalItem("minecraft:phantom_membrane", 75, "Mob")]]);
+
+// Misc
+crystal.addRecipe([], [[crystalItem("minecraft:pointed_dripstone", 0, "Misc")],
+[crystalItem("minecraft:gold_ingot", 0, "Misc")],
+[crystalItem("minecraft:iron_ingot", 0, "Misc")],
+[crystalItem("minecraft:redstone", 0, "Misc")],
+[crystalItem("minecraft:emerald", 0, "Misc")],
+[crystalItem("minecraft:lapis_lazuli", 0, "Misc")],
+[crystalItem("minecraft:copper_ingot", 0, "Misc")],
+[crystalItem("minecraft:coal", 0, "Misc"),
+crystalItem("minecraft:charcoal", 0, "Misc")],
+[crystalItem("minecraft:amethyst_shard", 10, "Misc")],
+[crystalItem("minecraft:diamond", 10, "Misc")],
+[crystalItem("minecraft:spore_blossom", 10, "Misc")],
+[crystalItem("minecraft:glowstone_dust", 20, "Misc")],
+[crystalItem("minecraft:quartz", 20, "Misc")],
+[crystalItem("minecraft:name_tag", 20, "Misc")],
+[crystalItem("minecraft:prismarine_shard", 40, "Misc")],
+[crystalItem("minecraft:prismarine_crystals", 40, "Misc")],
+[crystalItem("minecraft:chorus_flower", 40, "Misc")],
+[crystalItem("minecraft:dead_brain_coral", 40, "Misc"),
+crystalItem("minecraft:dead_bubble_coral", 40, "Misc"),
+crystalItem("minecraft:dead_fire_coral", 40, "Misc"),
+crystalItem("minecraft:dead_horn_coral", 40, "Misc"),
+crystalItem("minecraft:dead_tube_coral", 40, "Misc"),
+crystalItem("minecraft:dead_tube_coral_fan", 40, "Misc"),
+crystalItem("minecraft:dead_brain_coral_fan", 40, "Misc"),
+crystalItem("minecraft:dead_bubble_coral_fan", 40, "Misc"),
+crystalItem("minecraft:dead_fire_coral_fan", 40, "Misc"),
+crystalItem("minecraft:dead_horn_coral_fan", 40, "Misc")],
+[crystalItem("minecraft:brain_coral", 40, "Misc"),
+crystalItem("minecraft:bubble_coral", 40, "Misc"),
+crystalItem("minecraft:fire_coral", 40, "Misc"),
+crystalItem("minecraft:horn_coral", 40, "Misc"),
+crystalItem("minecraft:tube_coral", 40, "Misc"),
+crystalItem("minecraft:tube_coral_fan", 40, "Misc"),
+crystalItem("minecraft:brain_coral_fan", 40, "Misc"),
+crystalItem("minecraft:bubble_coral_fan", 40, "Misc"),
+crystalItem("minecraft:fire_coral_fan", 40, "Misc"),
+crystalItem("minecraft:horn_coral_fan", 40, "Misc")],
+[crystalItem("minecraft:totem_of_undying", 40, "Misc")],
+[crystalItem("minecraft:saddle", 40, "Misc")],
+[crystalItem("minecraft:cobweb", 40, "Misc")],
+[crystalItem("minecraft:sponge", 75, "Misc")],
+[crystalItem("minecraft:nether_star", 75, "Misc")],
+[crystalItem("minecraft:trident", 75, "Misc")],
+[crystalItem("minecraft:music_disc_13", 90, "Misc"),
+crystalItem("minecraft:music_disc_cat", 90, "Misc"),
+crystalItem("minecraft:music_disc_blocks", 90, "Misc"),
+crystalItem("minecraft:music_disc_chirp", 90, "Misc"),
+crystalItem("minecraft:music_disc_far", 90, "Misc"),
+crystalItem("minecraft:music_disc_mall", 90, "Misc"),
+crystalItem("minecraft:music_disc_mellohi", 90, "Misc"),
+crystalItem("minecraft:music_disc_stal", 90, "Misc"),
+crystalItem("minecraft:music_disc_strad", 90, "Misc"),
+crystalItem("minecraft:music_disc_ward", 90, "Misc"),
+crystalItem("minecraft:music_disc_11", 90, "Misc"),
+crystalItem("minecraft:music_disc_wait", 90, "Misc"),
+crystalItem("minecraft:music_disc_otherside", 90, "Misc"),
+crystalItem("minecraft:music_disc_pigstep", 90, "Misc")]]);
+
+// Add category
+JEI.addCategory(crystal);
