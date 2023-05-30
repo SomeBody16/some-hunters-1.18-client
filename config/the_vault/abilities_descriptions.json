@@ -2239,6 +2239,7 @@
         "damage",
         "damageInterval",
         "radius",
+        "additionalManaPerBolt",
         "manaCostPerSecond",
         "cooldown"
       ],
@@ -2248,6 +2249,7 @@
         "damage",
         "damageInterval",
         "radius",
+        "additionalManaPerBolt",
         "manaCostPerSecond",
         "cooldown"
       ]

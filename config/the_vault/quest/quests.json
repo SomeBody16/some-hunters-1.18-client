@@ -602,23 +602,55 @@
       }
     },
     {
-      "type": "anvil",
+      "type": "collection",
       "id": "apply_jewel",
       "name": "Jewels on Tools",
       "descriptionData": {
         "description": [
           {
-            "text": "Applying a jewel to a tool is as simple as combining the two in an anvil. Each jewel is given a size which can roll from 10-90 and this decides how much of the capacity of your Tool will be used up.",
+            "text": "The Jewel Applicator makes applying jewels to you tools as simple as ever by providing you with the means of easily seeing the outcome of your Tool.",
             "color": "$text"
           },
           {
-            "text": "\n\nApply a Jewel to a Vault Tool",
+            "text": "\n\nThe Jewel Applicator has three parts of its inventory; \nThe",
+            "color": "$text"
+          },
+          {
+            "text": " Left Side ",
+            "color": "$manaCost"
+          },
+          {
+            "text": "is where you can put your jewels, showing you the total outcome of if they were placed on your tool. \nThe ",
+            "color": "$text"
+          },
+          {
+            "text": "Middle ",
+            "color": "$manaCost"
+          },
+          {
+            "text": "is where you place your tool and can also see the visual output of combining tool type jewels like shovelling or axing for example. \nLastly, the ",
+            "color": "$text"
+          },
+          {
+            "text": "Right Side ",
+            "color": "$manaCost"
+          },
+          {
+            "text": "will show you the updated stats using the jewels placed on the left side, automatically calculating capacity and all your prefixes and suffixes as you place jewels into the Applicator",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nEach jewel is given a size which can roll from 10-90 and this decides how much of the capacity of your Tool will be used up.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nAcquire a Jewel Applicator",
             "color": "$heal"
           }
         ]
       },
       "icon": "the_vault:gui/quests/apply_jewel",
-      "targetId": "the_vault:jewel",
+      "targetId": "the_vault:vault_jewel_application_station",
       "targetProgress": 1.0,
       "unlockedBy": "craft_tool",
       "reward": {
@@ -744,7 +776,7 @@
             "color": "$text"
           },
           {
-            "text": "\n\nAcquire a Artisan Station",
+            "text": "\n\nAcquire an Artisan Station",
             "color": "$heal"
           }
         ]
@@ -958,6 +990,36 @@
       }
     },
     {
+      "type": "collection",
+      "id": "jewel_cutting",
+      "name": "Perfecting Jewels",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "Jewels may not always have the perfect size to be utilised to their maximum potential, which is where the Jewel Cutting Station comes into play!\n\nThe Cutting Station takes Silver Scrap and Vault Bronze and gives the player a 50% chance to cut down the size of a jewel randomly between 1 and 10 size. If the cut fails, the jewel will be lowered by one tier' Perfect become Flawless, Flawless become Flawed, Flawed become Chipped and lastly if a Chipped jewel cut fails, the jewel will break and provide the player with a Gemstone and a small amount of Wutodie.\n\nYou may also spec into the Jeweler Expertise which provides the player with an increased chance of succeeding a cut!",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nAcquire a Jewel Cutting Station",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/apply_jewel",
+      "targetId": "the_vault:vault_jewel_cutting_station",
+      "targetProgress": 1.0,
+      "unlockedBy": "complete_god_altar",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:silver_scrap",
+            "amount": 32
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
       "type": "block_interact",
       "id": "craft_black_market",
       "name": "Black Market Goods",
@@ -976,7 +1038,7 @@
       "icon": "the_vault:gui/quests/black_market",
       "targetId": "the_vault:black_market",
       "targetProgress": 1.0,
-      "unlockedBy": "complete_god_altar",
+      "unlockedBy": "jewel_cutting",
       "reward": {
         "items": [
           {

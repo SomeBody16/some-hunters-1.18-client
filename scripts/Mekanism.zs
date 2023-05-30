@@ -187,3 +187,5 @@ craftingTable.addShaped("mekanismgenerators_generatorgas_burning", <item:mekanis
     [<item:mekanism:steel_casing>, <item:mekanism:electrolytic_core>, <item:mekanism:steel_casing>], 
     [<item:the_vault:gem_pog>, <tag:items:mekanism:alloys/infused>, <item:the_vault:gem_pog>]
 ]);
+
+<recipetype:mekanism:crushing>.addRecipe("buildinggadgets_block_to_paste_mekanism", ItemStackIngredient.from(<item:buildinggadgets:construction_block_dense>), <item:buildinggadgets:construction_paste> * 4);

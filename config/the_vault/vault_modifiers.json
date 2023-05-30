@@ -1044,8 +1044,8 @@
         "display": {
           "name": "Velara's Wrath",
           "color": "#849dc8",
-          "description": "-20% Healing Effeciency",
-          "descriptionFormatted": "-%d%% Healing Effeciency",
+          "description": "-20% Healing Efficiency",
+          "descriptionFormatted": "-%d%% Healing Efficiency",
           "icon": "the_vault:gui/modifiers/velara"
         }
       },

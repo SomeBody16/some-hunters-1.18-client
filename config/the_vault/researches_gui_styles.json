@@ -132,11 +132,11 @@
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/vault_compass"
     },
-    "Ars Nouveau": {
+    "Altar Automation": {
       "x": 490,
       "y": 160,
       "frameType": "RECTANGULAR",
-      "icon": "ars_nouveau:gui/worn_book_bookmark"
+      "icon": "the_vault:gui/researches/conduit"
     },
     "Building Gadgets": {
       "x": 10,
@@ -288,5 +288,9 @@
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/brew"
     }
+    
+    
+    
   }
+    
 }

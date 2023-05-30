@@ -2,26 +2,6 @@
   "MOD_RESEARCHES": [
     {
       "modIds": [
-        "arsomega",
-        "ars_nouveau",
-        "ars_creo",
-        "ars_scalaes"
-      ],
-      "restrictions": {
-        "restricts": {
-          "HITTABILITY": true,
-          "BLOCK_INTERACTABILITY": true,
-          "USABILITY": true,
-          "CRAFTABILITY": true,
-          "ENTITY_INTERACTABILITY": true
-        }
-      },
-      "name": "Ars Nouveau",
-      "cost": 13,
-      "usesKnowledge": true
-    },
-    {
-      "modIds": [
         "colossalchests"
       ],
       "restrictions": {
@@ -870,6 +850,43 @@
     },
     {
       "itemRestrictions": {
+        "vaultintegrations:altar_conduit": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "vaultintegrations:speed_enhancement": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "vaultintegrations:quantity_enhancement": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "vaultintegrations:teleport_enhancement": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        }
+      },
+      "blockRestrictions": {},
+      "entityRestrictions": {},
+      "name": "Altar Automation",
+      "cost": 32,
+      "usesKnowledge": true
+    },
+    {
+      "itemRestrictions": {
         "thermal:dynamo_stirling": {
           "restricts": {
             "HITTABILITY": true,
@@ -933,15 +950,16 @@
             "HITTABILITY": true,
             "USABILITY": true,
             "CRAFTABILITY": true
-          }
+            }
         },
         "the_vault:alchemy_table": {
           "restricts": {
             "HITTABILITY": true,
             "USABILITY": true,
             "CRAFTABILITY": true
-          }
+            }
         }
+          
       },
       "blockRestrictions": {},
       "entityRestrictions": {},
@@ -956,8 +974,8 @@
             "HITTABILITY": true,
             "USABILITY": true,
             "CRAFTABILITY": true
+            }
           }
-        }
       },
       "blockRestrictions": {},
       "entityRestrictions": {},
@@ -972,8 +990,8 @@
             "HITTABILITY": true,
             "USABILITY": true,
             "CRAFTABILITY": true
+            }
           }
-        }
       },
       "blockRestrictions": {},
       "entityRestrictions": {},
@@ -1063,6 +1081,7 @@
         "the_vault:gear/armor/dank/boots"
       ]
     },
+    
     {
       "itemRestrictions": {
         "sophisticatedbackpacks:backpack": {

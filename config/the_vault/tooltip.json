@@ -871,6 +871,26 @@
     {
       "item": "the_vault:aura_scroll",
       "value": "Rerolls an eternal's available auras"
+    },
+    {
+      "item": "the_vault:vault_jewel_cutting_station",
+      "value": "Allows Jewels to be cut to decrease their sizes"
+    },
+    {
+      "item": "vaultintegrations:altar_conduit",
+      "value": "Automates the process of completing the Vault Altar"
+    },
+    {
+      "item": "vaultintegrations:speed_enhancement",
+      "value": "Increases the speed of items transported by the Altar Conduit"
+    },
+    {
+      "item": "vaultintegrations:quantity_enhancement",
+      "value": "Increases the quantity of items transported by the Altar Conduit"
+    },
+    {
+      "item": "vaultintegrations:teleport_enhancement",
+      "value": "Teleports items transported by the Altar Conduit"
     }
   ]
 }
