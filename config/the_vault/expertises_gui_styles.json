@@ -18,17 +18,29 @@
             "frameType": "STAR",
             "icon": "the_vault:gui/skills/blacksmithing"
           },
-          "Angel": {
+          "Jeweler": {
             "x": 210,
             "y": 70,
             "frameType": "STAR",
+            "icon": "the_vault:gui/skills/jeweller"
+          },
+          "Angel": {
+            "x": 350,
+            "y": 70,
+            "frameType": "STAR",
             "icon": "the_vault:gui/skills/angel"
-          },                        
+          },
           "Bounty_Hunter": {
             "x": 280,
             "y": 140,
             "frameType": "STAR",
             "icon": "the_vault:gui/skills/bounty_hunter"
+          },
+          "Marketer": {
+            "x": 350,
+            "y": 140,
+            "frameType": "STAR",
+            "icon": "the_vault:gui/skills/marketer"
           },
           "Unbreakable": {
             "x": 70,

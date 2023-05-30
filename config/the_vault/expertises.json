@@ -319,6 +319,55 @@
                 "unlockLevel": 0
               }
             ]
+          },
+          {
+            "type": "tiered",
+            "id": "Jeweler",
+            "name": "Jeweler",
+            "tiers": [
+              {
+                "type": "jeweler",
+                "modifierChanceReduction": 0.08,
+                "learnPointCost": 1,
+                "regretPointCost": 0,
+                "unlockLevel": 0
+              },
+              {
+                "type": "jeweler",
+                "modifierChanceReduction": 0.16,
+                "learnPointCost": 1,
+                "regretPointCost": 0,
+                "unlockLevel": 0
+              },
+              {
+                "type": "jeweler",
+                "modifierChanceReduction": 0.24,
+                "learnPointCost": 1,
+                "regretPointCost": 0,
+                "unlockLevel": 0
+              }
+            ]
+          },
+          {
+            "type": "tiered",
+            "id": "Marketer",
+            "name": "Marketer",
+            "tiers": [
+              {
+                "type": "marketer",
+                "timeReductionInMinutes": 60,
+                "learnPointCost": 1,
+                "regretPointCost": 0,
+                "unlockLevel": 0
+              },
+              {
+                "type": "marketer",
+                "timeReductionInMinutes": 90,
+                "learnPointCost": 1,
+                "regretPointCost": 0,
+                "unlockLevel": 0
+              }
+            ]
           }    
       ]
     }

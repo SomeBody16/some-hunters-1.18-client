@@ -76,13 +76,48 @@
             "NBT": "{}"
           },
           {
-            "AMOUNT": 2,
+            "AMOUNT": 4,
             "ITEM": "the_vault:vault_gold",
             "NBT": "{}"
           }
         ]
       },
-
+      {
+        "workbenchCraftIdentifier": "the_vault:crafted_mana_add_t4",
+        "modifierIdentifier": "the_vault:crafted_mana_additive",
+        "modifierTier": 4,
+        "unlockCategory": "VAULT_DISCOVERY",
+        "craftingCost": [
+          {
+            "AMOUNT": 32,
+            "ITEM": "the_vault:amplifying_focus",
+            "NBT": "{}"
+          },
+          {
+            "AMOUNT": 8,
+            "ITEM": "the_vault:vault_gold",
+            "NBT": "{}"
+          }
+        ]
+      },
+      {
+        "workbenchCraftIdentifier": "the_vault:crafted_mana_add_t5",
+        "modifierIdentifier": "the_vault:crafted_mana_additive",
+        "modifierTier": 5,
+        "unlockCategory": "VAULT_DISCOVERY",
+        "craftingCost": [
+          {
+            "AMOUNT": 48,
+            "ITEM": "the_vault:amplifying_focus",
+            "NBT": "{}"
+          },
+          {
+            "AMOUNT": 12,
+            "ITEM": "the_vault:vault_gold",
+            "NBT": "{}"
+          }
+        ]
+      },
       {
         "workbenchCraftIdentifier": "the_vault:crafted_mana_additive_percentile_t0",
         "modifierIdentifier": "the_vault:crafted_mana_additive_percentile",
@@ -149,13 +184,30 @@
             "NBT": "{}"
           },
           {
-            "AMOUNT": 2,
+            "AMOUNT": 4,
             "ITEM": "the_vault:vault_gold",
             "NBT": "{}"
           }
         ]
       },
-
+      {
+        "workbenchCraftIdentifier": "the_vault:crafted_mana_additive_percentile_t4",
+        "modifierIdentifier": "the_vault:crafted_mana_additive_percentile",
+        "modifierTier": 4,
+        "unlockCategory": "VAULT_DISCOVERY",
+        "craftingCost": [
+          {
+            "AMOUNT": 32,
+            "ITEM": "the_vault:amplifying_focus",
+            "NBT": "{}"
+          },
+          {
+            "AMOUNT": 8,
+            "ITEM": "the_vault:vault_gold",
+            "NBT": "{}"
+          }
+        ]
+      },
       {
         "workbenchCraftIdentifier": "the_vault:crafted_reach_t0",
         "modifierIdentifier": "the_vault:crafted_reach",
@@ -210,7 +262,6 @@
           }
         ]
       },
-
       {
         "workbenchCraftIdentifier": "the_vault:crafted_mana_regen_t0",
         "modifierIdentifier": "the_vault:crafted_mana_regen",
@@ -277,7 +328,7 @@
             "NBT": "{}"
           },
           {
-            "AMOUNT": 2,
+            "AMOUNT": 4,
             "ITEM": "the_vault:vault_gold",
             "NBT": "{}"
           }
@@ -295,31 +346,12 @@
             "NBT": "{}"
           },
           {
-            "AMOUNT": 4,
-            "ITEM": "the_vault:vault_gold",
-            "NBT": "{}"
-          }
-        ]
-      },
-      {
-        "workbenchCraftIdentifier": "the_vault:crafted_mana_regen_t5",
-        "modifierIdentifier": "the_vault:crafted_mana_regen",
-        "modifierTier": 5,
-        "unlockCategory": "VAULT_DISCOVERY",
-        "craftingCost": [
-          {
-            "AMOUNT": 48,
-            "ITEM": "the_vault:amplifying_focus",
-            "NBT": "{}"
-          },
-          {
             "AMOUNT": 8,
             "ITEM": "the_vault:vault_gold",
             "NBT": "{}"
           }
         ]
       },
-
       {
         "workbenchCraftIdentifier": "the_vault:crafted_durability_t0",
         "modifierIdentifier": "the_vault:crafted_durability",
@@ -386,31 +418,12 @@
             "NBT": "{}"
           },
           {
-            "AMOUNT": 2,
-            "ITEM": "the_vault:vault_gold",
-            "NBT": "{}"
-          }
-        ]
-      },
-      {
-        "workbenchCraftIdentifier": "the_vault:crafted_durability_t4",
-        "modifierIdentifier": "the_vault:crafted_durability",
-        "modifierTier": 4,
-        "unlockCategory": "VAULT_DISCOVERY",
-        "craftingCost": [
-          {
-            "AMOUNT": 32,
-            "ITEM": "the_vault:amplifying_focus",
-            "NBT": "{}"
-          },
-          {
             "AMOUNT": 4,
             "ITEM": "the_vault:vault_gold",
             "NBT": "{}"
           }
         ]
       },
-
       {
         "workbenchCraftIdentifier": "the_vault:crafted_cooldown_reduction_t0",
         "modifierIdentifier": "the_vault:crafted_cooldown_reduction",
@@ -477,7 +490,7 @@
             "NBT": "{}"
           },
           {
-            "AMOUNT": 2,
+            "AMOUNT": 4,
             "ITEM": "the_vault:vault_gold",
             "NBT": "{}"
           }
@@ -495,13 +508,12 @@
             "NBT": "{}"
           },
           {
-            "AMOUNT": 4,
+            "AMOUNT": 8,
             "ITEM": "the_vault:vault_gold",
             "NBT": "{}"
           }
         ]
       },
-
       {
         "workbenchCraftIdentifier": "the_vault:crafted_lucky_hit_chance_t0",
         "modifierIdentifier": "the_vault:crafted_lucky_hit_chance",
@@ -538,7 +550,6 @@
           }
         ]
       },
-
       {
         "workbenchCraftIdentifier": "the_vault:crafted_trap_disarming_t0",
         "modifierIdentifier": "the_vault:crafted_trap_disarming",
@@ -593,7 +604,6 @@
           }
         ]
       },
-
       {
         "workbenchCraftIdentifier": "the_vault:crafted_soul_chance_t0",
         "modifierIdentifier": "the_vault:crafted_soul_chance",
@@ -647,29 +657,7 @@
             "NBT": "{}"
           }
         ]
-      },
-      {
-        "workbenchCraftIdentifier": "the_vault:crafted_soul_chance_t3",
-        "modifierIdentifier": "the_vault:crafted_soul_chance",
-        "modifierTier": 3,
-        "unlockCategory": "VAULT_DISCOVERY",
-        "craftingCost": [
-          {
-            "AMOUNT": 32,
-            "ITEM": "the_vault:amplifying_focus",
-            "NBT": "{}"
-          },
-          {
-            "AMOUNT": 8,
-            "ITEM": "the_vault:vault_gold",
-            "NBT": "{}"
-          }
-        ]
       }
-
-      
-
-
     ]
   }
 }
