@@ -47,7 +47,7 @@
 	#Whether acacia blossoms should drop from blocks tagged with #alexsmobs:drops_acacia_blossoms
 	acaciaBlossomsDropFromLeaves = true
 	#Whether wandering traders offer items like acacia blossoms, mosquito larva, crocodile egg, etc.
-	wanderingTraderOffers = true
+	wanderingTraderOffers = false
 	#0 = no mungus biome transformation. 1 = mungus changes blocks, but not chunk's biome. 2 = mungus transforms blocks and biome of chunk.
 	#Range: 0 ~ 2
 	mungusBiomeTransformationType = 2

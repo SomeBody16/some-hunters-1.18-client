@@ -43,7 +43,7 @@
             "effect": "minecraft:strength",
             "amplifier": 1,
             "learnPointCost": 1,
-            "regretPointCost": 2,
+            "regretPointCost": 1,
             "unlockLevel": 0
           },
           {
