@@ -1419,7 +1419,7 @@
           "color": "$eternals"
         },
         {
-          "text": "! This ability requires you to have at least one alive eternal in a Cryo Chamber, or it will do nothing.\n\n",
+          "text": "! This ability requires you to have at least one eternal alive on an Eternal Pedestal, or it will do nothing.\n\n",
           "color": "$text"
         },
         {
@@ -1574,7 +1574,7 @@
     "Taunt_Repel": {
       "description": [
         {
-          "text": "Instead of taunting, you now fear the mobs around you in a ",
+          "text": "Instead of taunting mobs around you, they are now feared by you in a ",
           "color": "$text"
         },
         {
@@ -1690,12 +1690,12 @@
           "color": "$heal"
         },
         {
-          "text": " all players in ",
+          "text": " all players in a ",
           "color": "$text"
         },
         {
-          "text": "range",
-          "color": "$range"
+          "text": "radius",
+          "color": "$radius"
         },
         {
           "text": " per second.\n\n",
@@ -1733,12 +1733,12 @@
           "color": "$manaCost"
         },
         {
-          "text": " of all players in ",
+          "text": " of all players in a ",
           "color": "$text"
         },
         {
-          "text": "range",
-          "color": "$range"
+          "text": "radius",
+          "color": "$radius"
         },
         {
           "text": " per second.\n\n",
@@ -1776,12 +1776,12 @@
           "color": "$damage"
         },
         {
-          "text": " to all mobs in ",
+          "text": " to all mobs in a ",
           "color": "$text"
         },
         {
-          "text": "range",
-          "color": "$range"
+          "text": "radius",
+          "color": "$radius"
         },
         {
           "text": " on a ",
@@ -1833,12 +1833,12 @@
           "color": "$damage"
         },
         {
-          "text": " of all players in ",
+          "text": " of all players in a ",
           "color": "$text"
         },
         {
-          "text": "range",
-          "color": "$range"
+          "text": "radius",
+          "color": "$radius"
         },
         {
           "text": ".\n\n",
