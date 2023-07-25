@@ -1328,15 +1328,27 @@
           "color": "$text"
         },
         {
-          "text": "active",
+          "text": "active.\n",
           "color": "$duration"
         },
         {
-          "text": " freezing",
-          "color": "$slowness"
+          "text": "Chilling",
+          "color": "$chilled"
         },
         {
-          "text": " nearby mobs in a radius\nThe size of the freeze is based is based off the fall distance",
+          "text": " and creating ",
+          "color": "$text"
+        },
+        {
+          "text": "glacial prisons ",
+          "color": "$maxGlacialPrison"
+        },
+        {
+          "text": "to mobs in a radius.\n",
+          "color": "$text"
+        },
+        {
+          "text": "The radius is affected by fall distance.",
           "color": "$text"
         },
         {
@@ -1349,19 +1361,21 @@
         }
       ],
       "current": [
-        "cooldown",
-        "manaCost",
         "damageReduction",
-        "slowness",
-        "duration"
+        "maxGlacialPrison",
+        "freezeDuration",
+        "duration",
+        "cooldown",
+        "manaCost"
+        
       ],
       "next": [
-        "level",
-        "cooldown",
-        "manaCost",
         "damageReduction",
-        "slowness",
-        "duration"
+        "maxGlacialPrison",
+        "freezeDuration",
+        "duration",
+        "cooldown",
+        "manaCost"
       ]
     },
     "Stonefall_Snow": {
@@ -1391,7 +1405,7 @@
           "color": "$ability_power"
         },
         {
-          "text": " to nearby mobs in a radius\nThe damage based is based off the fall distance and multiplied by your ability power",
+          "text": " to nearby mobs in a radius\nThe radius is increased with your fall distance.",
           "color": "$text"
         },
         {
@@ -1411,7 +1425,6 @@
         "duration"
       ],
       "next": [
-        "level",
         "cooldown",
         "manaCost",
         "damageReduction",
@@ -1716,12 +1729,16 @@
           "color": "$text"
         },
         {
-          "text": "percentage of your damage",
+          "text": "percentage of your ability power",
           "color": "$ability_power"
         },
         {
-          "text": " to their targets",
+          "text": " as damage to their targets and can trigger ",
           "color": "$text"
+        },
+        {
+          "text": "on-hit effects",
+          "color": "$name"
         },
         {
           "text": ".\n\n",
@@ -2520,15 +2537,12 @@
         "damage",
         "durabilityWearReduction",
         "manaCostPerSecond",
-        "additionalManaPerHit",
         "cooldown"
       ],
       "next": [
-        "level",
         "damage",
         "durabilityWearReduction",
         "manaCostPerSecond",
-        "additionalManaPerHit",
         "cooldown"
       ]
     },
@@ -2559,7 +2573,23 @@
           "color": "$chains"
         },
         {
-          "text": "to hit additional targets.",
+          "text": "to hit additional targets. In addition ",
+          "color": "$text"
+        },
+        {
+          "text": "Quill",
+          "color": "$name"
+        },
+        {
+          "text": " also gives you a ",
+          "color": "$text"
+        },
+        {
+          "text": "durability resistance",
+          "color": "$durabilityWearReduction"
+        },
+        {
+          "text": " while active.",
           "color": "$text"
         },
         {
@@ -2570,14 +2600,15 @@
       "current": [
         "damage",
         "quillCount",
+        "durabilityWearReduction",
         "manaCostPerSecond",
         "additionalManaPerHit",
         "cooldown"
       ],
       "next": [
-        "level",
         "damage",
         "quillCount",
+        "durabilityWearReduction",
         "manaCostPerSecond",
         "additionalManaPerHit",
         "cooldown"
@@ -2696,7 +2727,23 @@
           "color": "$ability_power"
         },
         {
-          "text": "based of your ability power.",
+          "text": "based of your ",
+          "color": "$text"
+        },
+        {
+          "text": "ability power",
+          "color": "$ability_power"
+        },
+        {
+          "text": ", and transfers any ",
+          "color": "$text"
+        },
+        {
+          "text": "on-hit effects ",
+          "color": "$name"
+        },
+        {
+          "text": "from you.",
           "color": "$text"
         },
         {
@@ -2711,7 +2758,6 @@
 
       ],
       "next": [
-        "level",
         "ability_power",
         "cooldown",
         "manaCost"
