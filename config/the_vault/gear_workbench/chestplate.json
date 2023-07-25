@@ -8,8 +8,7 @@
   ],
   "craftableModifiers": {
     "PREFIX": [
-      {
-        "workbenchCraftIdentifier": "the_vault:crafted_armor_t0",
+      { "workbenchCraftIdentifier": "the_vault:crafted_armor_t0",
         "modifierIdentifier": "the_vault:crafted_armor",
         "modifierTier": 0,
         "unlockCategory": "LEVEL",
@@ -26,8 +25,7 @@
           }
         ]
       },
-      {
-        "workbenchCraftIdentifier": "the_vault:crafted_armor_t1",
+      { "workbenchCraftIdentifier": "the_vault:crafted_armor_t1",
         "modifierIdentifier": "the_vault:crafted_armor",
         "modifierTier": 1,
         "unlockCategory": "LEVEL",
@@ -44,8 +42,7 @@
           }
         ]
       },
-      {
-        "workbenchCraftIdentifier": "the_vault:crafted_armor_t2",
+      { "workbenchCraftIdentifier": "the_vault:crafted_armor_t2",
         "modifierIdentifier": "the_vault:crafted_armor",
         "modifierTier": 2,
         "unlockCategory": "VAULT_DISCOVERY",
@@ -62,8 +59,7 @@
           }
         ]
       },
-      {
-        "workbenchCraftIdentifier": "the_vault:crafted_armor_t3",
+      { "workbenchCraftIdentifier": "the_vault:crafted_armor_t3",
         "modifierIdentifier": "the_vault:crafted_armor",
         "modifierTier": 3,
         "unlockCategory": "VAULT_DISCOVERY",
@@ -80,8 +76,7 @@
           }
         ]
       },
-      {
-        "workbenchCraftIdentifier": "the_vault:crafted_durability_t0",
+      { "workbenchCraftIdentifier": "the_vault:crafted_durability_t0",
         "modifierIdentifier": "the_vault:crafted_durability",
         "modifierTier": 0,
         "unlockCategory": "LEVEL",
@@ -98,8 +93,7 @@
           }
         ]
       },
-      {
-        "workbenchCraftIdentifier": "the_vault:crafted_durability_t1",
+      { "workbenchCraftIdentifier": "the_vault:crafted_durability_t1",
         "modifierIdentifier": "the_vault:crafted_durability",
         "modifierTier": 1,
         "unlockCategory": "LEVEL",

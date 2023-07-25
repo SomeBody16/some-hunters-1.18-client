@@ -3,7 +3,17 @@
   "entityChampionChance": {
     "@the_vault:dungeon": 0.02,
     "@the_vault:tank": 0.02,
-    "@the_vault:horde": 0.0
+    "@the_vault:horde": 0.0,
+    "the_vault:smolcap": 0.0,
+    "minecraft:villager": 0.0,
+    "minecraft:chicken": 0.0,
+    "rottencreatures:flying_scarab": 0.0,
+    "minecraft:cod": 0.0,
+    "minecraft:salmon": 0.0,
+    "minecraft:tropical_fish": 0.0,
+    "minecraft:axolotl": 0.0,
+    "minecraft:pufferfish": 0.0,
+    "rottencreatures:scarab": 0.0
   },
   "defaultAttributeOverrides": [
     {
