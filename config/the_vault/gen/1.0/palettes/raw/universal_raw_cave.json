@@ -6,7 +6,11 @@
         },
         {
             "type": "reference",
-            "id": "the_vault:generic/treasure_door_placeholder"
+            "id": "the_vault:raw/treasure_door_placeholder"
+        },
+        {
+            "type": "reference",
+            "id": "the_vault:raw/objective_placeholder"
         },
 	{
             "type": "weighted_target",
