@@ -13,7 +13,12 @@
     "minecraft:tropical_fish": 0.0,
     "minecraft:axolotl": 0.0,
     "minecraft:pufferfish": 0.0,
-    "rottencreatures:scarab": 0.0
+    "rottencreatures:scarab": 0.0,
+    "minecraft:shulker": 0.0,
+    "minecraft:shulker_bullet": 0.0,
+    "minecraft:slime": 0.0,
+    "rottencreatures:zombie_lackey": 0.0,
+    "rottencreatures:skeleton_lackey": 0.0
   },
   "defaultAttributeOverrides": [
     {

@@ -74,7 +74,9 @@
       "itemquantity": "#e88a12",
       "itemrarity": "#e5b819",
       "knowledge": "#8bf5db",
-      "expertise": "#fc30bc"
+      "expertise": "#fc30bc",
+      "regret": "#d92946",
+      "gilded": "#d7ad16"
     }
   }
 }
