@@ -23,7 +23,7 @@
     "the_vault:block": "Your \u00A7bchance\u00A77 to \u00A7bblock\u00A77 \u00A7aany incoming damage\u00A77\n\n\u00A7cMaximum obtainable: 60%\u00A77",
 
     "the_vault:on_hit_chain": "Your \u00A7bnumber\u00A77 of \u00A7bchained entities\u00A77 \u00A7aper hit\u00A77",
-    "the_vault:cooldown_reduction": "Your \u00A7bcooldown reduction\u00A77 for \u00A7aany Ability\u00A77",
+    "the_vault:cooldown_reduction": "Your \u00A7bcooldown reduction\u00A77 for \u00A7aany Ability\u00A77\n\n\u00A7cMaximum obtainable: 80%\u00A77",
     "the_vault:copiously": "Your \u00A7bchance\u00A77 to \u00A7bdouble loot\u00A77 from \u00A7bOres\u00A77 mined for the \u00A7bfirst time\u00A77",
     "the_vault:critical_hit_mitigation": "Your \u00A7bchance\u00A77 to \u00A7breduce\u00A77 the \u00A7bdamage\u00A77 of a \u00A7aCritical Hit\u00A77",
     "the_vault:critical_hit_chance": "Your \u00A7bchance\u00A77 to \u00A7bperform\u00A77 a \u00A7bCritical Hit\u00A77",

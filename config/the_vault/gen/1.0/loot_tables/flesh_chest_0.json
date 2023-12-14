@@ -3,8 +3,8 @@
     {
       "roll": {
         "type": "uniform",
-        "min": 12,
-        "max": 14
+        "min": 7,
+        "max": 8
       },
       "pool": [
         { "weight": 70,
@@ -157,6 +157,17 @@
                   "max": 1
                   }
               }
+            },
+            {
+              "weight": 10,
+              "item": {
+                "id": "minecraft:gunpowder",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
             }
           ]
         },
@@ -205,6 +216,17 @@
                   "max": 1
                   }
               }
+            },
+            {
+              "weight": 4,
+              "item": {
+                "id": "minecraft:ghast_tear",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
             }
           ]
         },
@@ -222,7 +244,7 @@
               }
             },
             {
-              "weight": 25,
+              "weight": 1,
               "item": {
                 "id": "the_vault:flesh_chest_scroll",
                 "count": {

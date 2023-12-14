@@ -3,8 +3,8 @@
     {
       "roll": {
         "type": "uniform",
-        "min": 9,
-        "max": 12
+        "min": 12,
+        "max": 15
       },
       "pool": [
         { "weight": 70,
@@ -139,7 +139,7 @@
               }
             },
             {
-              "weight": 3,
+              "weight": 1,
               "item": {
                 "id": "the_vault:jewel",
                 "nbt": {
@@ -153,7 +153,7 @@
               }
             },
             {
-              "weight": 5,
+              "weight": 2,
               "item": {
                 "id": "the_vault:gemstone",
                 "count": {
@@ -190,7 +190,7 @@
         { "weight": 2,
           "pool": [
             {
-              "weight": 23,
+              "weight": 20,
               "item": {
                 "id": "the_vault:jewel",
                 "nbt": {
@@ -204,9 +204,12 @@
               }
             },
             {
-              "weight": 1,
+              "weight": 3,
               "item": {
-                "id": "the_vault:gilded_chest_scroll",
+                "id": "the_vault:jewel",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "jewel_not_chipped"
+                },
                 "count": {
                   "type": "uniform",
                   "min": 1,
@@ -217,7 +220,7 @@
             {
               "weight": 1,
               "item": {
-                "id": "the_vault:key_piece",
+                "id": "the_vault:gilded_chest_scroll",
                 "count": {
                   "type": "uniform",
                   "min": 1,

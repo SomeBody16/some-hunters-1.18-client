@@ -1,17 +1,28 @@
 {
   "LEVELS": [
-    {
-      "MIN_LEVEL": 0,
+    { "MIN_LEVEL": 0,
       "TRADE_POOL": [
         {
           "value": {
             "OFFER": {
-              "item": "the_vault:helmet",
-              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\"}"
+              "item": "sophisticatedbackpacks:iron_backpack",
+              "nbt": ""
             },
-            "CURRENCY": "the_vault:vault_bronze",
-            "MIN_COST": 162,
-            "MAX_COST": 512
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 8,
+            "MAX_COST": 16
+          },
+          "weight": 40
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:helmet",
+              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 8,
+            "MAX_COST": 24
           },
           "weight": 80
         },
@@ -19,11 +30,11 @@
           "value": {
             "OFFER": {
               "item": "the_vault:chestplate",
-              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\"}"
+              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
             },
-            "CURRENCY": "the_vault:vault_bronze",
-            "MIN_COST": 162,
-            "MAX_COST": 512
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 8,
+            "MAX_COST": 24
           },
           "weight": 80
         },
@@ -31,11 +42,11 @@
           "value": {
             "OFFER": {
               "item": "the_vault:leggings",
-              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\"}"
+              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
             },
-            "CURRENCY": "the_vault:vault_bronze",
-            "MIN_COST": 162,
-            "MAX_COST": 512
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 8,
+            "MAX_COST": 24
           },
           "weight": 80
         },
@@ -43,11 +54,11 @@
           "value": {
             "OFFER": {
               "item": "the_vault:boots",
-              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\"}"
+              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
             },
-            "CURRENCY": "the_vault:vault_bronze",
-            "MIN_COST": 162,
-            "MAX_COST": 512
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 8,
+            "MAX_COST": 24
           },
           "weight": 80
         },
@@ -55,11 +66,11 @@
           "value": {
             "OFFER": {
               "item": "the_vault:sword",
-              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\"}"
+              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
             },
-            "CURRENCY": "the_vault:vault_bronze",
-            "MIN_COST": 162,
-            "MAX_COST": 512
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 8,
+            "MAX_COST": 24
           },
           "weight": 80
         },
@@ -67,11 +78,11 @@
           "value": {
             "OFFER": {
               "item": "the_vault:axe",
-              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\"}"
+              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
             },
-            "CURRENCY": "the_vault:vault_bronze",
-            "MIN_COST": 162,
-            "MAX_COST": 512
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 8,
+            "MAX_COST": 24
           },
           "weight": 80
         },
@@ -79,11 +90,11 @@
           "value": {
             "OFFER": {
               "item": "the_vault:shield",
-              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\"}"
+              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
             },
-            "CURRENCY": "the_vault:vault_bronze",
-            "MIN_COST": 162,
-            "MAX_COST": 512
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 8,
+            "MAX_COST": 24
           },
           "weight": 65
         },
@@ -91,73 +102,161 @@
           "value": {
             "OFFER": {
               "item": "the_vault:wand",
-              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\"}"
+              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
             },
-            "CURRENCY": "the_vault:vault_bronze",
-            "MIN_COST": 162,
-            "MAX_COST": 512
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 8,
+            "MAX_COST": 24
           },
           "weight": 65
         },
         {
           "value": {
             "OFFER": {
-              "item": "the_vault:idol_benevolent",
-              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\"}"
+              "item": "the_vault:magnet",
+              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
             },
-            "CURRENCY": "the_vault:vault_bronze",
-            "MIN_COST": 162,
-            "MAX_COST": 512
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 8,
+            "MAX_COST": 24
           },
-          "weight": 12
+          "weight": 65
         },
         {
           "value": {
             "OFFER": {
-              "item": "the_vault:idol_omniscient",
-              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\"}"
+              "item": "the_vault:knowledge_star",
+              "nbt": ""
             },
-            "CURRENCY": "the_vault:vault_bronze",
-            "MIN_COST": 162,
-            "MAX_COST": 512
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 8,
+            "MAX_COST": 16
           },
-          "weight": 12
+          "weight": 40
+        }
+      ]
+    },
+    { "MIN_LEVEL": 30,
+      "TRADE_POOL": [
+        {
+          "value": {
+            "OFFER": {
+              "item": "sophisticatedbackpacks:gold_backpack",
+              "nbt": ""
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 8,
+            "MAX_COST": 16
+          },
+          "weight": 40
         },
         {
           "value": {
             "OFFER": {
-              "item": "the_vault:idol_timekeeper",
-              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\"}"
+              "item": "the_vault:helmet",
+              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
             },
-            "CURRENCY": "the_vault:vault_bronze",
-            "MIN_COST": 162,
-            "MAX_COST": 512
-          },
-          "weight": 12
-        },
-        {
-          "value": {
-            "OFFER": {
-              "item": "the_vault:idol_malevolence",
-              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\"}"
-            },
-            "CURRENCY": "the_vault:vault_bronze",
-            "MIN_COST": 162,
-            "MAX_COST": 512
-          },
-          "weight": 12
-        },
-        {
-          "value": {
-            "OFFER": {
-              "item": "the_vault:inscription",
-              "nbt": "{pool:\"the_vault:empty\"}"
-            },
-            "CURRENCY": "the_vault:vault_bronze",
-            "MIN_COST": 64,
-            "MAX_COST": 128
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 8,
+            "MAX_COST": 24
           },
           "weight": 80
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:chestplate",
+              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 8,
+            "MAX_COST": 24
+          },
+          "weight": 80
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:leggings",
+              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 8,
+            "MAX_COST": 24
+          },
+          "weight": 80
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:boots",
+              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 8,
+            "MAX_COST": 24
+          },
+          "weight": 80
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:sword",
+              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 8,
+            "MAX_COST": 24
+          },
+          "weight": 80
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:axe",
+              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 8,
+            "MAX_COST": 24
+          },
+          "weight": 80
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:shield",
+              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 8,
+            "MAX_COST": 24
+          },
+          "weight": 65
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:wand",
+              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 8,
+            "MAX_COST": 24
+          },
+          "weight": 65
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:magnet",
+              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 8,
+            "MAX_COST": 24
+          },
+          "weight": 65
         },
         {
           "value": {
@@ -165,9 +264,9 @@
               "item": "the_vault:inscription",
               "nbt": "{pool:\"the_vault:bounty\"}"
             },
-            "CURRENCY": "the_vault:vault_bronze",
-            "MIN_COST": 256,
-            "MAX_COST": 512
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 8,
+            "MAX_COST": 24
           },
           "weight": 20
         },
@@ -177,11 +276,23 @@
               "item": "the_vault:jewel",
               "nbt": "{\"the_vault:gear_roll_type_pool\":\"jewel_blackmarket\"}"
             },
-            "CURRENCY": "the_vault:vault_bronze",
-            "MIN_COST": 128,
-            "MAX_COST": 256
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 8,
+            "MAX_COST": 24
           },
-          "weight": 100
+          "weight": 80
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:sour_orange",
+              "nbt": "{}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 8,
+            "MAX_COST": 24
+          },
+          "weight": 40
         },
         {
           "value": {
@@ -189,11 +300,11 @@
               "item": "the_vault:trinket_scrap",
               "nbt": "{}"
             },
-            "CURRENCY": "the_vault:vault_bronze",
-            "MIN_COST": 300,
-            "MAX_COST": 600
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 8,
+            "MAX_COST": 24
           },
-          "weight": 10
+          "weight": 40
         },
         {
           "value": {
@@ -201,11 +312,11 @@
               "item": "the_vault:trinket",
               "nbt": "{}"
             },
-            "CURRENCY": "the_vault:vault_bronze",
-            "MIN_COST": 600,
-            "MAX_COST": 1000
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 16,
+            "MAX_COST": 48
           },
-          "weight": 2
+          "weight": 20
         },
         {
           "value": {
@@ -213,11 +324,267 @@
               "item": "the_vault:artifact_fragment",
               "nbt": "{}"
             },
-            "CURRENCY": "the_vault:vault_bronze",
-            "MIN_COST": 600,
-            "MAX_COST": 1000
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 24,
+            "MAX_COST": 64
           },
-          "weight": 1
+          "weight": 10
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:knowledge_star",
+              "nbt": ""
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 8,
+            "MAX_COST": 16
+          },
+          "weight": 40
+        }
+      ]
+    },
+    { "MIN_LEVEL": 50,
+      "TRADE_POOL": [
+        {
+          "value": {
+            "OFFER": {
+              "item": "sophisticatedbackpacks:diamond_backpack",
+              "nbt": ""
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 16,
+            "MAX_COST": 32
+          },
+          "weight": 40
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:helmet",
+              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 16,
+            "MAX_COST": 32
+          },
+          "weight": 80
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:chestplate",
+              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 16,
+            "MAX_COST": 32
+          },
+          "weight": 80
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:leggings",
+              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 16,
+            "MAX_COST": 32
+          },
+          "weight": 80
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:boots",
+              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 16,
+            "MAX_COST": 32
+          },
+          "weight": 80
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:sword",
+              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 16,
+            "MAX_COST": 32
+          },
+          "weight": 80
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:axe",
+              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 16,
+            "MAX_COST": 32
+          },
+          "weight": 80
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:shield",
+              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 16,
+            "MAX_COST": 32
+          },
+          "weight": 65
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:wand",
+              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 16,
+            "MAX_COST": 32
+          },
+          "weight": 65
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:magnet",
+              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 16,
+            "MAX_COST": 32
+          },
+          "weight": 65
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:inscription",
+              "nbt": "{pool:\"the_vault:bounty\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 16,
+            "MAX_COST": 32
+          },
+          "weight": 20
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:jewel",
+              "nbt": "{\"the_vault:gear_roll_type_pool\":\"jewel_blackmarket\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 8,
+            "MAX_COST": 24
+          },
+          "weight": 80
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:sour_orange",
+              "nbt": "{}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 8,
+            "MAX_COST": 24
+          },
+          "weight": 40
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:trinket_scrap",
+              "nbt": "{}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 8,
+            "MAX_COST": 24
+          },
+          "weight": 40
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:trinket",
+              "nbt": "{}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 16,
+            "MAX_COST": 48
+          },
+          "weight": 20
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:artifact_fragment",
+              "nbt": "{}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 24,
+            "MAX_COST": 64
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:unidentified_treasure_key",
+              "nbt": "{}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 24,
+            "MAX_COST": 64
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:opportunistic_focus",
+              "nbt": "{}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 8,
+            "MAX_COST": 32
+          },
+          "weight": 40
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:resilient_focus",
+              "nbt": "{}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 8,
+            "MAX_COST": 32
+          },
+          "weight": 40
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:lost_bounty",
+              "nbt": "{}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 8,
+            "MAX_COST": 32
+          },
+          "weight": 40
         }
       ]
     }

@@ -114,54 +114,6 @@
         {
           "value": {
             "item": {
-              "ITEM": "the_vault:idol_benevolent",
-              "AMOUNT": 1,
-              "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket_omega\",\"the_vault:is_loot\":\"true\"}"
-            },
-            "minPrice": 500,
-            "maxPrice": 900
-          },
-          "weight": 8
-        },
-        {
-          "value": {
-            "item": {
-              "ITEM": "the_vault:idol_omniscient",
-              "AMOUNT": 1,
-              "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket_omega\",\"the_vault:is_loot\":\"true\"}"
-            },
-            "minPrice": 500,
-            "maxPrice": 900
-          },
-          "weight": 8
-        },
-        {
-          "value": {
-            "item": {
-              "ITEM": "the_vault:idol_timekeeper",
-              "AMOUNT": 1,
-              "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket_omega\",\"the_vault:is_loot\":\"true\"}"
-            },
-            "minPrice": 500,
-            "maxPrice": 900
-          },
-          "weight": 8
-        },
-        {
-          "value": {
-            "item": {
-              "ITEM": "the_vault:idol_malevolence",
-              "AMOUNT": 1,
-              "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket_omega\",\"the_vault:is_loot\":\"true\"}"
-            },
-            "minPrice": 500,
-            "maxPrice": 900
-          },
-          "weight": 8
-        },
-        {
-          "value": {
-            "item": {
               "ITEM": "the_vault:magnet",
               "AMOUNT": 1,
               "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket_omega\",\"the_vault:is_loot\":\"true\"}"
@@ -503,54 +455,6 @@
             "maxPrice": 800
           },
           "weight": 26
-        },
-        {
-          "value": {
-            "item": {
-              "ITEM": "the_vault:idol_benevolent",
-              "AMOUNT": 1,
-              "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket_omega\",\"the_vault:is_loot\":\"true\"}"
-            },
-            "minPrice": 600,
-            "maxPrice": 1000
-          },
-          "weight": 8
-        },
-        {
-          "value": {
-            "item": {
-              "ITEM": "the_vault:idol_omniscient",
-              "AMOUNT": 1,
-              "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket_omega\",\"the_vault:is_loot\":\"true\"}"
-            },
-            "minPrice": 600,
-            "maxPrice": 1000
-          },
-          "weight": 8
-        },
-        {
-          "value": {
-            "item": {
-              "ITEM": "the_vault:idol_timekeeper",
-              "AMOUNT": 1,
-              "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket_omega\",\"the_vault:is_loot\":\"true\"}"
-            },
-            "minPrice": 600,
-            "maxPrice": 1000
-          },
-          "weight": 8
-        },
-        {
-          "value": {
-            "item": {
-              "ITEM": "the_vault:idol_malevolence",
-              "AMOUNT": 1,
-              "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket_omega\",\"the_vault:is_loot\":\"true\"}"
-            },
-            "minPrice": 600,
-            "maxPrice": 1000
-          },
-          "weight": 8
         },
         {
           "value": {
@@ -1028,54 +932,6 @@
             "maxPrice": 1400
           },
           "weight": 22
-        },
-        {
-          "value": {
-            "item": {
-              "ITEM": "the_vault:idol_benevolent",
-              "AMOUNT": 1,
-              "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket_omega\",\"the_vault:is_loot\":\"true\"}"
-            },
-            "minPrice": 1200,
-            "maxPrice": 1800
-          },
-          "weight": 8
-        },
-        {
-          "value": {
-            "item": {
-              "ITEM": "the_vault:idol_omniscient",
-              "AMOUNT": 1,
-              "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket_omega\",\"the_vault:is_loot\":\"true\"}"
-            },
-            "minPrice": 1200,
-            "maxPrice": 1800
-          },
-          "weight": 8
-        },
-        {
-          "value": {
-            "item": {
-              "ITEM": "the_vault:idol_timekeeper",
-              "AMOUNT": 1,
-              "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket_omega\",\"the_vault:is_loot\":\"true\"}"
-            },
-            "minPrice": 1200,
-            "maxPrice": 1800
-          },
-          "weight": 8
-        },
-        {
-          "value": {
-            "item": {
-              "ITEM": "the_vault:idol_malevolence",
-              "AMOUNT": 1,
-              "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket_omega\",\"the_vault:is_loot\":\"true\"}"
-            },
-            "minPrice": 1200,
-            "maxPrice": 1800
-          },
-          "weight": 8
         },
         {
           "value": {
@@ -1589,54 +1445,6 @@
             "maxPrice": 1400
           },
           "weight": 18
-        },
-        {
-          "value": {
-            "item": {
-              "ITEM": "the_vault:idol_benevolent",
-              "AMOUNT": 1,
-              "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket_omega\",\"the_vault:is_loot\":\"true\"}"
-            },
-            "minPrice": 1200,
-            "maxPrice": 1800
-          },
-          "weight": 8
-        },
-        {
-          "value": {
-            "item": {
-              "ITEM": "the_vault:idol_omniscient",
-              "AMOUNT": 1,
-              "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket_omega\",\"the_vault:is_loot\":\"true\"}"
-            },
-            "minPrice": 1200,
-            "maxPrice": 1800
-          },
-          "weight": 8
-        },
-        {
-          "value": {
-            "item": {
-              "ITEM": "the_vault:idol_timekeeper",
-              "AMOUNT": 1,
-              "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket_omega\",\"the_vault:is_loot\":\"true\"}"
-            },
-            "minPrice": 1200,
-            "maxPrice": 1800
-          },
-          "weight": 8
-        },
-        {
-          "value": {
-            "item": {
-              "ITEM": "the_vault:idol_malevolence",
-              "AMOUNT": 1,
-              "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket_omega\",\"the_vault:is_loot\":\"true\"}"
-            },
-            "minPrice": 1200,
-            "maxPrice": 1800
-          },
-          "weight": 8
         },
         {
           "value": {

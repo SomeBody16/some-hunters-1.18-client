@@ -84,7 +84,9 @@
     ],
     "the_vault:mob_type/nether": [
       "@the_vault:piglin",
-      "@the_vault:wither_skeleton"
+      "@the_vault:wither_skeleton",
+      "minecraft:piglin_brute",
+      "the_vault:dungeon_piglin"
     ],
     "the_vault:horde": [
       "minecraft:husk",
@@ -149,7 +151,9 @@
       "the_vault:skeleton_pirate_t5",
       "minecraft:polar_bear",
       "alexsmobs:tusklin",
-      "minecraft:magma_cube"
+      "minecraft:magma_cube",
+      "the_vault:levishroom",
+      "the_vault:winter_wolf"
     ],
     "the_vault:tank": [
       "the_vault:shiver",
@@ -202,6 +206,7 @@
       "the_vault:t5_piglin"
     ],
     "the_vault:dungeon": [
+      "the_vault:dungeon_piglin_brute",
       "the_vault:dungeon_piglin",
       "the_vault:t1_zombie",
       "the_vault:t2_zombie",

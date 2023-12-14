@@ -612,6 +612,58 @@
         {
             "type": "leveled",
             "levels": [
+              {
+                  "level": 0,
+                  "type": "weighted_target",
+                  "target": "the_vault:god_altar",
+                  "output": {
+                      "minecraft:air": 1
+                  }
+              }
+            ]
+        },
+        {
+            "type": "leveled",
+            "levels": [
+              {
+                  "level": 0,
+                  "type": "weighted_target",
+                  "target": "the_vault:god_altar",
+                  "output": {
+                    "minecraft:air": 1
+                  }
+              }
+            ]
+        },
+        {
+            "type": "leveled",
+            "levels": [
+              {
+                  "level": 0,
+                  "type": "weighted_target",
+                  "target": "the_vault:god_altar",
+                  "output": {
+                    "minecraft:air": 1
+                  }
+              }
+            ]
+        },
+        {
+            "type": "leveled",
+            "levels": [
+              {
+                  "level": 0,
+                  "type": "weighted_target",
+                  "target": "the_vault:god_altar",
+                  "output": {
+                    "minecraft:air": 1
+                  }
+              }
+            ]
+        },
+        {
+            "type": "leveled",
+            "levels": [
                 {
                 "level": 0,
                 "type": "weighted_target",
@@ -622,6 +674,14 @@
                 }
                 }
             ]
+        },
+        {
+            "type": "spawner_element",
+            "target": "ispawner:spawner",
+            "element": "",
+            "output": {
+                "{Tags:[\"no_champion\"]}": 1
+            }
         }
     ],
     "entity_processors": [],

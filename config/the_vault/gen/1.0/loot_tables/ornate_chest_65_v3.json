@@ -3,8 +3,8 @@
       {
         "roll": {
           "type": "uniform",
-          "min": 9,
-          "max": 12
+          "min": 12,
+          "max": 15
         },
         "pool": [
           { "weight": 70,
@@ -55,13 +55,13 @@
               }
             },
             {
-              "weight": 4,
+              "weight": 6,
               "item": {
               "id": "the_vault:carbon_nugget",
               "count": {
                 "type": "uniform",
                 "min": 1,
-                "max": 1
+                "max": 3
                 }
               }
             }
@@ -124,12 +124,12 @@
                   "count": {
                     "type": "uniform",
                     "min": 1,
-                    "max": 3
+                    "max": 7
                     }
                 }
               },
               {
-                "weight": 16,
+                "weight": 24,
                 "item": {
                   "id": "the_vault:amplifying_focus",
                   "count": {
@@ -140,7 +140,7 @@
                 }
               },
               {
-                "weight": 20,
+                "weight": 16,
                 "item": {
                   "id": "minecraft:netherite_scrap",
                   "count": {
@@ -151,7 +151,7 @@
                 }
               },
               {
-                "weight": 11,
+                "weight": 16,
                 "item": {
                   "id": "the_vault:nullifying_focus",
                   "count": {
@@ -221,7 +221,7 @@
                 }
               },
               {
-                "weight": 2,
+                "weight": 4,
                 "item": {
                   "id": "the_vault:trinket",
                   "count": {
@@ -299,7 +299,7 @@
                 }
               },
               {
-                "weight": 28,
+                "weight": 24,
                 "item": {
                   "id": "the_vault:sword",
                   "nbt": {
@@ -313,7 +313,7 @@
                 }
               },
               {
-                "weight": 28,
+                "weight": 24,
                 "item": {
                   "id": "the_vault:axe",
                   "nbt": {
@@ -327,7 +327,7 @@
                 }
               },
               {
-                "weight": 28,
+                "weight": 24,
                 "item": {
                   "id": "the_vault:shield",
                   "nbt": {
@@ -341,7 +341,7 @@
                 }
               },
               {
-                "weight": 28,
+                "weight": 24,
                 "item": {
                   "id": "the_vault:wand",
                   "nbt": {
@@ -355,7 +355,21 @@
                 }
               },
               {
-                "weight": 28,
+                "weight": 24,
+                "item": {
+                  "id": "the_vault:focus",
+                  "nbt": {
+                    "the_vault:gear_roll_type_pool": "ornate0"
+                  },
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                }
+              },
+              {
+                "weight": 24,
                 "item": {
                   "id": "the_vault:magnet",
                   "nbt": {

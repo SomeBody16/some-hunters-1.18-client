@@ -507,7 +507,7 @@
         }
       },
       "name": "Botany Pots",
-      "cost": 2,
+      "cost": 4,
       "usesKnowledge": true,
       "discoversModels": [
         "the_vault:gear/armor/fairy/helmet",
@@ -952,13 +952,6 @@
             "USABILITY": true,
             "CRAFTABILITY": true
             }
-        },
-        "the_vault:alchemy_table": {
-          "restricts": {
-            "HITTABILITY": true,
-            "USABILITY": true,
-            "CRAFTABILITY": true
-            }
         }
           
       },
@@ -1237,6 +1230,23 @@
       "entityRestrictions": {},
       "name": "Big Backpacks",
       "cost": 3,
+      "usesKnowledge": true
+    },
+    
+    {
+      "itemRestrictions": {
+        "the_vault:vault_harvester": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        }
+      },
+      "blockRestrictions": {},
+      "entityRestrictions": {},
+      "name": "Soul Harvester",
+      "cost": 2,
       "usesKnowledge": true
     },
     {

@@ -196,28 +196,12 @@
       "color": 6119096,
       "weight": 10
     },
-    "ManaAdditive": {
-      "tags": [
-        "focusManaAdd"
-      ],
-      "display": "Max Mana",
-      "color": 65535,
-      "weight": 10
-    },
     "ManaPercentile": {
       "tags": [
         "focusManaPercentile"
       ],
       "display": "Max Mana Percentile",
       "color": 65535,
-      "weight": 10
-    },
-    "Soulbound": {
-      "tags": [
-        "focusSoulbound"
-      ],
-      "display": "Soulbound",
-      "color": 9856253,
       "weight": 10
     },
     "MiningSpeed": {
@@ -346,14 +330,6 @@
       ],
       "display": "Item Rarity",
       "color": 15054873,
-      "weight": 10
-    },
-    "Immunity": {
-      "tags": [
-        "focusImmunity"
-      ],
-      "display": "Immunity",
-      "color": 15589836,
       "weight": 10
     },
     "AOE": {

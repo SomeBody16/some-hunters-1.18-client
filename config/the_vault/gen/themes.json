@@ -274,6 +274,36 @@
       "1.0": "config/the_vault/gen/1.0/themes/classic_vault_blood_moon.json"
     },
     {
+      "id": "the_vault:classic_vault_season_spring",
+      "name": "Spring",
+      "color": 15718399,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_season_spring.json"
+    },
+    {
+      "id": "the_vault:classic_vault_season_summer",
+      "name": "Summer",
+      "color": 16773287,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_season_summer.json"
+    },
+    {
+      "id": "the_vault:classic_vault_season_fall",
+      "name": "Fall",
+      "color": 13605677,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_season_fall.json"
+    },
+    {
+      "id": "the_vault:classic_vault_season_winter",
+      "name": "Winter",
+      "color": 16777215,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_season_winter.json"
+    },
+    {
+      "id": "the_vault:classic_vault_flesh",
+      "name": "Flesh Pit",
+      "color": 14446491,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_flesh.json"
+    },
+    {
       "id": "the_vault:raw_vault_cave_granite",
       "name": "Raw Vault Granite Caves",
       "color": 12744790,
@@ -344,6 +374,48 @@
       "name": "Raw Vault Andersite Caves LVL 30",
       "color": 12434877,
       "1.0": "config/the_vault/gen/1.0/themes/raw_vault_cave_andersite_lvl30.json"
+    },
+    {
+      "id": "the_vault:classic_vault_chaos",
+      "name": "Chaos",
+      "color": 12358351,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_chaos.json"
+    },
+    {
+      "id": "the_vault:classic_vault_wendarr",
+      "name": "Wendarr",
+      "color": 15638528,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_wendarr.json"
+    },
+    {
+      "id": "the_vault:classic_vault_tenos",
+      "name": "Tenos",
+      "color": 687572,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_tenos.json"
+    },
+    {
+      "id": "the_vault:classic_vault_velara",
+      "name": "Velara",
+      "color": 1296178,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_velara.json"
+    },
+    {
+      "id": "the_vault:classic_vault_idona",
+      "name": "Idona",
+      "color": 13041664,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_idona.json"
+    },
+    {
+      "id": "the_vault:classic_vault_intermediary",
+      "name": "Intermediary",
+      "color": 16777215,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_intermediary.json"
+    },
+    {
+      "id": "the_vault:classic_vault_herald",
+      "name": "Herald",
+      "color": 12017225,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_herald.json"
     }
   ]
 }

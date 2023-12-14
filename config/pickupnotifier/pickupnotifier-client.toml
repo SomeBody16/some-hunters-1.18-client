@@ -38,7 +38,7 @@
 	"Ignore Rarity" = false
 	#Screen corner for entry list to be drawn in.
 	#Allowed Values: TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
-	"Screen Corner" = "TOP_RIGHT"
+	"Screen Corner" = "BOTTOM_RIGHT"
 	#Offset on x-axis from screen border.
 	#Range: > 0
 	X-Offset = 8

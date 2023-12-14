@@ -6,6 +6,16 @@
       "levels": [
         {
           "level": 0,
+          "probability": 0.0,
+          "success": {
+            "the_vault:dungeon_door": 1
+          },
+          "failure": {
+            "minecraft:stone": 1
+          }
+        },
+        {
+          "level": 20,
           "probability": 0.15,
           "success": {
             "the_vault:dungeon_door": 1

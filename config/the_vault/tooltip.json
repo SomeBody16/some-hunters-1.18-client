@@ -1,324 +1,156 @@
 {
   "tooltips": [
     {
+      "item": "the_vault:paradoxical_gem",
+      "value": "Combine with a sealed Divine Paradox crystal in run mode to wipe and reset all your Divine Paradox progress"
+    },
+    {
+      "item": "the_vault:plunderer_pearl",
+      "value": "Combine with an empty Vault Crystal to add the Plunderer modifier, making the vault not yield any experience, but increases the loot amount by 10% and vault ores by 25%"
+    },
+    {
+      "item": "minecraft:shield",
+      "value": "Shields automatically block attacks based on their block chance and can not be used to manually block\nThis Vanilla shield has a 5% block chance"
+    },
+    {
       "item": "minecraft:totem_of_undying",
       "value": "Does not function inside a vault!"
     },
     {
-      "item": "the_vault:silver_scrap",
-      "value": "Common Vault Resource\nPrimarily used in crafting Jewels"
-    },
-    {
-      "item": "the_vault:phoenix_dust",
-      "value": "Epic Vault Resource\nUsed to craft Phoenix Feathers"
-    },
-    {
-      "item": "the_vault:phoenix_feather",
-      "value": "Uber Catalyst - Makes crystal Unmodifiable when applied!\nApplies a Phoenix modifier on a crystal,\nallowing the player to explosively revive\nwhen reduced to 0 HP"
-    },
-    {
-      "item": "the_vault:dreamstone",
-      "value": "Rare Vault Resource\nPrimarily used in crafting Catalysts"
-    },
-    {
-      "item": "the_vault:eye_of_avarice",
-      "value": "Uber Catalyst - Makes crystal Unmodifiable when applied!\nApplies the Looter's Dream modifier on a\ncrystal, removing all traps from the Vault"
-    },
-    {
-      "item": "the_vault:mystical_powder",
-      "value": "Reagent used to infuse Catalysts"
-    },
-    {
-      "item": "the_vault:mote_clarity",
-      "value": "Reveals all curses on a Vault Crystal."
-    },
-    {
-      "item": "the_vault:mote_sanctity",
-      "value": "Removes all curses from a Vault Crystal."
-    },
-    {
-      "item": "the_vault:mote_purity",
-      "value": "Removes a random curse from a Vault Crystal."
+      "item": "the_vault:vault_compass",
+      "value": "Points to the home portal in a Vault"
     },
     {
       "item": "the_vault:plain_burger",
-      "value": "Consume to gain Vault Experience\nValue: 200 XP"
+      "value": "Consume to gain Vault Experience"
     },
     {
       "item": "the_vault:cheese_burger",
-      "value": "Consume to gain Vault Experience\nValue: 400 XP"
+      "value": "Consume to gain Vault Experience"
     },
     {
       "item": "the_vault:double_cheese_burger",
-      "value": "Consume to gain Vault Experience\nValue: 500 XP"
+      "value": "Consume to gain Vault Experience"
     },
     {
       "item": "the_vault:deluxe_cheese_burger",
-      "value": "Consume to gain Vault Experience\nValue: 800 XP"
+      "value": "Consume to gain Vault Experience"
     },
     {
       "item": "the_vault:crispy_deluxe_cheese_burger",
-      "value": "Consume to gain Vault Experience\nValue: 1600 XP"
+      "value": "Consume to gain Vault Experience"
     },
     {
       "item": "the_vault:salty_deluxe_cheese_burger",
-      "value": "Consume to gain Vault Experience\nValue: 2400 XP"
+      "value": "Consume to gain Vault Experience"
     },
     {
       "item": "the_vault:cheese_burger_feast",
-      "value": "Consume to gain Vault Experience\nValue: 5000 XP"
+      "value": "Consume to gain Vault Experience"
     },
     {
       "item": "the_vault:spicy_hearty_burger",
-      "value": "Consume to gain Vault Experience\nValue: 20000 XP"
+      "value": "Consume to gain Vault Experience"
     },
     {
-      "item": "the_vault:burger_bun",
-      "value": "Uncommon Vault Resource\nBurger Ingredient\nTier: 0"
+      "item": "the_vault:vault_burger",
+      "value": "Eat to gain 0-3% of required\nexperience to next level"
     },
     {
-      "item": "the_vault:burger_patty",
-      "value": "Uncommon Vault Resource\nBurger Ingredient\nTier: 1"
+      "item": "the_vault:oozing_pizza",
+      "value": "Eat to gain 0-1% of required\nexperience to next level"
     },
     {
-      "item": "the_vault:burger_cheese",
-      "value": "Rare Vault Resource\nBurger Ingredient\nTier: 2"
+      "item": "the_vault:vault_cookie",
+      "value": "Eat to gain vault experience"
     },
     {
-      "item": "the_vault:burger_tomato",
-      "value": "Rare Vault Resource\nBurger Ingredient\nTier: 3"
-    },
-    {
-      "item": "the_vault:burger_lettuce",
-      "value": "Rare Vault Resource\nBurger Ingredient\nTier: 4"
-    },
-    {
-      "item": "the_vault:burger_pickles",
-      "value": "Rare Vault Resource\nBurger Ingredient\nTier: 5"
-    },
-    {
-      "item": "the_vault:burger_sauce",
-      "value": "Omega Vault Resource\nBurger Ingredient\nTier: 6"
-    },
-    {
-      "item": "the_vault:burger_chili",
-      "value": "Burger Ingredient\nTier: 7 [NYI]"
-    },
-    {
-      "item": "the_vault:gem_benitoite",
-      "value": "Common Vault Gem\nUsed to create items that alter the Player"
-    },
-    {
-      "item": "the_vault:gem_larimar",
-      "value": "Common Vault Gem\nFundamental crafting component for modded items"
-    },
-    {
-      "item": "the_vault:gem_painite",
-      "value": "Uncommon Vault Gem\nUsed to create items for forging Vault Gear"
-    },
-    {
-      "item": "the_vault:gem_wutodie",
-      "value": "Uncommon Vault Gem\nUsed in crafting Vault Tools and Jewels"
+      "item": "the_vault:skill_orb",
+      "value": "Consume to gain a skill point\nIncreases your Power Level by 1"
     },
     {
       "item": "the_vault:gem_alexandrite",
-      "value": "Rare Vault Gem\nUsed to craft Trinkets"
+      "value": "An uncommon vault gem"
+    },
+    {
+      "item": "the_vault:gem_benitoite",
+      "value": "A common vault gem"
+    },
+    {
+      "item": "the_vault:gem_larimar",
+      "value": "A common vault gem"
     },
     {
       "item": "the_vault:gem_black_opal",
-      "value": "Epic Vault Gem\nUpgrades other materials into stronger forms"
+      "value": "A very rare vault gem"
     },
     {
-      "item": "the_vault:gem_echo",
-      "value": "Omega Vault Gem\nUsed for powerful items, upgrades, and crafting materials"
+      "item": "the_vault:gem_painite",
+      "value": "A rare vault gem"
+    },
+    {
+      "item": "the_vault:gem_wutodie",
+      "value": "An uncommon vault gem"
     },
     {
       "item": "the_vault:gem_iskallium",
-      "value": "Player Vault Gem\nInspired by Iskall"
+      "value": "A unique vault gem"
     },
     {
       "item": "the_vault:gem_gorginite",
-      "value": "Player Vault Gem\nInspired by Stressmonster"
+      "value": "A unique vault gem"
     },
     {
       "item": "the_vault:gem_sparkletine",
-      "value": "Player Vault Gem\nInspired by CaptainSparklez"
+      "value": "A unique vault gem"
     },
     {
       "item": "the_vault:gem_ashium",
-      "value": "Player Vault Gem\nInspired by AntonioAsh"
+      "value": "A unique vault gem"
     },
     {
       "item": "the_vault:gem_bomignite",
-      "value": "Player Vault Gem\nInspired by Hbomb"
+      "value": "A unique vault gem"
+    },
+    {
+      "item": "the_vault:gem_funsoide",
+      "value": "A unique vault gem"
     },
     {
       "item": "the_vault:gem_tubium",
-      "value": "Player Vault Gem\nInspired by Tubbo"
+      "value": "A unique vault gem"
     },
     {
       "item": "the_vault:gem_upaline",
-      "value": "Player Vault Gem\nInspired by 5uppps"
+      "value": "A unique vault gem"
     },
     {
       "item": "the_vault:gem_puffium",
-      "value": "[LEGACY]\nPlayer Vault Gem\nInspired by CaptainPuffy"
+      "value": "A unique vault gem"
     },
     {
       "item": "the_vault:gem_xenium",
-      "value": "Player Vault Gem\nInspired by X33N"
+      "value": "A unique vault gem"
     },
     {
       "item": "the_vault:gem_petzanite",
-      "value": "Player Vault Gem\nInspired by PeteZahHutt"
+      "value": "A unique vault gem"
     },
     {
-      "item": "the_vault:perfect_larimar",
-      "value": "Compressed Common Vault Gem"
-    },
-    {
-      "item": "the_vault:perfect_benitoite",
-      "value": "Compressed Common Vault Gem"
-    },
-    {
-      "item": "the_vault:perfect_painite",
-      "value": "Compressed Uncommon Vault Gem"
-    },
-    {
-      "item": "the_vault:perfect_wutodie",
-      "value": "Compressed Uncommon Vault Gem"
-    },
-    {
-      "item": "the_vault:perfect_alexandrite",
-      "value": "Compressed Rare Vault Gem"
-    },
-    {
-      "item": "the_vault:perfect_black_opal",
-      "value": "Compressed Epic Vault Gem"
-    },
-    {
-      "item": "the_vault:perfect_echo_gem",
-      "value": "Compressed Omega Vault Gem"
-    },
-    {
-      "item": "the_vault:cluster_iskallium",
-      "value": "Compressed Player Gem\nUsed to create Treasure Keys"
-    },
-    {
-      "item": "the_vault:cluster_gorginite",
-      "value": "Compressed Player Gem\nUsed to create Treasure Keys"
-    },
-    {
-      "item": "the_vault:cluster_sparkletine",
-      "value": "Compressed Player Gem\nUsed to create Treasure Keys"
-    },
-    {
-      "item": "the_vault:cluster_ashium",
-      "value": "Compressed Player Gem\nUsed to create Treasure Keys"
-    },
-    {
-      "item": "the_vault:cluster_bomignite",
-      "value": "Compressed Player Gem\nUsed to create Treasure Keys"
-    },
-    {
-      "item": "the_vault:cluster_tubium",
-      "value": "Compressed Player Gem\nUsed to create Treasure Keys"
-    },
-    {
-      "item": "the_vault:cluster_upaline",
-      "value": "Compressed Player Gem\nUsed to create Treasure Keys"
-    },
-    {
-      "item": "the_vault:cluster_xenium",
-      "value": "Compressed Player Gem\nUsed to create Treasure Keys"
-    },
-    {
-      "item": "the_vault:cluster_petzanite",
-      "value": "Compressed Player Gem\nUsed to create Treasure Keys"
-    },
-    {
-      "item": "the_vault:extraordinary_larimar",
-      "value": "Double Compressed Common Vault Gem"
-    },
-    {
-      "item": "the_vault:extraordinary_benitoite",
-      "value": "Double Compressed Common Vault Gem"
-    },
-    {
-      "item": "the_vault:extraordinary_painite",
-      "value": "Double Compressed Uncommon Vault Gem"
-    },
-    {
-      "item": "the_vault:extraordinary_wutodie",
-      "value": "Double Compressed Uncommon Vault Gem"
-    },
-    {
-      "item": "the_vault:extraordinary_alexandrite",
-      "value": "Double Compressed Rare Vault Gem"
-    },
-    {
-      "item": "the_vault:extraordinary_black_opal",
-      "value": "Double Compressed Epic Vault Gem"
-    },
-    {
-      "item": "the_vault:extraordinary_echo_gem",
-      "value": "Double Compressed Omega Vault Gem"
-    },
-    {
-      "item": "the_vault:chunk_iskallium",
-      "value": "Double Compressed Player Gem\nUsed to create Omega POGs"
-    },
-    {
-      "item": "the_vault:chunk_gorginite",
-      "value": "Double Compressed Player Gem\nUsed to create Omega POGs"
-    },
-    {
-      "item": "the_vault:chunk_sparkletine",
-      "value": "Double Compressed Player Gem\nUsed to create Omega POGs"
-    },
-    {
-      "item": "the_vault:chunk_ashium",
-      "value": "Double Compressed Player Gem\nUsed to create Omega POGs"
-    },
-    {
-      "item": "the_vault:chunk_bomignite",
-      "value": "Double Compressed Player Gem\nUsed to create Omega POGs"
-    },
-    {
-      "item": "the_vault:chunk_tubium",
-      "value": "Double Compressed Player Gem\nUsed to create Omega POGs"
-    },
-    {
-      "item": "the_vault:chunk_upaline",
-      "value": "Double Compressed Player Gem\nUsed to create Omega POGs"
-    },
-    {
-      "item": "the_vault:chunk_petzanite",
-      "value": "Double Compressed Player Gem\nUsed to create Omega POGs"
-    },
-    {
-      "item": "the_vault:chunk_xenium",
-      "value": "Double Compressed Player Gem\nUsed to create Omega POGs"
+      "item": "the_vault:gem_echo",
+      "value": "A legendary vault gem"
     },
     {
       "item": "the_vault:vault_rock",
-      "value": "Use in a Vault Altar to start crafting a Vault Crystal"
+      "value": "Use in a Vault Altar to turn in to a Vault Crystal"
     },
     {
       "item": "the_vault:gem_pog",
-      "value": "Pile Of Gems\nA complete collection of Player Gems\nRequired for many mid-tier crafts"
+      "value": "A combination of all legendary vault gems\nRequired in higher tier crafting recipes"
     },
     {
       "item": "the_vault:echo_pog",
-      "value": "An even larger Pile Of Gems\nUsed in many high-tier crafts"
-    },
-    {
-      "item": "the_vault:omega_pog",
-      "value": "Tier 7 Vault Tool material\nOmega Pile Of Gems\nUsed in top-tier crafting recipes"
-    },
-    {
-      "item": "the_vault:echoing_ingot",
-      "value": "Tier 6 Vault Tool material"
+      "value": "An echo imbued pog\nRequired in higher tier crafting recipes"
     },
     {
       "item": "the_vault:key_iskallium",
@@ -341,6 +173,10 @@
       "value": "Opens a treasure room with a Bomignite door inside the vaults"
     },
     {
+      "item": "the_vault:key_funsoide",
+      "value": "Opens a treasure room with a Funsoide door inside the vaults"
+    },
+    {
       "item": "the_vault:key_tubium",
       "value": "Opens a treasure room with a Tubium door inside the vaults"
     },
@@ -350,7 +186,7 @@
     },
     {
       "item": "the_vault:key_puffium",
-      "value": "[LEGACY]\nOpens a treasure room with a Puffium door inside the vaults"
+      "value": "Opens a treasure room with a Puffium door inside the vaults"
     },
     {
       "item": "the_vault:key_xenium",
@@ -362,27 +198,203 @@
     },
     {
       "item": "the_vault:relic_booster_pack",
-      "value": "Rare Vault Resource\nConsume for a chance to gain a Relic Fragment\nChance: 10%"
+      "value": "Consume for a chance to gain a Relic piece"
     },
     {
-      "item": "the_vault:legendary_treasure_omega",
-      "value": "[LEGACY]\nContains Omega Vault Gear"
+      "item": "the_vault:relic_dragon_head",
+      "value": "Craft together with the four other pieces\n from the Dragon Relic set to complete the Dragon Relic\nA relic increases your time in the vault\n permanently by 30 seconds, but only once\nExcess Relic Statues can be smelted down to create Bitter Lemons"
     },
     {
-      "item": "the_vault:legendary_treasure_epic",
-      "value": "[LEGACY]\nContains high tier Vault Gear"
-    }, 
-    {
-      "item": "the_vault:legendary_treasure_rare",
-      "value": "[LEGACY]\nContains mid tier Vault Gear"
+      "item": "the_vault:relic_dragon_tail",
+      "value": "Craft together with the four other pieces\n from the Dragon Relic set to complete the Dragon Relic\nA relic increases your time in the vault\n permanently by 30 seconds, but only once\nExcess Relic Statues can be smelted down to create Bitter Lemons"
     },
     {
-      "item": "the_vault:legendary_treasure_normal",
-      "value": "[LEGACY]\nContains low tier Vault Gear"
+      "item": "the_vault:relic_dragon_foot",
+      "value": "Craft together with the four other pieces\n from the Dragon Relic set to complete the Dragon Relic\nA relic increases your time in the vault\n permanently by 30 seconds, but only once\nExcess Relic Statues can be smelted down to create Bitter Lemons"
+    },
+    {
+      "item": "the_vault:relic_dragon_chest",
+      "value": "Craft together with the four other pieces\n from the Dragon Relic set to complete the Dragon Relic\nA relic increases your time in the vault\n permanently by 30 seconds, but only once\nExcess Relic Statues can be smelted down to create Bitter Lemons"
+    },
+    {
+      "item": "the_vault:relic_dragon_breath",
+      "value": "Craft together with the four other pieces\n from the Dragon Relic set to complete the Dragon Relic\nA relic increases your time in the vault\n permanently by 30 seconds, but only once\nExcess Relic Statues can be smelted down to create Bitter Lemons"
+    },
+    {
+      "item": "the_vault:relic_miners_delight",
+      "value": "Craft together with the four other pieces\n from the Miner set to complete the Miner Relic\nA relic increases your time in the vault\n permanently by 30 seconds, but only once\nExcess Relic Statues can be smelted down to create Bitter Lemons"
+    },
+    {
+      "item": "the_vault:relic_miners_light",
+      "value": "Craft together with the four other pieces\n from the Miner set to complete the Miner Relic\nA relic increases your time in the vault\n permanently by 30 seconds, but only once\nExcess Relic Statues can be smelted down to create Bitter Lemons"
+    },
+    {
+      "item": "the_vault:relic_pickaxe_handle",
+      "value": "Craft together with the four other pieces\n from the Miner set to complete the Miner Relic\nA relic increases your time in the vault\n permanently by 30 seconds, but only once\nExcess Relic Statues can be smelted down to create Bitter Lemons"
+    },
+    {
+      "item": "the_vault:relic_pickaxe_head",
+      "value": "Craft together with the four other pieces\n from the Miner set to complete the Miner Relic\nA relic increases your time in the vault\n permanently by 30 seconds, but only once\nExcess Relic Statues can be smelted down to create Bitter Lemons"
+    },
+    {
+      "item": "the_vault:relic_pickaxe_tool",
+      "value": "Craft together with the four other pieces\n from the Miner set to complete the Miner Relic\nA relic increases your time in the vault\n permanently by 30 seconds, but only once\nExcess Relic Statues can be smelted down to create Bitter Lemons"
+    },
+    {
+      "item": "the_vault:relic_sword_blade",
+      "value": "Craft together with the four other pieces\n from the Warrior set to complete the Warrior Relic\nA relic increases your time in the vault\n permanently by 30 seconds, but only once\nExcess Relic Statues can be smelted down to create Bitter Lemons"
+    },
+    {
+      "item": "the_vault:relic_sword_handle",
+      "value": "Craft together with the four other pieces\n from the Warrior set to complete the Warrior Relic\nA relic increases your time in the vault\n permanently by 30 seconds, but only once\nExcess Relic Statues can be smelted down to create Bitter Lemons"
+    },
+    {
+      "item": "the_vault:relic_sword_stick",
+      "value": "Craft together with the four other pieces\n from the Warrior set to complete the Warrior Relic\nA relic increases your time in the vault\n permanently by 30 seconds, but only once\nExcess Relic Statues can be smelted down to create Bitter Lemons"
+    },
+    {
+      "item": "the_vault:relic_warriors_armour",
+      "value": "Craft together with the four other pieces\n from the Warrior set to complete the Warrior Relic\nA relic increases your time in the vault\n permanently by 30 seconds, but only once\nExcess Relic Statues can be smelted down to create Bitter Lemons"
+    },
+    {
+      "item": "the_vault:relic_warriors_charm",
+      "value": "Craft together with the four other pieces\n from the Warrior set to complete the Warrior Relic\nA relic increases your time in the vault\n permanently by 30 seconds, but only once\nExcess Relic Statues can be smelted down to create Bitter Lemons"
+    },
+    {
+      "item": "the_vault:relic_diamond_essence",
+      "value": "Craft together with the four other pieces\n from the Richity set to complete the Richity Relic\nA relic increases your time in the vault\n permanently by 30 seconds, but only once\nExcess Relic Statues can be smelted down to create Bitter Lemons"
+    },
+    {
+      "item": "the_vault:relic_gold_essence",
+      "value": "Craft together with the four other pieces\n from the Richity set to complete the Richity Relic\nA relic increases your time in the vault\n permanently by 30 seconds, but only once\nExcess Relic Statues can be smelted down to create Bitter Lemons"
+    },
+    {
+      "item": "the_vault:relic_mystic_gem_essence",
+      "value": "Craft together with the four other pieces\n from the Richity set to complete the Richity Relic\nA relic increases your time in the vault\n permanently by 30 seconds, but only once\nExcess Relic Statues can be smelted down to create Bitter Lemons"
+    },
+    {
+      "item": "the_vault:relic_netherite_essence",
+      "value": "Craft together with the four other pieces\n from the Richity set to complete the Richity Relic\nA relic increases your time in the vault\n permanently by 30 seconds, but only once\nExcess Relic Statues can be smelted down to create Bitter Lemons"
+    },
+    {
+      "item": "the_vault:relic_platinum_essence",
+      "value": "Craft together with the four other pieces\n from the Richity set to complete the Richity Relic\nA relic increases your time in the vault\n permanently by 30 seconds, but only once\nExcess Relic Statues can be smelted down to create Bitter Lemons"
+    },
+    {
+      "item": "the_vault:relic_cupcake_blue",
+      "value": "Craft together with the four other pieces\n from the Cupcake set to complete the Cupcake Relic\nA relic increases your time in the vault\n permanently by 30 seconds, but only once\nExcess Relic Statues can be smelted down to create Bitter Lemons"
+    },
+    {
+      "item": "the_vault:relic_cupcake_lime",
+      "value": "Craft together with the four other pieces\n from the Cupcake set to complete the Cupcake Relic\nA relic increases your time in the vault\n permanently by 30 seconds, but only once\nExcess Relic Statues can be smelted down to create Bitter Lemons"
+    },
+    {
+      "item": "the_vault:relic_cupcake_pink",
+      "value": "Craft together with the four other pieces\n from the Cupcake set to complete the Cupcake Relic\nA relic increases your time in the vault\n permanently by 30 seconds, but only once\nExcess Relic Statues can be smelted down to create Bitter Lemons"
+    },
+    {
+      "item": "the_vault:relic_cupcake_purple",
+      "value": "Craft together with the four other pieces\n from the Cupcake set to complete the Cupcake Relic\nA relic increases your time in the vault\n permanently by 30 seconds, but only once\nExcess Relic Statues can be smelted down to create Bitter Lemons"
+    },
+    {
+      "item": "the_vault:relic_cupcake_red",
+      "value": "Craft together with the four other pieces\n from the Cupcake set to complete the Cupcake Relic\nA relic increases your time in the vault\n permanently by 30 seconds, but only once\nExcess Relic Statues can be smelted down to create Bitter Lemons"
+    },
+    {
+      "item": "the_vault:relic_air",
+      "value": "Craft together with the four other pieces\n from the Element set to complete the Element Relic\nA relic increases your time in the vault\n permanently by 30 seconds, but only once\nExcess Relic Statues can be smelted down to create Bitter Lemons"
+    },
+    {
+      "item": "the_vault:relic_spirit",
+      "value": "Craft together with the four other pieces\n from the Element set to complete the Element Relic\nA relic increases your time in the vault\n permanently by 30 seconds, but only once\nExcess Relic Statues can be smelted down to create Bitter Lemons"
+    },
+    {
+      "item": "the_vault:relic_fire",
+      "value": "Craft together with the four other pieces\n from the Element set to complete the Element Relic\nA relic increases your time in the vault\n permanently by 30 seconds, but only once\nExcess Relic Statues can be smelted down to create Bitter Lemons"
+    },
+    {
+      "item": "the_vault:relic_earth",
+      "value": "Craft together with the four other pieces\n from the Element set to complete the Element Relic\nA relic increases your time in the vault\n permanently by 30 seconds, but only once\nExcess Relic Statues can be smelted down to create Bitter Lemons"
+    },
+    {
+      "item": "the_vault:relic_water",
+      "value": "Craft together with the four other pieces\n from the Element set to complete the Element Relic\nA relic increases your time in the vault\n permanently by 30 seconds, but only once\nExcess Relic Statues can be smelted down to create Bitter Lemons"
+    },
+    {
+      "item": "the_vault:relic_twolf999_head",
+      "value": "Craft together with the four other pieces\n from the Twolf999 set to complete the Twolf999 Relic\nA relic increases your time in the vault\n permanently by 30 seconds, but only once\nExcess Relic Statues can be smelted down to create Bitter Lemons"
+    },
+    {
+      "item": "the_vault:relic_twolf999_combat_vest",
+      "value": "Craft together with the four other pieces\n from the Twolf999 set to complete the Twolf999 Relic\nA relic increases your time in the vault\n permanently by 30 seconds, but only once\nExcess Relic Statues can be smelted down to create Bitter Lemons"
+    },
+    {
+      "item": "the_vault:relic_twolf999_combat_leggings",
+      "value": "Craft together with the four other pieces\n from the Twolf999 set to complete the Twolf999 Relic\nA relic increases your time in the vault\n permanently by 30 seconds, but only once\nExcess Relic Statues can be smelted down to create Bitter Lemons"
+    },
+    {
+      "item": "the_vault:relic_twolf999_combat_gloves",
+      "value": "Craft together with the four other pieces\n from the Twolf999 set to complete the Twolf999 Relic\nA relic increases your time in the vault\n permanently by 30 seconds, but only once\nExcess Relic Statues can be smelted down to create Bitter Lemons"
+    },
+    {
+      "item": "the_vault:relic_twolf999_combat_boots",
+      "value": "Craft together with the four other pieces\n from the Twolf999 set to complete the Twolf999 Relic\nA relic increases your time in the vault\n permanently by 30 seconds, but only once\nExcess Relic Statues can be smelted down to create Bitter Lemons"
+    },
+    {
+      "item": "the_vault:relic_armor_of_forbearance",
+      "value": "Craft together with the four other pieces\n from the ShieldmanH set to complete the ShieldmanH Relic\nA relic increases your time in the vault\n permanently by 30 seconds, but only once\nExcess Relic Statues can be smelted down to create Bitter Lemons"
+    },
+    {
+      "item": "the_vault:relic_heart_of_the_void",
+      "value": "Craft together with the four other pieces\n from the ShieldmanH set to complete the ShieldmanH Relic\nA relic increases your time in the vault\n permanently by 30 seconds, but only once\nExcess Relic Statues can be smelted down to create Bitter Lemons"
+    },
+    {
+      "item": "the_vault:relic_nemesis_thwarter",
+      "value": "Craft together with the four other pieces\n from the ShieldmanH set to complete the ShieldmanH Relic\nA relic increases your time in the vault\n permanently by 30 seconds, but only once\nExcess Relic Statues can be smelted down to create Bitter Lemons"
+    },
+    {
+      "item": "the_vault:relic_reverence_edge",
+      "value": "Craft together with the four other pieces\n from the ShieldmanH set to complete the ShieldmanH Relic\nA relic increases your time in the vault\n permanently by 30 seconds, but only once\nExcess Relic Statues can be smelted down to create Bitter Lemons"
+    },
+    {
+      "item": "the_vault:relic_wings_of_equity",
+      "value": "Craft together with the four other pieces\n from the ShieldmanH set to complete the ShieldmanH Relic\nA relic increases your time in the vault\n permanently by 30 seconds, but only once\nExcess Relic Statues can be smelted down to create Bitter Lemons"
+    },
+    {
+      "item": "the_vault:relic_twitch_emote1",
+      "value": "Craft together with the four other pieces\n from the Twitch set to complete the Twitch Relic\nA relic increases your time in the vault\n permanently by 30 seconds, but only once\nExcess Relic Statues can be smelted down to create Bitter Lemons"
+    },
+    {
+      "item": "the_vault:relic_twitch_emote2",
+      "value": "Craft together with the four other pieces\n from the Twitch set to complete the Twitch Relic\nA relic increases your time in the vault\n permanently by 30 seconds, but only once\nExcess Relic Statues can be smelted down to create Bitter Lemons"
+    },
+    {
+      "item": "the_vault:relic_twitch_emote3",
+      "value": "Craft together with the four other pieces\n from the Twitch set to complete the Twitch Relic\nA relic increases your time in the vault\n permanently by 30 seconds, but only once\nExcess Relic Statues can be smelted down to create Bitter Lemons"
+    },
+    {
+      "item": "the_vault:relic_twitch_emote4",
+      "value": "Craft together with the four other pieces\n from the Twitch set to complete the Twitch Relic\nA relic increases your time in the vault\n permanently by 30 seconds, but only once\nExcess Relic Statues can be smelted down to create Bitter Lemons"
+    },
+    {
+      "item": "the_vault:relic_twitch_emote5",
+      "value": "Craft together with the four other pieces\n from the Twitch set to complete the Twitch Relic\nA relic increases your time in the vault\n permanently by 30 seconds, but only once\nExcess Relic Statues can be smelted down to create Bitter Lemons"
+    },
+    {
+      "item": "the_vault:trader_core",
+      "value": "Insert in to a Vending Machine to trade"
+    },
+    {
+      "item": "the_vault:orb_frame",
+      "value": "Crafting base for Skill Orbs"
+    },
+    {
+      "item": "the_vault:skill_shard",
+      "value": "Crafting ingredient for Skill Orbs"
     },
     {
       "item": "the_vault:key_piece",
-      "value": "Omega Vault Resource\nCrafting Ingredient for Treasure Keys"
+      "value": "Crafting ingredient for Treasure Keys"
     },
     {
       "item": "the_vault:key_mould",
@@ -393,360 +405,448 @@
       "value": "Combine with a gem Cluster in an Anvil to create a Treasure Key"
     },
     {
+      "item": "the_vault:netherite_cluster",
+      "value": "Crafting ingredient"
+    },
+    {
+      "item": "the_vault:cluster_iskallium",
+      "value": "High end crafting ingredient"
+    },
+    {
+      "item": "the_vault:cluster_gorginite",
+      "value": "High end crafting ingredient"
+    },
+    {
+      "item": "the_vault:cluster_sparkletine",
+      "value": "High end crafting ingredient"
+    },
+    {
+      "item": "the_vault:cluster_ashium",
+      "value": "High end crafting ingredient"
+    },
+    {
+      "item": "the_vault:cluster_bomignite",
+      "value": "High end crafting ingredient"
+    },
+    {
+      "item": "the_vault:cluster_funsoide",
+      "value": "High end crafting ingredient"
+    },
+    {
+      "item": "the_vault:cluster_tubium",
+      "value": "High end crafting ingredient"
+    },
+    {
+      "item": "the_vault:cluster_upaline",
+      "value": "High end crafting ingredient"
+    },
+    {
+      "item": "the_vault:cluster_puffium",
+      "value": "High end crafting ingredient"
+    },
+    {
+      "item": "the_vault:cluster_xenium",
+      "value": "High end crafting ingredient"
+    },
+    {
+      "item": "the_vault:cluster_petzanite",
+      "value": "High end crafting ingredient"
+    },
+    {
+      "item": "the_vault:vault_stew_mystery",
+      "value": "Contains a mystery stew of unknown rarity\nRight-click to identify"
+    },
+    {
+      "item": "the_vault:vault_stew_normal",
+      "value": "Consume to gain 20% experience to next level"
+    },
+    {
+      "item": "the_vault:vault_stew_rare",
+      "value": "Consume to gain 40% experience to next level"
+    },
+    {
+      "item": "the_vault:vault_stew_epic",
+      "value": "Consume to gain 60% experience to next level"
+    },
+    {
+      "item": "the_vault:vault_stew_omega",
+      "value": "Consume to gain 99% experience to next level"
+    },
+    {
       "item": "the_vault:poisonous_mushroom",
-      "value": "Rare Vault Resource\nUsed to craft and modify Vault Potions"
+      "value": "Rare crafting ingredient"
+    },
+    {
+      "item": "the_vault:vault_gold",
+      "value": "The currency of Vault Hunters"
     },
     {
       "item": "the_vault:vault_diamond",
-      "value": "Uncommon Vault Resource\nA versatile crafting ingredient"
+      "value": "A rare crafting ingredient"
     },
     {
-      "item": "the_vault:unidentified_relic_fragment",
-      "value": "Right-click to identify\nContains a random Relic Fragment"
+      "item": "the_vault:skill_essence",
+      "value": "Crafting ingredient"
+    },
+    {
+      "item": "the_vault:unidentified_relic",
+      "value": "Contains a random relic\nRight-click to identify"
     },
     {
       "item": "the_vault:hunter_eye",
-      "value": "Epic Vault Resource\nCrafting ingredient"
+      "value": "An epic crafting ingredient"
     },
     {
-      "item": "the_vault:vault_scrap",
-      "value": "A sheet of recycled Vault Gear material\nCan be used to forge new Vault Gear"
+      "item": "the_vault:burger_patty",
+      "value": "Crafting ingredient"
     },
     {
-      "item": "the_vault:trinket_scrap",
-      "value": "A pile of recycled Trinket material\nCan be used to craft new Trinkets"
+      "item": "the_vault:burger_bun",
+      "value": "Crafting ingredient"
+    },
+    {
+      "item": "the_vault:mystic_tomato",
+      "value": "Crafting ingredient"
+    },
+    {
+      "item": "the_vault:mature_cheddar",
+      "value": "Crafting ingredient"
     },
     {
       "item": "the_vault:vault_ingot",
-      "value": "Double Compressed Vault Dust\nUsed to forge Vault Alloy"
+      "value": "Crafting ingredient, primarily used to craft Vault Gear"
+    },
+    {
+      "item": "the_vault:vault_platinum",
+      "value": "The currency of Vault Hunters"
     },
     {
       "item": "the_vault:mystery_box",
-      "value": "Rare Vault Resource\nA box of gems\nRight-click to open"
+      "value": "Contains random goodies\nRight-click to open"
     },
     {
-      "item": "the_vault:drill_arrow_part",
-      "value": "[LEGACY]\nCrafting ingredient"
+      "item": "the_vault:drilling_tip",
+      "value": "Crafting ingredient"
     },
     {
       "item": "the_vault:drill_arrow",
-      "value": "[LEGACY]\nDestroys a large chunk of terrain when fired\nSafe for mining"
-    },
-    {
-      "item": "the_vault:empty_flask",
-      "value": "Epic Vault Resource\nUsed to craft Choice Flasks"
+      "value": "Turns your bow in to a rocket launcher\nBEWARE!"
     },
     {
       "item": "the_vault:mystery_egg",
-      "value": "Epic Vault Resource\nContains a random passive mob egg\nRight-click to open\n\nCan also be used to craft a Mystery Hostile Egg"
+      "value": "Contains a random passive mob egg\nRight-click to open\n\nCan also be used to craft a Mystery Hostile Egg"
     },
     {
       "item": "the_vault:mystery_hostile_egg",
       "value": "Contains a random hostile mob egg\nRight-click to open"
     },
     {
+      "item": "the_vault:pandoras_box",
+      "value": "??????\nRight-click to open"
+    },
+    {
+      "item": "the_vault:chunk_iskallium",
+      "value": "Epic Crafting ingredient"
+    },
+    {
+      "item": "the_vault:chunk_gorginite",
+      "value": "Epic Crafting ingredient"
+    },
+    {
+      "item": "the_vault:chunk_sparkletine",
+      "value": "Epic Crafting ingredient"
+    },
+    {
+      "item": "the_vault:chunk_ashium",
+      "value": "Epic Crafting ingredient"
+    },
+    {
+      "item": "the_vault:chunk_bomignite",
+      "value": "Epic Crafting ingredient"
+    },
+    {
+      "item": "the_vault:chunk_funsoide",
+      "value": "Epic Crafting ingredient"
+    },
+    {
+      "item": "the_vault:chunk_tubium",
+      "value": "Epic Crafting ingredient"
+    },
+    {
+      "item": "the_vault:chunk_upaline",
+      "value": "Epic Crafting ingredient"
+    },
+    {
+      "item": "the_vault:chunk_puffium",
+      "value": "Epic Crafting ingredient"
+    },
+    {
+      "item": "the_vault:chunk_petzanite",
+      "value": "Epic Crafting ingredient"
+    },
+    {
+      "item": "the_vault:chunk_xenium",
+      "value": "Epic Crafting ingredient"
+    },
+    {
+      "item": "the_vault:omega_pog",
+      "value": "Used as a crafting ingredient for end game creations"
+    },
+    {
       "item": "the_vault:eternal_soul",
-      "value": "Rare Vault Resource\nThe soul of a fallen Vault Hunter\nUsed in a Cryo Chamber to create Eternals"
+      "value": "The soul of a fallen Vault Hunter\nUsed in a Cryo Chamber to create Eternals"
     },
     {
-      "item": "the_vault:knowledge_star_essence",
-      "value": "Common Vault Resource\nUsed to create Knowledge Stars"
+      "item": "the_vault:spark",
+      "value": "Can be used to craft artifacts out of thin air"
     },
     {
-      "item": "the_vault:knowledge_star_shard",
-      "value": "Compressed Knowledge Essence\nUsed to create Knowledge Stars"
+      "item": "the_vault:star_shard",
+      "value": "Crafting ingredient"
     },
     {
-      "item": "the_vault:knowledge_star_core",
-      "value": "Used to create Knowledge Stars"
+      "item": "the_vault:star_core",
+      "value": "Crafting ingredient"
+    },
+    {
+      "item": "the_vault:star_essence",
+      "value": "Crafting ingredient"
     },
     {
       "item": "the_vault:knowledge_star",
-      "value": "Consume to gain 1 Knowledge Point"
+      "value": "Consume to get +1 Knowledge Point"
     },
     {
-      "item": "the_vault:skill_essence",
-      "value": "[LEGACY]\nCommon Vault Resource\nUsed to create Skill Orbs"
-    },
-    {
-      "item": "the_vault:skill_shard",
-      "value": "[LEGACY]\nCompressed Skill Essence\nUsed to create Skill Orbs"
-    },
-    {
-      "item": "the_vault:orb_frame",
-      "value": "[LEGACY]\nUsed to create Skill Orbs"
-    },
-    {
-      "item": "the_vault:skill_orb",
-      "value": "[LEGACY]\nConsume to gain 1 Skill Point"
-    },
-    {
-      "item": "the_vault:regret_nugget",
-      "value": "Common Vault Resource\nUsed to create Orbs of Regret"
-    },
-    {
-      "item": "the_vault:regret_chunk",
-      "value": "Rare Vault Resource\nCompressed Regret Nugget\nUsed to create Orbs of Regret"
-    },
-    {
-      "item": "the_vault:regret_orb",
-      "value": "Consume to gain 1 Regret Point"
-    },
-    {
-      "item": "the_vault:neuralizer",
-      "value": "Consume to reset all Expertises and regain all\nspent Expertise Points"
-    },
-    {
-      "item": "the_vault:gemstone",
-      "value": "Rare Vault Resource\nUsed to craft Jewels"
+      "item": "the_vault:infused_eternal_soul",
+      "value": "High-tier crafting ingredient"
     },
     {
       "item": "the_vault:vault_apple",
-      "value": "Common Vault Resource\nUsed to craft other magic apples"
+      "value": "Crafting ingredient"
+    },
+    {
+      "item": "the_vault:perfect_alexandrite",
+      "value": "Uncommon perfect vault gem"
+    },
+    {
+      "item": "the_vault:perfect_painite",
+      "value": "Rare perfect vault gem"
+    },
+    {
+      "item": "the_vault:perfect_benitoite",
+      "value": "Common perfect vault gem"
+    },
+    {
+      "item": "the_vault:perfect_larimar",
+      "value": "Common perfect vault gem"
+    },
+    {
+      "item": "the_vault:perfect_black_opal",
+      "value": "Very rare perfect vault gem"
+    },
+    {
+      "item": "the_vault:perfect_echo_gem",
+      "value": "Epic perfect vault gem"
+    },
+    {
+      "item": "the_vault:perfect_wutodie",
+      "value": "Uncommon perfect vault gem"
     },
     {
       "item": "the_vault:vault_dust",
-      "value": "Common Vault Resource\nA speck of magic metal that coalesces under pressure"
+      "value": "Crafting ingredient"
     },
     {
       "item": "the_vault:vault_nugget",
-      "value": "Rare Vault Resource\nCompressed Vault Dust"
-    },
-    {
-      "item": "the_vault:magnetite",
-      "value": "Common Vault Resource"
-    },
-    {
-      "item": "the_vault:magnetite_ingot",
-      "value": "Refined Magnetite\nUsed to forge Vault Magnets"
-    },
-    {
-      "item": "the_vault:vault_essence",
-      "value": "Common Vault Resource\nA versatile crafting ingredient"
-    },
-    {
-      "item": "the_vault:vault_plating",
-      "value": "Common Vault Resource\nUsed to reforge Vault Gear"
-    },
-    {
-      "item": "the_vault:vault_alloy",
-      "value": "Tier 4 Vault Tool material\nThe primary metal used in forging Vault Gear\nContains up to 50% recycled material"
-    },
-    {
-      "item": "the_vault:vault_alloy",
-      "value": "Tier 4 Vault Tool material\nThe primary metal used in forging Vault Gear\nContains up to 50% recycled material"
-    },
-    {
-      "item": "the_vault:repair_core",
-      "value": "Combine with Vault Gear in an Anvil to completely restore durability\nConsumes one repair slot"
-    },
-    {
-      "item": "the_vault:pandoras_box",
-      "value": "[LEGACY]\nMay contain random Vault resources\nRight-click to open"
-    },
-    {
-      "item": "the_vault:vault_catalyst_fragment",
-      "value": "Uncommon Vault Resource"
-    },
-    {
-      "item": "the_vault:vault_catalyst_infused",
-      "value": "Combine with a Vault Crystal to apply the modifiers listed below"
-    },
-    {
-      "item": "the_vault:vault_catalyst_chaos",
-      "value": "Uber Catalyst\nCombine with a Vault Crystal to apply the Chaos modifier\nAdds 30-50 random positive and negative modifiers"
+      "value": "Crafting ingredient"
     },
     {
       "item": "the_vault:vault_bronze",
-      "value": "The currency of Vault Hunters\nValue: 1 Bronze"
+      "value": "The currency of Vault Hunters\nCan be used to purchase trades from vendors"
     },
     {
       "item": "the_vault:vault_silver",
-      "value": "The currency of Vault Hunters\nValue: 9 Bronze"
+      "value": "The currency of Vault Hunters"
     },
     {
-      "item": "the_vault:vault_gold",
-      "value": "The currency of Vault Hunters\nValue: 81 Bronze"
+      "item": "the_vault:magnet_core_weak",
+      "value": "Crafting ingredient"
     },
     {
-      "item": "the_vault:vault_platinum",
-      "value": "The currency of Vault Hunters\nValue: 729 Bronze"
+      "item": "the_vault:magnet_core_strong",
+      "value": "Crafting ingredient"
     },
     {
-      "item": "the_vault:inscription_piece",
-      "value": "Rare Vault Resource\nBase material for crafting Inscriptions"
+      "item": "the_vault:magnet_core_omega",
+      "value": "Crafting ingredient"
     },
     {
-      "item": "the_vault:augment",
-      "value": "Combine with a Vault Crystal to force a theme onto the Vault"
+      "item": "the_vault:wutax_crystal",
+      "value": "Combine with any Vault Gear piece in an anvil to add a random modifier"
     },
     {
-      "item": "the_vault:soul_flame",
-      "value": "Uber Catalyst\nApplies the Afterlife modifier and 1-3 Curses\nProtects your gear in the Vault at a cost of vault XP"
+      "item": "the_vault:vault_catalyst_infused",
+      "value": "Combine with a Vault Crystal to apply modifiers"
     },
     {
-      "item": "the_vault:crystal_seal_empty",
-      "value": "Epic Vault Resource\nUsed to craft other Seals"
+      "item": "the_vault:vault_catalyst_chaos",
+      "value": "Combine with a Vault Crystal to apply 30 random modifiers"
     },
     {
-      "item": "the_vault:vault_compass",
-      "value": "Points to the home portal in a Vault\nHold right-click on a block to attune a new\nposition once per Vault"
+      "item": "the_vault:vault_inhibitor",
+      "value": "Combine with a Vault Crystal to remove modifiers"
     },
     {
       "item": "the_vault:soul_shard",
-      "value": "Currency for the Black Market"
+      "value": "Currency for the black market"
     },
     {
       "item": "the_vault:shard_pouch",
-      "value": "Stores an unlimited amount of soul shards\nAutomatically collects soul shards while in inventory"
+      "value": "Stores unlimited amount of soul shards\nSoul shards picked up will go directly into the pouch."
     },
     {
-      "item": "the_vault:banished_soul",
-      "value": "Combine with a Vault Crystal to reduce its level by 1\nLow-level Vaults relative to you will contain less loot,\nbut gear takes less durability damage"
+      "item": "the_vault:vault_paxel",
+      "value": "A Pickaxe, Axe and Shovel - all in one\nCan not be enchanted with mending"
     },
     {
       "item": "the_vault:infinite_water_bucket",
-      "value": "Does not empty when used"
+      "value": "A permanent source of water"
+    },
+    {
+      "item": "the_vault:vault_pearl",
+      "value": "Can be used several times to teleport the player in the thrown direction"
+    },
+    {
+      "item": "the_vault:vault_magnet_weak",
+      "value": "Sucks dropped items towards the player\nActivate by Right-clicking in hotbar"
+    },
+    {
+      "item": "the_vault:vault_magnet_strong",
+      "value": "Sucks dropped items towards the player\nActivate by Right-clicking in hotbar"
+    },
+    {
+      "item": "the_vault:vault_magnet_omega",
+      "value": "Sucks dropped items towards the player\nActivate by Right-clicking in hotbar"
     },
     {
       "item": "the_vault:void_liquid_bucket",
-      "value": "Fount in Void-themed Vaults\nTouching it will blind you and sap Vault Time"
-    },
-    {
-      "item": "the_vault:mod_box",
-      "value": "Rare Vault Resource\nContains a random modded item\nfrom any of your unlocked mods"
+      "value": "Crafting ingredient"
     },
     {
       "item": "the_vault:vaulterite_ingot",
-      "value": "Tier 3 Vault Tool material\nA reforged ingot of recycled Vault Gear material\nUsed to craft Vault Alloy"
+      "value": "Crafting ingredient"
     },
     {
       "item": "the_vault:red_vault_essence",
-      "value": "[LEGACY]\nCrafting Ingredient"
+      "value": "Crafting ingredient"
     },
     {
       "item": "the_vault:unidentified_treasure_key",
       "value": "Contains a random Treasure Key\nRight-click to identify"
     },
     {
+      "item": "the_vault:fabrication_jewel",
+      "value": "Combine with a Vault Gear piece in an anvil to create an Artisan Scroll\nBEWARE this process destroys the vault gear piece"
+    },
+    {
+      "item": "the_vault:armor_crate_hellcow",
+      "value": "Contains 1 of 4 pieces from the gear vanity set: Hellcow\nRight-click to open"
+    },
+    {
+      "item": "the_vault:armor_crate_botania",
+      "value": "Contains 1 of 4 pieces from the gear vanity set: Botania\nRight-click to open"
+    },
+    {
+      "item": "the_vault:armor_crate_create",
+      "value": "Contains 1 of 4 pieces from the gear vanity set: Create\nRight-click to open"
+    },
+    {
+      "item": "the_vault:armor_crate_dank",
+      "value": "Contains 1 of 4 pieces from the gear vanity set: Dank\nRight-click to open"
+    },
+    {
+      "item": "the_vault:armor_crate_flux",
+      "value": "Contains 1 of 4 pieces from the gear vanity set: Flux\nRight-click to open"
+    },
+    {
+      "item": "the_vault:armor_crate_ie",
+      "value": "Contains 1 of 4 pieces from the gear vanity set: IE\nRight-click to open"
+    },
+    {
+      "item": "the_vault:armor_crate_meka",
+      "value": "Contains 1 of 8 pieces from the gear vanity set: Meka\nRight-click to open"
+    },
+    {
+      "item": "the_vault:armor_crate_powah",
+      "value": "Contains 1 of 4 pieces from the gear vanity set: Powah\nRight-click to open"
+    },
+    {
+      "item": "the_vault:armor_crate_thermal",
+      "value": "Contains 1 of 4 pieces from the gear vanity set: Thermal\nRight-click to open"
+    },
+    {
+      "item": "the_vault:armor_crate_trash",
+      "value": "Contains 1 of 4 pieces from the gear vanity set: Trash\nRight-click to open"
+    },
+    {
+      "item": "the_vault:armor_crate_villager",
+      "value": "Contains 1 of 4 pieces from the gear vanity set: Villager\nRight-click to open"
+    },
+    {
+      "item": "the_vault:armor_crate_automatic",
+      "value": "Contains 1 of 4 pieces from the gear vanity set: Automatic\nRight-click to open"
+    },
+    {
+      "item": "the_vault:armor_crate_fairy",
+      "value": "Contains 1 of 4 pieces from the gear vanity set: Fairy\nRight-click to open"
+    },
+    {
+      "item": "the_vault:armor_crate_building",
+      "value": "Contains 1 of 4 pieces from the gear vanity set: Building\nRight-click to open"
+    },
+    {
+      "item": "the_vault:armor_crate_zombie",
+      "value": "Contains 1 of 4 pieces from the gear vanity set: Zombie\nRight-click to open"
+    },
+    {
+      "item": "the_vault:armor_crate_xnet",
+      "value": "Contains 1 of 4 pieces from the gear vanity set: Xnet\nRight-click to open"
+    },
+    {
+      "item": "the_vault:armor_crate_test_dummy",
+      "value": "Contains 1 of 4 pieces from the gear vanity set: Test Dummy\nRight-click to open"
+    },
+    {
+      "item": "the_vault:armor_crate_if",
+      "value": "Contains 1 of 4 pieces from the gear vanity set: Industrial Foregoing\nRight-click to open"
+    },
+    {
+      "item": "the_vault:armor_crate_cake",
+      "value": "Contains 1 of 4 pieces from the gear vanity set: Cake\nRight-click to open"
+    },
+    {
+      "item": "the_vault:vending_machine",
+      "value": "Can host a trader core with the same name several times"
+    },
+    {
+      "item": "the_vault:advanced_vending_machine",
+      "value": "Can host an unlimited amount of trader cores"
+    },
+    {
+      "item": "the_vault:gift_normal_statue",
+      "value": "Generates a random resource until it decays"
+    },
+    {
+      "item": "the_vault:gift_mega_statue",
+      "value": "Generates a large amount of a random resource until it decays"
+    },
+    {
+      "item": "the_vault:vault_player_loot_statue",
+      "value": "Generates a random resource until it decays"
+    },
+    {
       "item": "the_vault:vault_diamond_block",
-      "value": "Compressed Vault Diamond"
-    },
-    {
-      "item": "the_vault:life_scroll",
-      "value": "Use to revive an unalived Eternal"
-    },
-    {
-      "item": "the_vault:aura_scroll",
-      "value": "[LEGACY]\nUsed to reroll an Eternal's aura"
-    },
-    {
-      "item": "the_vault:artifact_fragment",
-      "value": "A burnt-up piece of an Artifact\nCollect four to make a new one"
-    },
-    {
-      "item": "the_vault:vault_charm",
-      "value": "Voids items whitelisted in the Junk Controller while in inventory"
-    },
-    {
-      "item": "the_vault:god_blessing",
-      "value": "Epic Vault Resource\nComplete God Altars to get Blessings\nUsed to forge Vault Idols"
-    },
-    {
-      "item": "the_vault:chromatic_iron_ingot",
-      "value": "Tier 1 Vault Tool Material\nCommon Vault Resource\nA basic crafting ingredient"
-    },
-    {
-      "item": "the_vault:chromatic_steel_ingot",
-      "value": "Tier 2 Vault Tool Material\nA versatile crafting ingredient"
-    },
-    {
-      "item": "the_vault:black_chromatic_steel_ingot",
-      "value": "Tier 5 Vault Tool Material\nA high-end crafting ingredient"
-    },
-    {
-      "item": "the_vault:magic_silk",
-      "value": "Common Vault Resource\nA basic crafting ingredient"
-    },
-    {
-      "item": "the_vault:magic_silk_block",
-      "value": "Compressed Magic Silk"
-    },
-    {
-      "item": "the_vault:carbon_nugget",
-      "value": "Common Vault Resource\nA chunk of pure carbon"
-    },
-    {
-      "item": "the_vault:carbon",
-      "value": "Compressed Raw Carbon\nA basic crafting ingredient\nUsed to create Chromatic Steel"
-    },
-    {
-      "item": "the_vault:driftwood",
-      "value": "Tier 1-7 Vault Tool material\nCommon Vault Resource\nA basic crafting ingredient"
-    },
-    {
-      "item": "the_vault:driftwood_planks",
-      "value": "Compressed Driftwood"
-    },
-    {
-      "item": "the_vault:driftwood_log",
-      "value": "Double Compressed Driftwood"
-    },
-    {
-      "item": "the_vault:wooden_chest_scroll",
-      "value": "Epic Vault Resource\nScrolls used to craft decorational chests\nAlso used to craft Inscriptions"
-    },
-    {
-      "item": "the_vault:ornate_chest_scroll",
-      "value": "Omega Vault Resource\nScrolls used to craft decorational chests\nAlso used to craft Inscriptions"
-    },
-    {
-      "item": "the_vault:gilded_chest_scroll",
-      "value": "Epic Vault Resource\nScrolls used to craft decorational chests\nAlso used to craft Inscriptions"
-    },
-    {
-      "item": "the_vault:living_chest_scroll",
-      "value": "Omega Vault Resource\nScrolls used to craft decorational chests\nAlso used to craft Inscriptions"
-    },
-    {
-      "item": "the_vault:altar_chest_scroll",
-      "value": "Omega Vault Resource\nRarely rewarded from God Altars\nCannot be used to craft inscriptions"
-    },
-    {
-      "item": "the_vault:treasure_chest_scroll",
-      "value": "Omega Vault Resource\nThe ultimate reward from a Treasure Room\nCannot be used to craft inscriptions"
-    },
-    {
-      "item": "the_vault:wutodic_mass",
-      "value": "Tier 2-7 Vault Tool material\nCrafting ingredient"
-    },
-    {
-      "item": "the_vault:hardened_wutodic_mass",
-      "value": "[LEGACY]\nCompressed Wutodic Mass"
-    },
-    {
-      "item": "the_vault:wutodic_silver_ingot",
-      "value": "Tier 4 Vault Tool material"
-    },
-    {
-      "item": "the_vault:vault_meat",
-      "value": "Uncommon Vault Resource\nCrafting ingredient"
-    },
-    {
-      "item": "the_vault:vault_meat_block",
-      "value": "Compressed Vault Meat"
-    },
-    {
-      "item": "the_vault:packed_vault_meat_block",
-      "value": "Double Compressed Vault Meat"
-    },
-    {
-      "item": "the_vault:cooked_vault_steak",
-      "value": "Rare Vault Resource\nFast eating time"
-    },
-    {
-      "item": "the_vault:vault_doll",
-      "value": "Wear it on your head and it will collect resources, too!\nMust be killed by the Player to obtain loot"
+      "value": "Crafting ingredient"
     },
     {
       "item": "the_vault:lost_bounty",
@@ -754,159 +854,39 @@
     },
     {
       "item": "the_vault:bounty_pearl",
-      "value": "Epic Vault Resource\nUsed to reroll bounties in the Bounty Table\nAlso used to craft Inscriptions"
+      "value": "Use in the Bounty Table to reroll available bounties"
+    },
+    {
+      "item": "the_vault:mote_clarity",
+      "value": "Reveals all curses on a Vault Crystal."
+    },
+    {
+      "item": "the_vault:mote_sanctity",
+      "value": "Removes all curses from a Vault Crystal."
+    },
+    {
+      "item": "the_vault:mote_purity",
+      "value": "Removes a random curse from a Vault Crystal."
+    },
+    {
+      "item": "the_vault:mod_box",
+      "value": "Right Click to open\n\nContains Knowledge Shards or if you have unlocked any mod that has Mod Box rewards it will contain items from that mod"
     },
     {
       "item": "the_vault:identification_tome",
-      "value": "Hold in the off-hand to instantly\nidentify vault gear."
+      "value": "Hold in the off hand to instantly\nidentify vault gear."
     },
     {
-      "item": "the_vault:vault_altar",
-      "value": "The beginning of Vault Hunters...\nAlso known as the Vaultar\nPower with redstone to collect your crystal"
+      "item": "the_vault:life_scroll",
+      "value": "Revives an unalived eternal"
     },
     {
-      "item": "the_vault:vault_crate",
-      "value": "[LEGACY]\nSneak-right-click to open"
-    },
-    {
-      "item": "the_vault:vault_crate_cake",
-      "value": "Sneak-right-click to open"
-    },
-    {
-      "item": "the_vault:vault_crate_scavenger",
-      "value": "Sneak-right-click to open"
-    },
-    {
-      "item": "the_vault:vault_crate_bounty",
-      "value": "Sneak-right-click to open"
-    },
-    {
-      "item": "the_vault:vault_crate_monolith",
-      "value": "Sneak-right-click to open"
-    },
-    {
-      "item": "the_vault:vault_crate_elixir",
-      "value": "Sneak-right-click to open"
-    },
-    {
-      "item": "the_vault:relic_pedestal",
-      "value": "Used to assemble relics from fragments"
-    },
-    {
-      "item": "the_vault:cryo_chamber",
-      "value": "Used to turn Eternal Souls into new Eternals\nRequired amount is based on how many\nhave already been made"
-    },
-    {
-      "item": "the_vault:transmog_table",
-      "value": "Spend bronze to transmogrify Vault Gear\nMust unlock transmogs first\nCost is based on the level of the gear\nContains an infinite-stack slot for storing bronze"
-    },
-    {
-      "item": "the_vault:demagnetizer",
-      "value": "Disables magnets of nearby Players\nPower with redstone to turn off"
-    },
-    {
-      "item": "the_vault:demagnetizer",
-      "value": "Disables magnets of nearby Players\nPower with redstone to turn off\nRange: 32 blocks"
-    },
-    {
-      "item": "the_vault:treasure_sand",
-      "value": "Dig up to obtain lots of shinies\nDigsites: Contains rare vault resources\nTreasure Rooms: Contains gems, Old Notes, and Lost Bounties"
-    },
-    {
-      "item": "the_vault:vault_forge",
-      "value": "Forge Vault Gear and Trinkets out of various materials\nContains 9 infinite-stack slots for storing ingredients"
-    },
-    {
-      "item": "the_vault:tool_station",
-      "value": "Craft Vault Tools and Jewels\nContains 6 infinite-stack slots for storing ingredients"
-    },
-    {
-      "item": "the_vault:inscription_table",
-      "value": "Craft Inscriptions out of various materials\nContains 6 infinite-stack slots for storing ingredients"
-    },
-    {
-      "item": "the_vault:vault_artisan_station",
-      "value": "Modify vault gear using foci\nContains infinite-stack slots for bronze, plating,\nand each type of focus"
-    },
-    {
-      "item": "the_vault:vault_recycler",
-      "value": "Used to scrap vault gear, jewels, and trinkets\nI/O can be automated"
-    },
-    {
-      "item": "the_vault:vault_diffuser",
-      "value": "Used to convert vault resources into soul powder\nI/O can be automated\nContains an infinite-stack output slot for soul powder"
-    },
-    {
-      "item": "the_vault:modifier_workbench",
-      "value": "Craft modifiers onto Vault Gear\nOnly one Crafted Modifier can exist per piece\nSome modifiers require discovery"
-    },
-    {
-      "item": "the_vault:alchemy_table",
-      "value": "Craft modifiers onto Vault Potions\nSome modifiers require discovery"
-    },
-    {
-      "item": "the_vault:catalyst_infusion_table",
-      "value": "Infuse blank Catalysts with Mystical Essence\nI/O can be automated"
-    },
-    {
-      "item": "the_vault:vault_charm_controller",
-      "value": "Add items to whitelist them as Junk for the Identifier\nUse Junk Upgrades incrementally to increase capacity\nEach Player can only have one whitelist"
-    },
-    {
-      "item": "the_vault:vault_enchanter",
-      "value": "Used to enchant anything enchantable\nAll enchantments are at maximum level\nCan overwrite mutually exclusive enchantments at-will"
-    },
-    {
-      "item": "the_vault:identification_stand",
-      "value": "Use to identify all Vault Gear in your inventory"
-    },
-    {
-      "item": "the_vault:spirit_extractor",
-      "value": "Carry your Spirit here to reclaim your\ninventory at a great cost"
-    },
-    {
-      "item": "the_vault:wardrobe",
-      "value": "Store a hotbar, set of armor, and curios here\nSwap out everything with the push of a button\nDoes not replace anything with empty slots"
-    },
-    {
-      "item": "the_vault:skill_altar",
-      "value": "Store up to 5 builds (Skills and Talents)\nSwap them out at the push of a button\nMust save the build first to load it\nHas an inventory slot for Regret Orbs"
-    },
-    {
-      "item": "the_vault:bounty_block",
-      "value": "Opens up the Bounty interface\nAccept bounties, fulfill their requirements, profit"
-    },
-    {
-      "item": "the_vault:black_market",
-      "value": "Opens up the Black Market\nUses soul shards from inventory and Soul Pouch"
-    },
-    {
-      "item": "the_vault:animal_pen",
-      "value": "Stores an Animal Jar\nInteract with animals using shears and buckets\nAttack the pen to kill one animal\nUse food on the pen to breed animals\nCan also decorate with a block\nBreak to get the jar and block back"
-    },
-    {
-      "item": "the_vault:crystal_budding",
-      "value": "Grows Raw Vault Crystals"
-    },
-    {
-      "item": "the_vault:vault_anvil",
-      "value": "An anvil that never breaks\nMay be cursed"
-    },
-    {
-      "item": "the_vault:eternal_pedestal",
-      "value": "Stores complete Eternals\nLevel up, gear up, and revive Eternals from here"
-    },
-    {
-      "item": "the_vault:angel_block",
-      "value": "Place to grant Creative flight in a 64-block radius\nRequires the Angel expertise to use"
+      "item": "the_vault:aura_scroll",
+      "value": "Rerolls an eternal's available auras"
     },
     {
       "item": "the_vault:vault_jewel_cutting_station",
-      "value": "Cut jewels to reduce their size\nContains infinite-stack slots for bronze and silver scrap"
-    },
-    {
-      "item": "the_vault:vault_jewel_application_station",
-      "value": "Apply Jewels to Vault Tools\nShows a preview of the tool before applying\nContains 60 slots for jewels"
+      "value": "Allows Jewels to be cut to decrease their sizes"
     },
     {
       "item": "vaultintegrations:altar_conduit",
@@ -923,50 +903,6 @@
     {
       "item": "vaultintegrations:teleport_enhancement",
       "value": "Teleports items transported by the Altar Conduit"
-    },
-    {
-      "item": "the_vault:chromatic_iron_ore",
-      "value": "Found below y=-30 in the Overworld"
-    },
-    {
-      "item": "the_vault:vault_stone",
-      "value": "Found below y=-5 in the Overworld"
-    },
-    {
-      "item": "the_vault:sweet_kiwi",
-      "value": "Epic Vault Resource"
-    },
-    {
-      "item": "the_vault:hearty_apple",
-      "value": "Epic Vault Resource"
-    },
-    {
-      "item": "the_vault:wild_focus",
-      "value": "Common Vault Resource"
-    },
-    {
-      "item": "the_vault:amplifying_focus",
-      "value": "Uncommon Vault Resource"
-    },
-    {
-      "item": "the_vault:nullifying_focus",
-      "value": "Rare Vault Resource"
-    },
-    {
-      "item": "the_vault:fundamental_focus",
-      "value": "Omega Vault Resource"
-    },
-    {
-      "item": "the_vault:chaotic_focus",
-      "value": "Epic Vault Resource"
-    },
-    {
-      "item": "the_vault:waxing_focus",
-      "value": "Omega Vault Resource"
-    },
-    {
-      "item": "the_vault:waning_focus",
-      "value": "Omega Vault Resource"
     }
   ]
 }

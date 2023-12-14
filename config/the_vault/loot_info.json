@@ -26,6 +26,7 @@
       "display": "Wooden Chests",
       "lootTableKeys": {
         "the_vault:wooden_chest_lvl0_v3":  {"level": 0},
+        "the_vault:wooden_chest_lvl20_v3":  {"level": 20},
         "the_vault:wooden_chest_lvl30_v3":  {"level": 30}
       }
     },
@@ -42,7 +43,9 @@
         "the_vault:living_chest_lvl10_v3": {"level": 10},
         "the_vault:living_chest_lvl20_v3": {"level": 20},
         "the_vault:living_chest_lvl30_v3": {"level": 30},
+        "the_vault:living_chest_lvl40_v3": {"level": 40},
         "the_vault:living_chest_lvl50_v3": {"level": 50},
+        "the_vault:living_chest_lvl60_v3": {"level": 60},
         "the_vault:living_chest_lvl70_v3": {"level": 70}
       }
     },
@@ -94,6 +97,12 @@
         "the_vault:completion_scav_lvl20": {"level": 20}
       }
     },
+    "the_vault:completion_crate_paradox": {
+      "display": "Divine Paradox Completion Crate",
+      "lootTableKeys": {
+        "the_vault:completion_paradox": {"level": 0}
+      }
+    },
     "the_vault:ornate_chest": {
       "display": "Ornate Chests",
       "lootTableKeys": {
@@ -108,7 +117,8 @@
       "display": "Gilded Chests",
       "lootTableKeys": {
         "the_vault:gilded_chest_lvl0_v3": {"level": 0},
-        "the_vault:gilded_chest_lvl20_v3": {"level": 20}
+        "the_vault:gilded_chest_lvl20_v3": {"level": 20},
+        "the_vault:gilded_chest_lvl50_v3": {"level": 50}
       }
     },
     "the_vault:hardened_chest": {

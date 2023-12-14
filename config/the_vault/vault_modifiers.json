@@ -3,13 +3,13 @@
     "the_vault:modifier_type/chance_artifact": {
       "the_vault:prosperous": {
         "properties": {
-          "chance": 0.5
+          "chance": 1.0
         },
         "display": {
           "name": "Prosperous",
           "color": "#EBFF8D",
-          "description": "+50% Artifact Chance",
-          "descriptionFormatted": "+%d%% Artifact Chance",
+          "description": "Completing this vault guarantees an Artifact!",
+          "descriptionFormatted": "Completing this vault guarantees an artifact!",
           "icon": "the_vault:gui/modifiers/more_artifact1"
         }
       }
@@ -109,11 +109,11 @@
           "chance": 0.5
         },
         "display": {
-          "name": "Haunted",
+          "name": "Soul Harvest",
           "color": "#6410A1",
-          "description": "+50% Soul Shard Drop Rate",
+          "description": "+25% Soul Shard Drop Rate",
           "descriptionFormatted": "+%d%% Soul Shards",
-          "icon": "the_vault:gui/modifiers/haunted"
+          "icon": "the_vault:gui/modifiers/soul_shard_increase_yellow"
         }
       },
       "the_vault:soul_surge": {
@@ -125,7 +125,19 @@
           "color": "#6410A1",
           "description": "+100% Soul Shard Drop Rate",
           "descriptionFormatted": "+%d%% Soul Shards",
-          "icon": "the_vault:gui/modifiers/haunted"
+          "icon": "the_vault:gui/modifiers/soul_shard_increase_pink"
+        }
+      },
+      "the_vault:idona_soulchance": {
+        "properties": {
+          "chance": 2.0
+        },
+        "display": {
+          "name": "Idona's Favour",
+          "color": "#FF5555",
+          "description": "+200% Soul Shard Drop Rate",
+          "descriptionFormatted": "+%d%% Soul Shards",
+          "icon": "the_vault:gui/modifiers/idona"
         }
       },
       "the_vault:idona_favour_2": {
@@ -281,9 +293,21 @@
           "icon": "the_vault:gui/modifiers/opulent"
         }
       },
+      "the_vault:lost_quantity": {
+        "properties": {
+          "percentage": -0.5
+        },
+        "display": {
+          "name": "Baren",
+          "color": "#a54726",
+          "description": "Chests in this vault are only half filled",
+          "descriptionFormatted": "Chests in this vault are only half filled",
+          "icon": "the_vault:gui/modifiers/poor"
+        }
+      },
       "the_vault:hoard": {
         "properties": {
-          "percentage": 0.1
+          "percentage": 0.5
         },
         "display": {
           "name": "Hoard",
@@ -319,16 +343,13 @@
       },
       "the_vault:tenos_favour_2": {
         "properties": {
-          "percentage": 0.01,
-          "reputation": {
-            "addendPerLevel": 0.01
-          }
+          "percentage": 0.25
         },
         "display": {
           "name": "Tenos' Favour",
           "color": "#55FFFF",
-          "description": "+1% Item Quantity",
-          "descriptionFormatted": "+%d%% Item Quantity",
+          "description": "Chests contain more loot",
+          "descriptionFormatted": "+25%% Item Quantity",
           "icon": "the_vault:gui/modifiers/tenos"
         }
       }
@@ -356,6 +377,18 @@
           "description": "+20% Item Rarity",
           "descriptionFormatted": "+%d%% Item Rarity",
           "icon": "the_vault:gui/modifiers/lucky"
+        }
+      },
+      "the_vault:tenos_rarity": {
+        "properties": {
+          "percentage": 0.5
+        },
+        "display": {
+          "name": "Tenos' Favour",
+          "color": "#55FFFF",
+          "description": "+50% Item Rarity",
+          "descriptionFormatted": "+%d%% Item Rarity",
+          "icon": "the_vault:gui/modifiers/tenos"
         }
       },
       "the_vault:treasure": {
@@ -399,6 +432,20 @@
       }
     },
     "the_vault:modifier_type/mob_attribute": {
+      "the_vault:crit_mobs": {
+        "properties": {
+          "type": "crit_chance_additive",
+          "amount": 1.0,
+          "attributeStackingStrategy": "STACK"
+        },
+        "display": {
+          "name": "Lethal",
+          "color": "#dc693c",
+          "description": "Mobs in this vault will always hit critical strikes",
+          "descriptionFormatted": "Mobs in this vault will always hit critical strikes",
+          "icon": "the_vault:gui/modifiers/destructive"
+        }
+      },
       "the_vault:chunky_mobs": {
         "properties": {
           "type": "max_health_additive_percentile",
@@ -604,7 +651,20 @@
           "icon": "the_vault:gui/modifiers/draining"
         }
       },
-      
+      "the_vault:mana_leak": {
+        "properties": {
+          "type": "mana_regen_additive_percentile",
+          "amount": -20.0,
+          "attributeStackingStrategy": "STACK"
+        },
+        "display": {
+          "name": "Mana Leak",
+          "color": "#849dc8",
+          "description": "Players in this vault no longer regenerate mana",
+          "descriptionFormatted": "Players in this vault no longer regenerate mana",
+          "icon": "the_vault:gui/modifiers/draining"
+        }
+      },
       "the_vault:injured": {
         "properties": {
           "type": "max_health_additive",
@@ -650,20 +710,18 @@
       "the_vault:idona_favour_1": {
         "properties": {
           "type": "attack_damage_additive_percentile",
-          "amount": 0.01,
-          "attributeStackingStrategy": "STACK",
-          "reputation": {
-            "addendPerLevel": 0.01
-          }
+          "amount": 0.5,
+          "attributeStackingStrategy": "STACK"
         },
         "display": {
           "name": "Idona's Favour",
           "color": "#FF5555",
-          "description": "+1% Attack Damage",
-          "descriptionFormatted": "+%d%% Attack Damage",
+          "description": "Players deal more physical damage in this vault",
+          "descriptionFormatted": "+50% Attack Damage",
           "icon": "the_vault:gui/modifiers/idona"
         }
       },
+      
       "the_vault:velara_favour_3": {
         "properties": {
           "type": "max_health_additive_percentile",
@@ -694,6 +752,20 @@
           "name": "Wendarr's Favour",
           "color": "#FFAA00",
           "description": "+1% Mana Regeneration",
+          "descriptionFormatted": "+%d%% Mana Regeneration",
+          "icon": "the_vault:gui/modifiers/wendarr"
+        }
+      },
+      "the_vault:wendarr_regen": {
+        "properties": {
+          "type": "mana_regen_additive_percentile",
+          "amount": 1.0,
+          "attributeStackingStrategy": "STACK"
+        },
+        "display": {
+          "name": "Wendarr's Favour",
+          "color": "#FFAA00",
+          "description": "+100% Mana Regeneration",
           "descriptionFormatted": "+%d%% Mana Regeneration",
           "icon": "the_vault:gui/modifiers/wendarr"
         }
@@ -816,6 +888,21 @@
           "description": "+1 Speed",
           "descriptionFormatted": "+%d Speed",
           "icon": "the_vault:gui/modifiers/speed"
+        }
+      },
+      "the_vault:wendarr_speed": {
+        "properties": {
+          "effect": "minecraft:speed",
+          "effectAmplifier": 2,
+          "operator": "add",
+          "type": "icon_only"
+        },
+        "display": {
+          "name": "Wendarr's Favour",
+          "color": "#d89e01",
+          "description": "Players move faster in this vault! (+2 Speed)",
+          "descriptionFormatted": "Players move faster in this vault! (+2 Speed)",
+          "icon": "the_vault:gui/modifiers/wendarr"
         }
       },
       "the_vault:stronk": {
@@ -1043,6 +1130,19 @@
           "icon": "the_vault:gui/modifiers/inert"
         }
       },
+      "the_vault:wendarr_cdr": {
+        "properties": {
+          "stat": "cooldown_reduction",
+          "addend": 0.5
+        },
+        "display": {
+          "name": "Inert",
+          "color": "#6DACB5",
+          "description": "+50% Cooldown Reduction",
+          "descriptionFormatted": "%d%% Cooldown Reduction",
+          "icon": "the_vault:gui/modifiers/inert"
+        }
+      },
       "the_vault:vulnerable": {
         "properties": {
           "stat": "resistance",
@@ -1085,19 +1185,29 @@
           "icon": "the_vault:gui/modifiers/velara"
         }
       },
+      "the_vault:enervated": {
+        "properties": {
+          "stat": "healing_effectiveness",
+          "addend": -0.8
+        },
+        "display": {
+          "name": "Enervated",
+          "color": "#849dc8",
+          "description": "Healing in this vault is very inefficient",
+          "descriptionFormatted": "Healing in this vault is very inefficient",
+          "icon": "the_vault:gui/modifiers/antiheal"
+        }
+      },
       "the_vault:velara_favour_2": {
         "properties": {
           "stat": "healing_effectiveness",
-          "addend": 0.01,
-          "reputation": {
-            "addendPerLevel": 0.01
-          }
+          "addend": 0.5
         },
         "display": {
           "name": "Velara's Favour",
-          "color": "#FF5555",
-          "description": "+1% Healing Effectiveness",
-          "descriptionFormatted": "+%d%% Healing Effectiveness",
+          "color": "#55FF55",
+          "description": "Healing is more efficient! (+50% Healing Effectiveness)",
+          "descriptionFormatted": "Healing is more efficient! (+%d%% Healing Effectiveness)",
           "icon": "the_vault:gui/modifiers/velara"
         }
       },
@@ -1115,6 +1225,20 @@
           "description": "+0.5% Cooldown Reduction",
           "descriptionFormatted": "+%d%% Cooldown Reduction",
           "icon": "the_vault:gui/modifiers/wendarr"
+        }
+      },
+      "the_vault:idona_favour_ap": {
+        "properties": {
+          "type": "ability_power_percent",
+          "amount": 0.5,
+          "attributeStackingStrategy": "STACK"
+        },
+        "display": {
+          "name": "Idona's Favour",
+          "color": "#FF5555",
+          "description": "Players deal more ability damage in this vault",
+          "descriptionFormatted": "+50% Ability Power",
+          "icon": "the_vault:gui/modifiers/idona"
         }
       }
     },
@@ -1269,6 +1393,18 @@
           "icon": "the_vault:gui/modifiers/impossible"
         }
       },
+      "the_vault:noxp": {
+        "properties": {
+          "addend": -1.0
+        },
+        "display": {
+          "name": "No XP",
+          "color": "#DB7C00",
+          "description": "-100% Vault XP Gained",
+          "descriptionFormatted": "+%d%% Vault XP Gained",
+          "icon": "the_vault:gui/modifiers/impossible"
+        }
+      },
       "the_vault:xp_gain": {
         "properties": {
           "addend": 0.20
@@ -1286,7 +1422,7 @@
           "addend": 1.0
         },
         "display": {
-          "name": "Enlighted",
+          "name": "Enlightened",
           "color": "#DB7C00",
           "description": "+100% Vault Experience",
           "descriptionFormatted": "+%d%% Vault Experience",
@@ -1411,7 +1547,121 @@
           "description": "+10% Chance for Champions to Spawn",
           "icon": "the_vault:gui/modifiers/champions_abode"
         }
+      },
+      "the_vault:champion_paradox": {
+        "properties": {
+          "chance": 0.02
+        },
+        "display": {
+          "name": "More Champions",
+          "color": "#5ece0c",
+          "description": "+2% Chance for Champions to Spawn",
+          "icon": "the_vault:gui/modifiers/champion_increase"
+        }
+      }
+    },
+    "the_vault:modifier_type/grouped": {
+      "the_vault:herald": {
+        "properties": {
+          "children": {
+            "the_vault:beginners_grace": 1,
+            "the_vault:locked": 1,
+            "the_vault:furious_mobs": 3
+          }
+        },
+        "display": {
+          "name": "Herald's Grace",
+          "color": "#ad2b2b",
+          "description": "Dying in this vault does not cause you any item loss, and this vault is of course locked.",
+          "icon": "the_vault:gui/modifiers/beginners_grace"
+        }
+      },
+      "the_vault:plunderer": {
+        "properties": {
+          "children": {
+            "the_vault:noxp": 1,
+            "the_vault:item_quantity": 1,
+            "the_vault:plentiful": 1
+          }
+        },
+        "display": {
+          "name": "Plunderer",
+          "color": "#d89e01",
+          "description": "This vault yields no experience, but has 10% more loot and slightly more ores",
+          "icon": "the_vault:gui/modifiers/plunderer"
+        }
+      },
+      "the_vault:wendarr_favour": {
+        "properties": {
+          "children": {
+            "the_vault:wendarr_regen": 1,
+            "the_vault:wendarr_cdr": 1
+          }
+        },
+        "display": {
+          "name": "Wendarr's Favour",
+          "color": "#d89e01",
+          "description": "+100% Mana Regeneration & +50% Cooldown Reduction",
+          "icon": "the_vault:gui/modifiers/wendarr"
+        }
+      },
+      "the_vault:idona_dmg": {
+        "properties": {
+          "children": {
+            "the_vault:idona_favour_1": 1,
+            "the_vault:idona_ap": 1
+          }
+        },
+        "display": {
+          "name": "Idona's Favour",
+          "color": "#FF5555",
+          "description": "+50% Damage & +50% Ability Power",
+          "icon": "the_vault:gui/modifiers/idona"
+        }
+      }
+    },
+    "the_vault:modifier_type/entity_effect": {
+      "the_vault:ethereal": {
+        "properties": {
+          "filter": "",
+          "effect": "the_vault:immortality",
+          "amplifier": 0,
+          "chance": 0.1
+        },
+        "display": {
+          "name": "Ethereal",
+          "color": "#a996ca",
+          "description": "Mobs in this vault can spawn in as ethereal, being immune to any damage.",
+          "icon": "the_vault:gui/modifiers/haunted"
+        }
+      }
+    },
+    "the_vault:modifier_type/no_soul_shards": {
+      "the_vault:soulless": {
+        "properties": {
+          "filter": "",
+          "chance": 1.0
+        },
+        "display": {
+          "name": "Soulless",
+          "color": "#a996ca",
+          "description": "Mobs in this vault do not drop soul shards",
+          "icon": "the_vault:gui/modifiers/no_soul_shard"
+        }
+      }
+    },
+    "the_vault:modifier_type/player_heal_cut": {
+      "the_vault:fading": {
+        "properties": {
+        },
+        "display": {
+          "name": "Fading",
+          "color": "#8f3b3b",
+          "description": "Taking damage in this vault removes hearts instead of emptying them.",
+          "icon": "the_vault:gui/modifiers/injured"
+        }
       }
     }
+    
   }
 }

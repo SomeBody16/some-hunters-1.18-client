@@ -163,7 +163,7 @@ craftingTable.addShaped("sophisticatedbackpacks_advanced_filter_upgrade", <item:
 craftingTable.addShaped("sophisticatedbackpacks_restock_upgrade", <item:sophisticatedbackpacks:restock_upgrade>, [
     [<item:the_vault:chromatic_iron_block>, <item:the_vault:gem_echo>, <item:the_vault:chromatic_iron_block>],
     [<item:the_vault:magic_silk>, <item:sophisticatedbackpacks:upgrade_base>, <item:the_vault:magic_silk>],
-    [<item:the_vault:chromatic_steel_block>, <item:sophisticatedbackpacks:gold_backpack>, <item:the_vault:chromatic_steel_block>]
+    [<item:the_vault:chromatic_steel_block>, <item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:chromatic_steel_block>]
 ]);
 
 craftingTable.addShaped("sophisticatedbackpacks_advanced_restock_upgrade", <item:sophisticatedbackpacks:advanced_restock_upgrade>, [
@@ -173,7 +173,7 @@ craftingTable.addShaped("sophisticatedbackpacks_advanced_restock_upgrade", <item
 ]);
 
 craftingTable.addShaped("sophisticatedbackpacks_deposit_upgrade", <item:sophisticatedbackpacks:deposit_upgrade>, [
-    [<item:the_vault:chromatic_iron_block>, <item:sophisticatedbackpacks:gold_backpack>, <item:the_vault:chromatic_iron_block>],
+    [<item:the_vault:chromatic_iron_block>, <item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:chromatic_iron_block>],
     [<item:the_vault:magic_silk>, <item:sophisticatedbackpacks:upgrade_base>, <item:the_vault:magic_silk>],
     [<item:the_vault:chromatic_steel_block>, <item:the_vault:gem_echo>, <item:the_vault:chromatic_steel_block>]
 ]);

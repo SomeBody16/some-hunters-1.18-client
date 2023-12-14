@@ -16,15 +16,19 @@
         "level": 0,
         "rollTypeOutcomes": [
           {
-            "value": "Scrappy+",
-            "weight": 1
-          },
-          {
             "value": "Common+",
-            "weight": 1
+            "weight": 4
           },
           {
             "value": "Rare+",
+            "weight": 4
+          },
+          {
+            "value": "Epic+",
+            "weight": 4
+          },
+          {
+            "value": "Omega",
             "weight": 1
           }
         ]
@@ -195,7 +199,7 @@
         ]
       }
     ],
-    "gear_completion_kill": [
+    "gear_completion_crate_kill": [
       {
         "level": 0,
         "rollTypeOutcomes": [
@@ -225,6 +229,21 @@
             "value": "Rare+",
             "weight": 15
           },
+          {
+            "value": "Epic+",
+            "weight": 4
+          },
+          {
+            "value": "Omega",
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "gear_completion_crate_paradox": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
           {
             "value": "Epic+",
             "weight": 4
@@ -291,13 +310,21 @@
         "rollTypeOutcomes": [
           {
             "value": "Common",
-            "weight": 25
+            "weight": 50
           },
           {
             "value": "Rare",
+            "weight": 8
+          },
+          {
+            "value": "Epic",
             "weight": 2
+          },
+          {
+            "value": "Omega",
+            "weight": 1
           }
-        ]
+         ]
       }
     ],
     "jewel_high": [
@@ -311,6 +338,25 @@
           {
             "value": "Rare",
             "weight": 5
+          },
+          {
+            "value": "Epic",
+            "weight": 2
+          },
+          {
+            "value": "Omega",
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "jewel_not_chipped": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Rare",
+            "weight": 17
           },
           {
             "value": "Epic",

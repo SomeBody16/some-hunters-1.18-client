@@ -3,8 +3,8 @@
     {
       "roll": {
         "type": "uniform",
-        "min": 9,
-        "max": 12
+        "min": 12,
+        "max": 15
       },
       "pool": [
         { "weight": 70,
@@ -242,7 +242,7 @@
         { "weight": 2,
           "pool": [
             {
-              "weight": 60,
+              "weight": 200,
               "item": {
                 "id": "the_vault:knowledge_star_essence",
                 "count": {
@@ -253,7 +253,7 @@
               }
             },
             {
-              "weight": 21,
+              "weight": 84,
               "item": {
                 "id": "the_vault:mystery_egg",
                 "count": {
@@ -264,7 +264,7 @@
               }
             },
             {
-              "weight": 4,
+              "weight": 16,
               "item": {
                 "id": "the_vault:vault_moss",
                 "count": {
@@ -275,7 +275,7 @@
               }
             },
             {
-              "weight": 4,
+              "weight": 16,
               "item": {
                 "id": "the_vault:living_chest_scroll",
                 "count": {
@@ -286,7 +286,51 @@
               }
             },
             {
+              "weight": 4,
+              "item": {
+                "id": "the_vault:small_charm",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 3,
+              "item": {
+                "id": "the_vault:large_charm",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "the_vault:grand_charm",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
               "weight": 1,
+              "item": {
+                "id": "the_vault:majestic_charm",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 4,
               "item": {
                 "id": "the_vault:inscription",
                 "nbt": {
@@ -300,7 +344,7 @@
               }
             },
             {
-              "weight": 10,
+              "weight": 40,
               "item": {
                 "id": "the_vault:inscription",
                 "nbt": {
