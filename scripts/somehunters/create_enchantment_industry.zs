@@ -2,6 +2,7 @@ var modId = "create_enchantment_industry";
 
 craftingTable.removeByModid(modId);
 <recipetype:create:filling>.removeByModid(modId);
+<recipetype:create:mixing>.removeByModid(modId);
 
 craftingTable.addShapeless(
     recipeId(modId, "disenchanter"),
