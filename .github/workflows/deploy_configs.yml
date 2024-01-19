@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       
-      - name: Upload configs
+      - name: Upload config, defaultconfigs, patchouli_books
         uses: Dylan700/sftp-upload-action@latest
         with:
           server: ${{ secrets.FTP_SERVER }}
@@ -26,6 +26,8 @@ jobs:
             ./config => ./config
             ./defaultconfigs => ./defaultconfigs
             ./patchouli_books => ./patchouli_books
+          ignore: |
+            config/the_vault/**
       
       - name: Upload scripts
         uses: Dylan700/sftp-upload-action@latest
