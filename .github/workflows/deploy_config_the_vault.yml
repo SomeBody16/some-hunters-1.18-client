@@ -1,4 +1,4 @@
-name: 🚀 Deploy configs
+name: 🚀 Deploy the_vault config
 on:
   workflow_dispatch:
   push:

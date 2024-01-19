@@ -44,6 +44,22 @@
 	[wood_type.the_vault]
 		chromatic = true
 		driftwood = true
+		tenos = true
+		velara = true
+		wooden = true
+		overgrown_wooden = true
+
+	[wood_type.wildbackport]
+		mangrove = true
+
+	[wood_type.environmental]
+		willow = true
+		cherry = true
+		wisteria = true
+
+	[wood_type.upgrade_aquatic]
+		driftwood = true
+		river = true
 
 [leaves_type]
 
@@ -74,4 +90,17 @@
 		pink_blossom = true
 		yellow_blossom = true
 		red_blossom = true
+
+	[leaves_type.wildbackport]
+		mangrove = true
+
+	[leaves_type.the_vault]
+		velara = true
+
+	[leaves_type.environmental]
+		willow = true
+		cherry = true
+
+	[leaves_type.upgrade_aquatic]
+		river = true
 

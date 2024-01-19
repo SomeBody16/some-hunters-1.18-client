@@ -157,7 +157,9 @@
     },
     {
       "modIds": [
-        "refinedstorage"
+        "refinedstorage",
+        "rsrequestify",
+        "refinedstorageaddons"
       ],
       "restrictions": {
         "restricts": {
@@ -180,7 +182,11 @@
     },
     {
       "modIds": [
-        "ae2"
+        "ae2",
+        "merequester",
+        "appbot",
+        "appmek",
+        "ae2things"
       ],
       "restrictions": {
         "restricts": {
@@ -438,7 +444,15 @@
     },
     {
       "modIds": [
-        "create"
+        "create",
+        "create_power_loader",
+        "extendedgears",
+        "createcasing",
+        "create_connected",
+        "createappliedkinetics",
+        "railways",
+        "create_crystal_clear",
+        "createoreexcavation"
       ],
       "restrictions": {
         "restricts": {
@@ -951,9 +965,8 @@
             "HITTABILITY": true,
             "USABILITY": true,
             "CRAFTABILITY": true
-            }
+          }
         }
-          
       },
       "blockRestrictions": {},
       "entityRestrictions": {},
@@ -968,8 +981,8 @@
             "HITTABILITY": true,
             "USABILITY": true,
             "CRAFTABILITY": true
-            }
           }
+        }
       },
       "blockRestrictions": {},
       "entityRestrictions": {},
@@ -984,8 +997,8 @@
             "HITTABILITY": true,
             "USABILITY": true,
             "CRAFTABILITY": true
-            }
           }
+        }
       },
       "blockRestrictions": {},
       "entityRestrictions": {},
@@ -996,6 +1009,48 @@
     {
       "itemRestrictions": {
         "mekanism:digital_miner": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "createoreexcavation:drilling_machine": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "createoreexcavation:extractor": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "createoreexcavation:drill": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "createoreexcavation:diamond_drill": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "createoreexcavation:netherite_drill": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "createoreexcavation:vein_finder": {
           "restricts": {
             "HITTABILITY": true,
             "USABILITY": true,
@@ -1075,10 +1130,8 @@
         "the_vault:gear/armor/dank/boots"
       ]
     },
-    
     {
-      "itemRestrictions": {
-      },
+      "itemRestrictions": {},
       "blockRestrictions": {},
       "entityRestrictions": {},
       "name": "Pouches",
@@ -1232,7 +1285,6 @@
       "cost": 3,
       "usesKnowledge": true
     },
-    
     {
       "itemRestrictions": {
         "the_vault:vault_harvester": {
