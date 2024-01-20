@@ -2,9 +2,6 @@ name: 🚀 SFTP Sync
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - master
 
 jobs:
   sync:
@@ -38,16 +35,16 @@ jobs:
 
     - name: Sync defaultconfigs
       if: steps.filter.outputs.defaultconfigs == 'true'
-      run: rclone copy defaultconfigs target:defaultconfigs
+      run: rclone copy defaultconfigs target:defaultconfigs --stats-one-line -v
       
     - name: Sync patchouli_books
       if: steps.filter.outputs.patchouli_books == 'true'
-      run: rclone sync patchouli_books target:patchouli_books
+      run: rclone sync patchouli_books target:patchouli_books --stats-one-line -v
       
     - name: Sync scripts
       if: steps.filter.outputs.scripts == 'true'
-      run: rclone sync scripts target:scripts
+      run: rclone sync scripts target:scripts --stats-one-line -v
       
     - name: Sync mods
       if: steps.filter.outputs.mods == 'true'
-      run: rclone sync mods target:mods --ignore-case --exclude-from .sftpignore
+      run: rclone sync mods target:mods --ignore-case --exclude-from .sftpignore --stats-one-line -v
