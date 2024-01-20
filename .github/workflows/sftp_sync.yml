@@ -1,53 +1,50 @@
-# name: 🚀 SFTP Sync
+name: 🚀 SFTP Sync
 
-# on:
-#   workflow_dispatch:
-#   push:
-#     branches:
-#       - master
+on:
+  workflow_dispatch:
 
-# jobs:
-#   sync:
-#     runs-on: ubuntu-latest
+jobs:
+  sync:
+    runs-on: ubuntu-latest
 
-#     steps:
-#     - name: Checkout Repository
-#       uses: actions/checkout@v2
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
 
-#     - uses: dorny/paths-filter@v2
-#       id: filter
-#       with:
-#         filters: |
-#           config:
-#             - 'config/**'
-#           defaultconfigs:
-#             - 'defaultconfigs/**'
-#           patchouli_books:
-#             - 'patchouli_books/**'
-#           scripts:
-#             - 'scripts/**'
-#           mods:
-#             - 'mods/**'
+    - uses: dorny/paths-filter@v2
+      id: filter
+      with:
+        filters: |
+          config:
+            - 'config/**'
+          defaultconfigs:
+            - 'defaultconfigs/**'
+          patchouli_books:
+            - 'patchouli_books/**'
+          scripts:
+            - 'scripts/**'
+          mods:
+            - 'mods/**'
           
 
-#     - name: Install rclone
-#       run: sudo apt-get install rclone
+    - name: Install rclone
+      run: sudo apt-get install rclone
 
-#     - name: Configure rclone
-#       run: rclone config create target sftp host ${{ secrets.FTP_SERVER }} pass ${{ secrets.FTP_PASSWORD }} user ${{ secrets.FTP_USERNAME }} port 2222
+    - name: Configure rclone
+      run: rclone config create target sftp host ${{ secrets.FTP_SERVER }} pass ${{ secrets.FTP_PASSWORD }} user ${{ secrets.FTP_USERNAME }} port 2222
 
-#     - name: Sync defaultconfigs
-#       if: steps.filter.outputs.defaultconfigs == 'true'
-#       run: rclone copy defaultconfigs target:defaultconfigs
+    - name: Sync defaultconfigs
+      if: steps.filter.outputs.defaultconfigs == 'true'
+      run: rclone copy defaultconfigs target:defaultconfigs --stats-one-line -v
       
-#     - name: Sync patchouli_books
-#       if: steps.filter.outputs.patchouli_books == 'true'
-#       run: rclone sync patchouli_books target:patchouli_books
+    - name: Sync patchouli_books
+      if: steps.filter.outputs.patchouli_books == 'true'
+      run: rclone sync patchouli_books target:patchouli_books --stats-one-line -v
       
-#     - name: Sync scripts
-#       if: steps.filter.outputs.scripts == 'true'
-#       run: rclone sync scripts target:scripts
+    - name: Sync scripts
+      if: steps.filter.outputs.scripts == 'true'
+      run: rclone sync scripts target:scripts --stats-one-line -v
       
-#     - name: Sync mods
-#       if: steps.filter.outputs.mods == 'true'
-#       run: rclone sync mods target:mods --ignore-case --exclude-from .sftpignore
+    - name: Sync mods
+      if: steps.filter.outputs.mods == 'true'
+      run: rclone sync mods target:mods --ignore-case --exclude-from .sftpignore --stats-one-line -v
