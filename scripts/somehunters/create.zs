@@ -11,20 +11,21 @@ var modId = "create";
 );
 
 // Creative motor
-var creativeMotor = <recipetype:create:sequenced_assembly>
-    .builder(recipeId(modId, "creative_motor"))
-    .transitionTo(<item:create:steam_engine>)
-    .require(<item:create:steam_engine>)
-    .loops(8)
-    .addOutput(<item:create:creative_motor>, 1)
-    .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:create:rotation_speed_controller>))
-    .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:create:blaze_cake>))
-    .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:compressium:iron_4>))
-    .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:the_vault:gem_echo>))
-    .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:create:chocolate> * 1000))
-    .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:create:tea> * 1000));
+// TODO: Create: Destroy recipe
+// var creativeMotor = <recipetype:create:sequenced_assembly>
+//     .builder(recipeId(modId, "creative_motor"))
+//     .transitionTo(<item:create:steam_engine>)
+//     .require(<item:create:steam_engine>)
+//     .loops(8)
+//     .addOutput(<item:create:creative_motor>, 1)
+//     .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:create:rotation_speed_controller>))
+//     .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:create:blaze_cake>))
+//     .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:compressium:iron_4>))
+//     .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:the_vault:gem_echo>))
+//     .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:create:chocolate> * 1000))
+//     .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:create:tea> * 1000));
 
-<recipetype:create:sequenced_assembly>.addRecipe(creativeMotor);
+// <recipetype:create:sequenced_assembly>.addRecipe(creativeMotor);
 
 craftingTable.addShapeless(
     recipeId(modId, "creative_motor_to_cogwheel"),
