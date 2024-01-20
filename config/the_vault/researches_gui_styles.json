@@ -36,7 +36,6 @@
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/mekanism_qio"
     },
-    
     "Stack Upgrading": {
       "x": 200,
       "y": -40,
@@ -121,7 +120,7 @@
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/create"
     },
-    "Waystones": {
+    "Floo Network": {
       "x": 390,
       "y": 120,
       "frameType": "RECTANGULAR",
@@ -307,9 +306,5 @@
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/brew"
     }
-    
-    
-    
   }
-    
 }
