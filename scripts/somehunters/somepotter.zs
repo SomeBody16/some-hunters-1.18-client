@@ -1,3 +1,5 @@
+import mods.jei.JEI;
+
 var modId = "somepotter";
 
 craftingTable.addShapeless(
@@ -8,9 +10,7 @@ craftingTable.addShapeless(
 
 craftingTable.addShapeless(
     recipeId(modId, "spell_book"),
-    <item:patchouli:guide_book>,
-    [<item:minecraft:book>, <item:minecraft:amethyst_shard>],
-    (usualOut as IItemStack, inputs as IItemStack[]) => {
-        return usualOut.withTag({ "patchouli:book": "somepotter:spell_book" });
-    }
+    <item:patchouli:guide_book>.withTag({ "patchouli:book": "somepotter:spell_book" }),
+    [<item:minecraft:book>, <item:minecraft:amethyst_shard>]
 );
+JEI.addIngredient(<item:patchouli:guide_book>.withTag({ "patchouli:book": "somepotter:spell_book" }));
