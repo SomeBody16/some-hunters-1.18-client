@@ -37,17 +37,17 @@ jobs:
       run: rclone config create target sftp host ${{ secrets.FTP_SERVER }} pass ${{ secrets.FTP_PASSWORD }} user ${{ secrets.FTP_USERNAME }} port 2222
 
     - name: Sync defaultconfigs
-      if: steps.filter.outputs.defaultconfigs == 'true'
+      # if: steps.filter.outputs.defaultconfigs == 'true'
       run: rclone sync defaultconfigs target:defaultconfigs --dry-run
       
     - name: Sync patchouli_books
-      if: steps.filter.outputs.patchouli_books == 'true'
+      # if: steps.filter.outputs.patchouli_books == 'true'
       run: rclone sync patchouli_books target:patchouli_books --dry-run
       
     - name: Sync scripts
-      if: steps.filter.outputs.scripts == 'true'
+      # if: steps.filter.outputs.scripts == 'true'
       run: rclone sync scripts target:scripts --dry-run
       
     - name: Sync mods
-      if: steps.filter.outputs.mods == 'true'
+      # if: steps.filter.outputs.mods == 'true'
       run: rclone sync mods target:mods --dry-run --ignore-case --exclude-from .sftpignore
