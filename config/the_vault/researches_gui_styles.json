@@ -124,7 +124,7 @@
       "x": 390,
       "y": 120,
       "frameType": "RECTANGULAR",
-      "icon": "the_vault:gui/researches/floo_network"
+      "icon": "somepotter:gui/floo_network"
     },
     "Torch Master": {
       "x": 440,
