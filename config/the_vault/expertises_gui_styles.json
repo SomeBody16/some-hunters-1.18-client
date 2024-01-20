@@ -1,7 +1,7 @@
 {
   "styles": {
     "Lucky_Altar": {
-      "x": 210,
+      "x": 175,
       "y": 140,
       "frameType": "STAR",
       "icon": "the_vault:gui/skills/lucky_altar"
@@ -31,13 +31,13 @@
       "icon": "the_vault:gui/skills/angel"
     },
     "Bounty_Hunter": {
-      "x": 280,
+      "x": 245,
       "y": 140,
       "frameType": "STAR",
       "icon": "the_vault:gui/skills/bounty_hunter"
     },
     "Marketer": {
-      "x": 350,
+      "x": 315,
       "y": 140,
       "frameType": "STAR",
       "icon": "the_vault:gui/skills/marketer"
@@ -73,16 +73,10 @@
       "icon": "the_vault:gui/skills/infuser"
     },
     "Experienced": {
-      "x": 140,
+      "x": 105,
       "y": 140,
       "frameType": "STAR",
       "icon": "the_vault:gui/skills/experienced"
-    },
-    "Fortunate": {
-      "x": 70,
-      "y": 140,
-      "frameType": "STAR",
-      "icon": "the_vault:gui/skills/fortunate"
     },
     "Fortuitous_Finesse": {
       "x": 350,
