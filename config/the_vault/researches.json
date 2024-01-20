@@ -36,23 +36,6 @@
     },
     {
       "modIds": [
-        "waystones"
-      ],
-      "restrictions": {
-        "restricts": {
-          "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": true,
-          "USABILITY": true,
-          "CRAFTABILITY": true,
-          "ENTITY_INTERACTABILITY": false
-        }
-      },
-      "name": "Waystones",
-      "cost": 1,
-      "usesKnowledge": true
-    },
-    {
-      "modIds": [
         "torchmaster"
       ],
       "restrictions": {
@@ -1315,6 +1298,22 @@
       "entityRestrictions": {},
       "name": "Botania Flux Field",
       "cost": 2,
+      "usesKnowledge": true
+    },
+    {
+      "itemRestrictions": {
+        "somepotter:floo_powder": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        }
+      },
+      "blockRestrictions": {},
+      "entityRestrictions": {},
+      "name": "Floo Network",
+      "cost": 1,
       "usesKnowledge": true
     }
   ]
