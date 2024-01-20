@@ -34,7 +34,7 @@ jobs:
       run: sudo apt-get install rclone
 
     - name: Configure rclone
-      run: rclone copy create target sftp host ${{ secrets.FTP_SERVER }} pass ${{ secrets.FTP_PASSWORD }} user ${{ secrets.FTP_USERNAME }} port 2222
+      run: rclone config create target sftp host ${{ secrets.FTP_SERVER }} pass ${{ secrets.FTP_PASSWORD }} user ${{ secrets.FTP_USERNAME }} port 2222
 
     - name: Sync defaultconfigs
       # if: steps.filter.outputs.defaultconfigs == 'true'
