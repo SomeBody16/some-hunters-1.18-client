@@ -124,7 +124,7 @@
       "x": 390,
       "y": 120,
       "frameType": "RECTANGULAR",
-      "icon": "somepotter:gui/floo_network"
+      "icon": "the_vault:gui/researches/waystones"
     },
     "Torch Master": {
       "x": 440,
