@@ -1,418 +1,188 @@
 {
   "costs": {
     "protection": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     },
     "fire_protection": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     },
     "feather_falling": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     },
     "blast_protection": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     },
     "projectile_protection": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     },
     "respiration": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     },
     "aqua_affinity": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     },
     "thorns": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     },
     "depth_strider": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     },
     "frost_walker": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     },
     "binding_curse": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     },
     "soul_speed": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     },
     "sharpness": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     },
     "smite": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     },
     "bane_of_arthropods": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     },
     "knockback": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     },
     "fire_aspect": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     },
     "looting": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     },
     "sweeping": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     },
     "efficiency": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     },
     "silk_touch": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     },
     "unbreaking": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     },
     "fortune": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     },
     "power": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     },
     "punch": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     },
     "flame": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     },
     "infinity": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     },
     "luck_of_the_sea": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     },
     "lure": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     },
     "loyalty": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     },
     "impaling": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     },
     "riptide": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     },
     "channeling": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     },
     "multishot": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     },
     "quick_charge": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     },
     "piercing": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     },
     "mending": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     },
     "vanishing_curse": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     },
     "alexsmobs:straddle_jump": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     },
     "alexsmobs:lavawax": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     },
     "alexsmobs:serpentfriend": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     },
     "alexsmobs:board_return": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     },
     "supplementaries:stasis": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     },
     "cofh_core:holding": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     },
     "create:potato_recovery": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     },
     "create:capacity": {
-      "items": [
-        {
-          "id": "emerald",
-          "count": 5
-        }
-      ],
-      "levels": 1
+      "items": [],
+      "levels": 30
     }
   }
 }

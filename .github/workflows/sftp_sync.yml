@@ -1,6 +1,9 @@
 name: 🚀 SFTP Sync
 
 on:
+  push:
+    branches:
+      - master
   workflow_dispatch:
     inputs:
       force_sync:
