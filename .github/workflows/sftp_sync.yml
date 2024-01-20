@@ -34,11 +34,11 @@ jobs:
       run: sudo apt-get install rclone
 
     - name: Configure rclone
-      run: rclone config create target sftp host ${{ secrets.FTP_SERVER }} pass ${{ secrets.FTP_PASSWORD }} user ${{ secrets.FTP_USERNAME }} port 2222
+      run: rclone copy create target sftp host ${{ secrets.FTP_SERVER }} pass ${{ secrets.FTP_PASSWORD }} user ${{ secrets.FTP_USERNAME }} port 2222
 
     - name: Sync defaultconfigs
       # if: steps.filter.outputs.defaultconfigs == 'true'
-      run: rclone sync defaultconfigs target:defaultconfigs --dry-run
+      run: rclone copy defaultconfigs target:defaultconfigs --dry-run
       
     - name: Sync patchouli_books
       # if: steps.filter.outputs.patchouli_books == 'true'
