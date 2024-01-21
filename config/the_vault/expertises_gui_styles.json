@@ -1,7 +1,7 @@
 {
   "styles": {
     "Lucky_Altar": {
-      "x": 175,
+      "x": 140,
       "y": 140,
       "frameType": "STAR",
       "icon": "the_vault:gui/skills/lucky_altar"
@@ -31,13 +31,13 @@
       "icon": "the_vault:gui/skills/angel"
     },
     "Bounty_Hunter": {
-      "x": 245,
+      "x": 210,
       "y": 140,
       "frameType": "STAR",
       "icon": "the_vault:gui/skills/bounty_hunter"
     },
     "Marketer": {
-      "x": 315,
+      "x": 280,
       "y": 140,
       "frameType": "STAR",
       "icon": "the_vault:gui/skills/marketer"
