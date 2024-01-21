@@ -7,7 +7,6 @@ craftingTable.addShapeless(
     <item:${modId}:floo_powder>,
     [<item:minecraft:blaze_powder>, <item:the_vault:extraordinary_larimar>]
 );
-<block:${modId}:floo_fire>.addDrop("larimar", <item:the_vault:extraordinary_larimar>);
 
 craftingTable.addShapeless(
     recipeId(modId, "spell_book"),
