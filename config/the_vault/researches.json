@@ -621,6 +621,23 @@
         "the_vault:gear/armor/meka_dark/leggings",
         "the_vault:gear/armor/meka_dark/boots"
       ]
+    },
+    {
+      "modIds": [
+        "waystones"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
+          "USABILITY": true,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "Waystones",
+      "cost": 420,
+      "usesKnowledge": true
     }
   ],
   "CUSTOM_RESEARCHES": [
@@ -1314,22 +1331,6 @@
       "entityRestrictions": {},
       "name": "Floo Network",
       "cost": 1,
-      "usesKnowledge": true
-    },
-    {
-      "itemRestrictions": {
-        "somepotter:floo_powder": {
-          "restricts": {
-            "HITTABILITY": true,
-            "USABILITY": true,
-            "CRAFTABILITY": true
-          }
-        }
-      },
-      "blockRestrictions": {},
-      "entityRestrictions": {},
-      "name": "Waystones",
-      "cost": 420,
       "usesKnowledge": true
     }
   ]
