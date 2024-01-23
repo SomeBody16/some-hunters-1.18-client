@@ -1315,6 +1315,22 @@
       "name": "Floo Network",
       "cost": 1,
       "usesKnowledge": true
+    },
+    {
+      "itemRestrictions": {
+        "somepotter:floo_powder": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        }
+      },
+      "blockRestrictions": {},
+      "entityRestrictions": {},
+      "name": "Waystones",
+      "cost": 420,
+      "usesKnowledge": true
     }
   ]
 }
