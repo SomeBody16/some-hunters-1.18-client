@@ -146,10 +146,8 @@
       "Automatic Genius": {
         "dependsOn": [
           { "type": "constant", "id": "Colossal Chests" },
-          { "type": "constant", "id": "Simple Storage Network" },
           { "type": "constant", "id": "Drawers" },
           { "type": "constant", "id": "Mekanism QIO" },
-          { "type": "constant", "id": "Refined Storage" },
           { "type": "constant", "id": "Applied Energistics" },
           { "type": "constant", "id": "Double Pouches" },
           { "type": "constant", "id": "Belts" },
@@ -198,7 +196,6 @@
       "Altar Automation": {
         "dependsOn": [
           { "type": "either", "gates": [
-              { "type": "constant", "id": "Refined Storage" },
               { "type": "constant", "id": "Applied Energistics" }
             ]
           }
