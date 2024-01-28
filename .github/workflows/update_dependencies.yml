@@ -1,0 +1,55 @@
+name: 🚀 Update dependencies
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+  issue_comment:
+    types: [created]
+  workflow_dispatch:
+
+jobs:
+  someresources:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request' || (github.event_name == 'issue_comment' && github.event.issue.pull_request)
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Download
+        uses: dsaltares/fetch-gh-release-asset@master
+        with:
+          repo: 'SomeBody16/someresources'
+          regex: true
+          file: "someresources-*\\.zip"
+          target: "someresources.zip"
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit & Push if Changes
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git add .
+          git commit -m "Update someresources.zip from SomeBody16/someresources" || echo "No changes to commit"
+          git push || echo "No changes to push"
+
+  somepotter:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request' || (github.event_name == 'issue_comment' && github.event.issue.pull_request)
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Download
+        uses: dsaltares/fetch-gh-release-asset@master
+        with:
+          repo: 'SomeBody16/somepotter'
+          regex: true
+          file: "somepotter-*\\.jar"
+          target: "mods/somepotter.zip"
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit & Push if Changes
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git add .
+          git commit -m "Update somepotter.jar from SomeBody16/somepotter" || echo "No changes to commit"
+          git push || echo "No changes to push"
