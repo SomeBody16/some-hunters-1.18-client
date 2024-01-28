@@ -27,7 +27,7 @@ jobs:
         with:
           repo: "SomeBody16/someresources"
           regex: true
-          file: "someresources-.+\\.jar"
+          file: "someresources-.+\\.zip"
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Update server.properties
