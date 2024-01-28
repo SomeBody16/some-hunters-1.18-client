@@ -31,7 +31,7 @@ jobs:
       - name: Set the Asset URL and SHA1
         id: set-vars
         run: |
-          ASSET_URL=$(echo ${{ steps.get-latest-release.outputs.data }} | jq -r '.assets[0].browser_download_url')
+          ASSET_URL=$(echo '${{ steps.get-latest-release.outputs.data }}' | jq -r '.assets[0].browser_download_url')
           echo "Asset URL: $ASSET_URL"
           echo "::set-output name=ASSET_URL::$ASSET_URL"
 
