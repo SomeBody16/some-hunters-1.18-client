@@ -52,4 +52,3 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Update dependencies
-          file_pattern: 'server.properties,mods/somepotter-*.jar'
