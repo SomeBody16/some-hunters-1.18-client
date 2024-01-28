@@ -19,17 +19,26 @@ jobs:
 
       - name: Remove old dependencies
         run: |
-          rm -rf someresources-*.zip
           rm -rf mods/somepotter-*.jar
 
-      - name: Update someresources
+      - name: Get latest someresources download link
+        id: get-latest-release
         uses: dsaltares/fetch-gh-release-asset@master
         with:
-          repo: 'SomeBody16/someresources'
-          regex: true
-          file: "someresources-.+\\.zip"
-          target: "./"
+          repo: "SomeBody16/someresources"
+          version: "latest"
+          file: "*.zip"
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update server.properties
+        run: |
+          # Remove old lines
+          sed -i '/resource-pack=/d' server.properties
+          sed -i '/resource-pack-sha1=/d' server.properties
+          
+          # Append new lines with the latest release info
+          echo "resource-pack=${{ steps.get-latest-release.outputs.browser_download_url }}" >> server.properties
+          echo "resource-pack-sha1=$GITHUB_SHA" >> server.properties
 
       - name: Update somepotter
         uses: dsaltares/fetch-gh-release-asset@master
