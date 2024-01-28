@@ -1,4 +1,4 @@
-name: 🚀 SFTP Sync
+name: 🚀 Deploy resourcepack
 
 on:
   push:
