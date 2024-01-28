@@ -11,13 +11,13 @@ permissions:
   contents: write
 
 jobs:
-  someresources:
+  update_dependencies:
     runs-on: ubuntu-latest
     if: github.event_name == 'pull_request' || (github.event_name == 'issue_comment' && github.event.issue.pull_request)
     steps:
       - uses: actions/checkout@v3
 
-      - name: Download
+      - name: Update someresources
         uses: dsaltares/fetch-gh-release-asset@master
         with:
           repo: 'SomeBody16/someresources'
@@ -26,41 +26,7 @@ jobs:
           target: "someresources.zip"
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: Update someresources.zip from SomeBody16/someresources
-
-#      - name: Commit & Push if Changes
-#        run: |
-#          # Configure Git
-#          git config --global user.email "action@github.com"
-#          git config --global user.name "GitHub Action"
-#
-#          # Check if there are changes (this prevents the script from failing if there's nothing to commit)
-#          if git diff --quiet; then
-#            echo "No changes detected"
-#          else
-#            # Ensure you're on a branch (replace 'main' with your default branch if different)
-#            git checkout -B "${GITHUB_HEAD_REF:-main}"
-#
-#            # Add changes to git
-#            git add .
-#
-#            # Commit changes
-#            git commit -m "Update someresources.zip from SomeBody16/someresources"
-#
-#            # Push changes back to the remote branch
-#            # Use GITHUB_HEAD_REF for pull requests, GITHUB_REF for pushes
-#            git push origin "${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}"
-#          fi
-
-  somepotter:
-    runs-on: ubuntu-latest
-    if: github.event_name == 'pull_request' || (github.event_name == 'issue_comment' && github.event.issue.pull_request)
-    steps:
-      - uses: actions/checkout@v3
-
-      - name: Download
+      - name: Update somepotter
         uses: dsaltares/fetch-gh-release-asset@master
         with:
           repo: 'SomeBody16/somepotter'
@@ -71,28 +37,4 @@ jobs:
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: Update somepotter.jar from SomeBody16/somepotter
-
-#      - name: Commit & Push if Changes
-#        run: |
-#          # Configure Git
-#          git config --global user.email "action@github.com"
-#          git config --global user.name "GitHub Action"
-#
-#          # Check if there are changes (this prevents the script from failing if there's nothing to commit)
-#          if git diff --quiet; then
-#            echo "No changes detected"
-#          else
-#            # Ensure you're on a branch (replace 'main' with your default branch if different)
-#            git checkout -B "${GITHUB_HEAD_REF:-main}"
-#
-#            # Add changes to git
-#            git add .
-#
-#            # Commit changes
-#            git commit -m "Update somepotter.jar from SomeBody16/somepotter""
-#
-#            # Push changes back to the remote branch
-#            # Use GITHUB_HEAD_REF for pull requests, GITHUB_REF for pushes
-#            git push origin "${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}"
-#          fi
+          commit_message: Update dependencies
