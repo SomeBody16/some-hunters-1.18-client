@@ -19,7 +19,7 @@ jobs:
         with:
           repo: 'SomeBody16/someresources'
           regex: true
-          file: "someresources-*\\.zip"
+          file: "someresources-.+\\.zip"
           target: "someresources.zip"
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -42,7 +42,7 @@ jobs:
         with:
           repo: 'SomeBody16/somepotter'
           regex: true
-          file: "somepotter-*\\.jar"
+          file: "somepotter-.+\\.jar"
           target: "mods/somepotter.zip"
           token: ${{ secrets.GITHUB_TOKEN }}
 
