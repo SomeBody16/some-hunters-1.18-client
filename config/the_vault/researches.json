@@ -154,7 +154,7 @@
         }
       },
       "name": "Refined Storage",
-      "cost": 420,
+      "cost": 4,
       "usesKnowledge": true,
       "discoversModels": [
         "the_vault:gear/armor/arcade/helmet",
