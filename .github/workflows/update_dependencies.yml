@@ -25,11 +25,27 @@ jobs:
 
       - name: Commit & Push if Changes
         run: |
+          # Configure Git
           git config --global user.email "action@github.com"
           git config --global user.name "GitHub Action"
-          git add .
-          git commit -m "Update someresources.zip from SomeBody16/someresources" || echo "No changes to commit"
-          git push || echo "No changes to push"
+          
+          # Check if there are changes (this prevents the script from failing if there's nothing to commit)
+          if git diff --quiet; then
+            echo "No changes detected"
+          else
+            # Ensure you're on a branch (replace 'main' with your default branch if different)
+            git checkout -B "${GITHUB_HEAD_REF:-main}"
+          
+            # Add changes to git
+            git add .
+          
+            # Commit changes
+            git commit -m "Update someresources.zip from SomeBody16/someresources"
+          
+            # Push changes back to the remote branch
+            # Use GITHUB_HEAD_REF for pull requests, GITHUB_REF for pushes
+            git push origin "${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}"
+          fi
 
   somepotter:
     runs-on: ubuntu-latest
@@ -48,8 +64,24 @@ jobs:
 
       - name: Commit & Push if Changes
         run: |
+          # Configure Git
           git config --global user.email "action@github.com"
           git config --global user.name "GitHub Action"
-          git add .
-          git commit -m "Update somepotter.jar from SomeBody16/somepotter" || echo "No changes to commit"
-          git push || echo "No changes to push"
+          
+          # Check if there are changes (this prevents the script from failing if there's nothing to commit)
+          if git diff --quiet; then
+            echo "No changes detected"
+          else
+            # Ensure you're on a branch (replace 'main' with your default branch if different)
+            git checkout -B "${GITHUB_HEAD_REF:-main}"
+          
+            # Add changes to git
+            git add .
+          
+            # Commit changes
+            git commit -m "Update somepotter.jar from SomeBody16/somepotter""
+          
+            # Push changes back to the remote branch
+            # Use GITHUB_HEAD_REF for pull requests, GITHUB_REF for pushes
+            git push origin "${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}"
+          fi
