@@ -51,3 +51,6 @@ o_prof
 /options.txt
 /reauth.toml
 /user*
+
+# Project
+.idea
