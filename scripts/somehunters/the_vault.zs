@@ -11,5 +11,5 @@ pogTag.add(<item:${modId}:gem_upaline>);
 pogTag.add(<item:${modId}:gem_xenium>);
 pogTag.add(<item:${modId}:gem_ashium>);
 pogTag.add(<item:${modId}:gem_pog>);
-pogTag.add(<item:${modId}:gem_echo_pog>);
-pogTag.add(<item:${modId}:gem_omega_pog>);
+pogTag.add(<item:${modId}:echo_pog>);
+pogTag.add(<item:${modId}:omega_pog>);
