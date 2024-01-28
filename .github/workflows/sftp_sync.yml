@@ -44,6 +44,9 @@ jobs:
     - name: Sync Better Compability Check
       run: rclone copyto config/bcc-common.toml target:config/bcc-common.toml -v
 
+    - name: Sync server.properties
+      run: rclone copyto server.properties target:server.properties -v
+
     - name: Sync config
       if: steps.filter.outputs.config == 'true' || contains(github.event.inputs.force_sync, 'config')
       run: rclone copy config target:config --stats-one-line -v -c

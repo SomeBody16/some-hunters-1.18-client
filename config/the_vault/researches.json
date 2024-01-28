@@ -31,7 +31,7 @@
         }
       },
       "name": "Simple Storage Network",
-      "cost": 1,
+      "cost": 420,
       "usesKnowledge": true
     },
     {
@@ -897,7 +897,7 @@
       "blockRestrictions": {},
       "entityRestrictions": {},
       "name": "Altar Automation",
-      "cost": 32,
+      "cost": 8,
       "usesKnowledge": true
     },
     {

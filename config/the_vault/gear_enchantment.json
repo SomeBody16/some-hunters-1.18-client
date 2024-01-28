@@ -2,187 +2,187 @@
   "costs": {
     "protection": {
       "items": [],
-      "levels": 24
+      "levels": 30
     },
     "fire_protection": {
       "items": [],
-      "levels": 24
+      "levels": 30
     },
     "feather_falling": {
       "items": [],
-      "levels": 24
+      "levels": 30
     },
     "blast_protection": {
       "items": [],
-      "levels": 24
+      "levels": 30
     },
     "projectile_protection": {
       "items": [],
-      "levels": 24
+      "levels": 30
     },
     "respiration": {
       "items": [],
-      "levels": 24
+      "levels": 30
     },
     "aqua_affinity": {
       "items": [],
-      "levels": 24
+      "levels": 30
     },
     "thorns": {
       "items": [],
-      "levels": 24
+      "levels": 30
     },
     "depth_strider": {
       "items": [],
-      "levels": 24
+      "levels": 30
     },
     "frost_walker": {
       "items": [],
-      "levels": 24
+      "levels": 30
     },
     "binding_curse": {
       "items": [],
-      "levels": 24
+      "levels": 30
     },
     "soul_speed": {
       "items": [],
-      "levels": 24
+      "levels": 30
     },
     "sharpness": {
       "items": [],
-      "levels": 24
+      "levels": 30
     },
     "smite": {
       "items": [],
-      "levels": 24
+      "levels": 30
     },
     "bane_of_arthropods": {
       "items": [],
-      "levels": 24
+      "levels": 30
     },
     "knockback": {
       "items": [],
-      "levels": 24
+      "levels": 30
     },
     "fire_aspect": {
       "items": [],
-      "levels": 24
+      "levels": 30
     },
     "looting": {
       "items": [],
-      "levels": 24
+      "levels": 30
     },
     "sweeping": {
       "items": [],
-      "levels": 24
+      "levels": 30
     },
     "efficiency": {
       "items": [],
-      "levels": 24
+      "levels": 30
     },
     "silk_touch": {
       "items": [],
-      "levels": 24
+      "levels": 30
     },
     "unbreaking": {
       "items": [],
-      "levels": 24
+      "levels": 30
     },
     "fortune": {
       "items": [],
-      "levels": 24
+      "levels": 30
     },
     "power": {
       "items": [],
-      "levels": 24
+      "levels": 30
     },
     "punch": {
       "items": [],
-      "levels": 24
+      "levels": 30
     },
     "flame": {
       "items": [],
-      "levels": 24
+      "levels": 30
     },
     "infinity": {
       "items": [],
-      "levels": 24
+      "levels": 30
     },
     "luck_of_the_sea": {
       "items": [],
-      "levels": 24
+      "levels": 30
     },
     "lure": {
       "items": [],
-      "levels": 24
+      "levels": 30
     },
     "loyalty": {
       "items": [],
-      "levels": 24
+      "levels": 30
     },
     "impaling": {
       "items": [],
-      "levels": 24
+      "levels": 30
     },
     "riptide": {
       "items": [],
-      "levels": 24
+      "levels": 30
     },
     "channeling": {
       "items": [],
-      "levels": 24
+      "levels": 30
     },
     "multishot": {
       "items": [],
-      "levels": 24
+      "levels": 30
     },
     "quick_charge": {
       "items": [],
-      "levels": 24
+      "levels": 30
     },
     "piercing": {
       "items": [],
-      "levels": 24
+      "levels": 30
     },
     "mending": {
       "items": [],
-      "levels": 24
+      "levels": 30
     },
     "vanishing_curse": {
       "items": [],
-      "levels": 24
+      "levels": 30
     },
     "alexsmobs:straddle_jump": {
       "items": [],
-      "levels": 24
+      "levels": 30
     },
     "alexsmobs:lavawax": {
       "items": [],
-      "levels": 24
+      "levels": 30
     },
     "alexsmobs:serpentfriend": {
       "items": [],
-      "levels": 24
+      "levels": 30
     },
     "alexsmobs:board_return": {
       "items": [],
-      "levels": 24
+      "levels": 30
     },
     "supplementaries:stasis": {
       "items": [],
-      "levels": 24
+      "levels": 30
     },
     "cofh_core:holding": {
       "items": [],
-      "levels": 24
+      "levels": 30
     },
     "create:potato_recovery": {
       "items": [],
-      "levels": 24
+      "levels": 30
     },
     "create:capacity": {
       "items": [],
-      "levels": 24
+      "levels": 30
     }
   }
 }

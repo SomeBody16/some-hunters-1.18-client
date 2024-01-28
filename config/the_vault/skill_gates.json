@@ -146,7 +146,6 @@
       "Automatic Genius": {
         "dependsOn": [
           { "type": "constant", "id": "Colossal Chests" },
-          { "type": "constant", "id": "Simple Storage Network" },
           { "type": "constant", "id": "Drawers" },
           { "type": "constant", "id": "Mekanism QIO" },
           { "type": "constant", "id": "Refined Storage" },
