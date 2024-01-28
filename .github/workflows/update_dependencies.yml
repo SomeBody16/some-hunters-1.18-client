@@ -17,13 +17,18 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: Remove old dependencies
+        run: |
+          rm -rf someresources-*.zip
+          rm -rf mods/somepotter-*.jar
+
       - name: Update someresources
         uses: dsaltares/fetch-gh-release-asset@master
         with:
           repo: 'SomeBody16/someresources'
           regex: true
           file: "someresources-.+\\.zip"
-          target: "someresources.zip"
+          target: "./"
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Update somepotter
@@ -32,7 +37,7 @@ jobs:
           repo: 'SomeBody16/somepotter'
           regex: true
           file: "somepotter-.+\\.jar"
-          target: "mods/somepotter.zip"
+          target: "mods/"
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: stefanzweifel/git-auto-commit-action@v5
