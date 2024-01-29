@@ -28,15 +28,16 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Set the Asset URL and SHA1
+      - name: Set the someresources URL and SHA1
         id: set-vars
         run: |
           ASSET_URL=$(echo '${{ steps.get-latest-release.outputs.data }}' | jq -r '.assets[0].browser_download_url')
-          echo "Asset URL: $ASSET_URL"
+          echo "someresources URL: $ASSET_URL"
           echo "::set-output name=ASSET_URL::$ASSET_URL"
           
-          curl -sL $ASSET_URL -o someresources.zip
-          echo "::set-output name=ASSET_SHA1::$(sha1sum someresources.zip | awk '{print $1}')"
+          ASSET_SHA1=$(curl -sL $ASSET_URL | sha1sum | awk '{print $1}')
+          echo "someresources SHA1: $ASSET_SHA1"
+          echo "::set-output name=ASSET_SHA1::$ASSET_SHA1"
 
       - name: Update server.properties
         run: |
@@ -48,7 +49,7 @@ jobs:
           # Append new lines with the latest release info
           echo "require-resource-pack=true" >> server.properties
           echo "resource-pack=${{ steps.set-vars.outputs.ASSET_URL }}" >> server.properties
-          echo "resource-pack-sha1=$ASSET_SHA1" >> server.properties
+          echo "resource-pack-sha1=${{ steps.set-vars.outputs.ASSET_SHA1 }}" >> server.properties
 
 
       # SomePotter
