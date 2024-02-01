@@ -47,10 +47,6 @@ jobs:
     - name: Sync server.properties
       run: rclone copyto server.properties target:server.properties -v
 
-    - name: Sync config
-      if: steps.filter.outputs.config == 'true' || contains(github.event.inputs.force_sync, 'config')
-      run: rclone copy config target:config --stats-one-line -v -c
-
     - name: Sync defaultconfigs
       if: steps.filter.outputs.defaultconfigs == 'true' || contains(github.event.inputs.force_sync, 'defaultconfigs')
       run: rclone copy defaultconfigs target:defaultconfigs --stats-one-line -v -c
@@ -66,6 +62,10 @@ jobs:
     - name: Sync mods
       if: steps.filter.outputs.mods == 'true' || contains(github.event.inputs.force_sync, 'mods')
       run: rclone sync mods target:mods --ignore-case --exclude-from .sftpignore --stats-one-line -v -c
+
+    - name: Sync config
+      if: steps.filter.outputs.config == 'true' || contains(github.event.inputs.force_sync, 'config')
+      run: rclone copy config target:config --stats-one-line -v -c
 
     - name: Delete *.bak files
       run: rclone delete target:config --include *.bak --stats-one-line -v
