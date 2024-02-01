@@ -183,6 +183,10 @@
     "create:capacity": {
       "items": [],
       "levels": 30
+    },
+    "wildbackport:swift_sneak": {
+      "items": [],
+      "levels": 30
     }
   }
 }
