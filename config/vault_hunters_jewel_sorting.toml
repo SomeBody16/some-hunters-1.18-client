@@ -46,3 +46,21 @@
 	#Supported Values: NAME, SLOT, TYPE, USES
 	trinket_sorting_by_mod = []
 
+#This category holds options how Vault Dolls are sorted
+["Vault Doll Sorting"]
+	#Supported Values: NAME, OWNER, COMPLETED, XP, LOOT
+	vault_doll_sorting_by_name = ["NAME", "COMPLETED", "OWNER", "LOOT", "XP"]
+	#Supported Values: NAME, OWNER, COMPLETED, XP, LOOT
+	vault_doll_sorting_by_amount = []
+	#Supported Values: NAME, OWNER, COMPLETED, XP, LOOT
+	vault_doll_sorting_by_mod = []
+
+#This category holds options how Vault Charms are sorted
+["Vault Charm Sorting"]
+	#Supported Values: NAME, USES, VALUE
+	charm_sorting_by_name = ["NAME", "USES", "VALUE"]
+	#Supported Values: NAME, USES, VALUE
+	charm_sorting_by_amount = []
+	#Supported Values: NAME, USES, VALUE
+	charm_sorting_by_mod = []
+

@@ -4,7 +4,6 @@
       "title": "Storage",
       "research": [
         "Colossal Chests",
-        "Simple Storage Network",
         "Refined Storage",
         "Applied Energistics",
         "Drawers",
@@ -78,13 +77,12 @@
         "Torch Master",
         "Trashcans",
         "Elevators",
-        "Waystones",
+        "Floo Network",
         "Vault Compass",
         "Altar Automation"
       ],
       "globalCostIncrease": 0.0,
-      "groupCostIncrease": {
-      }
+      "groupCostIncrease": {}
     },
     "Looting": {
       "title": "Looting",
@@ -98,26 +96,25 @@
         "Auto Feeding",
         "Auto Refill",
         "Soul Harvester"
-
       ],
       "globalCostIncrease": 0.0,
       "groupCostIncrease": {
         "Looting": 2.0
       }
     },
-      "Handling": {
-        "title": "Handling",
-        "research": [
-          "Xnet",
-          "Modular Routers",
-          "Pipez",
-          "Iron Furnaces",
-          "Dark Utilities"
-        ],
-        "globalCostIncrease": 0.0,
-        "groupCostIncrease": {
-          "Handling": 5.0
-        }
+    "Handling": {
+      "title": "Handling",
+      "research": [
+        "Xnet",
+        "Modular Routers",
+        "Pipez",
+        "Iron Furnaces",
+        "Dark Utilities"
+      ],
+      "globalCostIncrease": 0.0,
+      "groupCostIncrease": {
+        "Handling": 5.0
+      }
     },
     "Alchemy": {
       "title": "Alchemy",
@@ -130,6 +127,6 @@
       "groupCostIncrease": {
         "Alchemy": 5.0
       }
-  }
+    }
   }
 }

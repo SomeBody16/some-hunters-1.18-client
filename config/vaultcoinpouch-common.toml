@@ -1,0 +1,5 @@
+
+[General]
+	#Enable / Disable the possibility to add Soulbound to the pouch.
+	enableSoulbound = true
+

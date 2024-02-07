@@ -1,0 +1,71 @@
+name: 🚀 SFTP Sync
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+    inputs:
+      force_sync:
+        description: 'Force sync specific directories (comma-separated: config,defaultconfigs,patchouli_books,scripts,mods)'
+        required: false
+        default: ''
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - uses: dorny/paths-filter@v2
+      id: filter
+      with:
+        filters: |
+          config:
+            - 'config/**'
+          defaultconfigs:
+            - 'defaultconfigs/**'
+          patchouli_books:
+            - 'patchouli_books/**'
+          scripts:
+            - 'scripts/**'
+          mods:
+            - 'mods/**'
+          
+
+    - name: Install rclone
+      run: sudo apt-get install rclone
+
+    - name: Configure rclone
+      run: rclone config create target sftp host ${{ secrets.FTP_SERVER }} pass ${{ secrets.FTP_PASSWORD }} user ${{ secrets.FTP_USERNAME }} port 2222
+
+    - name: Sync Better Compability Check
+      run: rclone copyto config/bcc-common.toml target:config/bcc-common.toml -v
+
+    - name: Sync server.properties
+      run: rclone copyto server.properties target:server.properties -v
+
+    - name: Sync defaultconfigs
+      if: steps.filter.outputs.defaultconfigs == 'true' || contains(github.event.inputs.force_sync, 'defaultconfigs')
+      run: rclone copy defaultconfigs target:defaultconfigs --stats-one-line -v -c
+      
+    - name: Sync patchouli_books
+      if: steps.filter.outputs.patchouli_books == 'true' || contains(github.event.inputs.force_sync, 'patchouli_books')
+      run: rclone sync patchouli_books target:patchouli_books --stats-one-line -v -c
+      
+    - name: Sync scripts
+      if: steps.filter.outputs.scripts == 'true' || contains(github.event.inputs.force_sync, 'scripts')
+      run: rclone sync scripts target:scripts --stats-one-line -v -c
+      
+    - name: Sync mods
+      if: steps.filter.outputs.mods == 'true' || contains(github.event.inputs.force_sync, 'mods')
+      run: rclone sync mods target:mods --ignore-case --exclude-from .sftpignore --stats-one-line -v -c
+
+    - name: Sync config
+      if: steps.filter.outputs.config == 'true' || contains(github.event.inputs.force_sync, 'config')
+      run: rclone copy config target:config --stats-one-line -v -c
+
+    - name: Delete *.bak files
+      run: rclone delete target:config --include *.bak --stats-one-line -v

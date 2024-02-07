@@ -1,0 +1,73 @@
+name: 🚀 Update dependencies
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+  issue_comment:
+    types: [created]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update_dependencies:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request' || (github.event_name == 'issue_comment' && github.event.issue.pull_request)
+    steps:
+      - uses: actions/checkout@v3
+
+
+      # SomeResources
+      - name: Get latest someresources release details
+        id: get-latest-release
+        uses: octokit/request-action@v2.x
+        with:
+          route: GET /repos/SomeBody16/someresources/releases/latest
+          mediaType: '{ previews: ["symmetra"] }'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set the someresources URL and SHA1
+        id: set-vars
+        run: |
+          ASSET_URL=$(echo '${{ steps.get-latest-release.outputs.data }}' | jq -r '.assets[0].browser_download_url')
+          echo "someresources URL: $ASSET_URL"
+          echo "::set-output name=ASSET_URL::$ASSET_URL"
+          
+          ASSET_SHA1=$(curl -sL $ASSET_URL | sha1sum | awk '{print $1}')
+          echo "someresources SHA1: $ASSET_SHA1"
+          echo "::set-output name=ASSET_SHA1::$ASSET_SHA1"
+
+      - name: Update server.properties
+        run: |
+          # Remove old lines
+          sed -i '/require-resource-pack=/d' server.properties
+          sed -i '/resource-pack=/d' server.properties
+          sed -i '/resource-pack-sha1=/d' server.properties
+          
+          # Append new lines with the latest release info
+          echo "require-resource-pack=true" >> server.properties
+          echo "resource-pack=${{ steps.set-vars.outputs.ASSET_URL }}" >> server.properties
+          echo "resource-pack-sha1=${{ steps.set-vars.outputs.ASSET_SHA1 }}" >> server.properties
+
+
+      # SomePotter
+      - name: Remove old somepotter
+        run: |
+          rm -rf mods/somepotter-*.jar
+
+      - name: Update somepotter
+        uses: dsaltares/fetch-gh-release-asset@master
+        with:
+          repo: 'SomeBody16/somepotter'
+          regex: true
+          file: "somepotter-.+\\.jar"
+          target: "mods/"
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Finish
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update dependencies
+          file_pattern: 'mods/somepotter-*.jar server.properties'

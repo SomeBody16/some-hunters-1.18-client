@@ -146,7 +146,6 @@
       "Automatic Genius": {
         "dependsOn": [
           { "type": "constant", "id": "Colossal Chests" },
-          { "type": "constant", "id": "Simple Storage Network" },
           { "type": "constant", "id": "Drawers" },
           { "type": "constant", "id": "Mekanism QIO" },
           { "type": "constant", "id": "Refined Storage" },
@@ -171,7 +170,7 @@
           { "type": "constant", "id": "Mekanism" },
           { "type": "constant", "id": "Thermal Expansion" },
           { "type": "constant", "id": "Create" },
-          { "type": "constant", "id": "Waystones" },
+          { "type": "constant", "id": "Floo Network" },
           { "type": "constant", "id": "Torch Master" },
           { "type": "constant", "id": "Trashcans" },
           { "type": "constant", "id": "Elevators" },
