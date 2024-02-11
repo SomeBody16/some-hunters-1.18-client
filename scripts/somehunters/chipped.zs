@@ -1,5 +1,6 @@
 var modId = "chipped";
 
+// TODO: other blocks
 stoneCutter.addRecipe(recipeId(modId, "stone_1"), <item:${modId}:stone_1>, <tag:items:chipped:stone>);
 stoneCutter.addRecipe(recipeId(modId, "stone_2"), <item:${modId}:stone_2>, <tag:items:chipped:stone>);
 stoneCutter.addRecipe(recipeId(modId, "stone_3"), <item:${modId}:stone_3>, <tag:items:chipped:stone>);
