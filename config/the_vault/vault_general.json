@@ -5,6 +5,7 @@
 	"NO_EXIT_CHANCE": 10,
 	"OBELISK_DROP_CHANCE": 2,
 	"ITEM_BLACKLIST": [
+		"farmersdelight:*",
 		"merequester:*",
 		"createoreexcavation:*",
 		"securitycraft:*",
@@ -212,6 +213,7 @@
 		"supplementaries:bomb_spiky"
 	],
 	"BLOCK_BLACKLIST": [
+		"farmersdelight:*",
 		"merequester:*",
 		"createoreexcavation:*",
 		"securitycraft:*",

@@ -89,7 +89,7 @@
         "lockedBy": []
       },
       "Digital Miner": {
-        "dependsOn": [{ "type": "constant", "id": "Mekanism" }],
+        "dependsOn": [],
         "ignoreArrow": true,
         "lockedBy": []
       },
@@ -148,7 +148,6 @@
           { "type": "constant", "id": "Colossal Chests" },
           { "type": "constant", "id": "Drawers" },
           { "type": "constant", "id": "Mekanism QIO" },
-          { "type": "constant", "id": "Refined Storage" },
           { "type": "constant", "id": "Applied Energistics" },
           { "type": "constant", "id": "Double Pouches" },
           { "type": "constant", "id": "Belts" },
