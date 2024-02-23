@@ -78,8 +78,7 @@
         "Trashcans",
         "Elevators",
         "Floo Network",
-        "Vault Compass",
-        "Altar Automation"
+        "Vault Compass"
       ],
       "globalCostIncrease": 0.0,
       "groupCostIncrease": {}
