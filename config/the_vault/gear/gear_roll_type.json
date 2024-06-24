@@ -46,6 +46,15 @@
       ],
       "color": 7012096
     },
+    "Unique": {
+      "pool": [
+        {
+          "value": "UNIQUE",
+          "weight": 1
+        }
+      ],
+      "color": -1213660
+    },
     "Scrappy+": {
       "pool": [
         {

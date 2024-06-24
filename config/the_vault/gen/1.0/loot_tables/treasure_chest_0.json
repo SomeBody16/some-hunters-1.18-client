@@ -230,17 +230,6 @@
           }
         },
         {
-          "weight": 20,
-          "item": {
-            "id": "the_vault:mote_sanctity",
-            "count": {
-              "type": "uniform",
-              "min": 1,
-              "max": 1
-              }
-          }
-        },
-        {
           "weight": 10,
           "item": {
             "id": "the_vault:sour_orange",
@@ -350,31 +339,9 @@
           }
         },
         {
-          "weight": 50,
-          "item": {
-            "id": "the_vault:mote_purity",
-            "count": {
-              "type": "uniform",
-              "min": 1,
-              "max": 1
-              }
-          }
-        },
-        {
           "weight": 60,
           "item": {
             "id": "the_vault:mod_box",
-            "count": {
-              "type": "uniform",
-              "min": 1,
-              "max": 1
-              }
-          }
-        },
-        {
-          "weight": 60,
-          "item": {
-            "id": "the_vault:mote_clarity",
             "count": {
               "type": "uniform",
               "min": 1,
@@ -394,17 +361,6 @@
           }
         },
         {
-          "weight": 30,
-          "item": {
-            "id": "the_vault:mystical_powder",
-            "count": {
-              "type": "uniform",
-              "min": 1,
-              "max": 1
-              }
-          }
-        },
-        {
           "weight": 40,
           "item": {
             "id": "the_vault:dreamstone",
@@ -416,9 +372,9 @@
           }
         },
         {
-          "weight": 40,
+          "weight": 30,
           "item": {
-            "id": "the_vault:phoenix_dust",
+            "id": "the_vault:phoenix_feather",
             "count": {
               "type": "uniform",
               "min": 1,
@@ -453,49 +409,7 @@
           "item": {
             "id": "the_vault:vault_catalyst_infused",
             "nbt": {
-              "modifiers": ["the_vault:ornate","the_vault:wild"]
-            },
-            "count": {
-              "type": "uniform",
-              "min": 1,
-              "max": 1
-            }
-          }
-        },
-        {
-          "weight": 15,
-          "item": {
-            "id": "the_vault:vault_catalyst_infused",
-            "nbt": {
-              "modifiers": ["the_vault:living","the_vault:wild"]
-            },
-            "count": {
-              "type": "uniform",
-              "min": 1,
-              "max": 1
-            }
-          }
-        },
-        {
-          "weight": 15,
-          "item": {
-            "id": "the_vault:vault_catalyst_infused",
-            "nbt": {
-              "modifiers": ["the_vault:coin_pile","the_vault:wild"]
-            },
-            "count": {
-              "type": "uniform",
-              "min": 1,
-              "max": 1
-            }
-          }
-        },
-        {
-          "weight": 15,
-          "item": {
-            "id": "the_vault:vault_catalyst_infused",
-            "nbt": {
-              "modifiers": ["the_vault:gilded","the_vault:wild"]
+              "pool": "the_vault:treasure_bonus"
             },
             "count": {
               "type": "uniform",

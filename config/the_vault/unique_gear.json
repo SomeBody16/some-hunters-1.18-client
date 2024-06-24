@@ -1,0 +1,74 @@
+{
+  "table": [
+    {
+      "level": 0,
+      "item": "the_vault:helmet",
+      "name": "Cakers",
+      "model": "the_vault:gear/armor/cake/helmet",
+      "modifierIdentifiers": {
+        "IMPLICIT": [
+          "the_vault:base_durability"
+        ],
+        "PREFIX": [
+          "the_vault:armor"
+        ],
+        "SUFFIX": [
+          "the_vault:armor"
+        ]
+      },
+      "modifierTags": {},
+      "weight": 1
+    },
+    {
+      "level": 25,
+      "item": "the_vault:helmet",
+      "name": "Jester Hat",
+      "model": "the_vault:gear/armor/jester/helmet",
+      "modifierIdentifiers": {
+        "IMPLICIT": [
+          "the_vault:base_durability"
+        ],
+        "PREFIX": [
+          "the_vault:jester_lucky_hit"
+        ]
+      },
+      "modifierTags": {},
+      "weight": 1
+    },
+    {
+      "level": 0,
+      "item": "the_vault:chestplate",
+      "name": "The Tower",
+      "model": "the_vault:gear/armor/cake/chestplate",
+      "modifierIdentifiers": {
+        "IMPLICIT": [
+          "the_vault:base_durability"
+        ],
+        "PREFIX": [
+          "the_vault:armor"
+        ],
+        "SUFFIX": [
+          "the_vault:tower_knockback_resistance"
+        ]
+      },
+      "modifierTags": {},
+      "weight": 1
+    },
+    {
+      "level": 25,
+      "item": "the_vault:shield",
+      "name": "Grim Shield",
+      "model": "the_vault:gear/shield/honey_drone",
+      "modifierIdentifiers": {
+        "IMPLICIT": [
+          "the_vault:base_durability"
+        ],
+        "PREFIX": [
+          "the_vault:mod_fear"
+        ]
+      },
+      "modifierTags": {},
+      "weight": 1
+    }
+  ]
+}

@@ -22,7 +22,8 @@
         "the_vault:wooden_cascade",
         "the_vault:plentiful",
         "the_vault:extended",
-        "the_vault:xp_gain"
+        "the_vault:xp_gain",
+        "the_vault:soul_boost"
       ]
     },
     "CURSE": {
@@ -47,7 +48,12 @@
         "the_vault:tired_t2",
         "the_vault:slowed_t2",
         "the_vault:weakened_t2",
-        "the_vault:weakened_t3"
+        "the_vault:weakened_t3",
+        "the_vault:curse_collapsing",
+        "the_vault:curse_voiding",
+        "the_vault:curse_explosive",
+        "the_vault:curse_freezing",
+        "the_vault:curse"
       ]
     }
   },

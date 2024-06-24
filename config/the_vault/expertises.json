@@ -232,25 +232,25 @@
       {
         "type": "tiered",
         "id": "Mystic",
-        "name": "Mystic",
+        "name": "Crystalmancer",
         "tiers": [
           {
             "type": "mystic",
-            "instabilityChanceReduction": 0.12,
+            "additionalCrystalVolume": 5,
             "learnPointCost": 1,
             "regretPointCost": 0,
             "unlockLevel": 0
           },
           {
             "type": "mystic",
-            "instabilityChanceReduction": 0.24,
+            "additionalCrystalVolume": 10,
             "learnPointCost": 1,
             "regretPointCost": 0,
             "unlockLevel": 0
           },
           {
             "type": "mystic",
-            "instabilityChanceReduction": 0.36,
+            "additionalCrystalVolume": 15,
             "learnPointCost": 1,
             "regretPointCost": 0,
             "unlockLevel": 0

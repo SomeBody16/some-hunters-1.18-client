@@ -210,7 +210,9 @@
 		"naturescompass:naturescompass",
 		"supplementaries:bomb",
 		"supplementaries:bomb_blue",
-		"supplementaries:bomb_spiky"
+		"supplementaries:bomb_spiky",
+		"quark:trowel",
+		"create:minecart_contraption"
 	],
 	"BLOCK_BLACKLIST": [
 		"farmersdelight:*",
@@ -638,7 +640,9 @@
 		"mekanism:quantum_entangloporter",
 		"the_vault:bounty_block",
 		"the_vault:angel_block",
-		"dummmmmmy:target_dummy_placer"
+		"dummmmmmy:target_dummy_placer",
+		"quark:trowel",
+		"create:minecart_contraption"
 	],
 	"VAULT_EXIT_TNL_MIN": 0.5,
 	"VAULT_EXIT_TNL_MAX": 1.0,

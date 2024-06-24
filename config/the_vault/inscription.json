@@ -13,20 +13,10 @@
                   "color": 16711935
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.1,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 200,
-                "max": 600
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.02
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -45,20 +35,10 @@
                   "color": 16711935
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.1,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 200,
-                "max": 600
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.02
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -77,20 +57,10 @@
                   "color": 16711935
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.1,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 200,
-                "max": 600
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.02
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -109,20 +79,10 @@
                   "color": 16711935
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.1,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 200,
-                "max": 600
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.02
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -141,20 +101,10 @@
                   "color": 16711935
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.1,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 200,
-                "max": 600
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.02
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -173,20 +123,10 @@
                   "color": 16711935
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.1,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 200,
-                "max": 600
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.02
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -205,20 +145,10 @@
                   "color": 16711935
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.1,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 200,
-                "max": 600
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.02
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -237,20 +167,10 @@
                   "color": 7012096
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.1,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 200,
-                "max": 600
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.02
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -269,20 +189,10 @@
                   "color": 7012096
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.1,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 200,
-                "max": 600
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.02
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -301,20 +211,10 @@
                   "color": 7012096
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.1,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 200,
-                "max": 600
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.02
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -333,20 +233,10 @@
                   "color": 7012096
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.1,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 200,
-                "max": 600
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.02
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -365,20 +255,10 @@
                   "color": 7012096
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.1,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 200,
-                "max": 600
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.02
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -397,20 +277,10 @@
                   "color": 7012096
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.1,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 200,
-                "max": 600
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.02
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -436,20 +306,10 @@
                   "color": 7012096
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -468,20 +328,10 @@
                   "color": 7012096
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -500,20 +350,10 @@
                   "color": 7012096
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -532,20 +372,10 @@
                   "color": 7012096
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -564,20 +394,10 @@
                   "color": 7012096
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -596,20 +416,10 @@
                   "color": 7012096
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -628,20 +438,10 @@
                   "color": 7012096
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -660,20 +460,10 @@
                   "color": 15769088
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -692,20 +482,10 @@
                   "color": 15769088
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -724,20 +504,10 @@
                   "color": 15769088
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -756,20 +526,10 @@
                   "color": 15769088
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -788,20 +548,10 @@
                   "color": 15769088
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -820,20 +570,303 @@
                   "color": 15769088
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
+                "min": 10,
+                "max": 10
               },
-              "time": {
+              "model": {
                 "type": "uniform",
-                "min": 600,
-                "max": 2400
+                "min": 13,
+                "max": 13
+              }
+            },
+            "weight": 16
+          }
+        ]
+      }
+    ],
+    "the_vault:pedestal": [
+      {
+        "level": 0,
+        "pool": [
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/omega/mush_room",
+                  "count": 1,
+                  "color": 7012096
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 5,
+                "max": 20
               },
-              "instability": {
+              "model": {
                 "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 2,
+                "max": 2
+              }
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/omega/blacksmith",
+                  "count": 1,
+                  "color": 7012096
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 5,
+                "max": 20
+              },
+              "model": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+              }
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/omega/mine",
+                  "count": 1,
+                  "color": 7012096
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 5,
+                "max": 20
+              },
+              "model": {
+                "type": "uniform",
+                "min": 9,
+                "max": 9
+              }
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/omega/library",
+                  "count": 1,
+                  "color": 7012096
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 5,
+                "max": 20
+              },
+              "model": {
+                "type": "uniform",
+                "min": 3,
+                "max": 3
+              }
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/omega/cove",
+                  "count": 1,
+                  "color": 7012096
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 5,
+                "max": 20
+              },
+              "model": {
+                "type": "uniform",
+                "min": 4,
+                "max": 4
+              }
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/omega/painting",
+                  "count": 1,
+                  "color": 7012096
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 5,
+                "max": 20
+              },
+              "model": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              }
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/omega/vendor",
+                  "count": 1,
+                  "color": 7012096
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 5,
+                "max": 20
+              },
+              "model": {
+                "type": "uniform",
+                "min": 12,
+                "max": 12
+              }
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/challenge/x-mark",
+                  "count": 1,
+                  "color": 15769088
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 5,
+                "max": 20
+              },
+              "model": {
+                "type": "uniform",
+                "min": 15,
+                "max": 15
+              }
+            },
+            "weight": 16
+          },
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/challenge/dragon",
+                  "count": 1,
+                  "color": 15769088
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 5,
+                "max": 20
+              },
+              "model": {
+                "type": "uniform",
+                "min": 7,
+                "max": 7
+              }
+            },
+            "weight": 16
+          },
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/challenge/wildwest",
+                  "count": 1,
+                  "color": 15769088
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 5,
+                "max": 20
+              },
+              "model": {
+                "type": "uniform",
+                "min": 14,
+                "max": 14
+              }
+            },
+            "weight": 16
+          },
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/challenge/factory",
+                  "count": 1,
+                  "color": 15769088
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 5,
+                "max": 20
+              },
+              "model": {
+                "type": "uniform",
+                "min": 8,
+                "max": 8
+              }
+            },
+            "weight": 16
+          },
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/challenge/crystal_caves",
+                  "count": 1,
+                  "color": 15769088
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 5,
+                "max": 20
+              },
+              "model": {
+                "type": "uniform",
+                "min": 5,
+                "max": 5
+              }
+            },
+            "weight": 16
+          },
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/challenge/village",
+                  "count": 1,
+                  "color": 15769088
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 5,
+                "max": 20
               },
               "model": {
                 "type": "uniform",
@@ -859,20 +892,11 @@
                   "color": 7012096
                 }
               ],
-              "completion": {
+
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -891,20 +915,10 @@
                   "color": 7012096
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -923,20 +937,10 @@
                   "color": 7012096
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -955,20 +959,10 @@
                   "color": 7012096
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -987,20 +981,10 @@
                   "color": 7012096
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -1019,20 +1003,10 @@
                   "color": 7012096
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -1051,20 +1025,10 @@
                   "color": 7012096
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -1083,20 +1047,10 @@
                   "color": 15769088
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -1115,20 +1069,10 @@
                   "color": 15769088
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -1147,20 +1091,10 @@
                   "color": 15769088
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -1179,20 +1113,10 @@
                   "color": 15769088
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -1211,20 +1135,10 @@
                   "color": 15769088
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -1243,20 +1157,10 @@
                   "color": 15769088
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -1265,33 +1169,6 @@
               }
             },
             "weight": 12
-          },
-          {
-            "value": {
-              "entries": [
-              ],
-              "completion": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
-              },
-              "time": {
-                "type": "uniform",
-                "min": 200,
-                "max": 1200
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.00,
-                "max": 0.02
-              },
-              "model": {
-                "type": "uniform",
-                "min": 0,
-                "max": 0
-              }
-            },
-            "weight": 360
           }
         ]
       }
@@ -1309,20 +1186,10 @@
                   "color": 7012096
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -1341,20 +1208,10 @@
                   "color": 7012096
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -1373,20 +1230,10 @@
                   "color": 7012096
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -1405,20 +1252,10 @@
                   "color": 7012096
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -1437,20 +1274,10 @@
                   "color": 7012096
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -1469,20 +1296,10 @@
                   "color": 7012096
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -1501,20 +1318,10 @@
                   "color": 7012096
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -1533,20 +1340,10 @@
                   "color": 15769088
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -1565,20 +1362,10 @@
                   "color": 15769088
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -1597,20 +1384,10 @@
                   "color": 15769088
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -1629,20 +1406,10 @@
                   "color": 15769088
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -1661,20 +1428,10 @@
                   "color": 15769088
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -1693,20 +1450,10 @@
                   "color": 15769088
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -1715,33 +1462,6 @@
               }
             },
             "weight": 12
-          },
-          {
-            "value": {
-              "entries": [
-              ],
-              "completion": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
-              },
-              "time": {
-                "type": "uniform",
-                "min": 200,
-                "max": 1200
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.00,
-                "max": 0.02
-              },
-              "model": {
-                "type": "uniform",
-                "min": 0,
-                "max": 0
-              }
-            },
-            "weight": 200
           }
         ]
       }
@@ -1759,20 +1479,10 @@
                   "color": 7012096
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -1791,20 +1501,10 @@
                   "color": 7012096
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -1823,20 +1523,10 @@
                   "color": 7012096
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -1855,20 +1545,10 @@
                   "color": 7012096
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -1887,20 +1567,10 @@
                   "color": 7012096
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -1919,20 +1589,10 @@
                   "color": 7012096
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -1951,20 +1611,10 @@
                   "color": 7012096
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -1983,20 +1633,10 @@
                   "color": 15769088
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -2015,20 +1655,10 @@
                   "color": 15769088
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -2047,20 +1677,10 @@
                   "color": 15769088
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -2079,20 +1699,10 @@
                   "color": 15769088
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -2111,20 +1721,10 @@
                   "color": 15769088
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -2143,20 +1743,10 @@
                   "color": 15769088
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -2177,16 +1767,6 @@
             "value": {
               "entries": [
               ],
-              "completion": {
-                "type": "uniform",
-                "min": 0.05,
-                "max": 0.12
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 1800
-              },
               "instability": {
                 "type": "uniform",
                 "min": 0.00,
@@ -2211,16 +1791,6 @@
             "value": {
               "entries": [
               ],
-              "completion": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
-              },
-              "time": {
-                "type": "uniform",
-                "min": 200,
-                "max": 2200
-              },
               "instability": {
                 "type": "uniform",
                 "min": 0.0,
@@ -2250,20 +1820,10 @@
                   "color": 7012096
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -2289,20 +1849,10 @@
                   "color": 7012096
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -2328,20 +1878,10 @@
                   "color": 7012096
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -2367,20 +1907,10 @@
                   "color": 7012096
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -2406,20 +1936,10 @@
                   "color": 7012096
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -2445,20 +1965,10 @@
                   "color": 7012096
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -2484,20 +1994,10 @@
                   "color": 7012096
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -2523,20 +2023,10 @@
                   "color": 7012096
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -2562,20 +2052,10 @@
                   "color": 15769088
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -2601,20 +2081,10 @@
                   "color": 15769088
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -2640,20 +2110,10 @@
                   "color": 15769088
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -2679,20 +2139,10 @@
                   "color": 15769088
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -2718,20 +2168,10 @@
                   "color": 15769088
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -2757,20 +2197,10 @@
                   "color": 15769088
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -2796,20 +2226,10 @@
                   "color": 15769088
                 }
               ],
-              "completion": {
+              "size": {
                 "type": "uniform",
-                "min": 0.05,
-                "max": 0.2
-              },
-              "time": {
-                "type": "uniform",
-                "min": 600,
-                "max": 2400
-              },
-              "instability": {
-                "type": "uniform",
-                "min": 0.01,
-                "max": 0.1
+                "min": 10,
+                "max": 10
               },
               "model": {
                 "type": "uniform",
@@ -2822,5 +2242,23 @@
         ]
       }
     ]
-  }
+  },
+  "poolToModel": {
+    "the_vault:vault/rooms/omega/blacksmith": 1,
+    "the_vault:vault/rooms/omega/mush_room": 2,
+    "the_vault:vault/rooms/omega/library": 3,
+    "the_vault:vault/rooms/omega/cove": 4,
+    "the_vault:vault/rooms/challenge/crystal_caves": 5,
+    "the_vault:vault/rooms/omega/digsite": 6,
+    "the_vault:vault/rooms/challenge/dragon": 7,
+    "the_vault:vault/rooms/challenge/factory": 8,
+    "the_vault:vault/rooms/omega/mine": 9,
+    "the_vault:vault/rooms/omega/painting": 10,
+    "the_vault:vault/rooms/omega/trove": 11,
+    "the_vault:vault/rooms/omega/vendor": 12,
+    "the_vault:vault/rooms/challenge/village": 13,
+    "the_vault:vault/rooms/challenge/wildwest": 14,
+    "the_vault:vault/rooms/challenge/x-mark": 15
+  },
+  "ringWeights": [ 50, 40, 7, 3 ]
 }

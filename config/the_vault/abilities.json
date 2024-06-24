@@ -12278,7 +12278,7 @@
             "tiers": [
               {
                 "type": "fireball_fireshot",
-                "manaCost": 20.0,
+                "manaCost": 6.0,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 40,
@@ -12289,7 +12289,7 @@
               },
               {
                 "type": "fireball_fireshot",
-                "manaCost": 20.0,
+                "manaCost": 8.0,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 40,
@@ -12300,7 +12300,7 @@
               },
               {
                 "type": "fireball_fireshot",
-                "manaCost": 20.0,
+                "manaCost": 10.0,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 40,
@@ -12311,7 +12311,7 @@
               },
               {
                 "type": "fireball_fireshot",
-                "manaCost": 20.0,
+                "manaCost": 12.0,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 40,
@@ -12322,7 +12322,7 @@
               },
               {
                 "type": "fireball_fireshot",
-                "manaCost": 20.0,
+                "manaCost": 14.0,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 40,
@@ -12333,7 +12333,7 @@
               },
               {
                 "type": "fireball_fireshot",
-                "manaCost": 20.0,
+                "manaCost": 16.0,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 40,
@@ -12344,7 +12344,7 @@
               },
               {
                 "type": "fireball_fireshot",
-                "manaCost": 20.0,
+                "manaCost": 18.0,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 40,

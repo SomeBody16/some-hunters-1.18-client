@@ -286,7 +286,7 @@
       "the_vault:collapsing": {
         "properties": {
           "output": "the_vault:vault_bedrock",
-          "attemptsPerChunk": 256,
+          "attemptsPerChunk": 16,
           "requireConditions": false
         },
         "display": {
@@ -311,10 +311,24 @@
           "icon": "the_vault:gui/modifiers/volcanic"
         }
       },
+      "the_vault:void_pools": {
+        "properties": {
+          "output": "the_vault:void_liquid",
+          "attemptsPerChunk": 5,
+          "requireConditions": false
+        },
+        "display": {
+          "name": "Void Pools",
+          "color": "#E83F24",
+          "description": "This vault has pockets of voiding",
+          "descriptionFormatted": "Voiding",
+          "icon": "the_vault:gui/modifiers/impossible"
+        }
+      },
       "the_vault:explosive": {
         "properties": {
           "output": "the_vault:custom_entity_spawner{spawnerGroupName: \"tnt\"}",
-          "attemptsPerChunk": 16,
+          "attemptsPerChunk": 8,
           "requireConditions": false
         },
         "display": {
@@ -322,7 +336,7 @@
           "color": "#ff0000",
           "description": "This vault is explosive",
           "descriptionFormatted": "This vault is explosive",
-          "icon": "the_vault:gui/modifiers/impossible"
+          "icon": "the_vault:gui/modifiers/volcanic"
         }
       },
       "the_vault:shulker": {
@@ -2233,6 +2247,101 @@
           "icon": "the_vault:gui/modifiers/beginners_grace"
         }
       },
+      "the_vault:curse_collapsing": {
+        "properties": {
+          "children": {
+            "the_vault:collapsing": 1,
+            "the_vault:wild": 1,
+            "the_vault:wrecked": 1
+          }
+        },
+        "display": {
+          "name": "Collapsing",
+          "color": "#ad2b2b",
+          "description": "This vault is cursed, it's collapsing, has less time, and wild mobs will appear",
+          "icon": "the_vault:gui/modifiers/curse_collapsing"
+        }
+      },
+      "the_vault:curse": {
+        "properties": {
+          "children": {
+            "the_vault:collapsing": 1,
+            "the_vault:explosive": 1,
+            "the_vault:void_pools": 1,
+            "the_vault:curse_ethereal": 1,
+            "the_vault:wrecked": 1,
+            "the_vault:freezing": 1,
+            "the_vault:poisonous": 1
+          }
+        },
+        "display": {
+          "name": "Cursed!",
+          "color": "#ad2b2b",
+          "description": "This vault is cursed, it's collapsing, void pools have appeared, some mobs are immortal & their attacks seem to have hexing effects on you!",
+          "icon": "the_vault:gui/modifiers/curse_voidpools"
+        }
+      },
+      "the_vault:curse_voiding": {
+        "properties": {
+          "children": {
+            "the_vault:void_pools": 1,
+            "the_vault:wild": 1,
+            "the_vault:wrecked": 1
+          }
+        },
+        "display": {
+          "name": "Void Pools",
+          "color": "#ad2b2b",
+          "description": "This vault is cursed, void pools have spawned, wild mobs appears and the vault seems to not populate correctly.",
+          "icon": "the_vault:gui/modifiers/curse_voidpools"
+        }
+      },
+      "the_vault:curse_explosive": {
+        "properties": {
+          "children": {
+            "the_vault:explosive": 1,
+            "the_vault:wild": 1,
+            "the_vault:wrecked": 1
+          }
+        },
+        "display": {
+          "name": "Explosive",
+          "color": "#ad2b2b",
+          "description": "This vault is cursed, there are random explosions, wild mobs appears and the vault seems to not populate correctly.",
+          "icon": "the_vault:gui/modifiers/curse_explosive"
+        }
+      },
+      "the_vault:curse_freezing": {
+        "properties": {
+          "children": {
+            "the_vault:freezing": 1,
+            "the_vault:wild": 1,
+            "the_vault:wrecked": 1
+          }
+        },
+        "display": {
+          "name": "Freezing Mobs",
+          "color": "#ad2b2b",
+          "description": "This vault is cursed, mobs freeze you when attacking, wild mobs appears and the vault seems to not populate correctly.",
+          "icon": "the_vault:gui/modifiers/curse_freezing"
+        }
+      },
+      "the_vault:curse_wrecked": {
+        "properties": {
+          "children": {
+            "the_vault:wrecked": 1,
+            "the_vault:wild": 1,
+            "the_vault:shortened": 1
+          }
+        },
+        "display": {
+          "name": "Wrecked Vault",
+          "color": "#ad2b2b",
+          "description": "This vault is cursed, mobs freeze you when attacking, it has less time, and wild mobs will appear",
+          "icon": "the_vault:gui/modifiers/curse_wrecked"
+        }
+      },
+
       "the_vault:stronger_mobs": {
         "properties": {
           "children": {
@@ -2344,6 +2453,20 @@
           "description": "Mobs in this vault can spawn in as ethereal, being immune to any damage.",
           "icon": "the_vault:gui/modifiers/haunted"
         }
+      },
+      "the_vault:curse_ethereal": {
+        "properties": {
+          "filter": "",
+          "effect": "the_vault:immortality",
+          "amplifier": 0,
+          "chance": 0.04
+        },
+        "display": {
+          "name": "Curse Ethereal",
+          "color": "#a996ca",
+          "description": "Mobs in this vault can spawn in as ethereal, being immune to any damage.",
+          "icon": "the_vault:gui/modifiers/haunted"
+        }
       }
     },
     "the_vault:modifier_type/no_soul_shards": {
@@ -2429,6 +2552,64 @@
           "color": "#685086",
           "description": "Highlights Dungeon Doors in this vault",
           "icon": "the_vault:gui/modifiers/dungeon_doors"
+        }
+      }
+    },
+      "the_vault:modifier_type/template_processor": {
+      "the_vault:wrecked": {
+        "properties": {
+          "probability": 0.05,
+          "blacklist": [
+            "minecraft:water",
+            "minecraft:lava",
+            "minecraft:bedrock",
+            "the_vault:void_liquid",
+            "the_vault:vault_portal",
+            "the_vault:vault_glass",
+            "minecraft:light",
+            "minecraft:command_block",
+            "minecraft:repeating_command_block",
+            "minecraft:chain_command_block",
+            "minecraft:repeater",
+            "minecraft:redstone_wire",
+            "minecraft:redstone_torch",
+            "minecraft:comparator",
+            "ispawner:spawner",
+            "minecraft:black_stained_glass",
+            "the_vault:yellow_puzzle_concrete",
+            "the_vault:pink_puzzle_concrete",
+            "the_vault:green_puzzle_concrete",
+            "the_vault:blue_puzzle_concrete",
+            "the_vault:wild_spawner",
+            "the_vault:placeholder[type=gate]",
+            "the_vault:placeholder[type=objective]",
+            "minecraft:cave_air"
+          ],
+          "fullBlock": [
+            {
+              "type": "weighted_target",
+              "target": "",
+              "output": {
+                "the_vault:vault_bedrock": 1
+              }
+            }
+          ],
+          "partialBlock": [
+            {
+              "type": "weighted_target",
+              "target": "",
+              "output": {
+                "minecraft:air": 1
+              }
+            }
+          ]
+        },
+        "display": {
+          "name": "Wrecked",
+          "color": "#EBFF8D",
+          "description": "+20% Poopsie Daisies, Whoopsie Walls and Fumbly Floors",
+          "descriptionFormatted": "+%d%% Poopsie Daisies, Whoopsie Walls and Fumbly Floors",
+          "icon": "the_vault:gui/modifiers/curse_wrecked"
         }
       }
     }

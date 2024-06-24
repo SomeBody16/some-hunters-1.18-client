@@ -73,28 +73,32 @@
       "display": "Monolith Completion Crate",
       "lootTableKeys": {
         "the_vault:completion_mono_lvl0": {"level": 0},
-        "the_vault:completion_mono_lvl20": {"level": 20}
+        "the_vault:completion_mono_lvl20": {"level": 20},
+        "the_vault:completion_mono_lvl50": {"level": 50}
       }
     },
     "the_vault:completion_crate_kill": {
       "display": "Guardian Completion Crate",
       "lootTableKeys": {
         "the_vault:completion_kill_lvl0": {"level": 0},
-        "the_vault:completion_kill_lvl20": {"level": 20}
+        "the_vault:completion_kill_lvl20": {"level": 20},
+        "the_vault:completion_kill_lvl50": {"level": 50}
       }
     },
     "the_vault:completion_crate_elixir": {
       "display": "Elixir Completion Crate",
       "lootTableKeys": {
         "the_vault:completion_elix_lvl0": {"level": 0},
-        "the_vault:completion_elix_lvl20": {"level": 20}
+        "the_vault:completion_elix_lvl20": {"level": 20},
+        "the_vault:completion_elix_lvl50": {"level": 50}
       }
     },
     "the_vault:completion_crate_scavenger": {
       "display": "Scavenger Completion Crate",
       "lootTableKeys": {
         "the_vault:completion_scav_lvl0": {"level": 0},
-        "the_vault:completion_scav_lvl20": {"level": 20}
+        "the_vault:completion_scav_lvl20": {"level": 20},
+        "the_vault:completion_scav_lvl50": {"level": 50}
       }
     },
     "the_vault:completion_crate_paradox": {

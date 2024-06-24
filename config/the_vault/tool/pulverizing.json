@@ -102,7 +102,7 @@
           {
             "weight": 1,
             "item": {
-              "id": "the_vault:chipped_vault_rock",
+              "id": "the_vault:vault_rock",
               "count": {
                 "type": "constant",
                 "count": 1

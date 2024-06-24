@@ -1,6 +1,58 @@
 {
   "tooltips": [
     {
+      "item": "the_vault:augment",
+      "value": "Use in the Crystal Workbench to apply this theme to your Vault Crystal"
+    },
+    {
+      "item": "the_vault:crystal_seal_scout",
+      "value": "Use in the Crystal Workbench to set the objective to 'Light The Braziers'"
+    },
+    {
+      "item": "the_vault:crystal_seal_hunter",
+      "value": "Use in the Crystal Workbench to set the objective to 'Scavenger Hunt'"
+    },
+    {
+      "item": "the_vault:crystal_seal_executioner",
+      "value": "Use in the Crystal Workbench to set the objective to 'Hunt The Guardians'"
+    },
+    {
+      "item": "the_vault:crystal_seal_sage",
+      "value": "Use in the Crystal Workbench to set the objective to 'Elixir Rush'"
+    },
+    {
+      "item": "the_vault:capstone_dungeon_hunter",
+      "value": "Use in the Crystal Workbench as a capstone, making the crystal unmodifiable and adding the 'Dungeon Hunter' modifier"
+    },
+    {
+      "item": "the_vault:capstone_treasure_hunter",
+      "value": "Use in the Crystal Workbench as a capstone, making the crystal unmodifiable and adding the 'Treasure Hunter' modifier"
+    },
+    {
+      "item": "the_vault:phoenix_feather",
+      "value": "Use in the Crystal Workbench as a capstone, making the crystal unmodifiable and adding the 'Phoenix' modifier"
+    },
+    {
+      "item": "the_vault:eye_of_avarice",
+      "value": "Use in the Crystal Workbench as a capstone, making the crystal unmodifiable and adding the 'Safe Zone' modifier"
+    },
+    {
+      "item": "the_vault:god_token",
+      "value": "Use in the Crystal Workbench as a capstone, making the crystal unmodifiable and adding this god's favour"
+    },
+    {
+      "item": "the_vault:crystal_seal_cake",
+      "value": "Is it cake?\nPut this Vault Rock on a Vault Altar to create a Cake Crystal!"
+    },
+    {
+      "item": "the_vault:crystal_seal_ordinator_build",
+      "value": "Put this Vault Rock on a Vault Altar to create your Divine Architecture Crystal"
+    },
+    {
+      "item": "the_vault:crystal_seal_ordinator_run",
+      "value": "Put this Vault Rock on a Vault Altar to create your Divine Paradox Crystal"
+    },
+    {
       "item": "the_vault:paradoxical_gem",
       "value": "Combine with a sealed Divine Paradox crystal in run mode to wipe and reset all your Divine Paradox progress"
     },
@@ -78,15 +130,15 @@
     },
     {
       "item": "the_vault:soul_flame",
-      "value": "Combine with an empty level 65+ Vault Crystal to add Ascension to your Crystal"
+      "value": "Put this Vault Rock on a Vault Altar to create a Challenger's Crystal, which adds Ascension to your Crystal"
     },
     {
       "item": "the_vault:plunderer_pearl",
-      "value": "Combine with an empty Vault Crystal to add the Plunderer modifier, making the vault not yield any experience, but increases the loot amount by 10% and vault ores by 25%"
+      "value": "Put this Vault Rock on a Vault Altar to create a Plunderer's Crystal, making the vault not yield any experience, but increases the loot amount by 10% and vault ore generation by 25%"
     },
     {
       "item": "the_vault:wardens_pearl",
-      "value": "Combine with an empty Vault Crystal to add the Afterlife modifier, which causes you to retain all your items in case of death."
+      "value": "Put this Vault Rock on a Vault Altar to create a Warded Crystal, which comes with the Afterlife modifier, preventing item loss on death!"
     },
     {
       "item": "minecraft:shield",
@@ -766,11 +818,11 @@
     },
     {
       "item": "the_vault:vault_catalyst_infused",
-      "value": "Combine with a Vault Crystal to apply modifiers"
+      "value": "Use in a Crystal Workbench to modify/upgrade a Vault Crystal"
     },
     {
       "item": "the_vault:vault_catalyst_chaos",
-      "value": "Combine with a Vault Crystal to apply 30 random modifiers"
+      "value": "Put this Vault Rock on a Vault Altar to create a Chaos Crystal, adding 30 completely random modifiers to the vault."
     },
     {
       "item": "the_vault:vault_inhibitor",

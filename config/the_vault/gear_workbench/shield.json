@@ -780,7 +780,7 @@
       },
       { "workbenchCraftIdentifier": "the_vault:crafted_chilling_cloud_t2",
         "modifierIdentifier": "the_vault:crafted_chilling_cloud",
-        "modifierTier": 1,
+        "modifierTier": 2,
         "unlockCategory": "VAULT_DISCOVERY",
         "craftingCost": [
           {

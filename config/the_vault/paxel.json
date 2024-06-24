@@ -38,10 +38,10 @@
     },
     "the_vault:vault_stone": {
       "item": {
-        "item": "the_vault:chipped_vault_rock",
+        "item": "the_vault:vault_rock",
         "amount": 1
       },
-      "probability": 0.4
+      "probability": 0.2
     },
     "minecraft:quartz_block": {
       "item": {

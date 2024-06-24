@@ -172,7 +172,15 @@
       "alexsmobs:tusklin",
       "minecraft:magma_cube",
       "the_vault:levishroom",
-      "the_vault:winter_wolf"
+      "the_vault:winter_wolf",
+      "the_vault:blood_slime",
+      "the_vault:blood_skeleton_t0",
+      "the_vault:blood_skeleton_t1",
+      "the_vault:blood_skeleton_t2",
+      "the_vault:blood_skeleton_t3",
+      "the_vault:blood_skeleton_t4",
+      "the_vault:blood_skeleton_t5",
+      "the_vault:blood_silverfish"
     ],
     "the_vault:tank": [
       "the_vault:shiver",

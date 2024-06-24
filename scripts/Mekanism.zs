@@ -10,7 +10,7 @@ import mods.mekanism.api.ingredient.FluidStackIngredient;
 import mods.mekanism.api.ingredient.ItemStackIngredient;
 import mods.mekanism.recipe.Combining;
 
-<recipetype:mekanism:crushing>.addRecipe("crush_vaultstone_to_rock", ItemStackIngredient.from(<item:the_vault:vault_stone> *2), <item:the_vault:chipped_vault_rock>);
+<recipetype:mekanism:crushing>.addRecipe("crush_vaultstone_to_rock", ItemStackIngredient.from(<item:the_vault:vault_stone> *2), <item:the_vault:vault_rock>);
 
 <recipetype:mekanism:dissolution>.addRecipe("chromaticore_to_dirty_slurry", ItemStackIngredient.from(<item:the_vault:chromatic_iron_ore>), GasStackIngredient.from(<gas:mekanism:sulfuric_acid>), <slurry:crafttweaker:the_vault_dirty_chromatic_iron_slurry> * 1000);
 <recipetype:mekanism:dissolution>.addRecipe("chromaticraw_to_dirty_slurry", ItemStackIngredient.from(<item:the_vault:raw_chromatic_iron>), GasStackIngredient.from(<gas:mekanism:sulfuric_acid>), <slurry:crafttweaker:the_vault_dirty_chromatic_iron_slurry> * 600);

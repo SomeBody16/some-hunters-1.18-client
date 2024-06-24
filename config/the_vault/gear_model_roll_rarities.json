@@ -118,7 +118,10 @@
       "the_vault:gear/armor/guybrush",
       "the_vault:gear/armor/lupicanis",
       "the_vault:gear/armor/goldflame",
-      "the_vault:gear/armor/soulflame"
+      "the_vault:gear/armor/soulflame",
+      "the_vault:gear/armor/phoenix_goldflame",
+      "the_vault:gear/armor/phoenix_soulflame",
+      "the_vault:gear/armor/castle"
     ]
   },
   "SWORD_MODEL_ROLLS": {
@@ -172,7 +175,8 @@
       "the_vault:gear/sword/bamboo",
       "the_vault:gear/sword/idonas_sword",
       "the_vault:gear/sword/honey_wand",
-      "the_vault:gear/sword/godsword"
+      "the_vault:gear/sword/godsword",
+      "the_vault:gear/sword/soulflame"
 
     ]
   },
@@ -250,7 +254,9 @@
       "the_vault:gear/shield/heart_chocolate",
       "the_vault:gear/shield/heart_crystal",
       "the_vault:gear/shield/turtle",
-      "the_vault:gear/shield/honey_drone"
+      "the_vault:gear/shield/honey_drone",
+      "the_vault:gear/shield/grim",
+      "the_vault:gear/shield/slab"
     ]
   },
   "WAND_MODEL_ROLLS": {
@@ -282,7 +288,8 @@
     "UNIQUE": [
       "the_vault:gear/wand/baguette",
       "the_vault:gear/wand/carrot_on_a_wand",
-      "the_vault:gear/wand/carri_king"
+      "the_vault:gear/wand/carri_king",
+      "the_vault:gear/wand/soul"
     ]
   },
   "FOCUS_MODEL_ROLLS": {
@@ -302,6 +309,7 @@
       "the_vault:gear/focus/tomeofknowledge"
     ],
     "UNIQUE": [
+      "the_vault:gear/focus/soulorb"
     ]
   }
 }

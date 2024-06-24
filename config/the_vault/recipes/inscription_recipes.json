@@ -1,20 +1,6 @@
 {
   "inscriptionRecipes": [
-    {
-      "id": "the_vault:inscription_empty",
-      "output": {
-        "AMOUNT": 1,
-        "ITEM": "the_vault:inscription",
-        "NBT": "{pool:\"the_vault:crafted_empty\", data:{color:7012096,model:0}, display:{Name:'{\"text\":\"Empty Inscription\",\"color\":\"#FFFFFF\"}' }}"
-      },
-      "inputs": [
-        {
-          "AMOUNT": 16,
-          "ITEM": "the_vault:inscription_piece",
-          "NBT": "{}"
-        }
-      ]
-    },
+    
     {
       "id": "the_vault:inscription_mushroom",
       "output": {

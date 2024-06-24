@@ -64,7 +64,7 @@ for gemId, gemName in gems {
 <recipetype:thermal:pulverizer>.addRecipe("raw_to_dust", [<item:the_vault:chromatic_iron_dust> *2 % -100], <item:the_vault:raw_chromatic_iron>, 3, 4000);
 <recipetype:thermal:pulverizer>.addRecipe("ingot_to_dust", [<item:the_vault:chromatic_iron_dust> *1 % -100], <item:the_vault:chromatic_iron_ingot>, 3, 2000);
 
-<recipetype:thermal:pulverizer>.addRecipe("vaultstone_to_rock", [<item:the_vault:vault_cobblestone> % 100, <item:the_vault:chipped_vault_rock> % 50], <item:the_vault:vault_stone>, 3, 2000);
+<recipetype:thermal:pulverizer>.addRecipe("vaultstone_to_rock", [<item:the_vault:vault_cobblestone> % 100, <item:the_vault:vault_rock> % 12], <item:the_vault:vault_stone>, 3, 2000);
 
 craftingTable.addShaped("thermal_rf_coil", <item:thermal:rf_coil>, [
     [<item:minecraft:air>, <item:minecraft:air>, <item:the_vault:perfect_larimar>],
