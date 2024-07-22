@@ -28,9 +28,7 @@ config/sidebar_buttons.json
 config/skinlayers.json
 config/the_vault_tweaks-client.toml
 config/upgrade_aquatic-client.toml
-config/betterthirdperson-common.toml
-config/embeddium*
-config/firstperson.json
+
 
 # Base
 patchouli_data.json
