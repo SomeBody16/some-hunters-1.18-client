@@ -28,6 +28,10 @@ config/sidebar_buttons.json
 config/skinlayers.json
 config/the_vault_tweaks-client.toml
 config/upgrade_aquatic-client.toml
+config/betterthirdperson-common.toml
+config/embeddium-options.json
+config/embeddium*
+config/firstperson.json
 
 
 # Base
