@@ -3,7 +3,9 @@
 config/InventoryHUD
 config/pickupnotifier
 config/jade
+config/jei
 
+config/*-client.toml
 config/inventoryhud-client.toml
 config/xaerominimap_entities.json
 config/xaerominimap.txt
@@ -26,6 +28,9 @@ config/sidebar_buttons.json
 config/skinlayers.json
 config/the_vault_tweaks-client.toml
 config/upgrade_aquatic-client.toml
+config/betterthirdperson-common.toml
+config/embeddium-options.json
+config/firstperson.json
 
 
 # Base
@@ -51,6 +56,7 @@ o_prof
 /options.txt
 /reauth.toml
 /user*
+/journeymap
 
 # Project
 .idea
