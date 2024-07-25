@@ -32,7 +32,6 @@ config/betterthirdperson-common.toml
 config/embeddium*
 config/firstperson.json
 
-
 # Base
 patchouli_data.json
 /.mixin.out
