@@ -9,6 +9,9 @@ var modId = "refinedstorage";
 
 recipes.remove(<item:${modId}:portable_grid>);
 recipes.remove(<item:${modId}:silicon>);
+recipes.remove(<item:${modId}:wireless_grid>);
+recipes.remove(<item:${modId}:wireless_fluid_grid>);
+recipes.remove(<item:${modId}:wireless_crafting_monitor>);
 
 furnace.addJsonRecipe(recipeId(modId, "silicon"), {
     ingredient: <item:cloudstorage:balloon_bit>,
